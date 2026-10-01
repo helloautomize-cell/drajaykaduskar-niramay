@@ -1,0 +1,124 @@
+# resources/
+
+All source material for the Niramay Clinics rebuild. Nothing here is served to the site directly; processed assets go to `public/images/` during the build.
+
+## Files
+
+- `wp-export/niramayclinics.WordPress.2026-10-01.xml` : old WordPress export (original remains in Downloads)
+- `images/Adolescent_Health_Care.png` : service grid icon (interim)
+- `images/Career_Counselling.png` : service grid icon (interim)
+- `images/Child specialist niramay.jpg` : Dr. Prajakta profile hero and Blooming Buds section
+- `images/Diabetes_Care.png` : service grid icon (interim)
+- `images/Diagnostic_Lab.png` : service grid icon (interim)
+- `images/Dr Ajay Kaduskar close shot..png` : AI headshot, avatar fallback only after doctor approval
+- `images/Dr ajay Kaduskar in appron.png` : reference only, not for use on the new site
+- `images/Dr ajay.jpg` : homepage hero and Dr. Ajay profile
+- `images/Dr_Ajay_Variation_1.png` : reference only, not for use on the new site
+- `images/Dr_Ajay_Variation_2.png` : reference only, not for use on the new site
+- `images/Dr_Ajay_Variation_3.png` : reference only, not for use on the new site
+- `images/Dr_Ajay_Variation_4.png` : reference only, not for use on the new site
+- `images/Dr_Ajay_Variation_5.png` : reference only, not for use on the new site
+- `images/Female_Doctor.png` : reference only, not for use on the new site
+- `images/IMAGE-GUIDE.md` : which image goes where and what preparation it needs
+- `images/Male_Doctor.png` : reference only, not for use on the new site
+- `images/Niramay board.jpg` : Marathi signboard with both doctors degrees
+- `images/Niramay clinic outside.jpg` : Contact page How to find us
+- `images/Niramay waiting launge.jpg` : Inside the clinic section, patient faces must be blurred
+- `images/NiramayClinic_Dr_AjayKaduskar.jpg` : small avatar and blog byline
+- `images/NiramayClinic_Dr_PrajaktaKaduskar.jpg` : reference only, not for use on the new site
+- `images/NiramayClinic_Dr_PrajaktaKaduskarN.jpg` : reference only, not for use on the new site
+- `images/NiramayClinic_Section_bg_img1.jpg` : Two centres one family band (reception board)
+- `images/NiramayClinic_Section_bg_img2.jpg` : full width parallax / Visit us band (building exterior)
+- `images/NiramayClinic_Top_Section_bg_img1.jpg` : reference only, not for use on the new site
+- `images/NiramayClinic_Top_Section_mob_bg_img.jpg` : reference only, not for use on the new site
+- `images/NiramayClinics_slide_img1.jpg` : reference only, not for use on the new site
+- `images/NiramayClinics_slide_img2.jpg` : diabetic eye screening page hero
+- `images/NiramayClinics_slide_img3.jpg` : pathology / home sample collection
+- `images/NiramayClinics_slide_img4.jpg` : reference only, not for use on the new site
+- `images/NiramayClinics_slide_img6.jpg` : About page Our Team hero
+- `images/NiramayClinics_slide_img7.jpg` : Meet our care team strip
+- `images/Niramayclinic_favicon.png` : favicon and app icons
+- `images/Niramayclinics_Diabetes_Separating_Myths_Facts_By_Dr_Ajay_Kaduskar.jpg` : diabetes myths blog post hero
+- `images/Nirmay-nlogo-retina.png` : logo for header, footer and OG image
+- `images/NirmayClinics_Complete_Diabetes_Care_Package.jpg` : reference only, not for use on the new site
+- `images/NirmayClinics_Diabetes_Complication_Screening1.jpg` : retina camera close-up detail image
+- `images/NirmayClinics_Diabetes_Complication_Screening2.jpg` : heart care page, verify it shows the cardiac room
+- `images/NirmayClinics_Inhouse_pathology.jpg` : lab page / quick turnaround card
+- `images/NirmayClinics_Nutritional_Counseling.jpg` : reference only, not for use on the new site
+- `images/NirmayClinics_Pharmacotherapy_Obesity_Management.jpg` : reference only, not for use on the new site
+- `images/NirmayClinics_Pharmacy.jpg` : pharmacy page
+- `images/Obesity_Care.png` : service grid icon (interim)
+- `images/Pharmacy.png` : service grid icon (interim)
+- `images/cropped-Niramayclinic_favicon.png` : reference only, not for use on the new site
+- `images/home_niramay_display_logo.png` : reference only, not for use on the new site
+- `images/home_niramay_slider_upper_img2.png` : reference only, not for use on the new site
+- `images/home_slider_img2.jpg` : reference only, not for use on the new site
+- `images/home_slider_img3.jpg` : reference only, not for use on the new site
+- `images/home_slider_img4.jpg` : reference only, not for use on the new site
+- `images/home_slider_mob_img1.jpg` : reference only, not for use on the new site
+- `images/home_slider_mob_img2.jpg` : reference only, not for use on the new site
+- `images/home_slider_mob_img3.jpg` : reference only, not for use on the new site
+- `images/home_slider_mob_img4.jpg` : reference only, not for use on the new site
+- `images/home_slider_mob_img5.jpg` : reference only, not for use on the new site
+- `images/nirmay-logo-retina.png` : reference only, not for use on the new site
+- `content/_confirm-tracker.md` : checklist of every [CONFIRM] item to answer before launch
+- `content/_index.md` : table of all page and blog files with reviewers and CONFIRM counts
+- `content/patient-info/404.md` : page content file (draft)
+- `content/patient-info/faqs.md` : page content file (draft)
+- `content/patient-info/health-library.md` : page content file (draft)
+- `content/patient-info/plan-your-visit.md` : page content file (draft)
+- `content/patient-info/thank-you.md` : page content file (draft)
+- `content/patient-info/videos.md` : page content file (draft)
+- `content/blooming-buds/adolescent-health.md` : page content file (draft)
+- `content/blooming-buds/blooming-buds.md` : page content file (draft)
+- `content/blooming-buds/career-counselling.md` : page content file (draft)
+- `content/blooming-buds/psychological-testing.md` : page content file (draft)
+- `content/blooming-buds/teen-mental-health.md` : page content file (draft)
+- `content/blooming-buds/vaccination.md` : page content file (draft)
+- `content/blooming-buds/well-baby-clinic.md` : page content file (draft)
+- `content/blooming-buds/workshops.md` : page content file (draft)
+- `content/core/about.md` : page content file (draft)
+- `content/core/contact.md` : page content file (draft)
+- `content/core/dr-ajay-kaduskar.md` : page content file (draft)
+- `content/core/dr-prajakta-kaduskar.md` : page content file (draft)
+- `content/core/home.md` : page content file (draft)
+- `content/core/services.md` : page content file (draft)
+- `content/lab-pharmacy/home-sample-collection.md` : page content file (draft)
+- `content/lab-pharmacy/lab.md` : page content file (draft)
+- `content/lab-pharmacy/pharmacy.md` : page content file (draft)
+- `content/blog/_migration-notes.md` : page content file (draft)
+- `content/blog/diabetes-myths-and-facts.md` : page content file (draft)
+- `content/blog/menstrual-hygiene-teenage-girls.md` : page content file (draft)
+- `content/blog/preparing-child-for-adolescence.md` : page content file (draft)
+- `content/blog/self-esteem-teenagers-with-disabilities.md` : page content file (draft)
+- `content/blog/smart-love-parenting-teenagers.md` : page content file (draft)
+- `content/diabetes-heart/2d-echo.md` : page content file (draft)
+- `content/diabetes-heart/body-composition-sarcopenia.md` : page content file (draft)
+- `content/diabetes-heart/complications-screening.md` : page content file (draft)
+- `content/diabetes-heart/diabetes-care-programme.md` : page content file (draft)
+- `content/diabetes-heart/diabetes-in-pregnancy.md` : page content file (draft)
+- `content/diabetes-heart/diabetes.md` : page content file (draft)
+- `content/diabetes-heart/ecg.md` : page content file (draft)
+- `content/diabetes-heart/heart-care.md` : page content file (draft)
+- `content/diabetes-heart/hypertension-clinic.md` : page content file (draft)
+- `content/diabetes-heart/nutrition-lifestyle-counselling.md` : page content file (draft)
+- `content/diabetes-heart/obesity.md` : page content file (draft)
+- `content/diabetes-heart/prediabetes-risk-assessment.md` : page content file (draft)
+- `content/diabetes-heart/preventive-health-check-ups.md` : page content file (draft)
+- `content/diabetes-heart/thyroid-clinic.md` : page content file (draft)
+- `content/diabetes-heart/tmt-stress-test.md` : page content file (draft)
+- `content/diabetes-heart/type-1-diabetes.md` : page content file (draft)
+- `content/diabetes-heart/type-2-diabetes.md` : page content file (draft)
+- `content/diabetes-heart/weight-management-medicines.md` : page content file (draft)
+- `content/legal/accessibility.md` : page content file (draft)
+- `content/legal/cancellation-refund-policy.md` : page content file (draft)
+- `content/legal/editorial-policy.md` : page content file (draft)
+- `content/legal/medical-disclaimer.md` : page content file (draft)
+- `content/legal/patient-rights.md` : page content file (draft)
+- `content/legal/privacy-policy.md` : page content file (draft)
+- `content/legal/terms-of-use.md` : page content file (draft)
+- `docs/doctor-questionnaire.md` : Part 7 of the master: every question for the doctors
+- `docs/niramay-current-website-audit.md` : audit of the old WordPress site, source of truth (unchanged)
+- `docs/niramay-new-website-content.md` : master copy of all new website content (unchanged)
+- `docs/old-vs-new-summary.md` : Part 8 of the master: changes from the old website
+- `docs/site-plan.md` : Part 0 of the master: page list, URLs, nav, footer, writing rules, compliance, global elements
