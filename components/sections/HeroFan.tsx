@@ -34,21 +34,6 @@ export function HeroFan({
   className?: string;
 }) {
   const [front, setFront] = useState(0);
-  // Back cards' images mount a beat after hydration (idle callback) so the
-  // LCP image gets the bandwidth and the main thread stays clear for the
-  // first paint — they're stacked behind the front card, nothing shifts.
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    const idle =
-      "requestIdleCallback" in window
-        ? (window.requestIdleCallback as (cb: () => void, o?: object) => number)
-        : (cb: () => void) => window.setTimeout(cb, 50) as unknown as number;
-    const id = idle(() => setMounted(true), { timeout: 800 });
-    return () =>
-      "cancelIdleCallback" in window
-        ? window.cancelIdleCallback(id)
-        : clearTimeout(id);
-  }, []);
   const reduce = useReducedMotion();
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -88,23 +73,20 @@ export function HeroFan({
               DEPTH_STYLE[Math.min(depth, DEPTH_STYLE.length - 1)]
             )}
           >
-            {/* plain img: cards are pre-sized to 640x960 so the runtime
-                optimizer queue never delays the hero LCP */}
-            {i === 0 || mounted ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={c.src}
-                alt={c.alt}
-                width={640}
-                height={960}
-                className="absolute inset-0 h-full w-full object-cover"
-                loading={i === 0 ? "eager" : "lazy"}
-                fetchPriority={i === 0 ? "high" : "auto"}
-                decoding={i === 0 ? "sync" : "async"}
-              />
-            ) : (
-              <span aria-hidden className="absolute inset-0 bg-plum-100" />
-            )}
+            {/* plain img, all rendered in SSR: cards are pre-sized to
+                640x960 so the runtime optimizer queue never delays the hero
+                LCP, and no post-hydration DOM insert can re-paint the stack */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={c.src}
+              alt={c.alt}
+              width={640}
+              height={960}
+              className="absolute inset-0 h-full w-full object-cover"
+              loading={i === 0 ? "eager" : "lazy"}
+              fetchPriority={i === 0 ? "high" : "auto"}
+              decoding={i === 0 ? "sync" : "async"}
+            />
             {/* front card: full bottom caption */}
             <figcaption
               className={cn(
