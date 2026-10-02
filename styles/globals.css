@@ -535,8 +535,20 @@ em.acc {
   }
 }
 
-/* Skip rendering fully offscreen blocks (keeps scroll height via intrinsic size). */
+/* Skip rendering fully offscreen blocks (keeps scroll height via intrinsic size).
+   Intrinsic height matches the HeroFan's real heights per breakpoint so nothing
+   shifts when it renders. */
 .cv-auto {
   content-visibility: auto;
-  contain-intrinsic-size: auto 520px;
+  contain-intrinsic-size: auto 400px;
+}
+@media (min-width: 640px) {
+  .cv-auto {
+    contain-intrinsic-size: auto 460px;
+  }
+}
+@media (min-width: 1024px) {
+  .cv-auto {
+    contain-intrinsic-size: auto 500px;
+  }
 }

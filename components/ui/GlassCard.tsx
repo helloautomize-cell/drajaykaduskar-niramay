@@ -8,6 +8,7 @@ import type { IconComponent } from "@/components/icons";
 export function GlassCard({
   icon: Icon,
   title,
+  titleAs: Title = "h3",
   children,
   glass = false,
   dark = false,
@@ -15,6 +16,8 @@ export function GlassCard({
 }: {
   icon: IconComponent;
   title: string;
+  /** heading level for the card title — keep page outlines sequential */
+  titleAs?: "h2" | "h3";
   children: React.ReactNode;
   glass?: boolean;
   dark?: boolean;
@@ -36,7 +39,7 @@ export function GlassCard({
       >
         <Icon size={22} />
       </div>
-      <h3 className={cn("t-h3 mb-2", dark ? "text-white" : "text-ink")}>{title}</h3>
+      <Title className={cn("t-h3 mb-2", dark ? "text-white" : "text-ink")}>{title}</Title>
       <div className={cn("text-[15px] leading-relaxed", dark ? "text-white/85" : "text-ink-600")}>
         {children}
       </div>

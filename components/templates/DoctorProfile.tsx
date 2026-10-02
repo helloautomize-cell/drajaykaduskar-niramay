@@ -157,16 +157,16 @@ export function DoctorProfileTemplate({
             {renderNodesPublic(introRest, "intro")}
             {about.map((s) => (
               <section key={s.id} aria-labelledby={s.id} className="scroll-mt-28">
-                <h4 id={s.id} className="t-h4 mt-9 text-ink">
+                <h2 id={s.id} className="t-h4 mt-9 text-ink">
                   {s.title}
-                </h4>
+                </h2>
                 {renderNodesPublic(s.nodes, s.id)}
               </section>
             ))}
 
             {areaChips.length > 0 && (
               <section aria-labelledby="areas-of-care" className="mt-9 scroll-mt-28" id="areas-of-care">
-                <h4 className="t-h4 text-ink">{areas!.title}</h4>
+                <h2 className="t-h4 text-ink">{areas!.title}</h2>
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {areaChips.map((c) => (
                     <li
@@ -182,9 +182,9 @@ export function DoctorProfileTemplate({
 
             {approach.map((s) => (
               <section key={s.id} aria-labelledby={s.id} className="scroll-mt-28">
-                <h4 id={s.id} className="t-h4 mt-9 text-ink">
+                <h2 id={s.id} className="t-h4 mt-9 text-ink">
                   {s.title}
-                </h4>
+                </h2>
                 {doctor.id === "ajay" && /approach/i.test(s.title) && (
                   <ApproachBlock doctor={doctor} />
                 )}
@@ -194,9 +194,9 @@ export function DoctorProfileTemplate({
 
             {rest.map((s) => (
               <section key={s.id} aria-labelledby={s.id} className="scroll-mt-28">
-                <h4 id={s.id} className="t-h4 mt-9 text-ink">
+                <h2 id={s.id} className="t-h4 mt-9 text-ink">
                   {s.title}
-                </h4>
+                </h2>
                 {renderNodesPublic(s.nodes, s.id)}
               </section>
             ))}
@@ -207,7 +207,7 @@ export function DoctorProfileTemplate({
                 className="mt-9 scroll-mt-28"
                 id="articles-by-doctor"
               >
-                <h4 className="t-h4 text-ink">Articles by {doctor.shortName}</h4>
+                <h2 className="t-h4 text-ink">Articles by {doctor.shortName}</h2>
                 <ul className="mt-3 space-y-2">
                   {articles.map((a) => (
                     <li key={a.href}>

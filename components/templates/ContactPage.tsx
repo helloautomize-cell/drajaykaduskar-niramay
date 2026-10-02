@@ -42,20 +42,20 @@ export function ContactPageTemplate({ page }: { page: ContentPage }) {
                 loading="eager"
               />
             </div>
-            <GlassCard icon={PhoneIcon} title="Address" className="border-plum/15 bg-plum-50/60">
+            <GlassCard icon={PhoneIcon} title="Address" titleAs="h2" className="border-plum/15 bg-plum-50/60">
               <p>
                 {site.address.line1}, {site.address.line2},
                 <br />
                 {site.address.line3}, {site.address.city} {site.address.pin}
               </p>
             </GlassCard>
-            <GlassCard icon={ClockIcon} title="Hours" className="border-plum/15 bg-plum-50/60">
+            <GlassCard icon={ClockIcon} title="Hours" titleAs="h2" className="border-plum/15 bg-plum-50/60">
               <p>
                 OPD: <Confirm>days and hours to be confirmed</Confirm>
               </p>
               <p className="mt-1">Laboratory: {site.labHours.display}</p>
             </GlassCard>
-            <GlassCard icon={EmergencyIcon} title="Emergencies" className="border-red-200 bg-[#fdf1f1]">
+            <GlassCard icon={EmergencyIcon} title="Emergencies" titleAs="h2" className="border-red-200 bg-[#fdf1f1]">
               <p>{site.emergency.disclaimer}</p>
             </GlassCard>
           </div>
@@ -96,9 +96,9 @@ function RemainingBody({ page }: { page: ContentPage }) {
       {intro.slice(2).length > 0 && renderNodesPublic(intro.slice(2), "intro-rest")}
       {rest.map((s) => (
         <section key={s.id} aria-labelledby={s.id} className="scroll-mt-28">
-          <h4 id={s.id} className="t-h4 mt-9 text-ink">
+          <h2 id={s.id} className="t-h4 mt-9 text-ink">
             {s.title}
-          </h4>
+          </h2>
           {renderNodesPublic(s.nodes, s.id)}
         </section>
       ))}
