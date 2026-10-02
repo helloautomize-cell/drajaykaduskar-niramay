@@ -40,9 +40,9 @@ You stand barefoot on a platform and hold two handles for about a minute. A very
 Sarcopenia is the loss of muscle mass and strength. It happens with age, inactivity, illness and sometimes with rapid weight loss, and it is more common in people with diabetes. It leads to weakness, falls, slower recovery and worse sugar control.
 
 Assessment at the clinic combines the body composition scan with simple tests of strength and physical performance:
-1. **Body composition analyser** — stand on it for about a minute; it measures muscle, fat and water
+1. **Body composition analyser**: stand on it for about a minute; it measures muscle, fat and water
 2. **Hand grip strength**
-3. **Chair stand test** — stand up from a chair 5 times
+3. **Chair stand test**: stand up from a chair 5 times
 4. **Walking speed** over a short distance
 
 Wear light clothes, avoid a heavy meal just before, and remove socks and metal items for the scan. If you have a pacemaker, please tell us first.

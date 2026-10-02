@@ -56,7 +56,7 @@ Dr. Prajakta Kaduskar combines medical training in child and adolescent health w
 #### How counselling works here
 1. **First consultation** with the teenager and parents: history, concerns, and a medical check.
 2. **Assessment** using standard screening tools where useful.
-3. **Counselling sessions** with the teenager — private, unhurried and planned around your teenager's needs.
+3. **Counselling sessions** with the teenager, private, unhurried and planned around your teenager's needs.
 4. **Parent sessions** on communication, boundaries and support at home.
 5. **Referral to a psychiatrist** when medicines or specialised care may be needed, with continued support from us.
 

@@ -63,7 +63,7 @@ His particular interests are **preventing the long-term complications of diabete
 - Not tied to any hospital; admission advice based on where you live and what care you need
 
 #### Conditions and services
-These are shown as grouped chips on the profile page (not clickable; not in the menu). The groups below are rendered from this list — keep names exactly as written.
+These are shown as grouped chips on the profile page (not clickable; not in the menu). The groups below are rendered from this list, keep names exactly as written.
 
 *Diabetes care:* Type 2 diabetes · Type 1 diabetes · Diabetes in children and teens (with Dr. Prajakta) · Diabetes in pregnancy and gestational diabetes · Prediabetes and diabetes prevention · Insulin treatment · Insulin pump guidance · Continuous glucose monitoring (CGM) · Diabetic diet counselling · Exercise in diabetes · Vaccination for people with diabetes · Depression and emotional health in diabetes
 

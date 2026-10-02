@@ -9,6 +9,7 @@ import { doctors } from "@/lib/doctors";
 import { allPosts, pageByUrl, type BlogPost } from "@/lib/content/pages";
 import { splitBody } from "@/lib/content/render";
 import { serviceCardText } from "@/lib/page-config";
+import { postBadgeFor } from "@/lib/service-badges";
 import { diabetesHeartGroups, childTeenGroups, labPharmacyLinks } from "@/lib/nav";
 import {
   medicalClinicJsonLd,
@@ -28,9 +29,10 @@ import { DoctorChip } from "@/components/ui/DoctorChip";
 import { ServiceBadge } from "@/components/ui/ServiceBadge";
 import { Chip } from "@/components/ui/Chip";
 import { Reveal } from "@/components/ui/Reveal";
+import { SwipeCarousel } from "@/components/ui/SwipeCarousel";
 import { HeroFan, type FanCard } from "@/components/sections/HeroFan";
 import { DoctorCard, type Doctor } from "@/components/sections/DoctorCard";
-import { type CarouselItem } from "@/components/sections/CenteredCarousel";
+import { ConditionsMarquee, type ConditionPill } from "@/components/home/ConditionsMarquee";
 import { FaqAccordion, type FaqItem } from "@/components/sections/FaqAccordion";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { type ServiceTab } from "@/components/home/ServiceTabs";
@@ -54,11 +56,11 @@ import {
   WheelchairIcon,
   LiftIcon,
   ParkingIcon,
-  ArrowRightIcon,
 } from "@/components/icons";
 
 const CONT = "mx-auto max-w-[1240px] px-4 sm:px-6";
-const SECTION = "py-[72px] lg:py-[120px]";
+// One spacing scale: 56px mobile / 96px desktop section padding
+const SECTION = "py-14 lg:py-24";
 
 export const dynamic = "error"; // fully static
 
@@ -131,49 +133,84 @@ const whyCards = [
   },
 ];
 
+/* Slides are re-ordered so cards that must share a badge never sit side by
+ * side (the four diabetes-care cards are separated by pregnancy, screening
+ * and prediabetes; the two obesity-care cards are split by body
+ * composition; teen-counselling and career-counselling alternate). */
+const linkByHref = (hrefs: string[]) => {
+  const all = [
+    ...diabetesHeartGroups.flatMap((g) => g.links),
+    ...childTeenGroups.flatMap((g) => g.links),
+    ...labPharmacyLinks,
+  ];
+  return hrefs
+    .map((h) => all.find((l) => l.href === h))
+    .filter((l): l is (typeof all)[number] => !!l);
+};
+
+const toSlides = (links: { label: string; href: string; badge?: string }[], fallback: string) =>
+  links.map((l) => ({
+    badge: l.badge ?? fallback,
+    title: l.label,
+    text: serviceCardText[l.href] ?? "",
+    href: l.href,
+  }));
+
 const serviceTabs: ServiceTab[] = [
   {
     label: "Diabetes and Metabolic",
     intro:
       "Long-term care for diabetes, prediabetes, thyroid, blood pressure and weight, with complication screening built in.",
-    slides: [...diabetesHeartGroups[0].links, ...diabetesHeartGroups[1].links].map((l) => ({
-      badge: l.badge ?? "health-checkup",
-      title: l.label,
-      text: serviceCardText[l.href] ?? "",
-      href: l.href,
-    })),
+    slides: toSlides(
+      linkByHref([
+        "/diabetes/",
+        "/diabetes/diabetes-in-pregnancy/",
+        "/diabetes/type-2-diabetes/",
+        "/diabetes/complications-screening/",
+        "/diabetes/type-1-diabetes/",
+        "/diabetes/prediabetes-risk-assessment/",
+        "/diabetes/diabetes-care-programme/",
+        "/obesity/",
+        "/obesity/body-composition-sarcopenia/",
+        "/obesity/weight-management-medicines/",
+      ]),
+      "health-checkup"
+    ),
   },
   {
     label: "Heart",
     intro: "Find heart risk early with ECG, 2D Echo and treadmill testing, and a clear plan to lower it.",
-    slides: diabetesHeartGroups[2].links.map((l) => ({
-      badge: l.badge ?? "heart-care",
-      title: l.label,
-      text: serviceCardText[l.href] ?? "",
-      href: l.href,
-    })),
+    slides: toSlides(
+      linkByHref([
+        "/heart-care/",
+        "/heart-care/2d-echo/",
+        "/heart-care/ecg/",
+        "/heart-care/tmt-stress-test/",
+      ]),
+      "heart-care"
+    ),
   },
   {
     label: "Child and Teen",
     intro: "From baby check-ups and vaccines to puberty, stress, screens and career choices.",
-    slides: childTeenGroups
-      .flatMap((g) => g.links)
-      .map((l) => ({
-        badge: l.badge ?? "adolescent-health",
-        title: l.label,
-        text: serviceCardText[l.href] ?? "",
-        href: l.href,
-      })),
+    slides: toSlides(
+      linkByHref([
+        "/blooming-buds/",
+        "/blooming-buds/well-baby-clinic/",
+        "/vaccination/",
+        "/blooming-buds/adolescent-health/",
+        "/blooming-buds/teen-mental-health/",
+        "/blooming-buds/career-counselling/",
+        "/blooming-buds/psychological-testing/",
+        "/blooming-buds/workshops/",
+      ]),
+      "adolescent-health"
+    ),
   },
   {
     label: "Lab and Pharmacy",
     intro: "Tests from 7 am to 7 pm, home sample collection, and medicines dispensed on site.",
-    slides: labPharmacyLinks.map((l) => ({
-      badge: l.badge ?? "diagnostic-lab",
-      title: l.label,
-      text: serviceCardText[l.href] ?? "",
-      href: l.href,
-    })),
+    slides: toSlides(labPharmacyLinks, "diagnostic-lab"),
   },
 ];
 
@@ -210,27 +247,29 @@ const visitSteps: GalleryStep[] = [
   },
 ];
 
-const conditionCards: CarouselItem[] = [
-  { badge: "diabetes-care", title: "Type 2 diabetes", body: serviceCardText["/diabetes/type-2-diabetes/"], href: "/diabetes/type-2-diabetes/" },
-  { badge: "diabetes-care", title: "Type 1 diabetes", body: serviceCardText["/diabetes/type-1-diabetes/"], href: "/diabetes/type-1-diabetes/" },
-  { badge: "health-checkup", title: "Prediabetes", body: serviceCardText["/diabetes/prediabetes-risk-assessment/"], href: "/diabetes/prediabetes-risk-assessment/" },
-  { badge: "diabetes-in-pregnancy", title: "Diabetes in pregnancy", body: serviceCardText["/diabetes/diabetes-in-pregnancy/"], href: "/diabetes/diabetes-in-pregnancy/" },
-  { badge: "thyroid", title: "Thyroid disorders", body: serviceCardText["/thyroid-clinic/"], href: "/thyroid-clinic/" },
-  { badge: "hypertension", title: "High blood pressure", body: serviceCardText["/hypertension-clinic/"], href: "/hypertension-clinic/" },
-  { badge: "obesity-care", title: "Weight and obesity", body: serviceCardText["/obesity/"], href: "/obesity/" },
-  { badge: "heart-care", title: "Heart risk", body: serviceCardText["/heart-care/"], href: "/heart-care/" },
-  { badge: "well-baby", title: "Baby growth and vaccines", body: serviceCardText["/blooming-buds/well-baby-clinic/"], href: "/blooming-buds/well-baby-clinic/" },
-  { badge: "teen-counselling", title: "Teen stress and anxiety", body: serviceCardText["/blooming-buds/teen-mental-health/"], href: "/blooming-buds/teen-mental-health/" },
-  { badge: "adolescent-health", title: "PCOS and periods", body: serviceCardText["/blooming-buds/adolescent-health/"], href: "/blooming-buds/adolescent-health/" },
-  { badge: "career-counselling", title: "Career confusion", body: serviceCardText["/blooming-buds/career-counselling/"], href: "/blooming-buds/career-counselling/" },
+// Conditions marquee pills — small line icons (iconSet), each links to its page
+const conditionPills: ConditionPill[] = [
+  { icon: "glucose-drop", label: "Type 2 diabetes", href: "/diabetes/type-2-diabetes/" },
+  { icon: "insulin-pen", label: "Type 1 diabetes", href: "/diabetes/type-1-diabetes/" },
+  { icon: "check-up", label: "Prediabetes", href: "/diabetes/prediabetes-risk-assessment/" },
+  { icon: "pregnancy", label: "Diabetes in pregnancy", href: "/diabetes/diabetes-in-pregnancy/" },
+  { icon: "thyroid", label: "Thyroid disorders", href: "/thyroid-clinic/" },
+  { icon: "bp-cuff", label: "High blood pressure", href: "/hypertension-clinic/" },
+  { icon: "waist-tape", label: "Weight and obesity", href: "/obesity/" },
+  { icon: "heart", label: "Heart risk", href: "/heart-care/" },
+  { icon: "baby", label: "Baby growth and vaccines", href: "/blooming-buds/well-baby-clinic/" },
+  { icon: "mind", label: "Teen stress and anxiety", href: "/blooming-buds/teen-mental-health/" },
+  { icon: "teen-pair", label: "PCOS and periods", href: "/blooming-buds/adolescent-health/" },
+  { icon: "compass", label: "Career confusion", href: "/blooming-buds/career-counselling/" },
 ];
 
 const doctorCards: Doctor[] = [
   {
     name: doctors.ajay.name,
     shortName: "Dr. Ajay",
-    qualifications: doctors.ajay.qualifications,
+    qualifications: "MD (Medicine), PGDHSc (Diabetology), FEACD (Netherlands)",
     role: "Consultant in diabetes, obesity and metabolic diseases. Director, Niramay Diabetes and Heart Care Centre.",
+    experience: `${site.experienceYears.drAjay}+ years`,
     photo: { src: "/images/doctors/dr-ajay-kaduskar-card.jpg", alt: "Dr. Ajay Kaduskar" },
     languages: ["English", "Hindi", "Marathi"],
     bookHref: "/contact/#book",
@@ -241,6 +280,7 @@ const doctorCards: Doctor[] = [
     shortName: "Dr. Prajakta",
     qualifications: doctors.prajakta.qualifications,
     role: "Consultant in child and adolescent health. Blooming Buds Child and Adolescent Care Centre.",
+    experience: `${site.experienceYears.drPrajakta}+ years`,
     photo: { src: "/images/doctors/dr-prajakta-kaduskar-card.jpg", alt: "Dr. Prajakta Kaduskar" },
     languages: ["English", "Hindi", "Marathi"],
     bookHref: "/contact/#book",
@@ -296,14 +336,16 @@ const quickAnswers = homeFaqs();
 const watchVideos = [
   {
     id: "G2I1fNgxzkE",
-    title: "THE PILLARS OF HEALTH | EPISODE 05 | Dr. Ajay Kaduskar",
+    title: "The Pillars of Health, Episode 05: Dr. Ajay Kaduskar",
+    description: "Dr. Ajay on everyday habits that protect long-term health.",
     credit: "Loktantra Mirror",
     uploadDate: "2025-07-08",
     poster: "/images/video/G2I1fNgxzkE.jpg",
   },
   {
     id: "YjXtEOQ724Y",
-    title: "Diabetes and obesity — myth vs fact | Dr. Ajay Kaduskar",
+    title: "Diabetes and obesity: myth vs fact",
+    description: "Dr. Ajay separates common diabetes myths from the facts.",
     credit: "Bluetree Healthcare Solutions",
     uploadDate: "2025-09-30",
     poster: "/images/video/YjXtEOQ724Y.jpg",
@@ -431,14 +473,17 @@ const pillBase =
 
 const serviceTabsFallback = (
   <div>
-    <div className="flex flex-wrap items-center gap-2" aria-hidden>
+    <div
+      className="flex items-center gap-2 max-md:-mx-4 max-md:flex-nowrap max-md:overflow-x-auto max-md:px-4 md:flex-wrap"
+      aria-hidden
+    >
       {serviceTabs.map((t, i) => (
         <span
           key={t.label}
           className={
             i === 0
-              ? `${pillBase} bg-grad text-white shadow-[0_10px_24px_-10px_rgba(69,62,109,.5)]`
-              : pillBase
+              ? `${pillBase} shrink-0 whitespace-nowrap bg-grad text-white shadow-[0_10px_24px_-10px_rgba(69,62,109,.5)]`
+              : `${pillBase} shrink-0 whitespace-nowrap`
           }
         >
           {t.label}
@@ -448,7 +493,7 @@ const serviceTabsFallback = (
     <p className="mt-8 max-w-[62ch] text-[16px] leading-relaxed text-ink-600">
       {serviceTabs[0].intro}
     </p>
-    <div className="edge-fade mt-6 overflow-x-auto pb-2 pt-1">
+    <div className="fade-edge-r mt-6 overflow-x-auto pb-2 pt-1">
       <div className="flex gap-5 px-1">
         {serviceTabs[0].slides.map((s) => (
           <ServiceGlassCard
@@ -457,6 +502,7 @@ const serviceTabsFallback = (
             title={s.title}
             text={s.text}
             href={s.href}
+            lift={false}
           />
         ))}
       </div>
@@ -470,77 +516,65 @@ const serviceTabsFallback = (
 );
 
 const stepsFallback = (
-  <div className="grid gap-10 min-[900px]:grid-cols-[1fr_360px] min-[900px]:gap-14">
-    <div className="relative grid gap-10 min-[900px]:grid-cols-[300px_1fr] min-[900px]:gap-16">
-      <div>
-        <div className="eyebrow">04 / Your first visit, step by step</div>
-        <div className="mt-2 text-[64px] font-bold leading-none tracking-tight text-plum max-[900px]:hidden">
-          01
-        </div>
-        <p className="mt-1 text-[15px] font-semibold text-ink max-[900px]:hidden">
-          {visitSteps[0].title}
-        </p>
-      </div>
-      <ol className="divide-y divide-line">
+  <div>
+    {/* mobile: static swipe strip (autoplay mounts with the island) */}
+    <div className="min-[900px]:hidden">
+      <div className="eyebrow mb-5">04 / Your first visit, step by step</div>
+      <div className="-mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-4 px-4 [scrollbar-width:none]">
         {visitSteps.map((s, i) => (
-          <li key={s.title} className="py-8 first:pt-0">
-            {s.image && (
-              // eslint-disable-next-line @next/next/no-img-element -- small, mobile-only, lazy
-              <img
-                src={s.image.src}
-                alt={s.image.alt}
-                loading="lazy"
-                className="mb-4 aspect-[16/9] w-full rounded-[14px] object-cover min-[900px]:hidden"
-              />
-            )}
-            <h3 className="t-h3 mb-1.5 text-ink">{s.title}</h3>
-            <p className={i === 0 ? "text-[15.5px] leading-relaxed text-ink-600" : "text-[15.5px] leading-relaxed text-ink"}>
-              {s.body}
-            </p>
-          </li>
+          <div
+            key={s.title}
+            className="w-[84%] shrink-0 snap-start overflow-hidden rounded-[18px] border border-line bg-card shadow-[var(--shadow-card)]"
+          >
+            <div className="relative aspect-[16/10]">
+              {/* eslint-disable-next-line @next/next/no-img-element -- fallback, lazy */}
+              <img src={s.image.src} alt={s.image.alt} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+              <span className="glass absolute left-3 top-3 rounded-full px-3 py-1 text-[12px] font-semibold text-ink">
+                Step {i + 1} of {visitSteps.length}
+              </span>
+            </div>
+            <div className="p-5">
+              <h3 className="t-h3 text-ink">{s.title}</h3>
+              <p className="mt-1 text-[14.5px] leading-relaxed text-ink-600">{s.body}</p>
+            </div>
+          </div>
         ))}
-      </ol>
-    </div>
-    <div className="relative max-[900px]:hidden">
-      <div className="sticky top-28 aspect-[4/5] overflow-hidden rounded-[22px] border border-line shadow-[var(--shadow-card)]">
-        <div className="relative h-full w-full">
-          <Image
-            src={visitSteps[0].image.src}
-            alt={visitSteps[0].image.alt}
-            fill
-            sizes="360px"
-            className="object-cover"
-          />
-        </div>
       </div>
     </div>
-  </div>
-);
-
-const conditionsFallback = (
-  <div className="edge-fade overflow-x-auto py-8" role="region" aria-label="Conditions we look after">
-    <div className="flex">
-      {conditionCards.map((it) => (
-        <div key={it.title} className="min-w-0 flex-[0_0_min(300px,78%)] px-3">
-          <div className="h-full rounded-[20px] border border-line bg-card p-7 shadow-[var(--shadow-card)]">
-            <div className="mb-4 flex justify-center">
-              <ServiceBadge slug={it.badge} size="sm" alt="" />
-            </div>
-            <h3 className="t-h3 mb-2 text-ink">{it.title}</h3>
-            <p className="text-[15px] leading-relaxed text-ink-600">{it.body}</p>
-            {it.href && (
-              <Link
-                href={it.href}
-                aria-label={`Learn more about ${it.title}`}
-                className="mt-4 inline-flex min-h-[44px] items-center gap-1.5 text-[14.5px] font-semibold text-plum transition-colors hover:text-plum-500"
-              >
-                Learn more <span className="sr-only">about {it.title}</span>
-                <ArrowRightIcon size={15} aria-hidden />
-              </Link>
-            )}
+    {/* desktop fallback: tracker + sticky image */}
+    <div className="grid gap-10 max-[900px]:hidden min-[900px]:grid-cols-[1fr_360px] min-[900px]:gap-14">
+      <div className="relative grid gap-10 min-[900px]:grid-cols-[300px_1fr] min-[900px]:gap-16">
+        <div>
+          <div className="eyebrow">04 / Your first visit, step by step</div>
+          <div className="mt-2 text-[64px] font-bold leading-none tracking-tight text-plum max-[900px]:hidden">
+            01
+          </div>
+          <p className="mt-1 text-[15px] font-semibold text-ink max-[900px]:hidden">
+            {visitSteps[0].title}
+          </p>
+        </div>
+        <ol className="divide-y divide-line">
+          {visitSteps.map((s) => (
+            <li key={s.title} className="py-8 first:pt-0">
+              <h3 className="t-h3 mb-1.5 text-ink-600">{s.title}</h3>
+              <p className="text-[15.5px] leading-relaxed text-ink-600">{s.body}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div className="relative max-[900px]:hidden">
+        <div className="sticky top-28 aspect-[4/5] overflow-hidden rounded-[22px] border border-line shadow-[var(--shadow-card)]">
+          <div className="relative h-full w-full">
+            <Image
+              src={visitSteps[0].image.src}
+              alt={visitSteps[0].image.alt}
+              fill
+              sizes="360px"
+              className="object-cover"
+            />
           </div>
         </div>
-      ))}
+      </div>
     </div>
   </div>
 );
@@ -551,7 +585,7 @@ const mapFallback = (
     target="_blank"
     rel="noopener noreferrer"
     className="group relative block w-full overflow-hidden rounded-[20px] border border-line"
-    aria-label="Show map — opens Google Maps"
+    aria-label="Show map, opens Google Maps"
   >
     <Image
       src="/images/clinic/exterior-entrance.jpg"
@@ -603,30 +637,61 @@ export default function Home() {
           aria-hidden
           className="pointer-events-none absolute -left-48 bottom-0 size-[480px] rounded-full bg-[radial-gradient(closest-side,rgba(115,69,105,.14),transparent)]"
         />
-        <div className={`${CONT} relative grid items-center gap-12 py-14 lg:grid-cols-[1.1fr_.9fr] lg:py-20`}>
-          <div>
+        <div
+          className={`${CONT} relative flex flex-col py-8 lg:grid lg:grid-cols-[1.1fr_.9fr] lg:items-center lg:gap-x-12 lg:py-16`}
+        >
+          {/* A: eyebrow + headline */}
+          <div className="lg:col-start-1 lg:row-start-1">
             <Eyebrow>NIRAMAY CLINICS · DHANTOLI, NAGPUR</Eyebrow>
-            <h1 className="t-display mt-5 text-ink">
+            <h1 className="t-display mt-4 text-ink lg:mt-5">
               Specialist care for diabetes, heart health and growing <em className="accent">children</em>
             </h1>
-            <p className="t-lead mt-6 max-w-[54ch]">
+          </div>
+
+          {/* fan: right under the headline on mobile so both doctors show
+              above the fold; right column on desktop */}
+          <div className="order-2 mt-7 flex justify-center lg:order-none lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:mt-0 lg:justify-end">
+            <HeroFan cards={fanCards} intervalMs={5000} className="max-sm:translate-x-[15%]" />
+          </div>
+
+          {/* B: lead line + buttons + chips */}
+          <div className="order-3 mt-6 lg:col-start-1 lg:row-start-2 lg:mt-0">
+            <p className="t-lead hidden max-w-[54ch] sm:block">
               Two experienced doctors, an in-house laboratory and pharmacy, and tests like 2D Echo,
               ECG and retinal screening, at one address in Dhantoli.
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-4">
-              <BookButton href="/contact/#book" />
-              <ButtonLink href={site.phone.tel} variant="secondary">
+            <p className="text-[15.5px] leading-relaxed text-ink-600 sm:hidden">
+              Two experienced doctors, an in-house lab and pharmacy, at one address in Dhantoli.
+            </p>
+            <div className="mt-5 flex items-center gap-3 sm:mt-8 sm:gap-4">
+              <BookButton href="/contact/#book" className="flex-1 sm:flex-none" />
+              <a
+                href={site.phone.tel}
+                aria-label={`Call Niramay Clinics on ${site.phone.display}`}
+                className="grid size-[52px] shrink-0 place-items-center rounded-[14px] border border-plum/30 bg-white/70 text-ink backdrop-blur-md sm:hidden"
+              >
+                <PhoneIcon size={20} aria-hidden />
+              </a>
+              <ButtonLink href={site.phone.tel} variant="secondary" className="hidden sm:inline-flex">
                 <PhoneIcon size={18} aria-hidden /> Call {site.phone.display}
               </ButtonLink>
             </div>
-            <p className="mt-6 text-[14px] font-medium text-ink-600">
-              In-house laboratory · Pharmacy · 2D Echo, ECG and TMT · Retinal screening · Body
-              composition analysis
-            </p>
-            <DoctorChip className="mt-6" />
-          </div>
-          <div className="cv-auto flex justify-center max-lg:mt-16 lg:justify-end">
-            <HeroFan cards={fanCards} intervalMs={5000} />
+            {/* service chips: a compact row, no orphan word; hidden on mobile */}
+            <div className="mt-6 hidden flex-wrap gap-2 sm:flex">
+              {[
+                "In-house laboratory",
+                "Pharmacy",
+                "2D Echo, ECG and TMT",
+                "Retinal screening",
+                "Body composition analysis",
+              ].map((c) => (
+                <Chip key={c} className="px-3 py-1.5 text-[13px]">
+                  {c}
+                </Chip>
+              ))}
+            </div>
+            {/* the fan already shows the doctors on mobile — hide the pill */}
+            <DoctorChip className="mt-6 max-sm:hidden" />
           </div>
         </div>
       </section>
@@ -637,18 +702,24 @@ export default function Home() {
           <div className={CONT}>
             <SectionHead num="01" label="Why Niramay" title="Care that is planned around you" accent="around you" />
             {/* soft gradient panel with glows so the cards can be glass */}
-            <div className="relative overflow-hidden rounded-[28px] bg-gradient-to-br from-plum-50 via-white to-[#fdf3ee] p-6 sm:p-10">
+            <div className="relative overflow-hidden rounded-[28px] bg-gradient-to-br from-plum-50 via-white to-[#fdf3ee] p-5 sm:p-8 lg:p-10">
               <div
                 aria-hidden
                 className="pointer-events-none absolute -right-32 -top-32 size-[420px] rounded-full bg-[radial-gradient(closest-side,rgba(242,149,122,.3),transparent)]"
               />
-              <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {/* mobile: swipe carousel (6 cards); desktop: unchanged grid */}
+              <SwipeCarousel
+                label="Why Niramay"
+                gridAt="md"
+                gridCols="md:grid-cols-2 lg:grid-cols-3"
+                itemClass="w-[80%]"
+              >
                 {whyCards.map((c) => (
-                  <GlassCard key={c.title} icon={c.icon} title={c.title} glass>
-                    <p>{c.text}</p>
+                  <GlassCard key={c.title} icon={c.icon} title={c.title} glass className="h-full">
+                    <p className="line-clamp-3">{c.text}</p>
                   </GlassCard>
                 ))}
-              </div>
+              </SwipeCarousel>
             </div>
           </div>
         </section>
@@ -674,23 +745,18 @@ export default function Home() {
                   sizes="(min-width:1024px) 45vw, 100vw"
                 />
               </div>
-              <div className="pointer-events-none absolute -right-3 -top-4 sm:-right-6">
+              {/* floating labels kept off the people: wall top-left, ground
+                  bottom-right; inside the photo edges on mobile so nothing
+                  overflows the screen */}
+              <div className="pointer-events-none absolute left-3 top-3 sm:-left-5 sm:-top-4">
                 <span className="home-badge-drift pointer-events-auto glass block rounded-full px-4 py-2 text-[13.5px] font-semibold text-ink">
                   Caring for Nagpur since 2006
                 </span>
               </div>
-              <div className="pointer-events-none absolute -left-3 top-1/2 sm:-left-6">
+              <div className="pointer-events-none absolute bottom-3 right-3 sm:-bottom-4 sm:right-8">
                 <span
                   className="home-badge-drift pointer-events-auto glass block rounded-full px-4 py-2 text-[13.5px] font-semibold text-ink"
                   style={{ animationDelay: "1.4s" }}
-                >
-                  2 specialist centres, 1 address
-                </span>
-              </div>
-              <div className="pointer-events-none absolute -bottom-4 right-8">
-                <span
-                  className="home-badge-drift pointer-events-auto glass block rounded-full px-4 py-2 text-[13.5px] font-semibold text-ink"
-                  style={{ animationDelay: "2.8s" }}
                 >
                   Lab open 7 am to 7 pm
                 </span>
@@ -700,7 +766,7 @@ export default function Home() {
             <div>
               <SectionHead
                 num="02"
-                label="Two specialists, one family practice"
+                label="About Niramay"
                 title="Two clinics, one address"
               />
               <p className="text-[17px] leading-relaxed text-ink-600">
@@ -776,17 +842,16 @@ export default function Home() {
         <p className="mt-3 text-[15.5px] leading-relaxed text-ink-600">
           {site.address.full}
         </p>
-        <p className="mt-1 text-[15.5px] font-medium text-ink">Opposite Dinanath High School</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <Chip className="gap-1.5"><LiftIcon size={14} aria-hidden /> Lift</Chip>
           <Chip className="gap-1.5"><WheelchairIcon size={14} aria-hidden /> Wheelchair friendly</Chip>
           <Chip className="gap-1.5"><ParkingIcon size={14} aria-hidden /> Two-wheeler parking</Chip>
         </div>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <ButtonLink href={directionsUrl} target="_blank" rel="noopener noreferrer">
+        <div className="mt-5 flex gap-3 max-sm:[&>*]:flex-1">
+          <ButtonLink href={directionsUrl} target="_blank" rel="noopener noreferrer" className="h-11 px-4 text-[14px]">
             <MapPinIcon size={17} aria-hidden /> Get directions
           </ButtonLink>
-          <ButtonLink href="/plan-your-visit/" variant="secondary" arrow>
+          <ButtonLink href="/plan-your-visit/" variant="secondary" arrow className="h-11 px-4 text-[14px]">
             Plan your visit
           </ButtonLink>
         </div>
@@ -802,7 +867,7 @@ export default function Home() {
               title="Meet your doctors"
               lead="More than 35 years of practice between them."
             />
-            <div className="grid gap-6 lg:grid-cols-2">
+            <div className="grid gap-4 sm:gap-6 lg:grid-cols-2">
               {doctorCards.map((d) => (
                 <DoctorCard key={d.name} doctor={d} />
               ))}
@@ -821,19 +886,25 @@ export default function Home() {
               title="Dr. Ajay talks about diabetes and long-term health"
               accent="diabetes"
             />
-            <div className="grid gap-6 lg:grid-cols-2">
+            {/* two items: swipe with peek on mobile (no autoplay needed),
+                side-by-side cards on desktop */}
+            <SwipeCarousel
+              label="Watch Dr. Ajay"
+              autoplay={false}
+              gridAt="lg"
+              gridCols="lg:grid-cols-2"
+            >
               {watchVideos.map((v) => (
-                <div key={v.id}>
-                  <VideoFacade
-                    id={v.id}
-                    title={v.title}
-                    poster={v.poster}
-                    credit={v.credit}
-                    className="[&>button]:mt-0"
-                  />
-                </div>
+                <VideoFacade
+                  key={v.id}
+                  id={v.id}
+                  title={v.title}
+                  description={v.description}
+                  poster={v.poster}
+                  credit={v.credit}
+                />
               ))}
-            </div>
+            </SwipeCarousel>
           </div>
         </section>
       </Reveal>
@@ -843,11 +914,7 @@ export default function Home() {
         <section className={SECTION}>
           <div className={CONT}>
             <SectionHead num="07" label="Conditions we look after" title="Care for the conditions we see most" accent="see most" />
-            <Deferred
-              of="conditions"
-              props={{ items: conditionCards, ariaLabel: "Conditions we look after" }}
-              fallback={conditionsFallback}
-            />
+            <ConditionsMarquee items={conditionPills} />
           </div>
         </section>
       </Reveal>
@@ -859,61 +926,63 @@ export default function Home() {
       <Reveal>
         <section className={SECTION}>
           <div className={CONT}>
-            <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
-              <SectionHead num="08" label="From our Health Library" title="Read before your visit" accent="before" />
-
-              <ButtonLink href="/health-library/" variant="link" arrow className="mb-2 text-[16px]">
+            <div className="mb-10 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3">
+              <div className="max-w-[720px]">
+                <Eyebrow>08 / FROM OUR HEALTH LIBRARY</Eyebrow>
+                <AccentHeading accent="before" className="mt-4">
+                  Read before your visit
+                </AccentHeading>
+              </div>
+              <ButtonLink href="/health-library/" variant="link" arrow className="text-[16px]">
                 Visit the Health Library
               </ButtonLink>
             </div>
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {/* designed covers only — gradient + per-post badge, never the
+                YouTube thumbnails (they carry other channels' branding) */}
+            <SwipeCarousel
+              label="Health Library"
+              gridAt="md"
+              gridCols="md:grid-cols-2 lg:grid-cols-3"
+            >
               {posts.map((p) => {
                 const author = p.meta.author.includes("Prajakta") ? doctors.prajakta : doctors.ajay;
-                const img = p.meta.image ? `/images/${p.meta.image}` : null;
                 const category =
                   p.meta.category || (p.meta.author.includes("Prajakta") ? "Child and teen" : "Diabetes and heart");
                 return (
                   <Link
                     key={p.slug}
                     href={p.meta.url}
-                    className="group flex flex-col overflow-hidden rounded-[20px] border border-line bg-card shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-hover)]"
+                    className="group flex h-full flex-col overflow-hidden rounded-[20px] border border-line bg-card shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-hover)]"
                   >
-                    {img ? (
-                      <span className="relative block aspect-[16/9] overflow-hidden">
-                        <Image
-                          src={img}
-                          alt=""
-                          fill
-                          sizes="(min-width:1024px) 33vw, 100vw"
-                          className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-                        />
+                    <span className="relative block aspect-[3/2] bg-gradient-to-br from-plum-100 via-plum-50 to-[#fdf3ee] md:aspect-video">
+                      <span
+                        aria-hidden
+                        className="absolute -right-16 -top-16 size-[240px] rounded-full bg-[radial-gradient(closest-side,rgba(242,149,122,.35),transparent)]"
+                      />
+                      <span className="absolute inset-0 grid place-items-center">
+                        <ServiceBadge slug={postBadgeFor(p.slug)} size="md" alt="" />
                       </span>
-                    ) : (
-                      <span className="relative block aspect-[16/9] bg-gradient-to-br from-plum-100 via-plum-50 to-[#fdf3ee]">
-                        <span className="absolute inset-0 grid place-items-center">
-                          <ServiceBadge
-                            slug={p.meta.author.includes("Prajakta") ? "teen-counselling" : "diabetes-care"}
-                            size="md"
-                            alt=""
-                          />
-                        </span>
-                      </span>
-                    )}
-                    <span className="flex flex-1 flex-col p-6">
+                    </span>
+                    <span className="flex flex-1 flex-col p-5 md:p-6">
                       <Chip className="self-start">{category}</Chip>
-                      <span className="mt-3 block text-[18px] font-bold leading-snug text-ink group-hover:text-plum">
+                      <span className="mt-3 block text-[17px] font-bold leading-snug text-ink group-hover:text-plum md:text-[18px]">
                         {p.meta.title}
                       </span>
-                      <span className="mt-auto block pt-4 text-[13.5px] text-ink-600">
-                        Written by {author.name}
+                      <span className="mt-auto block whitespace-nowrap pt-4 text-[13.5px] text-ink-600">
+                        Written by {author.shortName}
                         {postDate(p) ? ` · ${postDate(p)}` : ""}
-                        {p.meta.reading_time ? ` · ${p.meta.reading_time}` : ""}
+                        {p.meta.reading_time ? (
+                          <>
+                            {" · "}
+                            <span className="whitespace-nowrap">{p.meta.reading_time} read</span>
+                          </>
+                        ) : null}
                       </span>
                     </span>
                   </Link>
                 );
               })}
-            </div>
+            </SwipeCarousel>
           </div>
         </section>
       </Reveal>
@@ -935,7 +1004,7 @@ export default function Home() {
 
       {/* ── H12 CONTACT STRIP ───────────────────────────────────────── */}
       <Reveal>
-        <section className="pb-[72px] lg:pb-[120px]">
+        <section className={SECTION}>
           <div className={`${CONT} grid items-stretch gap-8 lg:grid-cols-2`}>
             <div className="glass rounded-[24px] p-8 sm:p-10">
               <Eyebrow>Contact</Eyebrow>
@@ -961,12 +1030,17 @@ export default function Home() {
                   <MailIcon size={18} aria-hidden className="mt-0.5 shrink-0 text-plum" />
                   <ObfuscatedEmail className="font-semibold text-ink hover:text-plum" />
                 </li>
-                <li className="flex gap-3">
-                  <ClockIcon size={18} aria-hidden className="mt-0.5 shrink-0 text-plum" />
-                  <span className="text-ink-600">
-                    OPD: {site.hours.opd} · Lab: {site.hours.lab} · Pharmacy: {site.hours.pharmacy}
-                  </span>
-                </li>
+                {[
+                  `OPD: ${site.hours.opd}`,
+                  `Lab: ${site.hours.lab}`,
+                  `Pharmacy: ${site.hours.pharmacy}`,
+                  "Phone: Every day, 8 am to 9 pm",
+                ].map((line) => (
+                  <li key={line} className="flex gap-3">
+                    <ClockIcon size={18} aria-hidden className="mt-0.5 shrink-0 text-plum" />
+                    <span className="text-ink-600">{line}</span>
+                  </li>
+                ))}
                 <li className="flex gap-3">
                   <EmergencyIcon size={18} aria-hidden className="mt-0.5 shrink-0 text-[#C01521]" />
                   <span className="font-medium text-[#C01521]">
@@ -981,7 +1055,7 @@ export default function Home() {
       </Reveal>
 
       {/* ── CTA BAND ────────────────────────────────────────────────── */}
-      <div className={`${CONT} pb-[72px] lg:pb-[120px]`}>
+      <div className={`${CONT} pb-14 lg:pb-24`}>
         <CtaBand className="mt-0" />
       </div>
     </>

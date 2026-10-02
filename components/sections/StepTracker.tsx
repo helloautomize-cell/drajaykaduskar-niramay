@@ -121,10 +121,7 @@ export function StepTracker({
           <li
             key={s.title}
             data-step={i}
-            className={cn(
-              "py-8 transition-opacity duration-700 ease-[var(--ease)] first:pt-0",
-              i === current ? "opacity-100" : "opacity-70"
-            )}
+            className="py-8 first:pt-0"
           >
             {s.image && (
               // eslint-disable-next-line @next/next/no-img-element -- small, mobile-only, lazy
@@ -135,8 +132,15 @@ export function StepTracker({
                 className="mb-4 aspect-[16/9] w-full rounded-[14px] object-cover min-[900px]:hidden"
               />
             )}
-            <h3 className="t-h3 mb-1.5 text-ink">{s.title}</h3>
-            <p className={cn("text-[15.5px] leading-relaxed", i === current ? "text-ink-600" : "text-ink")}>
+            <h3
+              className={cn(
+                "t-h3 mb-1.5",
+                i === current ? "text-ink" : "text-ink-600"
+              )}
+            >
+              {s.title}
+            </h3>
+            <p className="text-[15.5px] leading-relaxed text-ink-600">
               {s.body}
             </p>
           </li>

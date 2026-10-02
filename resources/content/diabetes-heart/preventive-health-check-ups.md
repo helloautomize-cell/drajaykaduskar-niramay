@@ -31,7 +31,7 @@ We do not offer fixed test packages, because a standard list would mean unnecess
 2. The doctor then designs the check-up for you: only the blood tests, heart tests and scans that your situation actually needs.
 3. Once the results are ready, the doctor reads them with you and explains what to do next.
 
-Tests may include blood sugar and HbA1c, cholesterol and lipid profile, kidney and liver function, thyroid tests, ECG, 2D Echo or a treadmill test, retinal photography and body composition analysis — whichever apply to you. Fees are shared when you book.
+Tests may include blood sugar and HbA1c, cholesterol and lipid profile, kidney and liver function, thyroid tests, ECG, 2D Echo or a treadmill test, retinal photography and body composition analysis, whichever apply to you. Fees are shared when you book.
 
 #### How to prepare
 Fast for 10 to 12 hours before the visit (water is allowed). Take your usual medicines unless told otherwise, but bring diabetes medicines with you to take after the blood sample. Bring previous reports.

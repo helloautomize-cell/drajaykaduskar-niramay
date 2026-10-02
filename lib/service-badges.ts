@@ -68,3 +68,36 @@ export const serviceBadgeMap: Record<string, string> = {
 export function badgeFor(serviceSlug: string): string {
   return serviceBadgeMap[serviceSlug] ?? "diabetes-care";
 }
+
+/**
+ * Health Library post covers: all posts get the same designed cover (soft
+ * gradient + badge) — never the video thumbnails, which carry other
+ * channels' branding. Badge per post (design-polish spec):
+ */
+export const postBadgeMap: Record<string, string> = {
+  "diabetes-myths-and-facts": "diabetes-care",
+  "menstrual-hygiene-teenage-girls": "adolescent-health",
+  "preparing-child-for-adolescence": "teen-counselling",
+  "smart-love-parenting-teenagers": "well-baby",
+  "self-esteem-teenagers-with-disabilities": "career-counselling",
+};
+
+export function postBadgeFor(slug: string): string {
+  return postBadgeMap[slug] ?? "health-checkup";
+}
+
+/* ---- Services still sharing a badge (report to client; new PNG badges to
+   be designed later — do not invent icons):
+   - diabetes-care:      diabetes, type-2-diabetes, type-1-diabetes,
+                         diabetes-care-programme   (cards re-ordered so they
+                         are never adjacent)
+   - heart-care:         heart-care, 2d-echo, ecg, tmt-stress-test
+                         (all four in the Heart tab — cannot be separated)
+   - obesity-care:       obesity, weight-management-medicines
+                         (separated by body-composition in the carousel)
+   - health-checkup:     prediabetes-risk-assessment, preventive-health-check-ups
+                         (in different groups — never adjacent)
+   - adolescent-health:  blooming-buds, adolescent-health   (separated)
+   - teen-counselling:   teen-mental-health, psychological-testing (separated)
+   - career-counselling: career-counselling, workshops       (separated)
+*/

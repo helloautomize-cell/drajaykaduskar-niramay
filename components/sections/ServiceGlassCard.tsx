@@ -28,6 +28,7 @@ export function ServiceGlassCard({
   text,
   tint = "plum",
   href = "#",
+  lift = true,
   className,
 }: {
   badge: string;
@@ -35,6 +36,8 @@ export function ServiceGlassCard({
   text: string;
   tint?: BadgeTint;
   href?: string;
+  /** false inside carousels so a hovered card stays on the shared baseline */
+  lift?: boolean;
   className?: string;
 }) {
   const ref = useRef<HTMLAnchorElement>(null);
@@ -57,7 +60,8 @@ export function ServiceGlassCard({
       ref={ref}
       href={href}
       className={cn(
-        "sg-card group block w-[200px] shrink-0 snap-start outline-offset-4 transition-transform duration-500 ease-[var(--ease)] hover:-translate-y-1.5 sm:w-[240px]",
+        "sg-card group block w-[200px] shrink-0 snap-start outline-offset-4 transition-transform duration-500 ease-[var(--ease)] sm:w-[240px]",
+        lift && "hover:-translate-y-1.5",
         className
       )}
     >

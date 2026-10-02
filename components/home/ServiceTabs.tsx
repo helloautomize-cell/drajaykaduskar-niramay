@@ -37,7 +37,11 @@ export function ServiceTabs({ tabs, className }: { tabs: ServiceTab[]; className
 
   return (
     <div className={className}>
-      <div role="tablist" aria-label="Service groups" className="flex flex-wrap items-center gap-2">
+      <div
+        role="tablist"
+        aria-label="Service groups"
+        className="flex items-center gap-2 max-md:-mx-4 max-md:flex-nowrap max-md:overflow-x-auto max-md:px-4 max-md:pb-1 max-md:[scrollbar-width:none] max-md:[&::-webkit-scrollbar]:hidden md:flex-wrap"
+      >
         {tabs.map((t, i) => (
           <button
             key={t.label}
@@ -53,7 +57,7 @@ export function ServiceTabs({ tabs, className }: { tabs: ServiceTab[]; className
             onClick={() => setActive(i)}
             onKeyDown={(e) => onKey(e, i)}
             className={cn(
-              "min-h-[48px] rounded-full border border-transparent bg-plum-100 px-5 py-2.5 text-[15px] font-semibold text-plum transition-all duration-300 ease-[var(--ease)]",
+              "min-h-[48px] shrink-0 whitespace-nowrap rounded-full border border-transparent bg-plum-100 px-5 py-2.5 text-[15px] font-semibold text-plum transition-all duration-300 ease-[var(--ease)]",
               "hover:bg-plum-100/70",
               i === active &&
                 "bg-grad text-white shadow-[0_10px_24px_-10px_rgba(69,62,109,.5)]"

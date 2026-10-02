@@ -34,7 +34,7 @@ export function ContactPageTemplate({ page }: { page: ContentPage }) {
             <div className="overflow-hidden rounded-[20px]">
               <Image
                 src="/images/clinic/exterior-entrance.jpg"
-                alt="The street-level entrance of Niramay Clinics — look for this entrance"
+                alt="The street-level entrance of Niramay Clinics, look for this entrance"
                 width={760}
                 height={560}
                 className="h-auto w-full object-cover"

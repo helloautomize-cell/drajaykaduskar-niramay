@@ -4,6 +4,7 @@ import type { RootContent, List } from "mdast";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { BookButton } from "@/components/ui/BookButton";
 import { GlassCard } from "@/components/ui/GlassCard";
+import { ChipGroup } from "@/components/ui/ChipGroup";
 import { SpecialistIcon } from "@/components/icons";
 import { CtaBand } from "@/components/sections/CtaBand";
 import {
@@ -70,7 +71,7 @@ function ApproachBlock({ doctor }: { doctor: Doctor }) {
       <p className="t-h3 text-ink">
         <em className="accent">keep things simple</em>
         <span className="mt-2 block text-[15px] font-normal not-italic leading-relaxed text-ink-600">
-          The note framed in Dr. Kaduskar&apos;s consulting room — and how care
+          The note framed in Dr. Kaduskar&apos;s consulting room, and how care
           is planned here.
         </span>
       </p>
@@ -188,16 +189,8 @@ export function DoctorProfileTemplate({
             {areaChips.length > 0 && (
               <section aria-labelledby="areas-of-care" className="mt-9 scroll-mt-28" id="areas-of-care">
                 <h2 className="t-h4 text-ink">{areas!.title}</h2>
-                <ul className="mt-4 flex flex-wrap gap-2">
-                  {areaChips.map((c) => (
-                    <li
-                      key={c}
-                      className="rounded-full border border-plum/25 bg-plum-50 px-4 py-2 text-[14.5px] font-medium text-ink"
-                    >
-                      {c}
-                    </li>
-                  ))}
-                </ul>
+                {/* mobile: first 6 chips + "Show all"; desktop: full list */}
+                <ChipGroup items={areaChips} className="mt-4" />
               </section>
             )}
 
@@ -210,16 +203,7 @@ export function DoctorProfileTemplate({
                       <h3 className="text-[13.5px] font-semibold uppercase tracking-wide text-ink-600">
                         {g.label}
                       </h3>
-                      <ul className="mt-2 flex flex-wrap gap-2">
-                        {g.items.map((c) => (
-                          <li
-                            key={c}
-                            className="rounded-full border border-plum/25 bg-plum-50 px-4 py-2 text-[14.5px] font-medium text-ink"
-                          >
-                            {c}
-                          </li>
-                        ))}
-                      </ul>
+                      <ChipGroup items={g.items} className="mt-2" />
                     </div>
                   ))}
                 </div>

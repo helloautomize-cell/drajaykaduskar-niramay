@@ -199,7 +199,7 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
       jsonLd.push(
         videoJsonLd({
           id: post.meta.video,
-          title: `${post.meta.title} — video`,
+          title: `${post.meta.title}: video`,
           pageUrl: post.meta.url,
           uploadDate: post.meta.published || undefined,
           thumbnail: postImage,

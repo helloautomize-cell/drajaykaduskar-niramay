@@ -91,6 +91,10 @@ h4 {
   letter-spacing: -0.02em;
 }
 
+p {
+  text-wrap: pretty;
+}
+
 :focus-visible {
   outline: 3px solid var(--plum-500);
   outline-offset: 3px;
@@ -393,10 +397,89 @@ em.acc {
   }
 }
 
-/* carousel edge fade */
-.edge-fade {
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+/* carousel edge fade — only on sides that still have content.
+   Static markup is always at the start, so only the right edge fades. */
+.edge-fade,
+.fade-edge-r {
+  -webkit-mask-image: linear-gradient(90deg, #000 90%, transparent);
+  mask-image: linear-gradient(90deg, #000 90%, transparent);
+}
+.fade-edge-l {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%);
+  mask-image: linear-gradient(90deg, transparent, #000 10%);
+}
+.fade-edge-b {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+
+/* Condition pill marquee (home C9): slow auto-scroll; pauses on hover,
+   keyboard focus or press; static wrapped rows under reduced motion. */
+@keyframes marquee-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  padding-right: 10px;
+  animation: marquee-scroll var(--marquee-speed, 55s) linear infinite;
+}
+.marquee-reverse {
+  animation-direction: reverse;
+}
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track,
+.marquee:active .marquee-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    overflow: visible;
+  }
+  .marquee-track {
+    animation: none;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .marquee-clone {
+    display: none;
+  }
+}
+
+/* Footer link columns: collapsed accordions on mobile, always-open
+   columns on md+ (native details/summary — no JS needed). */
+.fcol > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.fcol > summary::-webkit-details-marker {
+  display: none;
+}
+.fcol .fcol-body {
+  display: none;
+}
+.fcol[open] .fcol-body {
+  display: block;
+}
+.fcol .fcol-chev {
+  transition: transform 0.2s ease;
+}
+.fcol[open] .fcol-chev {
+  transform: rotate(180deg);
+}
+@media (min-width: 768px) {
+  .fcol > summary {
+    pointer-events: none;
+  }
+  .fcol .fcol-body {
+    display: block;
+  }
+  .fcol .fcol-chev {
+    display: none;
+  }
 }
 
 /* ---- Phase 2: site shell ---- */

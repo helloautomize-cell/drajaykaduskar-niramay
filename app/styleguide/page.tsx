@@ -155,6 +155,7 @@ const doctors: Doctor[] = [
     shortName: "Dr. Ajay",
     qualifications: "MD (Medicine), PGDHSc (Diabetology), FEACD (Netherlands)",
     role: "Diabetes, obesity, thyroid and heart care at Niramay Diabetes and Heart Care Centre.",
+    experience: "20+ years",
     photo: { src: "/images/doctors/dr-ajay-kaduskar-card.jpg", alt: "Dr. Ajay Kaduskar in a white coat and navy scrubs" },
     languages: ["English", "हिन्दी", "मराठी"],
     bookHref: "/contact/#book",
@@ -165,6 +166,7 @@ const doctors: Doctor[] = [
     shortName: "Dr. Prajakta",
     qualifications: "MBBS, DCH, PGDAP, MA (Clinical Psychology)",
     role: "Child and adolescent health, counselling and career guidance at Blooming Buds.",
+    experience: "15+ years",
     photo: { src: "/images/doctors/dr-prajakta-kaduskar-card.jpg", alt: "Dr. Prajakta Kaduskar in a white coat over a purple saree" },
     languages: ["English", "हिन्दी", "मराठी"],
     bookHref: "/contact/#book",
@@ -421,13 +423,13 @@ export default function Styleguide() {
               </div>
             ))}
           </div>
-          <p className="mb-6 mt-12 text-[13px] font-semibold uppercase tracking-wide text-ink-600">sm (64px) — lists, menus, carousel cards</p>
+          <p className="mb-6 mt-12 text-[13px] font-semibold uppercase tracking-wide text-ink-600">sm (64px): lists, menus, carousel cards</p>
           <div className="flex flex-wrap gap-6">
             {allBadges.slice(0, 10).map((slug) => (
               <ServiceBadge key={slug} slug={slug} size="sm" />
             ))}
           </div>
-          <p className="mb-6 mt-12 text-[13px] font-semibold uppercase tracking-wide text-ink-600">lg (160px) — service page heroes</p>
+          <p className="mb-6 mt-12 text-[13px] font-semibold uppercase tracking-wide text-ink-600">lg (160px): service page heroes</p>
           <div className="flex flex-wrap gap-8">
             <ServiceBadge slug="diabetes-care" size="lg" coin circle />
             <ServiceBadge slug="heart-care" size="lg" coin circle />

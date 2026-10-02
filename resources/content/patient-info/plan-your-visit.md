@@ -31,7 +31,7 @@ has_confirm_items: false
 - **Nearby landmarks:** Dinanath High School (opposite)
 - **Parking:** two-wheeler parking at the building
 
-Patients come to us from across Nagpur and from towns up to 100 km away, including Wardha, Bhandara, Umred, Katol, Saoner and Ramtek. [Coming from outside Nagpur?](/plan-your-visit/coming-from-outside-nagpur/) — travel, fasting tests and same-day reports in one visit.
+Patients come to us from across Nagpur and from towns up to 100 km away, including Wardha, Bhandara, Umred, Katol, Saoner and Ramtek. [Coming from outside Nagpur?](/plan-your-visit/coming-from-outside-nagpur/): travel, fasting tests and same-day reports in one visit.
 
 #### Timings
 - **OPD (both doctors):** Monday to Saturday, 8:30 am to 6 pm. Sundays closed.

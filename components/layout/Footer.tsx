@@ -4,31 +4,45 @@ import { site } from "@/lib/site-config";
 import { footerDiabetesHeart, footerChildTeen, patientInfoLinks, footerLegal, type NavLink } from "@/lib/nav";
 import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
 import { CookieSettingsLink } from "@/components/layout/CookieSettingsLink";
-import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon, ArrowIcon } from "@/components/icons";
+import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon, ArrowIcon, ChevronIcon } from "@/components/icons";
 
 /**
  * Footer (plan G4): white with a top hairline. Service columns are
- * text-only (no badges). Bottom row has Google review placeholders, social
- * icons (hidden until URLs are confirmed) and the legal line.
+ * text-only (no badges); on mobile they collapse into accordions while
+ * contact, hours and address stay open at the top. Bottom row has Google
+ * profile links (only when configured) and the legal line.
  */
 
+const HOURS = [
+  `OPD: ${site.hours.opd}`,
+  `Lab: ${site.hours.lab}`,
+  `Pharmacy: ${site.hours.pharmacy}`,
+  "Phone: Every day, 8 am to 9 pm",
+];
+
+/** Collapsed accordion on mobile, always-open column on md+ (CSS only). */
 function LinkColumn({ heading, links }: { heading: string; links: NavLink[] }) {
   return (
-    <nav aria-label={heading}>
-      <p className="eyebrow mb-4 !text-[11.5px]">{heading}</p>
-      <ul className="space-y-1">
-        {links.map((l) => (
-          <li key={l.href + l.label}>
-            <Link
-              href={l.href}
-              className="inline-flex min-h-9 items-center text-[14.5px] text-ink-600 transition-colors hover:text-plum"
-            >
-              {l.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <details className="fcol -mx-2 border-b border-line px-2 py-1 md:mx-0 md:border-0 md:p-0">
+      <summary className="flex min-h-12 items-center justify-between gap-2">
+        <span className="eyebrow !text-[11.5px]">{heading}</span>
+        <ChevronIcon size={15} className="fcol-chev text-plum-500" />
+      </summary>
+      <nav aria-label={heading} className="fcol-body">
+        <ul className="space-y-1 pb-3 md:mt-3 md:pb-0">
+          {links.map((l) => (
+            <li key={l.href + l.label}>
+              <Link
+                href={l.href}
+                className="inline-flex min-h-9 items-center text-[14.5px] text-ink-600 transition-colors hover:text-plum"
+              >
+                {l.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </details>
   );
 }
 
@@ -37,9 +51,9 @@ const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeU
 export function Footer() {
   return (
     <footer className="border-t border-line bg-white pb-[calc(80px+env(safe-area-inset-bottom))] lg:pb-0">
-      <div className="mx-auto max-w-[1240px] px-4 py-14 sm:px-6">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1fr]">
-          {/* (a) Clinic */}
+      <div className="mx-auto max-w-[1240px] px-4 py-10 sm:px-6 md:py-14">
+        <div className="grid gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1fr]">
+          {/* (a) Clinic: contact, hours and address stay open at the top */}
           <div>
             <Link href="/" aria-label="Niramay Clinics home" className="inline-block">
               <Image
@@ -48,25 +62,24 @@ export function Footer() {
                 width={512}
                 height={339}
                 sizes="90px"
-                className="h-14 w-auto object-contain"
+                className="h-12 w-auto object-contain"
               />
             </Link>
             <address className="mt-5 text-[14.5px] not-italic leading-relaxed text-ink-600">
-              {site.address.line1}, {site.address.line2},
+              {site.address.line1},
               <br />
-              {site.address.line3},
+              <span className="whitespace-nowrap">{site.address.line2}</span>, Dhantoli,
               <br />
               {site.address.city}, {site.address.state} {site.address.pin}
+              <span className="mt-1 block text-[13px]">{site.address.line3.replace(", Dhantoli", "")}</span>
             </address>
             <div className="mt-4 space-y-2 text-[14.5px] text-ink-600">
-              <p className="flex items-center gap-2">
-                <ClockIcon size={15} className="shrink-0 text-plum-500" />
-                OPD: {site.hours.opd}
-              </p>
-              <p className="flex items-center gap-2">
-                <ClockIcon size={15} className="shrink-0 text-plum-500" />
-                Lab: {site.hours.lab} · Pharmacy: {site.hours.pharmacy}
-              </p>
+              {HOURS.map((line) => (
+                <p key={line} className="flex items-center gap-2">
+                  <ClockIcon size={15} className="shrink-0 text-plum-500" />
+                  {line}
+                </p>
+              ))}
               <a href={site.phone.tel} className="flex items-center gap-2 font-semibold text-ink transition-colors hover:text-plum">
                 <PhoneIcon size={15} className="shrink-0 text-plum-500" />
                 {site.phone.display}
@@ -92,7 +105,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/* (b)-(e) link columns */}
+          {/* (b)-(e) link columns: accordions on mobile */}
           <LinkColumn heading="Diabetes and Heart" links={footerDiabetesHeart} />
           <LinkColumn heading="Child and Teen" links={footerChildTeen} />
           <LinkColumn heading="Patient Info" links={patientInfoLinks} />
@@ -100,7 +113,7 @@ export function Footer() {
         </div>
 
         {/* Bottom row */}
-        <div className="mt-12 border-t border-line pt-6">
+        <div className="mt-10 border-t border-line pt-6">
           <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-[14px]">
             {(["clinic", "drAjay"] as const)
               .filter((k) => site.googleProfiles[k].mapsUrl)

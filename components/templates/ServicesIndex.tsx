@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { SwipeCarousel } from "@/components/ui/SwipeCarousel";
 import { ServiceGlassCard } from "@/components/sections/ServiceGlassCard";
 import { CtaBand } from "@/components/sections/CtaBand";
 import {
@@ -27,7 +28,7 @@ export function ServicesIndexTemplate({
 
   const groups: { heading: string; links: { label: string; href: string; badge?: string }[] }[] = [
     { heading: "Diabetes and Heart", links: diabetesHeartGroups.flatMap((g) => g.links) },
-    { heading: "Blooming Buds — Child and Teen", links: childTeenGroups.flatMap((g) => g.links) },
+    { heading: "Blooming Buds: Child and Teen", links: childTeenGroups.flatMap((g) => g.links) },
     { heading: "Lab and Pharmacy", links: labPharmacyLinks },
   ];
 
@@ -45,7 +46,14 @@ export function ServicesIndexTemplate({
         {groups.map((g) => (
           <section key={g.heading} className="mt-12">
             <h2 className="t-h4 text-ink">{g.heading}</h2>
-            <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {/* >3 cards: swipe carousel on mobile, grid on md+ */}
+            <SwipeCarousel
+              label={g.heading}
+              gridAt="md"
+              gridCols="md:grid-cols-2 lg:grid-cols-3"
+              itemClass="w-[68%]"
+              className="mt-5"
+            >
               {g.links.map((l) => (
                 <ServiceGlassCard
                   key={l.href}
@@ -53,10 +61,11 @@ export function ServicesIndexTemplate({
                   title={l.label}
                   text={serviceCardText[l.href] ?? ""}
                   href={l.href}
+                  lift={false}
                   className="!w-full"
                 />
               ))}
-            </div>
+            </SwipeCarousel>
           </section>
         ))}
 

@@ -19,6 +19,7 @@ import {
   Mail,
   MapPin,
   Menu,
+  Pause,
   Play,
   Presentation,
   Printer,
@@ -268,6 +269,7 @@ export const ChevronRightLucide = ChevronRight;
 export const MapPinIcon = MapPin;
 export const MailIcon = Mail;
 export const PlayIcon = Play;
+export const PauseIcon = Pause;
 export const FileTextIcon = FileText;
 export const PrinterIcon = Printer;
 export const GlobeIcon = Globe;

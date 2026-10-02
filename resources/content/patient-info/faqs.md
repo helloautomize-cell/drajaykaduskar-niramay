@@ -35,7 +35,7 @@ No. You can book directly.
 Yes. Families often book back-to-back appointments with Dr. Ajay Kaduskar and Dr. Prajakta Kaduskar.
 
 **Do you offer online or video consultations?**
-First consultations are best done in person. For follow-ups, your doctor may suggest a phone or WhatsApp check-in where suitable — ask at your visit.
+First consultations are best done in person. For follow-ups, your doctor may suggest a phone or WhatsApp check-in where suitable, ask at your visit.
 
 **What if I am late or need to cancel?**
 Please call as early as possible so another patient can be seen. See our Cancellation and Refund Policy.

@@ -118,7 +118,7 @@ export const patientInfoLinks: NavLink[] = [
   { label: "Plan your visit", href: "/plan-your-visit/" },
   { label: "FAQs", href: "/faqs/" },
   { label: "Health Library", href: "/health-library/" },
-  { label: "Patient rights", href: "/patient-rights/" },
+  // "Patient Rights" lives only in the Legal footer column — not duplicated here
 ];
 
 /* ---- Featured ServiceGlassCards (mega menu rows) ---- */

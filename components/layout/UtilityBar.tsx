@@ -11,13 +11,6 @@ export function UtilityBar() {
   return (
     <div className="hidden border-b border-line bg-white md:block">
       <div className="mx-auto flex h-9 max-w-[1240px] items-center gap-5 whitespace-nowrap px-6 text-[12.5px] font-medium text-ink-600">
-        <span
-          aria-disabled="true"
-          title="Marathi coming soon"
-          className="hidden cursor-default text-ink lg:inline"
-        >
-          English
-        </span>
         <Link
           href="/plan-your-visit/"
           className="hidden transition-colors hover:text-plum lg:inline"
@@ -39,6 +32,10 @@ export function UtilityBar() {
           <span className="inline-flex items-center gap-1.5">
             <ClockIcon size={14} aria-hidden />
             Lab {site.labHours.short}
+          </span>
+          <span className="hidden items-center gap-1.5 xl:inline-flex">
+            <ClockIcon size={14} aria-hidden />
+            Phone 8 am to 9 pm daily
           </span>
           <a
             href={site.phone.tel}

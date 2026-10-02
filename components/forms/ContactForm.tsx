@@ -360,7 +360,7 @@ function FormInner() {
       <div className="mt-5 space-y-3">
         {under18 && !guardian && (
           <p className="rounded-[10px] bg-amber-50 px-3 py-2 text-[13.5px] font-medium text-amber-800" role="status">
-            This patient is under 18 — a parent or legal guardian must make the booking. Please tick
+            This patient is under 18, a parent or legal guardian must make the booking. Please tick
             the box below.
           </p>
         )}

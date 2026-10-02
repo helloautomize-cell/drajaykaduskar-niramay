@@ -6,9 +6,9 @@ import { useReducedMotion } from "@/lib/use-reduced-motion";
 import { cn } from "@/lib/utils";
 
 /**
- * Full-bleed "Visit us" band: the clinic photo is a sticky layer pinned under
- * the scrolling glass card, with a slow transform for depth (never
- * background-attachment: fixed). Reduced motion removes the transform.
+ * "Visit us" band. Desktop: a 60vh photo band with a slow parallax drift and
+ * the glass card sitting on the photo, bottom-left with a 48px inset.
+ * Mobile: the photo band is removed entirely — only the compact card shows.
  */
 export function ParallaxBand({
   image,
@@ -37,7 +37,7 @@ export function ParallaxBand({
       const vh = window.innerHeight;
       // progress 0 → section enters viewport bottom, 1 → leaves top
       const p = Math.min(1, Math.max(0, (vh - r.top) / (vh + r.height)));
-      img.style.transform = `translateY(${(-8 + 16 * p).toFixed(2)}%)`;
+      img.style.transform = `translateY(${(-6 + 12 * p).toFixed(2)}%)`;
     };
     const onScroll = () => {
       if (!raf) raf = requestAnimationFrame(update);
@@ -52,23 +52,22 @@ export function ParallaxBand({
     };
   }, [reduce]);
 
+  const card = <div className="glass max-w-[520px] rounded-[24px] p-6 sm:p-8">{children}</div>;
+
   return (
-    <section ref={ref} className={cn("relative overflow-hidden", className)} aria-label="Visit us">
-      {/* sticky image layer */}
-      <div ref={layer} className="sticky top-0 -z-10 h-[105lvh] w-full will-change-transform">
-        <div className="relative h-full w-full">
-          <Image
-            src={image}
-            alt={alt}
-            fill
-            sizes="100vw"
-            className="object-cover"
-          />
+    <section ref={ref} className={cn("relative", className)} aria-label="Visit us">
+      {/* desktop: 60vh photo band, card on the photo bottom-left */}
+      <div className="relative hidden h-[60vh] min-h-[440px] overflow-hidden lg:block">
+        <div ref={layer} className="absolute -top-[8%] h-[116%] w-full will-change-transform">
+          <Image src={image} alt={alt} fill sizes="100vw" className="object-cover" />
+        </div>
+        <div className="absolute bottom-12 left-12 right-12">
+          <div className="mx-auto max-w-[1240px]">{card}</div>
         </div>
       </div>
-      {/* scrolling glass card over the pinned image */}
-      <div className="mx-auto max-w-[1240px] px-4 py-24 sm:px-6 sm:py-32">
-        <div className="glass max-w-[520px] rounded-[24px] p-8 sm:p-10">{children}</div>
+      {/* mobile: no photo band, just the compact card */}
+      <div className="px-4 py-14 sm:px-6 lg:hidden">
+        <div className="mx-auto max-w-[1240px]">{card}</div>
       </div>
     </section>
   );

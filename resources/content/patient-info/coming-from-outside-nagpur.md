@@ -29,7 +29,7 @@ Half our patients travel to us from towns and villages around Nagpur. This page 
 Where clinically appropriate, your doctor may review stable follow-up reports by phone or WhatsApp, so you do not always need to travel for a routine review.
 
 #### Getting here
-Niramay Clinics is at 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg, opposite Dinanath High School, Dhantoli — about 3 km from Nagpur railway station and central bus stands. Two-wheeler parking is available at the building.
+Niramay Clinics is at 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg, opposite Dinanath High School, Dhantoli, about 3 km from Nagpur railway station and central bus stands. Two-wheeler parking is available at the building.
 
 Patients regularly visit us from Kamptee, Hingna, Butibori, Kalmeshwar, Saoner, Katol, Narkhed, Umred, Bhiwapur, Kuhi, Mauda, Ramtek, Parseoni, Bhandara, Tumsar, Wardha, Hinganghat and Pandhurna.
 

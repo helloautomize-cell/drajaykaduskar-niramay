@@ -11,13 +11,13 @@ export interface FanCard {
   sub: string;
 }
 
-// position per stack depth (0 = front). Depth 1 keeps the approved -30% offset
-// (slightly less on small screens so the back card stays on the viewport).
+// position per stack depth (0 = front). Depth 1 shows ~38% of the back card
+// on desktop so the doctor's face stays visible behind the front card.
 const DEPTH_STYLE = [
   "z-10 translate-x-0 translate-y-0 rotate-0 scale-100",
-  "z-[8] -translate-x-[26%] translate-y-[10px] rotate-[-4deg] scale-[.94] sm:-translate-x-[30%]",
-  "z-[6] -translate-x-[44%] translate-y-[18px] rotate-[-6deg] scale-[.90] opacity-90",
-  "z-[4] -translate-x-[54%] translate-y-[24px] rotate-[-7deg] scale-[.87] opacity-80",
+  "z-[8] -translate-x-[30%] translate-y-[8px] rotate-[-3deg] scale-[.94] sm:-translate-x-[38%]",
+  "z-[6] -translate-x-[48%] translate-y-[16px] rotate-[-5deg] scale-[.90] opacity-90",
+  "z-[4] -translate-x-[56%] translate-y-[22px] rotate-[-6deg] scale-[.87] opacity-80",
 ];
 
 /**
@@ -62,7 +62,7 @@ export function HeroFan({
   return (
     <div
       className={cn(
-        "relative h-[400px] w-[260px] max-w-full sm:h-[460px] sm:w-[300px] lg:h-[500px] lg:w-[320px]",
+        "relative h-[300px] w-[200px] max-w-full sm:h-[440px] sm:w-[290px] lg:h-[500px] lg:w-[320px]",
         className
       )}
       onMouseEnter={stop}

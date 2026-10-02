@@ -37,7 +37,7 @@ export function Header() {
       <div
         className={cn(
           "mx-auto flex max-w-[1240px] items-center gap-3 px-4 transition-[height] duration-300 ease-[var(--ease)] sm:px-6",
-          scrolled ? "h-[68px]" : "h-[88px]"
+          scrolled ? "h-[60px] lg:h-[68px]" : "h-[60px] lg:h-[88px]"
         )}
       >
         <Link
@@ -54,7 +54,7 @@ export function Header() {
             sizes="90px"
             className={cn(
               "hidden w-auto object-contain transition-[height] duration-300 ease-[var(--ease)] min-[400px]:block",
-              scrolled ? "h-11" : "h-14"
+              scrolled ? "h-10 lg:h-11" : "h-10 lg:h-14"
             )}
             priority
           />
@@ -66,7 +66,7 @@ export function Header() {
             height={468}
             className={cn(
               "w-auto object-contain transition-[height] duration-300 ease-[var(--ease)] min-[400px]:hidden",
-              scrolled ? "h-10" : "h-11"
+              "h-9"
             )}
             priority
           />
