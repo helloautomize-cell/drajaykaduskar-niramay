@@ -30,7 +30,7 @@ export function Deferred({
   of,
   fallback,
   props,
-  rootMargin = "1200px",
+  rootMargin = "600px",
   className,
 }: {
   of: keyof typeof registry;
