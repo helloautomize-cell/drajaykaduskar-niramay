@@ -23,6 +23,9 @@ export function Reveal({
   useEffect(() => {
     const el = ref.current;
     if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    // already in view at mount: skip the hide-then-fade cycle entirely so
+    // above-the-fold content never repaints after hydration (LCP-friendly)
+    if (el.getBoundingClientRect().top < window.innerHeight) return;
     el.classList.add("reveal-pending");
     const io = new IntersectionObserver(
       ([e]) => {
