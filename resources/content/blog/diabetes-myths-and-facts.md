@@ -3,78 +3,92 @@ title: "10 Common Myths About Diabetes, and the Facts"
 url: "/health-library/diabetes-myths-and-facts/"
 original_title: "10 COMMON MISCONCEPTIONS ABOUT DIABETES: SEPARATING MYTHS FROM FACTS"
 original_url: "/10-common-misconceptions-about-diabetes-separating-myths-from-facts/"
+old_url: "/10-common-misconceptions-about-diabetes-separating-myths-from-facts/"
 author: "Dr. Ajay V. Kaduskar"
+author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
+reviewed_by: "Dr. Ajay V. Kaduskar"
 published: "2026-07-30"
+updated: "2026-10-02"
+category: "Diabetes"
+reading_time: "5 min"
+image: "blog/diabetes-myths.jpg"
+video: "YjXtEOQ724Y"
+excerpt: "Myths about diabetes delay diagnosis and treatment. Here are ten we hear often in clinic, and what the evidence actually says."
+related: ["/diabetes/type-2-diabetes/", "/diabetes/prediabetes-risk-assessment/", "/diabetes/complications-screening/"]
 section: blog
 status: draft
 has_confirm_items: false
 ---
 
-#### 10 COMMON MISCONCEPTIONS ABOUT DIABETES: SEPARATING MYTHS FROM FACTS
+**Summary box:**
 
-- **Old URL:** `/10-common-misconceptions-about-diabetes-separating-myths-from-facts/` · **Published:** 2026-07-30 · **Category:** Niramay Clinic · **Author shown:** admin (no doctor byline) · **Featured image:** id 408
-- **Excerpt:** Diabetes is one of the fastest-growing health conditions in India. Unfortunately, myths and misinformation....
+- Many people with type 2 diabetes have no symptoms for years, so testing matters even when you feel well.
+- Normal sugar readings on treatment mean the treatment is working, not that it can be stopped.
+- Insulin and modern diabetes medicines are tools, not signs of failure or harm.
 
-Introduction
+Diabetes is one of the fastest-growing long-term conditions in India. In our clinic we regularly meet people whose diagnosis or treatment was delayed by something they had heard from a friend, a relative or a forwarded message. Knowing the facts helps you act early and avoid complications.
 
-Diabetes is one of the fastest-growing health conditions in India. Unfortunately, myths and misinformation often delay diagnosis and treatment. Understanding the facts empowers people to prevent complications and live healthy lives.
+*[Video: "Sugar ki Baat: Diabetes and Obesity, Myth vs Fact" with Dr. Ajay Kaduskar]*
 
-1) I don't have a family history, so I cannot develop diabetes.
+#### Myth 1: "No one in my family has diabetes, so I cannot get it."
 
-Fact: Family history increases risk, but age, excess weight, inactivity, unhealthy diet, stress, sleep deprivation and the Asian Indian phenotype also contribute. Regular screening is important, especially after 35 years or earlier if risk factors are present.
+**Fact:** Family history raises the risk, but it is only one factor. Age, extra weight around the waist, inactivity, an unhealthy diet, stress, poor sleep and the "Asian Indian phenotype" (more abdominal and liver fat, less muscle) all contribute. Get your blood sugar checked from age 30, or earlier if you have risk factors.
 
-2) I have no symptoms, so I don't need testing.
+#### Myth 2: "I have no symptoms, so I don't need a test."
 
-Fact: Many people with type 2 diabetes have no symptoms for years. Routine screening helps detect diabetes early before complications develop.
+**Fact:** Many people with type 2 diabetes feel completely well for years. A simple blood test (fasting sugar or HbA1c) can find diabetes long before symptoms or complications appear.
 
-3) I avoid sweets and exercise, so medicines are unnecessary.
+#### Myth 3: "I avoid sweets and I walk daily, so I don't need medicines."
 
-Fact: Healthy lifestyle is the foundation of treatment, but many people also require medicines because type 2 diabetes involves both insulin resistance and reduced insulin secretion.
+**Fact:** Food and activity are the foundation of treatment. But type 2 diabetes involves both insulin resistance and a gradual fall in the body's own insulin, so many people also need medicines to reach their targets. Needing them is not a failure.
 
-4) Diabetes means I am seriously ill.
+#### Myth 4: "Diabetes means I am seriously ill."
 
-Fact: Diabetes is a chronic condition that can be managed successfully. Good control greatly reduces the risk of complications.
+**Fact:** Diabetes is a long-term condition that can be managed well. With good control of sugar, blood pressure and cholesterol, the risk of complications falls considerably.
 
-5) My sugar is normal now, so I can stop medicines.
+#### Myth 5: "My sugar is normal now, so I can stop my medicines."
 
-Fact: Normal readings usually reflect effective treatment. Never stop medicines without consulting your doctor.
+**Fact:** Normal readings usually mean the treatment is working. Stopping on your own often lets sugar rise again. Any change should be made by your doctor after reviewing your results.
 
-6) Diabetes medicines damage the kidneys.
+#### Myth 6: "Diabetes medicines damage the kidneys."
 
-Fact: Most recommended medicines protect the kidneys and heart when prescribed appropriately. Uncontrolled diabetes is the real threat.
+**Fact:** Uncontrolled diabetes is a leading cause of kidney damage. Medicines are chosen with your kidney function in mind, several of them protect the kidneys and the heart, and your kidney tests are checked regularly so treatment can be adjusted.
 
-7) Insulin is the last stage of diabetes.
+#### Myth 7: "Insulin is the last stage of diabetes."
 
-Fact: Insulin is lifesaving in type 1 diabetes and is sometimes needed in type 2 diabetes. Using insulin when indicated is a positive step toward better control.
+**Fact:** Insulin is life-saving in type 1 diabetes and is often needed at some point in type 2 diabetes, for example at diagnosis with very high readings, during illness, surgery or pregnancy. Starting insulin when it is needed is a step towards better control.
 
-8) I can stop blood pressure and cholesterol medicines.
+#### Myth 8: "I can stop my blood pressure and cholesterol medicines once sugar is controlled."
 
-Fact: Managing diabetes also means controlling blood pressure and cholesterol because these together reduce heart attack and stroke risk.
+**Fact:** Diabetes care means looking after sugar, blood pressure and cholesterol together. Controlling all three lowers the risk of heart attack, stroke and kidney disease.
 
-9) I should stop medicines during fasting or travel.
+#### Myth 9: "I should stop my medicines when I am fasting or travelling."
 
-Fact: Treatment should be adjusted, not stopped. Plan fasting and travel with your healthcare team and monitor glucose regularly.
+**Fact:** Treatment should be adjusted, not stopped. Talk to your doctor at least two weeks before a planned fast or a long journey, and check your sugar more often during it.
 
-10) Diabetes will affect my child's marriage or career.
+#### Myth 10: "Diabetes will spoil my child's marriage or career."
 
-Fact: People with well-controlled diabetes can study, work, marry and lead full, active lives.
+**Fact:** People with well-controlled diabetes study, work in almost every profession, marry and have healthy families.
 
-Take-home Messages
+#### Take-home messages
 
-- Get screened regularly if you are at risk.
+- Get tested regularly if you are at risk, even if you feel well.
+- Eat a balanced diet, stay active and aim for a healthy waist size.
+- Take medicines exactly as prescribed, and never stop them on your own.
+- Check your sugar as advised and keep your follow-up visits.
+- Control blood pressure and cholesterol as well as sugar.
+- Trust your doctor over social media.
 
-- Eat a balanced diet, stay physically active and maintain a healthy weight.
+#### Frequently asked questions
 
-- Take medicines exactly as prescribed.
+**At what age should I get my sugar tested?**
 
-- Monitor blood glucose and attend regular follow-up visits.
+From age 30, or earlier if you have a family history, a large waist, high blood pressure, PCOS, or had diabetes in pregnancy.
 
-- Control blood pressure and cholesterol in addition to blood sugar.
+**Which test is best for checking diabetes?**
 
-- Do not rely on social media myths; seek advice from a qualified healthcare professional.
+Fasting blood sugar and HbA1c are the most common. HbA1c shows your average sugar over about three months and does not need fasting. Your doctor may also advise a glucose tolerance test.
 
-Conclusion
+**Can type 2 diabetes go away?**
 
-Diabetes is manageable. Early diagnosis, healthy lifestyle, appropriate medication and regular follow-up allow most people to live long, healthy and productive lives while preventing complications.
-
-*(Embedded YouTube video after the introduction: `https://www.youtube.com/watch?v=YjXtEOQ724Y`)*
+Some people, especially early in the condition, can bring their sugar back to normal without medicines after significant weight loss. Doctors call this remission, not cure, because sugar can rise again, so regular checks continue.

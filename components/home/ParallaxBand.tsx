@@ -55,14 +55,16 @@ export function ParallaxBand({
   return (
     <section ref={ref} className={cn("relative overflow-hidden", className)} aria-label="Visit us">
       {/* sticky image layer */}
-      <div ref={layer} className="sticky top-0 -z-10 h-[105%] w-full will-change-transform">
-        <Image
-          src={image}
-          alt={alt}
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
+      <div ref={layer} className="sticky top-0 -z-10 h-[105lvh] w-full will-change-transform">
+        <div className="relative h-full w-full">
+          <Image
+            src={image}
+            alt={alt}
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
       </div>
       {/* scrolling glass card over the pinned image */}
       <div className="mx-auto max-w-[1240px] px-4 py-24 sm:px-6 sm:py-32">

@@ -3,100 +3,95 @@ title: "Building Self-Esteem in Teenagers with Disabilities"
 url: "/health-library/self-esteem-teenagers-with-disabilities/"
 original_title: "DEVELOPING SELF-ESTEEM IN ADOLESCENTS WITH DISABILITY"
 original_url: "/developing-self-esteem-in-adolescents-with-disability/"
+old_url: "/developing-self-esteem-in-adolescents-with-disability/"
 author: "Dr. Prajakta A. Kaduskar"
+author_credentials: "MBBS, DCH, PGDAP, MA (Clinical Psychology)"
+reviewed_by: "Dr. Prajakta A. Kaduskar"
 published: "2026-07-08"
+updated: "2026-10-02"
+category: "Adolescent health"
+reading_time: "6 min"
+excerpt: "Teenagers with disabilities want what every teenager wants. Here is how families and professionals can help them build a strong, healthy sense of self."
+related: ["/blooming-buds/teen-mental-health/", "/blooming-buds/psychological-testing/", "/blooming-buds/career-counselling/"]
 section: blog
 status: draft
 has_confirm_items: false
 ---
 
-#### DEVELOPING SELF-ESTEEM IN ADOLESCENTS WITH DISABILITY
+**Summary box:**
 
-- **Old URL:** `/developing-self-esteem-in-adolescents-with-disability/` · **Published:** 2026-07-08 · **Category:** Niramay Clinic · **Author shown:** admin (no doctor byline) · **Featured image:** none
-- **Excerpt:** Self-esteem is a major key to success in life. The development of a positive self-concept or healthy self-esteem is extremely important....
+- Self-esteem is how we feel about ourselves, and it shapes how we act.
+- Teenagers with disabilities have the same hopes as other teenagers; barriers in their surroundings often hold them back more than the disability itself.
+- Families, schools and health professionals can all help remove those barriers.
 
-Self-esteem is a major key to success in life. The development of a positive self-concept or healthy self-esteem is extremely important to achieve the happiness and success. Self-esteem is how we feel about ourselves, and our behaviour clearly reflects those feelings.
+#### What self-esteem looks like
 
-People with high self-esteem will be able to:
+Self-esteem is how we feel about ourselves, and our behaviour reflects it. It is one of the foundations of happiness and success.
 
-- Act independently
+A young person with healthy self-esteem is more likely to:
 
-- Assume responsibility
+- act independently and take responsibility
+- take pride in what they achieve
+- cope with frustration
+- try new tasks and challenges
+- handle both positive and negative emotions
+- help others
 
-- Take pride in their accomplishments
+A young person with low self-esteem may:
 
-- Tolerate frustration
+- avoid trying new things
+- feel unloved or unwanted
+- blame others for their own difficulties
+- seem indifferent, or pretend not to care
+- become upset easily when things go wrong
+- put down their own talents
+- be easily influenced by others
 
--  Attempt new tasks and challenges
+#### Adolescence and disability
 
-- Handle positive and negative emotions
+Adolescence is a time of big physical, emotional and social change. For most young people, when their needs are met, it can be a fairly smooth path to adulthood: further study or work, new relationships and a clearer sense of who they are. When a physical, sensory, learning or developmental disability is part of the picture, building self-esteem needs extra attention.
 
-- Offer assistance to others
+Teenagers with disabilities want what all teenagers want: happiness, meaningful work, close relationships, independence, and to be believed in and accepted. What often stands in the way is not the disability itself, but prejudice, missing opportunities to learn skills, and practical or financial barriers.
 
-On the other hand, a person with low self-esteem will:
+These challenges show up in three areas of life:
 
--  Avoid trying new things
+- **External:** education, work and independent living
+- **Interpersonal:** friendships and relationships
+- **Personal:** self-image and the risk of social isolation
 
--  Feel unloved and unwanted
+Teenagers with disabilities are more likely to have fewer friends and fewer chances to join in activities, and to spend leisure time alone. Over time this can lead to loneliness and a lower sense of being accepted.
 
--  Blame others for his own shortcomings
+#### Where help begins: the family
 
--  Feel, or pretend to feel, emotionally indifferent
+Help starts at home, with parents, and the young person, accepting the disability as a different way of being able rather than a lack of ability. Seek help from a health professional whenever it is needed.
 
-- Be unable to tolerate a normal level of frustration
+A good approach is family-centred and respectful. Teenagers should:
 
-- Put down his own talents and abilities
+- lead decisions about the type and amount of support they receive, and
+- be treated with respect at every step.
 
-- Be easily influenced
+Rather than trying to "fix" young people so they fit society's expectations, we should work on removing the barriers around them: educating others, changing attitudes, improving physical access in schools and public places, and building links with community support such as transport, volunteers and care services.
 
-Adolescence being a vulnerable state of body & mind but still supposed to be one of the ‘Life Changer’ phases in everyone’s life and if this state is accompanied by any disability may it be physical or mental has great impact on developing Self Esteem of that individual. Contrary to popular opinion, adolescence is not a time of turmoil and strife for most individuals when the environment meets the psychological needs of adolescents, who are asserting their independence in all ways (physically, socially, cognitively, and emotionally), adolescence can be a relatively "smooth" period of transition between childhood and adulthood. During late adolescence, most young people with average cognitive ability start careers or begin higher education, move away from home, develop their personal relationships, and consolidate their identities. These developments ultimately influence their quality of life, happiness and success in life. Hence developing self esteem in adolescents is an important issue in itself.
+#### Tips for teenagers
 
-Adolescents with disabilities have the same desires and aspirations as other adolescents. Most adolescents with disabilities want what all adolescents generally want in life - happiness, meaningful occupation, fulfilling relationships, independence, being believed in, and being accepted by others. However, they will have difficulty in attaining these goals due to prejudice, lack of skills, and their current weak economic conditions.
+- **Focus on what you can do.** Everyone has strengths and limitations. Acknowledge your disability, and build on your abilities.
+- **Avoid unfair comparisons.** Compare like with like. A young athlete with a locomotor disability may not play in the Olympics, but can compete in the Paralympics.
+- **Set realistic goals.** If reading takes you longer, allow the extra time and reward yourself for persevering.
+- **Don't over-generalise.** Not being able to do one thing does not make you a failure. Do not tie your self-worth to a single skill or event.
+- **Drop unfair "should" statements.** "I should finish this exam in 50 minutes like everyone else" may not be fair. Accommodations such as extra time exist so that everyone can show what they know.
+- **Appreciate all of yourself.** List your strengths, including how you cope with your disability. Those coping skills are strengths too.
 
-On the other hand, a person with low self-esteem will:
+#### Tips for parents: fair, firm and friendly
 
-- The external sphere (i.e., employment, education, and independent living)
+Discipline works best when it is fair, firm and friendly. When your teenager faces a problem:
 
--  The interpersonal sphere (i.e., marriage and relationships)
+1. **Clarify it together.** Ask questions that help them describe what they see, hear and feel, and what needs to change.
+2. **Brainstorm options.** There is usually more than one solution; suggest some if they have none.
+3. **Let them choose,** after thinking through the consequences. The best choice solves the problem and leaves them feeling good about themselves.
+4. **Review the result together.** What worked, what did not, and why. This builds better decisions next time.
 
--  The personal sphere (i.e., self-esteem and self-concept, social isolation)
+#### Remember
 
-External and interpersonal spheres: Compared with adolescents without disabilities, those with disabilities are less likely to have social networks and friends, participate in recreational activities, attend college and live independently. Various studies of adults indicate that only 30 to 50 percent of adults with physical disabilities are engaged in paid employment and no more than 40 to 45 percent live apart from their parents. Thus, adults with physical disabilities face both social and economic disadvantage tell us about what adolescents may face in the future.
+Teenagers with disabilities are teenagers first. Like everyone, they want to be happy. They may not reach every goal, but it matters that they try and that they understand the obstacles they face. Families, schools and health professionals can help them build the confidence to live full lives.
 
-Personal sphere: On the personal level, research clearly shows that adolescents who have disabilities are at risk for social isolation. Their leisure pursuits tend to be passive and solitary. In a number of studies, females with physical disabilities have rated themselves as particularly low in social acceptance which may lead to social isolation and feelings of loneliness.
-
-The basics for helping teens with disability to improve their self-esteem start in the family as acceptance of that disability as different ability by their parents as well as themselves. Whenever necessary they should seek help of the health professional to improve self-esteem. Disabilities are only limiting to the extent that constraints are imposed in the physical and social environments. We need to apply this philosophy to all the rehabilitation services we provide. Thus we need to work in partnership with adolescents and listen to their concerns and needs as well as provide specific types of services in a style i.e. family-centered or client-centered
-
-Two of the key principles of family-centered service are that teens should:
-
--  lead the decision-making process concerning the type and amount of support and services they receive, and
-
--  be treated with respect.
-
-Rather than trying to "fix" adolescents so that they can meet the expectations of society, we should focus on eliminating barriers in the physical, social, and institutional environments. This involves activities such as educating others and working to change attitudes so that individuals with disabilities are believed in and are accepted by others, as well as advocating for physical accessibility and progressive employment criteria and practices. Thus, we should accommodate their abilities and needs by working to change disabling environments. Partnerships need to be fostered between rehabilitation professionals and community groups as well (such as attendant care, supportive volunteer groups, transportation services) to address these issues.
-
-Some useful tips for adolescents to improve self-esteem may be
-
-- Maximize the positive and minimize the negative: Focus on your abilities more than your limitations. Everyone has both abilities and limitations. This is not to say that you don't acknowledge that you have a disability, but rather, by focusing on and developing your abilities you can feel good about all the things you can do.
-
-- Avoid unrealistic comparisons: Don't get caught up in comparing apples to oranges. Everyone has both strengths and limitations.  e.g. A person with a locomotor disability may not be able to compete in Olympic hockey, but he or she can compete in Paralympic hockey.
-
--  Set realistic goals for yourself: Since everyone has limitations, it is not fair to expect yourself to be able to do something unrealistic. This may mean allowing yourself to take the extra time needed to read material and rewarding yourself for persevering. It may not be realistic to expect yourself to read something in the same amount of time as someone without a reading disability.
-
--  Do not over-generalize: If there is something that you cannot do as a result of your disability, it is not fair to conclude that you are an overall failure. There are many things that you can do. Don't tie all of your self-worth to any one attribute or event. Just because you might be a lousy cook does not mean that you are a lousy person in general.
-
--  Avoid getting caught using "should" statements: For example, a student with ADHD says, "I should be able to finish this exam in 50 minutes like everyone else in the class." This is an example of a "should" statement that may not be accurate. Accommodations like extra time on tests are an important tool to create equal opportunities for students to show what they know.
-
--  Appreciate yourself - all of yourself: This means appreciating your disability too. There may be times when you believe that it is more annoying than appreciable, but focus on the positive aspects of your disability. One way to do this is making a list of your strengths including how your disability, or your methods of coping with it, can be an asset.
-
-Similarly the “Three Fs” of positive parenting (Discipline should be fair, firm and friendly) need to be practiced.
-
-- Helping the child clarify the problem by asking him questions that pinpoint how he sees, hears, and feels about the problematic situation and what decision needs to be taken to modify the situation.
-
-- Brainstorming the possible solutions. Usually there is more than one solution or choice to a given dilemma, and the parent can make an important contribution by pointing out this fact and by suggesting alternatives if the child has none.
-
-- Allowing the child to choose one of the solutions only after fully considering the consequences. The best solution will be one that solves the problem and simultaneously makes the child feel good about himself or herself
-
-- Later joining the child in evaluating the results of that particular solution. Did it work out well? Or did it fail? if so, why? Reviewing the tactics will equip the child to make a better decision the next time around.
-
-After all we need to remember that adolescents with disabilities are adolescents first. Like everyone, adolescents want to be happy. Adolescents with disabilities may not attain all their goals in life, but it is important for them to try, and for them to understand the obstacles they face. As health professionals we can help to provide this knowledge and guidance to make their life from miserable to pleasurable.
+If you are concerned about your teenager's confidence, mood or social life, Blooming Buds can help with assessment, counselling and guidance for the family.

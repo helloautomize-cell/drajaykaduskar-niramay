@@ -93,18 +93,6 @@ const fanCards: FanCard[] = [
     caption: "Dr. Prajakta Kaduskar",
     sub: "Child and adolescent care",
   },
-  {
-    src: "/images/services/diabetic-eye-screening-fan.jpg",
-    alt: "A retinal camera screening a patient's eyes for diabetic changes",
-    caption: "Retinal screening",
-    sub: "Retinal screening for diabetes",
-  },
-  {
-    src: "/images/clinic/reception-fan.jpg",
-    alt: "The Niramay Clinics reception and waiting lounge",
-    caption: "One address",
-    sub: "Lab, pharmacy and tests in one place",
-  },
 ];
 
 const whyCards = [
@@ -457,13 +445,15 @@ const stepsFallback = (
     </div>
     <div className="relative max-[900px]:hidden">
       <div className="sticky top-28 aspect-[4/5] overflow-hidden rounded-[22px] border border-line shadow-[var(--shadow-card)]">
-        <Image
-          src={visitSteps[0].image.src}
-          alt={visitSteps[0].image.alt}
-          fill
-          sizes="360px"
-          className="object-cover"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src={visitSteps[0].image.src}
+            alt={visitSteps[0].image.alt}
+            fill
+            sizes="360px"
+            className="object-cover"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -815,9 +805,9 @@ export default function Home() {
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {posts.map((p) => {
                 const author = p.meta.author.includes("Prajakta") ? doctors.prajakta : doctors.ajay;
-                const img =
-                  p.slug === "diabetes-myths-and-facts" ? "/images/blog/diabetes-myths.jpg" : null;
-                const category = p.meta.author.includes("Prajakta") ? "Child and teen" : "Diabetes and heart";
+                const img = p.meta.image ? `/images/${p.meta.image}` : null;
+                const category =
+                  p.meta.category || (p.meta.author.includes("Prajakta") ? "Child and teen" : "Diabetes and heart");
                 return (
                   <Link
                     key={p.slug}
@@ -853,6 +843,7 @@ export default function Home() {
                       <span className="mt-auto block pt-4 text-[13.5px] text-ink-600">
                         Written by {author.name}
                         {postDate(p) ? ` · ${postDate(p)}` : ""}
+                        {p.meta.reading_time ? ` · ${p.meta.reading_time}` : ""}
                       </span>
                     </span>
                   </Link>

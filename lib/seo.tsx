@@ -135,22 +135,53 @@ export function articleJsonLd(post: {
   title: string;
   url: string;
   published: string;
+  updated?: string;
   author: Doctor;
+  reviewedBy?: Doctor;
   image?: string;
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     url: `${SITE_URL}${post.url}`,
     datePublished: post.published || undefined,
+    dateModified: post.updated || post.published || undefined,
     author: {
       "@type": "Physician",
       name: post.author.name,
       url: `${SITE_URL}${post.author.profileHref}`,
     },
+    ...(post.reviewedBy
+      ? {
+          reviewedBy: {
+            "@type": "Physician",
+            name: post.reviewedBy.name,
+            url: `${SITE_URL}${post.reviewedBy.profileHref}`,
+          },
+        }
+      : {}),
     ...(post.image ? { image: `${SITE_URL}${post.image}` } : {}),
     publisher: { "@type": "Organization", name: site.name },
+  };
+}
+
+/** VideoObject for the click-to-load YouTube facade on a post. */
+export function videoJsonLd(video: {
+  id: string;
+  title: string;
+  pageUrl: string;
+  uploadDate?: string;
+  thumbnail?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: video.title,
+    embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
+    url: `${SITE_URL}${video.pageUrl}`,
+    ...(video.uploadDate ? { uploadDate: video.uploadDate } : {}),
+    ...(video.thumbnail ? { thumbnailUrl: `${SITE_URL}${video.thumbnail}` } : {}),
   };
 }
 

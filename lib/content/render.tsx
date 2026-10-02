@@ -26,6 +26,7 @@ import { Callout } from "@/components/ui/Callout";
 import { FaqAccordion, type FaqItem } from "@/components/sections/FaqAccordion";
 import { StepTracker, type Step } from "@/components/sections/StepTracker";
 import { ContentTable } from "@/components/ui/ContentTable";
+import { VideoFacade } from "@/components/sections/VideoFacade";
 
 /* ---------------------------------------------------------------- helpers */
 
@@ -125,7 +126,9 @@ export type Segment =
   | { kind: "md"; nodes: RootContent[] }
   | { kind: "faq"; heading: string; items: { q: string; a: RootContent[] }[] }
   | { kind: "steps"; label: string; steps: Step[] }
-  | { kind: "callout"; variant: "emergency" | "info" | "warning"; title?: string; nodes: RootContent[] };
+  | { kind: "callout"; variant: "emergency" | "info" | "warning"; title?: string; nodes: RootContent[] }
+  | { kind: "summary"; items: string[] }
+  | { kind: "video"; caption: string };
 
 export interface RenderedDoc {
   /** rendered React content */
@@ -140,8 +143,20 @@ const FAQ_HEADING = /frequently asked questions/i;
 const STEPS_HEADING = /how we work|what the process includes|how counselling works|how it works|what happens at|what to expect|on the day/i;
 const PREPARE_HEADING = /how to prepare|before your test|preparing for/i;
 const EMERGENCY_HEADING = /emergency|urgently|warning signs|when to see a doctor|seek (urgent|immediate)/i;
-const EMERGENCY_TEXT = /call 108 or 112|call 108|call 112|medical emergency|go to the emergency/i;
+const EMERGENCY_TEXT = /call 108 or 112|call 108|call 112|medical emergency|seek emergency|go to the emergency/i;
 const INFO_QUOTE = /^(important|note)\b/i;
+const WHEN_TO_SEE_DOCTOR = /when to see a doctor/i;
+const VIDEO_MARKER = /^\[?\s*video\s*:/i;
+
+/** Paragraph that is only an emphasised "[Video: ...]" marker. */
+function isVideoMarker(p: Paragraph): string | null {
+  const kids = p.children;
+  if (kids.length !== 1 || kids[0].type !== "emphasis") return null;
+  const t = textOf(kids[0]).trim();
+  if (!VIDEO_MARKER.test(t)) return null;
+  const m = t.match(/"([^"]+)"/);
+  return m ? m[1] : "Clinic video";
+}
 
 function isFaqQuestionParagraph(p: Paragraph, strict = false): boolean {
   // A question line: paragraph whose first child is a strong (bold) node.
@@ -245,7 +260,10 @@ export function segment(mdast: Root): Segment[] {
 
       if (PREPARE_HEADING.test(text) || EMERGENCY_HEADING.test(text)) {
         flush();
-        const variant = PREPARE_HEADING.test(text) ? "warning" : "emergency";
+        // "When to see a doctor" lists are routine-care guidance -> warning.
+        // A trailing "seek emergency care" line inside such a section gets its
+        // own emergency callout (e.g. toxic-shock warning on menstrual hygiene).
+        const variant = PREPARE_HEADING.test(text) || WHEN_TO_SEE_DOCTOR.test(text) ? "warning" : "emergency";
         const nodes: RootContent[] = [];
         let j = i + 1;
         while (j < children.length && !(children[j].type === "heading" && (children[j] as Heading).depth <= depth)) {
@@ -253,6 +271,21 @@ export function segment(mdast: Root): Segment[] {
           j++;
         }
         i = j - 1;
+        if (variant === "warning") {
+          // a "seek emergency care" paragraph inside the section gets its own
+          // emergency callout; anything after it returns to normal flow
+          const ei = nodes.findIndex(
+            (n) => n.type === "paragraph" && EMERGENCY_TEXT.test(textOf(n))
+          );
+          if (ei >= 0) {
+            const tail = nodes.splice(ei);
+            const emerg = [tail.shift()!];
+            out.push({ kind: "callout", variant, title: text, nodes });
+            out.push({ kind: "callout", variant: "emergency", title: "In an emergency", nodes: emerg });
+            if (tail.length) out.push({ kind: "md", nodes: tail });
+            continue;
+          }
+        }
         out.push({ kind: "callout", variant, title: text, nodes });
         continue;
       }
@@ -264,17 +297,48 @@ export function segment(mdast: Root): Segment[] {
       continue;
     }
 
-    if (node.type === "blockquote" && INFO_QUOTE.test(textOf(node))) {
-      flush();
-      const inner = (node as Blockquote).children;
-      out.push({ kind: "callout", variant: "info", title: undefined, nodes: inner });
-      continue;
+    if (node.type === "blockquote") {
+      const bq = textOf(node);
+      if (EMERGENCY_TEXT.test(bq)) {
+        flush();
+        out.push({ kind: "callout", variant: "emergency", title: "In an emergency", nodes: (node as Blockquote).children });
+        continue;
+      }
+      if (INFO_QUOTE.test(bq)) {
+        flush();
+        const inner = (node as Blockquote).children;
+        out.push({ kind: "callout", variant: "info", title: undefined, nodes: inner });
+        continue;
+      }
     }
 
-    if (node.type === "paragraph" && EMERGENCY_TEXT.test(textOf(node))) {
-      flush();
-      out.push({ kind: "callout", variant: "emergency", title: "In an emergency", nodes: [node] });
-      continue;
+    if (node.type === "paragraph") {
+      const p = node as Paragraph;
+      const videoCaption = isVideoMarker(p);
+      if (videoCaption) {
+        flush();
+        out.push({ kind: "video", caption: videoCaption });
+        continue;
+      }
+      // "**Summary box:**" + bullet list -> "In brief" card at the top of a post
+      const first = p.children[0];
+      if (first?.type === "strong" && /^summary box/i.test(textOf(first))) {
+        const next = children[i + 1];
+        if (next?.type === "list") {
+          flush();
+          out.push({
+            kind: "summary",
+            items: (next as List).children.map((li) => textOf(li).trim()),
+          });
+          i += 1;
+          continue;
+        }
+      }
+      if (EMERGENCY_TEXT.test(textOf(p))) {
+        flush();
+        out.push({ kind: "callout", variant: "emergency", title: "In an emergency", nodes: [node] });
+        continue;
+      }
     }
 
     buf.push(node);
@@ -411,7 +475,7 @@ function nodesToText(nodes: RootContent[]): string {
   return nodes.map(textOf).join(" ").replace(/\s+/g, " ").trim();
 }
 
-export function renderMarkdown(markdown: string): RenderedDoc {
+export function renderMarkdown(markdown: string, ctx?: { videoId?: string }): RenderedDoc {
   const mdast = unified().use(remarkParse).use(remarkGfm).parse(markdown) as unknown as Root;
   // [CONFIRM] markers first, drop all-CONFIRM sections in prod, then segment
   injectConfirmMarkers(mdast as unknown as RootContent);
@@ -468,6 +532,23 @@ export function renderMarkdown(markdown: string): RenderedDoc {
             {renderNodes(seg.nodes, `co-n-${i}`)}
           </Callout>
         );
+        break;
+      case "summary":
+        out.push(
+          <div key={`sum-${i}`} className="mb-8 rounded-[18px] bg-plum-50 p-6">
+            <p className="text-[15px] font-bold text-plum">In brief</p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-[15.5px] leading-relaxed text-ink-600 marker:text-plum">
+              {seg.items.map((it, k) => (
+                <li key={k} className="pl-1">{it}</li>
+              ))}
+            </ul>
+          </div>
+        );
+        break;
+      case "video":
+        if (ctx?.videoId) {
+          out.push(<VideoFacade key={`vid-${i}`} id={ctx.videoId} title={seg.caption} />);
+        }
         break;
     }
   });

@@ -10,10 +10,13 @@ import type { Doctor } from "@/lib/doctors";
  */
 export function ReviewerBox({
   doctor,
+  author,
   lastReviewed,
   className,
 }: {
   doctor: Doctor;
+  /** post author, when different from the generic "content team" wording */
+  author?: Doctor;
   lastReviewed?: string;
   className?: string;
 }) {
@@ -34,8 +37,21 @@ export function ReviewerBox({
       />
       <div className="text-[15px] leading-relaxed text-ink-600">
         <p>
-          <strong className="text-ink">Written by</strong> the Niramay Clinics
-          medical content team. <strong className="text-ink">Medically reviewed by</strong>{" "}
+          {author ? (
+            <>
+              <strong className="text-ink">Written by</strong>{" "}
+              <Link href={author.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
+                {author.name}
+              </Link>
+              , {author.qualifications}.{" "}
+            </>
+          ) : (
+            <>
+              <strong className="text-ink">Written by</strong> the Niramay Clinics
+              medical content team.{" "}
+            </>
+          )}
+          <strong className="text-ink">Medically reviewed by</strong>{" "}
           <Link href={doctor.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
             {doctor.name}
           </Link>

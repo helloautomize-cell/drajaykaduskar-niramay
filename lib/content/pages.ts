@@ -110,14 +110,8 @@ export function allPages(): ContentPage[] {
  * Sources: content/blog/_migration-notes.md and per-page editorial notes.
  */
 const BODY_PATCHES: Record<string, (body: string) => string> = {
-  // 5.1 medical correction for the menstrual-hygiene post:
-  "menstrual-hygiene-teenage-girls": (b) =>
-    b
-      .replace(
-        "(for a tampon is once every two hours)",
-        "(a tampon should be changed every 4 to 8 hours, and never more than 8 hours, because of the risk of toxic shock syndrome)"
-      )
-      .replace("wash your vagina and labia", "wash the outer genital area (vulva) and labia"),
+  // Post bodies were replaced by the revised, corrected versions — no
+  // render-time patches needed. Keep entries here only for future copy fixes.
 };
 
 /** Page-level body trims: cut editorial-notes sections out of page bodies. */

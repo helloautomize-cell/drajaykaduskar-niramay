@@ -12,6 +12,7 @@ import {
   medicalClinicJsonLd,
   faqPageJsonLd,
   articleJsonLd,
+  videoJsonLd,
 } from "@/lib/seo";
 import {
   diabetesHeartGroups,
@@ -60,7 +61,9 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
     if (post) {
       return {
         title: post.meta.title,
-        description: `An article by ${post.meta.author} on the Niramay Clinics Health Library.`,
+        description:
+          post.meta.excerpt ||
+          `An article by ${post.meta.author} on the Niramay Clinics Health Library.`,
         alternates: { canonical: post.meta.url },
       };
     }
@@ -102,6 +105,25 @@ function relatedFor(url: string): RelatedService[] {
     text: serviceCardText[l.href] ?? "",
     href: l.href,
   }));
+}
+
+/** Resolve a post's `related:` URL list into ServiceGlassCard data. */
+function relatedPagesFor(urls: string[]): RelatedService[] {
+  const navLinks = [
+    ...diabetesHeartGroups.flatMap((g) => g.links),
+    ...childTeenGroups.flatMap((g) => g.links),
+    ...labPharmacyLinks,
+  ];
+  return urls.slice(0, 3).map((href) => {
+    const nav = navLinks.find((l) => l.href === href);
+    const page = pageByUrl().get(href);
+    return {
+      badge: nav?.badge ?? badgeFor(href) ?? "health-checkup",
+      title: nav?.label ?? page?.h1 ?? page?.meta.title ?? href,
+      text: serviceCardText[href] ?? page?.meta.meta_description ?? "",
+      href,
+    };
+  });
 }
 
 function hubSubServices(url: string): ServiceSlide[] {
@@ -150,19 +172,52 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
     const post = postBySlug().get(p.slug[1]);
     if (!post) notFound();
     const author = post.meta.author.includes("Prajakta") ? doctors.prajakta : doctors.ajay;
-    const related = allPosts().filter((r) => r.slug !== post.slug && (r.meta.author.includes("Prajakta") === post.meta.author.includes("Prajakta")));
+    const reviewer = post.meta.reviewed_by.includes("Prajakta")
+      ? doctors.prajakta
+      : post.meta.reviewed_by.includes("Ajay")
+        ? doctors.ajay
+        : author;
+    const doc = renderMarkdown(post.body, { videoId: post.meta.video || undefined });
+    const relatedPosts = allPosts()
+      .filter((r) => r.slug !== post.slug && (r.meta.author.includes("Prajakta") === post.meta.author.includes("Prajakta")))
+      .slice(0, 2);
+    const relatedPages = relatedPagesFor(post.meta.related);
+    const postImage = post.meta.image ? `/images/${post.meta.image}` : undefined;
+
+    const jsonLd: object[] = [
+      articleJsonLd({
+        title: post.meta.title,
+        url: post.meta.url,
+        published: post.meta.published,
+        updated: post.meta.updated,
+        author,
+        reviewedBy: reviewer,
+        image: postImage,
+      }),
+    ];
+    if (doc.faq.length > 0) jsonLd.push(faqPageJsonLd(doc.faq));
+    if (post.meta.video) {
+      jsonLd.push(
+        videoJsonLd({
+          id: post.meta.video,
+          title: `${post.meta.title} — video`,
+          pageUrl: post.meta.url,
+          uploadDate: post.meta.published || undefined,
+          thumbnail: postImage,
+        })
+      );
+    }
     return (
       <>
-        <JsonLd
-          data={articleJsonLd({
-            title: post.meta.title,
-            url: post.meta.url,
-            published: post.meta.published,
-            author,
-            image: post.slug === "diabetes-myths-and-facts" ? "/images/blog/diabetes-myths.jpg" : undefined,
-          })}
+        <JsonLd data={jsonLd} />
+        <BlogPostTemplate
+          post={post}
+          doc={doc}
+          author={author}
+          reviewer={reviewer}
+          relatedPages={relatedPages}
+          relatedPosts={relatedPosts}
         />
-        <BlogPostTemplate post={post} author={author} related={related} />
       </>
     );
   }

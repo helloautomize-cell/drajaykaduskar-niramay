@@ -31,19 +31,21 @@ export function StepsGallery({
       {/* sticky cross-fade image column — desktop only */}
       <div className="relative max-[900px]:hidden">
         <div className="sticky top-28 aspect-[4/5] overflow-hidden rounded-[22px] border border-line shadow-[var(--shadow-card)]">
-          {steps.map((s, i) => (
-            <Image
-              key={s.image.src}
-              src={s.image.src}
-              alt={s.image.alt}
-              fill
-              sizes="360px"
-              className={cn(
-                "object-cover transition-opacity duration-300 ease-[var(--ease)]",
-                i === current ? "opacity-100" : "opacity-0"
-              )}
-            />
-          ))}
+          <div className="relative h-full w-full">
+            {steps.map((s, i) => (
+              <Image
+                key={s.image.src}
+                src={s.image.src}
+                alt={s.image.alt}
+                fill
+                sizes="360px"
+                className={cn(
+                  "object-cover transition-opacity duration-300 ease-[var(--ease)]",
+                  i === current ? "opacity-100" : "opacity-0"
+                )}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
