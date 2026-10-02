@@ -30,7 +30,7 @@ has_confirm_items: true
 - **Qualifications:** MD (Medicine); PGDHSc (Diabetology); Fellow, Euro Asian Academy of Clinical Diabetology (FEACD), The Netherlands
 - **Certification:** SCOPE certified obesity management specialist (World Obesity Federation)
 - **Experience:** more than 20 years
-- **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]**
+<!-- PENDING: restore when supplied — **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]** -->
 - **Languages:** English, Hindi, Marathi
 - **Consults at:** Niramay Clinics, Dhantoli, Nagpur
 - **OPD:** Monday to Saturday, 8:30 am to 6 pm (Sundays closed)

@@ -28,7 +28,7 @@ has_confirm_items: true
 **Key facts box**
 - **Qualifications:** MBBS; DCH (Diploma in Child Health); PGDAP (Post Graduate Diploma in Adolescent Pediatrics); MA (Clinical Psychology)
 - **Experience:** more than 15 years
-- **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]**
+<!-- PENDING: restore when supplied — **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]** -->
 - **Languages:** English, Hindi, Marathi
 - **Consults at:** Niramay Clinics, Dhantoli, Nagpur
 - **OPD:** Monday to Saturday, 8:30 am to 6 pm (Sundays closed)
