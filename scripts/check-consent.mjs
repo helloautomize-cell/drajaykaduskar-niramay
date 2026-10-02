@@ -102,7 +102,7 @@ for (const s of samples) {
     await page.waitForTimeout(1500);
   }
   const href = await page
-    .locator('a[href*="/contact?"], a[href="/contact/"], a[href="/contact/#book"], a[href*="/contact#"]')
+    .locator('a[href*="/contact/?"], a[href*="/contact?"], a[href="/contact/"], a[href="/contact/#book"], a[href*="/contact#"]')
     .first()
     .getAttribute("href")
     .catch(() => null);
@@ -112,7 +112,7 @@ for (const s of samples) {
 
 // ---------- 5. prefill lands in the form ----------
 await page.goto(`${base}/diabetes/type-2-diabetes/`, { waitUntil: "domcontentloaded" });
-const link = await page.locator('a[href*="/contact?"]').first().getAttribute("href").catch(() => null);
+const link = await page.locator('a[href*="/contact/?"], a[href*="/contact?"]').first().getAttribute("href").catch(() => null);
 if (link) {
   await page.goto(`${base}${link}`, { waitUntil: "networkidle" });
   const doc = await page.inputValue("#f-doctor").catch(() => "");

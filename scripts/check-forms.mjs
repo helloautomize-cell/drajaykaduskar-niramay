@@ -67,7 +67,7 @@ ok("Sunday note shown", await page.locator("text=closed on Sundays").count() > 0
 
 // --- prefill ---
 await page.goto(`${base}/diabetes/type-2-diabetes/`, { waitUntil: "networkidle" });
-const href = await page.locator('a[href*="/contact?"]').first().getAttribute("href").catch(() => null);
+const href = await page.locator('a[href*="/contact/?"], a[href*="/contact?"]').first().getAttribute("href").catch(() => null);
 ok("book link carries context", !!href && href.includes("doctor=dr-ajay"), href || "none");
 if (href) {
   await page.goto(`${base}${href}`, { waitUntil: "networkidle" });

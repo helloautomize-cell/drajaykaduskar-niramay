@@ -63,6 +63,9 @@ const pageRedirects: [string, string][] = [
 ];
 
 const nextConfig: NextConfig = {
+  // canonical URLs, sitemap and internal links all use trailing slashes;
+  // serve them directly instead of 308-redirecting to the slash-less form
+  trailingSlash: true,
   async redirects() {
     return [
       ...pageRedirects.map(([source, destination]) => ({
