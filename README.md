@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Niramay Clinics website
 
-## Getting Started
+Website for Niramay Clinics, a specialist outpatient clinic in Dhantoli, Nagpur.
+Two practices share the site:
 
-First, run the development server:
+- **Niramay Diabetes and Heart Care Centre** — Dr. Ajay V. Kaduskar (diabetes,
+  obesity, thyroid, blood pressure, metabolic and heart care)
+- **Blooming Buds Child and Adolescent Care Centre** — Dr. Prajakta A. Kaduskar
+  (child and adolescent health, counselling, vaccination and career guidance)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The site also covers the in-house laboratory and pharmacy.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js (App Router) + React + TypeScript
+- Tailwind CSS v4
+- Radix UI primitives (navigation menu, dialog, accordion)
+- Content lives in Markdown under `resources/content/` and is rendered at
+  build time into static pages
+- Forms post to Next server actions and send mail through Resend
+- Cloudflare Turnstile (optional) and GA4 (consent-gated, Consent Mode v2)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+| Command | What it does |
+|---|---|
+| `npm run dev` | local dev server |
+| `npm run build` | production build |
+| `npm start` | serve the production build |
+| `npm run lint` | ESLint |
+| `npm run images` | re-encode and strip metadata from images in `public/` |
+| `npm run launch-check` | pre-launch check: unresolved markers, rendered-HTML hygiene, env rules |
+| `npm run check-links` | nested-link validity check |
+| `node scripts/check-design.mjs` | layout, overflow and carousel checks (Playwright) |
+| `node scripts/check-menus.mjs` | desktop mega-menu geometry + keyboard checks |
+| `node scripts/check-forms.mjs` | appointment/workshop form flows |
+| `node scripts/check-consent.mjs` | consent banner and GA gating |
+| `node scripts/check-console.mjs` | browser console errors |
+| `node scripts/indexnow.mjs` | ping changed URLs to IndexNow (no-op until launch) |
 
-To learn more about Next.js, take a look at the following resources:
+Playwright checks expect the production build running on `127.0.0.1:3020`
+(`PORT=3020 npm start`) and read `SITE_PASSWORD` from `.env.local` when basic
+auth is enabled.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+See `.env.example` for the full list. In short:
 
-## Deploy on Vercel
+- `SITE_PASSWORD` — enables basic auth on the whole site (previews)
+- `SITE_INDEXABLE` — when `true`, the site is indexable; anything else keeps
+  `noindex` and a disallow-all robots.txt
+- `RESEND_API_KEY`, `FORM_TO_EMAIL`, `FORM_FROM_EMAIL` — form email delivery
+- `NEXT_PUBLIC_TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY` — spam protection
+- `FORM_TEST_MODE` — logs form submissions instead of sending (dev only)
+- `NEXT_PUBLIC_GA_ID` — GA4 measurement id, loaded only after consent
+- `NEXT_PUBLIC_GSC_VERIFICATION` — Search Console site-verification token
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Content workflow
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Pages are Markdown files under `resources/content/<section>/` with YAML
+   frontmatter (`title`, `url`, `seo_title`, `meta_description`, `schema`,
+   `reviewed_by`, `section`).
+2. Blog posts live in `resources/content/blog/` with `published`, `updated`,
+   `author` and `reviewed_by` fields.
+3. `lib/content/pages.ts` validates frontmatter (Zod), strips the metadata
+   header block, and exposes `allPages()`/`allPosts()` to the catch-all route
+   in `app/(site)/[...slug]/page.tsx`, which picks a template via
+   `lib/page-config.ts`.
+4. Navigation, footer links and doctor facts come from `lib/nav.ts`,
+   `lib/doctors.ts` and `lib/site-config.ts` — update those single sources,
+   not hardcoded strings.
+5. `llms.txt`, `llms-full.txt`, `sitemap.xml` and `robots.txt` are generated
+   from the same content at build time.
+
+## Deployment
+
+Hosted on Vercel; pushes to `main` deploy automatically. Launch steps
+(domain, `SITE_INDEXABLE`, Search Console, Bing, GBP) are handled separately.

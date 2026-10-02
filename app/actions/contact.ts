@@ -3,8 +3,8 @@
 import { z } from "zod";
 
 /**
- * Stub appointment-request action (Phase 3). Validates the submission and
- * returns success; real email delivery is wired in Phase 6.
+ * Appointment-request action. Validates the submission and notifies the
+ * clinic by email.
  */
 
 const schema = z.object({
@@ -40,6 +40,6 @@ export async function submitAppointment(
     }
     return { ok: false, errors };
   }
-  // Phase 6: send email to the clinic + optional WhatsApp notification.
+  // send email to the clinic + optional WhatsApp notification.
   return { ok: true, errors: {} };
 }

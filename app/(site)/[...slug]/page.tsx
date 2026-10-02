@@ -4,15 +4,22 @@ import { allPages, allPosts, pageByUrl, postBySlug, type ContentPage } from "@/l
 import { renderMarkdown } from "@/lib/content/render";
 import { templateFor, badgeFor, heroImageFor, midImageFor, serviceCardText } from "@/lib/page-config";
 import { reviewerFor, doctors } from "@/lib/doctors";
+import { site } from "@/lib/site-config";
 import {
   pageMetadata,
   JsonLd,
-  medicalWebPageJsonLd,
-  medicalTestJsonLd,
-  medicalClinicJsonLd,
-  faqPageJsonLd,
-  articleJsonLd,
-  videoJsonLd,
+  clinicNode,
+  websiteNode,
+  physicianNode,
+  medicalWebPageNode,
+  medicalConditionNode,
+  conditionFor,
+  medicalTestNode,
+  faqPageNode,
+  breadcrumbNode,
+  blogPostingNode,
+  videoNode,
+  SITE_URL,
 } from "@/lib/seo";
 import {
   diabetesHeartGroups,
@@ -59,11 +66,29 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
     const post = p.slug?.[0] === "health-library" && p.slug.length === 2 ? postBySlug().get(p.slug[1]) : undefined;
     if (post) {
       return {
-        title: post.meta.title,
+        title: post.meta.seo_title
+          ? { absolute: post.meta.seo_title }
+          : post.meta.title,
         description:
           post.meta.excerpt ||
           `An article by ${post.meta.author} on the Niramay Clinics Health Library.`,
         alternates: { canonical: post.meta.url },
+        openGraph: {
+          title: post.meta.seo_title || post.meta.title,
+          description: post.meta.excerpt || undefined,
+          url: post.meta.url,
+          siteName: site.name,
+          locale: "en_IN",
+          type: "article",
+          images: [
+            {
+              url: `${SITE_URL}/og${post.meta.url}`,
+              width: 1200,
+              height: 630,
+            },
+          ],
+        },
+        twitter: { card: "summary_large_image" },
       };
     }
     const page = pageByUrl().get(url);
@@ -183,8 +208,12 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
     const relatedPages = relatedPagesFor(post.meta.related);
     const postImage = post.meta.image ? `/images/${post.meta.image}` : undefined;
 
-    const jsonLd: object[] = [
-      articleJsonLd({
+    const graph: (object | null)[] = [
+      clinicNode(),
+      websiteNode(),
+      physicianNode(author),
+      ...(reviewer.id !== author.id ? [physicianNode(reviewer)] : []),
+      blogPostingNode({
         title: post.meta.title,
         url: post.meta.url,
         published: post.meta.published,
@@ -193,22 +222,27 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
         reviewedBy: reviewer,
         image: postImage,
       }),
+      breadcrumbNode(
+        [
+          { label: "Health Library", href: "/health-library/" },
+          { label: post.meta.title, href: post.meta.url },
+        ],
+        post.meta.url
+      ),
+      doc.faq.length > 0 ? faqPageNode(doc.faq, post.meta.url) : null,
+      post.meta.video
+        ? videoNode({
+            id: post.meta.video,
+            title: `${post.meta.title}: video`,
+            pageUrl: post.meta.url,
+            uploadDate: post.meta.published || undefined,
+            thumbnail: postImage,
+          })
+        : null,
     ];
-    if (doc.faq.length > 0) jsonLd.push(faqPageJsonLd(doc.faq));
-    if (post.meta.video) {
-      jsonLd.push(
-        videoJsonLd({
-          id: post.meta.video,
-          title: `${post.meta.title}: video`,
-          pageUrl: post.meta.url,
-          uploadDate: post.meta.published || undefined,
-          thumbnail: postImage,
-        })
-      );
-    }
     return (
       <>
-        <JsonLd data={jsonLd} />
+        <JsonLd nodes={graph} />
         <BlogPostTemplate
           post={post}
           doc={doc}
@@ -231,16 +265,20 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
   const crumbs = crumbsFor(page);
 
   const schemaField = page.meta.schema;
-  // BreadcrumbList JSON-LD is emitted by the <Breadcrumbs/> component in each template.
-  const jsonLd: object[] = [];
-  if (/MedicalTest|DiagnosticLab/i.test(schemaField)) jsonLd.push(medicalTestJsonLd(page.meta));
-  if (/MedicalWebPage|MedicalCondition/i.test(schemaField) || template === "service-detail" || template === "hub") {
-    jsonLd.push(medicalWebPageJsonLd(page.meta, reviewer));
-  }
-  if (/MedicalClinic|ContactPage/i.test(schemaField)) jsonLd.push(medicalClinicJsonLd());
-  if (doc.faq.length > 0) jsonLd.push(faqPageJsonLd(doc.faq));
+  const graph: (object | null)[] = [
+    clinicNode(),
+    websiteNode(),
+    ...(reviewer ? [physicianNode(reviewer)] : []),
+    /MedicalTest|DiagnosticLab/i.test(schemaField) ? medicalTestNode(page.meta) : null,
+    /MedicalWebPage|MedicalCondition/i.test(schemaField) || template === "service-detail" || template === "hub"
+      ? medicalWebPageNode(page.meta, reviewer, { lastReviewed: page.modified })
+      : null,
+    conditionFor(page.meta.url) ? medicalConditionNode(page.meta) : null,
+    breadcrumbNode(crumbs, page.meta.url),
+    doc.faq.length > 0 ? faqPageNode(doc.faq, page.meta.url) : null,
+  ];
 
-  const ld = <JsonLd data={jsonLd} />;
+  const ld = <JsonLd nodes={graph} />;
 
   switch (template) {
     case "hub":

@@ -1,7 +1,9 @@
 {
-  "name": "niramay-scaffold",
+  "name": "niramay-clinics-website",
   "version": "0.1.0",
   "private": true,
+  "description": "Niramay Clinics website, specialist outpatient clinic in Dhantoli, Nagpur (diabetes, heart, child and adolescent care).",
+  "author": "Automize Media Labs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +11,9 @@
     "lint": "eslint",
     "images": "node scripts/process-images.mjs",
     "launch-check": "node scripts/check-confirm.mjs",
-    "check-links": "node scripts/check-nested-links.mjs"
+    "check-links": "node scripts/check-nested-links.mjs",
+    "seo:meta": "jiti scripts/seo-meta.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
@@ -43,6 +47,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
+    "jiti": "^2.7.0",
     "playwright-core": "^1.63.0",
     "sharp": "^0.35.5",
     "tailwindcss": "^4",

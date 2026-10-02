@@ -1,5 +1,6 @@
 ---
 title: "10 Common Myths About Diabetes, and the Facts"
+seo_title: "Diabetes: 10 Common Myths and the Facts | Niramay"
 url: "/health-library/diabetes-myths-and-facts/"
 original_title: "10 COMMON MISCONCEPTIONS ABOUT DIABETES: SEPARATING MYTHS FROM FACTS"
 original_url: "/10-common-misconceptions-about-diabetes-separating-myths-from-facts/"
@@ -64,7 +65,7 @@ Diabetes is one of the fastest-growing long-term conditions in India. In our cli
 
 #### Myth 9: "I should stop my medicines when I am fasting or travelling."
 
-**Fact:** Treatment should be adjusted, not stopped. Talk to your doctor at least two weeks before a planned fast or a long journey, and check your sugar more often during it.
+**Fact:** Treatment should be adjusted, not stopped. Talk to your doctor at least two weeks before a planned fast or a long trip, and check your sugar more often during it.
 
 #### Myth 10: "Diabetes will spoil my child's marriage or career."
 

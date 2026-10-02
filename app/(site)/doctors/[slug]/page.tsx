@@ -2,7 +2,15 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageByUrl, allPosts } from "@/lib/content/pages";
 import { doctors } from "@/lib/doctors";
-import { pageMetadata, JsonLd, physicianJsonLd } from "@/lib/seo";
+import {
+  pageMetadata,
+  JsonLd,
+  clinicNode,
+  websiteNode,
+  physicianNode,
+  profilePageNode,
+  breadcrumbNode,
+} from "@/lib/seo";
 import { DoctorProfileTemplate } from "@/components/templates/DoctorProfile";
 
 export const dynamicParams = false;
@@ -47,8 +55,21 @@ export default async function DoctorPage({ params }: { params: Promise<{ slug: s
 
   return (
     <>
-      {/* BreadcrumbList JSON-LD comes from the <Breadcrumbs/> component */}
-      <JsonLd data={physicianJsonLd(doctor, page.meta.url)} />
+      <JsonLd
+        nodes={[
+          clinicNode(),
+          websiteNode(),
+          physicianNode(doctor),
+          profilePageNode(doctor),
+          breadcrumbNode(
+            [
+              { label: "Doctors", href: "/about/" },
+              { label: page.h1 || page.meta.title, href: page.meta.url },
+            ],
+            page.meta.url
+          ),
+        ]}
+      />
       <DoctorProfileTemplate
         page={page}
         doctor={doctor}

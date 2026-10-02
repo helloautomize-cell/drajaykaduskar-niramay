@@ -2,14 +2,54 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { BookButton } from "@/components/ui/BookButton";
-import { SiteNav } from "@/components/layout/MegaMenu";
-import { MobileMenu } from "@/components/layout/MobileMenu";
+import { MenuIcon, ChevronIcon } from "@/components/icons";
+
+// Menu code stays out of the first-load bundle: the desktop mega menu mounts
+// on the first hover/focus of the nav, and the mobile sheet mounts on the
+// first tap of its trigger. Until then identical static stand-ins render.
+const SiteNav = dynamic(
+  () => import("@/components/layout/MegaMenu").then((m) => m.SiteNav),
+  { ssr: false }
+);
+const MobileMenu = dynamic(
+  () => import("@/components/layout/MobileMenu").then((m) => m.MobileMenu),
+  { ssr: false }
+);
+
+const NAV_LABELS: [string, string][] = [
+  ["Diabetes and Heart", "diabetes-heart"],
+  ["Child and Teen", "child-teen"],
+  ["Lab and Pharmacy", "lab-pharmacy"],
+  ["Doctors", "doctors"],
+  ["Patient Info", "patient-info"],
+];
+
+function StaticNavButtons({ onIntent }: { onIntent: (value: string) => void }) {
+  return (
+    <div className="flex items-center gap-0.5">
+      {NAV_LABELS.map(([label, value]) => (
+        <button
+          key={value}
+          type="button"
+          tabIndex={-1}
+          onPointerEnter={() => onIntent(value)}
+          onFocus={() => onIntent(value)}
+          className="inline-flex h-11 items-center gap-1.5 whitespace-nowrap rounded-[10px] px-2.5 text-[14.5px] font-semibold text-ink"
+        >
+          {label}
+          <ChevronIcon size={15} className="text-plum-500" />
+        </button>
+      ))}
+    </div>
+  );
+}
 
 /**
- * Sticky site header (plan G2): 88px tall, white at rest; on scroll it
+ * Sticky site header: 88px tall, white at rest; on scroll it
  * becomes white glass (blur 16px + bottom shadow) and shrinks to 68px with
  * the logo scaling 56 -> 44px. Sticks below the utility bar, which scrolls
  * away. Mark-only logo under 400px. No layout jump: the header is sticky,
@@ -17,6 +57,9 @@ import { MobileMenu } from "@/components/layout/MobileMenu";
  */
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [navOn, setNavOn] = useState<string | null>(null);
+  const [menuOn, setMenuOn] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -24,6 +67,13 @@ export function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const armMenu = () => {
+    if (!menuOn) {
+      setMenuOn(true);
+      setMenuOpen(true);
+    }
+  };
 
   return (
     <header
@@ -35,6 +85,7 @@ export function Header() {
       )}
     >
       <div
+        data-header-shell
         className={cn(
           "mx-auto flex max-w-[1240px] items-center gap-3 px-4 transition-[height] duration-300 ease-[var(--ease)] sm:px-6",
           scrolled ? "h-[60px] lg:h-[68px]" : "h-[60px] lg:h-[88px]"
@@ -72,10 +123,34 @@ export function Header() {
           />
         </Link>
 
-        <div className="ml-auto flex items-center gap-4">
-          <SiteNav />
+        <div
+          className="ml-auto flex items-center gap-4"
+          onFocusCapture={() => setNavOn((v) => v ?? "")}
+        >
+          <nav
+            className="hidden lg:block"
+            onPointerMove={() => setNavOn((v) => v ?? "")}
+          >
+            {navOn !== null ? (
+              <SiteNav openOn={navOn || undefined} />
+            ) : (
+              <StaticNavButtons onIntent={(v) => setNavOn(v)} />
+            )}
+          </nav>
           <BookButton className="hidden min-[1100px]:inline-flex" />
-          <MobileMenu />
+          {menuOn ? (
+            <MobileMenu open={menuOpen} onOpenChange={setMenuOpen} />
+          ) : (
+            <button
+              type="button"
+              aria-label="Open menu"
+              onPointerDown={armMenu}
+              onClick={armMenu}
+              className="grid size-11 place-items-center rounded-[12px] text-ink transition-colors hover:bg-plum-50 lg:hidden"
+            >
+              <MenuIcon size={24} />
+            </button>
+          )}
         </div>
       </div>
     </header>

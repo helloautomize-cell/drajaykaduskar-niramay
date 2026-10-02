@@ -2,8 +2,8 @@
 page_number: 18
 title: "Medicines for weight management: what you should know"
 url: "/obesity/weight-management-medicines/"
-seo_title: "Weight Loss Medicines and Injections: Doctor-Supervised Care, Nagpur"
-meta_description: "Thinking about weight-loss injections or tablets? Learn who they may suit, why medical supervision matters, side effects to know and how Niramay Clinics, Nagpur assesses you."
+seo_title: "Weight Loss Medicines: Doctor-Supervised Care | Nagpur"
+meta_description: "Thinking about weight-loss injections or tablets? Who they may suit, why medical supervision matters, and how we assess you."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

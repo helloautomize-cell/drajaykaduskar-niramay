@@ -2,8 +2,8 @@
 page_number: 29
 title: "Teen mental health and counselling"
 url: "/blooming-buds/teen-mental-health/"
-seo_title: "Teen Counselling and Mental Health Support in Nagpur"
-meta_description: "Confidential counselling for teenagers in Nagpur: exam stress, anxiety, low mood, anger, screen and social media overuse, bullying and self-esteem, with parent guidance."
+seo_title: "Teen Counselling and Mental Health | Niramay, Nagpur"
+meta_description: "Confidential counselling for teenagers in Nagpur: exam stress, anxiety, low mood, anger, screen overuse, bullying and self-esteem."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"

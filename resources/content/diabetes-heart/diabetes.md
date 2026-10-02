@@ -2,8 +2,8 @@
 page_number: 7
 title: "Diabetes and metabolic care in Nagpur"
 url: "/diabetes/"
-seo_title: "Diabetes Care in Nagpur | Niramay Diabetes and Heart Care Centre"
-meta_description: "Care for type 1, type 2 and pregnancy diabetes, prediabetes, thyroid and blood pressure with Dr. Ajay Kaduskar in Dhantoli, Nagpur. Tests, eye screening and diet advice in one place."
+seo_title: "Diabetes Care in Nagpur | Niramay Clinics"
+meta_description: "Type 1, type 2 and pregnancy diabetes, prediabetes, thyroid and blood pressure care with Dr. Ajay Kaduskar in Dhantoli, Nagpur."
 schema: "MedicalWebPage, MedicalCondition (Diabetes mellitus)"
 images:
   - "Dr ajay.jpg"

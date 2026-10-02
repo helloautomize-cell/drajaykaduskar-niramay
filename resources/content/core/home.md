@@ -2,8 +2,8 @@
 page_number: 1
 title: "Specialist care for diabetes, heart health and growing children, in Dhantoli, Nagpur"
 url: "/"
-seo_title: "Niramay Clinics, Dhantoli, Nagpur | Diabetes, Heart and Child Care"
-meta_description: "Diabetes, obesity, thyroid and heart care with Dr. Ajay Kaduskar, and child and adolescent care with Dr. Prajakta Kaduskar. In-house lab and pharmacy in Dhantoli, Nagpur."
+seo_title: "Niramay Clinics, Nagpur | Diabetes, Heart and Child Care"
+meta_description: "Diabetes, obesity, thyroid and heart care with Dr. Ajay Kaduskar, and child and adolescent care with Dr. Prajakta Kaduskar. Lab and pharmacy on site."
 schema: "MedicalClinic (two departments), WebSite"
 images:
   - "Dr ajay.jpg"

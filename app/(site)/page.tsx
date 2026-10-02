@@ -12,11 +12,11 @@ import { serviceCardText } from "@/lib/page-config";
 import { postBadgeFor } from "@/lib/service-badges";
 import { diabetesHeartGroups, childTeenGroups, labPharmacyLinks } from "@/lib/nav";
 import {
-  medicalClinicJsonLd,
-  faqPageJsonLd,
-  videoJsonLd,
+  clinicNode,
+  websiteNode,
+  faqPageNode,
+  videoNode,
   JsonLd,
-  SITE_URL,
 } from "@/lib/seo";
 
 import { BookButton } from "@/components/ui/BookButton";
@@ -29,7 +29,8 @@ import { DoctorChip } from "@/components/ui/DoctorChip";
 import { ServiceBadge } from "@/components/ui/ServiceBadge";
 import { Chip } from "@/components/ui/Chip";
 import { Reveal } from "@/components/ui/Reveal";
-import { SwipeCarousel } from "@/components/ui/SwipeCarousel";
+import { DeferredSwipe } from "@/components/ui/DeferredSwipe";
+import { ConcernLinks } from "@/components/home/ConcernLinks";
 import { HeroFan, type FanCard } from "@/components/sections/HeroFan";
 import { DoctorCard, type Doctor } from "@/components/sections/DoctorCard";
 import { ConditionsMarquee, type ConditionPill } from "@/components/home/ConditionsMarquee";
@@ -78,8 +79,10 @@ export function generateMetadata(): Metadata {
       description: home.meta.meta_description,
       url: "/",
       siteName: site.name,
-      images: [{ url: `${SITE_URL}/images/doctors/dr-ajay-kaduskar-hero.jpg` }],
+      locale: "en_IN",
+      type: "website",
     },
+    twitter: { card: "summary_large_image" },
   };
 }
 
@@ -359,80 +362,8 @@ const faqItems: FaqItem[] = quickAnswers.map((f) => ({
 
 /* ------------------------------------------------------------ JSON-LD */
 
-const CLINIC_GEO = { "@type": "GeoCoordinates", latitude: 21.134804, longitude: 79.083769 };
-const MON_SAT = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-const ALL_DAYS = [...MON_SAT, "Sunday"];
-const hoursSpec = (days: string[], opens: string, closes: string) => ({
-  "@type": "OpeningHoursSpecification",
-  dayOfWeek: days,
-  opens,
-  closes,
-});
 
-const httpOrNull = (v: string) => (v.startsWith("http") ? v : null);
-const clinicLd = {
-  ...medicalClinicJsonLd(),
-  foundingDate: site.foundedYear,
-  geo: CLINIC_GEO,
-  openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "18:00")],
-  contactPoint: [
-    {
-      "@type": "ContactPoint",
-      telephone: "+91-712-2422214",
-      contactType: "appointments",
-      hoursAvailable: hoursSpec(ALL_DAYS, "08:00", "21:00"),
-    },
-    {
-      "@type": "ContactPoint",
-      telephone: "+91-84591-41584",
-      contactType: "customer service",
-      hoursAvailable: hoursSpec(ALL_DAYS, "08:00", "21:00"),
-    },
-  ],
-  department: [
-    {
-      "@type": "MedicalClinic",
-      name: site.centres.adult,
-      medicalSpecialty: ["Diabetology", "Cardiology"],
-    },
-    {
-      "@type": "MedicalClinic",
-      name: site.centres.child,
-      medicalSpecialty: ["Pediatric", "Adolescent Medicine"],
-    },
-    {
-      "@type": "MedicalBusiness",
-      name: "Niramay in-house laboratory",
-      openingHoursSpecification: [hoursSpec(MON_SAT, "07:00", "19:00")],
-    },
-    {
-      "@type": "Pharmacy",
-      name: site.pharmacy.name,
-      telephone: site.pharmacy.display,
-      openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "20:00")],
-    },
-  ],
-  areaServed: [
-    { "@type": "City", name: "Nagpur" },
-    { "@type": "AdministrativeArea", name: "Nagpur district" },
-    { "@type": "AdministrativeArea", name: "Bhandara district" },
-    { "@type": "AdministrativeArea", name: "Wardha district" },
-    {
-      "@type": "GeoCircle",
-      geoMidpoint: CLINIC_GEO,
-      geoRadius: "100000",
-    },
-  ],
-  sameAs: [httpOrNull(site.googleProfiles.clinic.mapsUrl), httpOrNull(site.googleProfiles.drAjay.mapsUrl)].filter(
-    (v): v is string => !!v
-  ),
-};
-const websiteLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: site.name,
-  url: SITE_URL,
-};
+
 
 /* ------------------------------------------------------------- helpers */
 
@@ -617,12 +548,12 @@ export default function Home() {
   return (
     <>
       <JsonLd
-        data={[
-          clinicLd,
-          websiteLd,
-          ...(faqItems.length ? [faqPageJsonLd(faqItems)] : []),
+        nodes={[
+          clinicNode(),
+          websiteNode(),
+          faqItems.length ? faqPageNode(faqItems, "/") : null,
           ...watchVideos.map((v) =>
-            videoJsonLd({ id: v.id, title: v.title, pageUrl: "/", uploadDate: v.uploadDate, thumbnail: v.poster })
+            videoNode({ id: v.id, title: v.title, pageUrl: "/", uploadDate: v.uploadDate, thumbnail: v.poster })
           ),
         ]}
       />
@@ -696,6 +627,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* find care by concern: one row of text pills, straight after the hero */}
+      <div className={`${CONT} mt-7 lg:mt-9`}>
+        <ConcernLinks />
+      </div>
+
       {/* ── H2 01 / WHY NIRAMAY ─────────────────────────────────────── */}
       <Reveal>
         <section className={SECTION}>
@@ -708,7 +644,7 @@ export default function Home() {
                 className="pointer-events-none absolute -right-32 -top-32 size-[420px] rounded-full bg-[radial-gradient(closest-side,rgba(242,149,122,.3),transparent)]"
               />
               {/* mobile: swipe carousel (6 cards); desktop: unchanged grid */}
-              <SwipeCarousel
+              <DeferredSwipe
                 label="Why Niramay"
                 gridAt="md"
                 gridCols="md:grid-cols-2 lg:grid-cols-3"
@@ -719,7 +655,7 @@ export default function Home() {
                     <p className="line-clamp-3">{c.text}</p>
                   </GlassCard>
                 ))}
-              </SwipeCarousel>
+              </DeferredSwipe>
             </div>
           </div>
         </section>
@@ -888,7 +824,7 @@ export default function Home() {
             />
             {/* two items: swipe with peek on mobile (no autoplay needed),
                 side-by-side cards on desktop */}
-            <SwipeCarousel
+            <DeferredSwipe
               label="Watch Dr. Ajay"
               autoplay={false}
               gridAt="lg"
@@ -904,7 +840,7 @@ export default function Home() {
                   credit={v.credit}
                 />
               ))}
-            </SwipeCarousel>
+            </DeferredSwipe>
           </div>
         </section>
       </Reveal>
@@ -920,7 +856,7 @@ export default function Home() {
       </Reveal>
 
       {/* (The old "Patient reviews" block was removed — links-only policy,
-          Part 3: no ratings, no review counts, no Places API.) */}
+          no ratings, no review counts, no Places API.) */}
 
       {/* ── H10 08 / HEALTH LIBRARY ─────────────────────────────────── */}
       <Reveal>
@@ -939,7 +875,7 @@ export default function Home() {
             </div>
             {/* designed covers only — gradient + per-post badge, never the
                 YouTube thumbnails (they carry other channels' branding) */}
-            <SwipeCarousel
+            <DeferredSwipe
               label="Health Library"
               gridAt="md"
               gridCols="md:grid-cols-2 lg:grid-cols-3"
@@ -982,7 +918,7 @@ export default function Home() {
                   </Link>
                 );
               })}
-            </SwipeCarousel>
+            </DeferredSwipe>
           </div>
         </section>
       </Reveal>

@@ -111,6 +111,7 @@ export function MobileActionBar({
 
   return (
     <nav
+      data-print-hide
       aria-label="Quick actions"
       className={cn(
         "overflow-hidden rounded-t-2xl border-t border-white/25 bg-[linear-gradient(90deg,rgba(115,69,105,.92),rgba(69,62,109,.92))] backdrop-blur-[18px] pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_30px_-10px_rgba(42,36,64,.35)] transition-transform duration-300 ease-[var(--ease)]",

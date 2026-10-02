@@ -2,8 +2,8 @@ import Link from "next/link";
 import { ChevronRightIcon } from "@/components/icons";
 
 /**
- * Breadcrumbs with BreadcrumbList JSON-LD (plan section 6 SEO layer).
- * Renders nothing for a single-item trail.
+ * Breadcrumb trail. The matching BreadcrumbList JSON-LD is emitted once in
+ * the page-level graph (see `breadcrumbNode` in lib/seo.tsx).
  */
 export function Breadcrumbs({
   items,
@@ -13,16 +13,6 @@ export function Breadcrumbs({
   className?: string;
 }) {
   const trail = [{ label: "Home", href: "/" }, ...items];
-  const ld = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: trail.map((it, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: it.label,
-      item: `https://niramayclinics.com${it.href}`,
-    })),
-  };
   return (
     <nav aria-label="Breadcrumb" className={className}>
       <ol className="flex flex-wrap items-center gap-1 text-[13.5px]">
@@ -44,10 +34,6 @@ export function Breadcrumbs({
           );
         })}
       </ol>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
-      />
     </nav>
   );
 }

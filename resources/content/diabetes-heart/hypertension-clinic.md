@@ -2,8 +2,8 @@
 page_number: 15
 title: "Hypertension clinic"
 url: "/hypertension-clinic/"
-seo_title: "High Blood Pressure Treatment in Nagpur | Hypertension Clinic"
-meta_description: "Diagnosis and long-term care of high blood pressure in Nagpur: accurate measurement, tests for causes and organ damage, lifestyle and medicines, ECG and Echo on site."
+seo_title: "High Blood Pressure Treatment in Nagpur | Niramay"
+meta_description: "Diagnosis and long-term care of high blood pressure in Nagpur: tests for causes and organ damage, lifestyle and medicines, ECG on site."
 schema: "MedicalWebPage, MedicalCondition (Hypertension)"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

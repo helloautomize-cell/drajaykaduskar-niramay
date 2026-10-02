@@ -2,8 +2,8 @@
 page_number: 38
 title: "Health Library"
 url: "/health-library/"
-seo_title: "Health Library | Diabetes, Heart, Child and Teen Health Articles"
-meta_description: "Articles by Dr. Ajay Kaduskar and Dr. Prajakta Kaduskar on diabetes, weight, heart health, parenting, adolescence and mental wellbeing."
+seo_title: "Health Library | Niramay Clinics, Nagpur"
+meta_description: "Articles by Dr. Ajay Kaduskar and Dr. Prajakta Kaduskar on diabetes, weight, heart health, parenting, adolescence and wellbeing."
 schema: "Blog, CollectionPage"
 images: []
 reviewed_by: ""

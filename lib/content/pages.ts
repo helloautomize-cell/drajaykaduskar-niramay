@@ -6,6 +6,7 @@
  * segment renderer.
  */
 import { readFileSync, readdirSync, statSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { parse as parseYaml } from "yaml";
 import { pageFrontmatter, postFrontmatter, type PageFrontmatter, type PostFrontmatter } from "./schema";
@@ -19,6 +20,8 @@ export interface ContentPage {
   /** H1 text pulled from the "**H1:** ..." line */
   h1: string;
   file: string;
+  /** last content change date (ISO): git commit date, falling back to mtime */
+  modified: string;
 }
 
 export interface BlogPost {
@@ -80,6 +83,25 @@ function stripHeader(body: string): { body: string; h1: string } {
   return { body: keep.join("\n").replace(/^\n+/, ""), h1 };
 }
 
+/** Last content-change date for a file: git commit date, else file mtime. */
+function contentModified(file: string): string {
+  try {
+    const iso = execFileSync("git", ["log", "-1", "--format=%cI", "--", file], {
+      cwd: process.cwd(),
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+    if (iso) return iso;
+  } catch {
+    // not a git checkout (or file never committed) — fall back to mtime
+  }
+  try {
+    return statSync(file).mtime.toISOString();
+  } catch {
+    return "";
+  }
+}
+
 let pagesCache: ContentPage[] | null = null;
 let postsCache: BlogPost[] | null = null;
 let byUrlCache: Map<string, ContentPage> | null = null;
@@ -99,7 +121,7 @@ export function allPages(): ContentPage[] {
     const { body: visible0, h1 } = stripHeader(body);
     const patch = PAGE_PATCHES[parsed.data.url];
     const visible = patch ? patch(visible0) : visible0;
-    pages.push({ meta: parsed.data, body: visible, h1, file: rel });
+    pages.push({ meta: parsed.data, body: visible, h1, file: rel, modified: contentModified(file) });
   }
   pagesCache = pages;
   return pages;

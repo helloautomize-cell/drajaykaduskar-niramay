@@ -2,8 +2,8 @@
 page_number: 19
 title: "Body composition analysis and sarcopenia assessment"
 url: "/obesity/body-composition-sarcopenia/"
-seo_title: "Body Composition Analysis and Sarcopenia Check in Nagpur"
-meta_description: "Know your body fat, visceral fat and muscle mass with body composition analysis at Niramay Clinics, Nagpur. Screening for sarcopenia (age-related muscle loss)."
+seo_title: "Body Composition and Sarcopenia Check | Nagpur"
+meta_description: "Body composition analysis at Niramay Clinics, Nagpur: body fat, visceral fat and muscle mass, with screening for age-related muscle loss."
 schema: "MedicalWebPage, MedicalTest"
 images:
   - "Niramay waiting launge.jpg"

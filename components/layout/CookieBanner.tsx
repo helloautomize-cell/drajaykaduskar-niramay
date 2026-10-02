@@ -15,7 +15,7 @@ const SSR_PENDING = Symbol("ssr");
 const serverSnapshot = (): typeof SSR_PENDING => SSR_PENDING;
 
 /**
- * Cookie banner (plan G7): small glass card bottom left. On phones it sits
+ * Cookie banner: small glass card bottom left. On phones it sits
  * above the fixed action bar (bar height + safe-area). Choice persists in
  * localStorage; analytics loads only after hasAnalyticsConsent() is true.
  */
@@ -52,6 +52,7 @@ export function CookieBanner() {
 
   return (
     <div
+      data-print-hide
       role="dialog"
       aria-label="Cookie settings"
       className={cn(

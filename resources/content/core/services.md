@@ -2,8 +2,8 @@
 page_number: 5
 title: "Our services"
 url: "/services/"
-seo_title: "Services | Diabetes, Heart, Child and Teen Care | Niramay Clinics Nagpur"
-meta_description: "All services at Niramay Clinics, Nagpur: diabetes, obesity, thyroid, blood pressure and heart tests for adults; vaccination, adolescent health and counselling for children; lab and pharmacy."
+seo_title: "Services | Niramay Clinics, Dhantoli, Nagpur"
+meta_description: "Diabetes, obesity, thyroid, blood pressure and heart tests for adults; vaccination, adolescent health and counselling for children; lab and pharmacy."
 schema: "CollectionPage, ItemList"
 images: []
 reviewed_by: ""

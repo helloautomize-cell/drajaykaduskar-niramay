@@ -2,8 +2,8 @@
 page_number: 16
 title: "Nutrition and lifestyle counselling"
 url: "/nutrition-lifestyle-counselling/"
-seo_title: "Diet and Nutrition Counselling for Diabetes and Weight | Nagpur"
-meta_description: "Personalised diet plans for diabetes, weight, thyroid, blood pressure and pregnancy in Nagpur, built around Indian home food, your routine and family habits."
+seo_title: "Diet and Nutrition Counselling | Niramay Clinics, Nagpur"
+meta_description: "Diet plans for diabetes, weight, thyroid, blood pressure and pregnancy in Nagpur, built around Indian home food and your routine."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

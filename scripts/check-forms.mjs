@@ -1,4 +1,4 @@
-// Phase 6 Part 2 form acceptance tests (Playwright).
+// Form acceptance tests (Playwright).
 // Usage: SITE_PASSWORD=… node scripts/check-forms.mjs [base]
 import { chromium } from "playwright-core";
 

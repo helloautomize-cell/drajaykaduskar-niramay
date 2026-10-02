@@ -12,6 +12,7 @@ export function FloatingWhatsApp() {
   const pathname = usePathname();
   return (
     <a
+      data-print-hide
       href={waLinkFor(pathname ?? "/")}
       target="_blank"
       rel="noopener noreferrer"

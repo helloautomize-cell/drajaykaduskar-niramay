@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useLayoutEffect, useRef } from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import { cn } from "@/lib/utils";
 import {
   diabetesHeartGroups,
   childTeenGroups,
@@ -16,11 +16,12 @@ import {
 import { ChevronIcon, ArrowIcon, iconSet } from "@/components/icons";
 
 /**
- * Desktop mega menus, rebuilt compact: an opaque white panel (98%), 16px
- * radius, light shadow, max 760px wide / 380px tall, aligned under its
- * trigger. Links are plain 15px text, one per line (no PNG badges); column
- * headings use the small eyebrow style with an optional 18px line icon.
- * Opens on hover after 120ms intent delay, closes on mouse leave; fully
+ * Desktop mega menus (no Radix Viewport): each panel is absolutely
+ * positioned under its own Item, sized by an explicit grid so columns can
+ * never collapse into each other. On open a layout effect clamps the
+ * panel's left edge so it always stays inside the nav container. Panels
+ * are opaque white, 16px radius, light shadow, max 380px tall. Opens on
+ * hover after a 120ms intent delay, closes on mouse leave (200ms), fully
  * keyboard navigable (Radix).
  */
 
@@ -39,17 +40,66 @@ function Trigger({ children }: { children: string }) {
   );
 }
 
-const contentCls =
-  "absolute left-0 top-0 w-auto overflow-y-auto p-5 data-[state=open]:animate-[navmenu-in_.15s_ease-out]";
+const panelCls =
+  "absolute top-full z-50 mt-2 max-h-[380px] overflow-y-auto rounded-2xl bg-white/98 p-5 shadow-[0_18px_50px_-18px_rgba(42,36,64,.3)] ring-1 ring-line data-[state=open]:animate-[navmenu-in_.15s_ease-out]";
 
-/** One text link per line, 15px, never wraps (columns widen instead). */
+/**
+ * Panel anchored to its Item. `estimatedWidth` must roughly match the
+ * grid's real width so the clamp can keep the panel inside the List.
+ */
+function Panel({
+  estimatedWidth,
+  children,
+}: {
+  estimatedWidth: number;
+  children: React.ReactNode;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useLayoutEffect(() => {
+    const el = ref.current;
+    const item = el?.parentElement;
+    const list = item?.parentElement;
+    if (!el || !item || !list) return;
+    const clamp = () => {
+      const w = el.offsetWidth || estimatedWidth;
+      const shell =
+        el.closest("header")?.querySelector("[data-header-shell]") ?? list;
+      const shellR = shell.getBoundingClientRect();
+      const listR = list.getBoundingClientRect();
+      const itemR = item.getBoundingClientRect();
+      const desired = Math.max(
+        shellR.left + 4,
+        Math.min(itemR.left, shellR.right - w - 4)
+      );
+      el.style.left = `${desired - listR.left}px`;
+    };
+    clamp();
+    const ro = new ResizeObserver(clamp);
+    ro.observe(list);
+    return () => ro.disconnect();
+  }, [estimatedWidth]);
+
+  return (
+    <NavigationMenu.Content
+      ref={ref}
+      data-nav-content
+      className={panelCls}
+      style={{ left: 4 }}
+    >
+      {children}
+    </NavigationMenu.Content>
+  );
+}
+
+/** One text link per line, 15px, 40px rows, never wraps. */
 function TextLink({ link }: { link: NavLink }) {
   return (
     <li>
       <NavigationMenu.Link asChild>
         <Link
           href={link.href}
-          className="flex h-9 items-center whitespace-nowrap rounded-[10px] px-2.5 text-[15px] font-medium text-ink transition-colors duration-150 hover:bg-plum-50 hover:text-plum"
+          className="flex h-10 items-center whitespace-nowrap rounded-[10px] px-2.5 text-[15px] font-medium text-ink transition-colors duration-150 hover:bg-plum-50 hover:text-plum"
         >
           {link.label}
         </Link>
@@ -61,14 +111,14 @@ function TextLink({ link }: { link: NavLink }) {
 function ColumnHeading({ icon, children }: { icon?: string; children: string }) {
   const Icon = icon ? iconSet[icon] : null;
   return (
-    <p className="eyebrow mb-1.5 flex items-center gap-2 px-2.5 !text-[11px]">
+    <p className="eyebrow mb-1.5 flex items-center gap-2 whitespace-nowrap px-2.5 !text-[11px]">
       {Icon ? <Icon size={18} className="text-plum" /> : null}
       {children}
     </p>
   );
 }
 
-/** Small doctor card kept on the right of the two service menus. */
+/** Small doctor card, a normal grid item in the panel's last column. */
 function DoctorCardMini({
   face,
   name,
@@ -81,7 +131,10 @@ function DoctorCardMini({
   href: string;
 }) {
   return (
-    <div className="w-[150px] shrink-0 self-start rounded-[14px] bg-plum-50 p-4 text-center">
+    <div
+      data-doctor-card
+      className="self-start rounded-[14px] bg-plum-50 p-4 text-center"
+    >
       <Image
         src={face}
         alt=""
@@ -105,31 +158,41 @@ function DoctorCardMini({
   );
 }
 
-export function SiteNav() {
+export const NAV_ITEMS = [
+  { value: "diabetes-heart", label: "Diabetes and Heart" },
+  { value: "child-teen", label: "Child and Teen" },
+  { value: "lab-pharmacy", label: "Lab and Pharmacy" },
+  { value: "doctors", label: "Doctors" },
+  { value: "patient-info", label: "Patient Info" },
+] as const;
+
+export function SiteNav({ openOn }: { openOn?: string }) {
   return (
     <NavigationMenu.Root
       className="relative hidden lg:block"
       delayDuration={120}
       skipDelayDuration={200}
+      defaultValue={openOn}
     >
-      <NavigationMenu.List className="flex items-center gap-0.5">
-        {/* Diabetes and Heart */}
-        <NavigationMenu.Item>
+      <NavigationMenu.List className="relative flex items-center gap-0.5">
+        {/* Diabetes and Heart: 4 link columns + doctor card, ~960px */}
+        <NavigationMenu.Item value="diabetes-heart">
           <Trigger>Diabetes and Heart</Trigger>
-          <NavigationMenu.Content data-nav-content className={contentCls}>
-            <div className="flex gap-6">
-              <div className="grid grid-cols-4 gap-x-7">
-                {diabetesHeartGroups.map((g) => (
-                  <div key={g.heading}>
-                    <ColumnHeading icon={g.icon}>{g.heading}</ColumnHeading>
-                    <ul>
-                      {g.links.map((l) => (
-                        <TextLink key={l.href} link={l} />
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
+          <Panel estimatedWidth={960}>
+            <div
+              className="grid items-start gap-x-7"
+              style={{ gridTemplateColumns: "repeat(4, minmax(170px, auto)) 220px" }}
+            >
+              {diabetesHeartGroups.map((g) => (
+                <div key={g.heading}>
+                  <ColumnHeading icon={g.icon}>{g.heading}</ColumnHeading>
+                  <ul>
+                    {g.links.map((l) => (
+                      <TextLink key={l.href} link={l} />
+                    ))}
+                  </ul>
+                </div>
+              ))}
               <DoctorCardMini
                 face={doctorLinks[0].face}
                 name={doctorLinks[0].name}
@@ -137,26 +200,27 @@ export function SiteNav() {
                 href={doctorLinks[0].href}
               />
             </div>
-          </NavigationMenu.Content>
+          </Panel>
         </NavigationMenu.Item>
 
-        {/* Child and Teen */}
-        <NavigationMenu.Item>
+        {/* Child and Teen: 2 link columns + doctor card, ~640px */}
+        <NavigationMenu.Item value="child-teen">
           <Trigger>Child and Teen</Trigger>
-          <NavigationMenu.Content data-nav-content className={contentCls}>
-            <div className="flex gap-6">
-              <div className="grid grid-cols-2 gap-x-7">
-                {childTeenGroups.map((g) => (
-                  <div key={g.heading}>
-                    <ColumnHeading icon={g.icon}>{g.heading}</ColumnHeading>
-                    <ul>
-                      {g.links.map((l) => (
-                        <TextLink key={l.href} link={l} />
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
+          <Panel estimatedWidth={640}>
+            <div
+              className="grid items-start gap-x-7"
+              style={{ gridTemplateColumns: "repeat(2, minmax(190px, auto)) 220px" }}
+            >
+              {childTeenGroups.map((g) => (
+                <div key={g.heading}>
+                  <ColumnHeading icon={g.icon}>{g.heading}</ColumnHeading>
+                  <ul>
+                    {g.links.map((l) => (
+                      <TextLink key={l.href} link={l} />
+                    ))}
+                  </ul>
+                </div>
+              ))}
               <DoctorCardMini
                 face={doctorLinks[1].face}
                 name={doctorLinks[1].name}
@@ -164,26 +228,26 @@ export function SiteNav() {
                 href={doctorLinks[1].href}
               />
             </div>
-          </NavigationMenu.Content>
+          </Panel>
         </NavigationMenu.Item>
 
-        {/* Lab and Pharmacy */}
-        <NavigationMenu.Item>
+        {/* Lab and Pharmacy: single column, no doctor card */}
+        <NavigationMenu.Item value="lab-pharmacy">
           <Trigger>Lab and Pharmacy</Trigger>
-          <NavigationMenu.Content data-nav-content className={cn(contentCls, "w-[240px]")}>
-            <ul>
+          <Panel estimatedWidth={240}>
+            <ul className="w-[220px]">
               {labPharmacyLinks.map((l) => (
                 <TextLink key={l.href} link={l} />
               ))}
             </ul>
-          </NavigationMenu.Content>
+          </Panel>
         </NavigationMenu.Item>
 
         {/* Doctors */}
-        <NavigationMenu.Item>
+        <NavigationMenu.Item value="doctors">
           <Trigger>Doctors</Trigger>
-          <NavigationMenu.Content data-nav-content className={cn(contentCls, "w-[300px]")}>
-            <ul className="space-y-0.5">
+          <Panel estimatedWidth={320}>
+            <ul className="w-[280px] space-y-0.5">
               {doctorLinks.map((d) => (
                 <li key={d.href}>
                   <NavigationMenu.Link asChild>
@@ -214,7 +278,7 @@ export function SiteNav() {
                 <NavigationMenu.Link asChild>
                   <Link
                     href={aboutClinicLink.href}
-                    className="group flex h-9 items-center gap-2 rounded-[10px] px-2.5 text-[15px] font-semibold text-plum"
+                    className="group flex h-10 items-center gap-2 rounded-[10px] px-2.5 text-[15px] font-semibold text-plum"
                   >
                     {aboutClinicLink.label}
                     <ArrowIcon
@@ -225,34 +289,21 @@ export function SiteNav() {
                 </NavigationMenu.Link>
               </li>
             </ul>
-          </NavigationMenu.Content>
+          </Panel>
         </NavigationMenu.Item>
 
         {/* Patient Info */}
-        <NavigationMenu.Item>
+        <NavigationMenu.Item value="patient-info">
           <Trigger>Patient Info</Trigger>
-          <NavigationMenu.Content data-nav-content className={cn(contentCls, "w-[220px]")}>
-            <ul>
+          <Panel estimatedWidth={240}>
+            <ul className="w-[220px]">
               {patientInfoLinks.map((l) => (
                 <TextLink key={l.href} link={l} />
               ))}
             </ul>
-          </NavigationMenu.Content>
+          </Panel>
         </NavigationMenu.Item>
       </NavigationMenu.List>
-
-      {/* Opaque white panel under the triggers; content is offset to its
-          trigger by Radix automatically */}
-      <div className="absolute left-0 right-0 top-full flex justify-center pt-2">
-        <NavigationMenu.Viewport
-          className={cn(
-            "relative overflow-hidden rounded-2xl bg-white/98 shadow-[0_18px_50px_-18px_rgba(42,36,64,.3)] ring-1 ring-line",
-            "h-[var(--radix-navigation-menu-viewport-height)] w-[var(--radix-navigation-menu-viewport-width)]",
-            "max-h-[380px] max-w-[min(760px,96vw)] transition-[width,height] duration-150 ease-out",
-            "data-[state=closed]:hidden"
-          )}
-        />
-      </div>
     </NavigationMenu.Root>
   );
 }

@@ -2,8 +2,8 @@
 page_number: 37
 title: "Frequently asked questions"
 url: "/faqs/"
-seo_title: "FAQs | Appointments, Tests, Timings and Services | Niramay Clinics"
-meta_description: "Answers to common questions about appointments, timings, lab tests, home sample collection, pharmacy, children's care, reports, fees and privacy at Niramay Clinics, Nagpur."
+seo_title: "FAQs | Niramay Clinics, Dhantoli, Nagpur"
+meta_description: "Answers about appointments, timings, lab tests, home sample collection, pharmacy, reports, fees and privacy at Niramay Clinics, Nagpur."
 schema: "FAQPage"
 images: []
 reviewed_by: ""

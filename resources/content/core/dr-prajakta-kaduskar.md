@@ -2,8 +2,8 @@
 page_number: 4
 title: "Dr. Prajakta A. Kaduskar"
 url: "/doctors/dr-prajakta-kaduskar/"
-seo_title: "Dr. Prajakta Kaduskar | Child and Adolescent Health Consultant, Nagpur"
-meta_description: "Dr. Prajakta A. Kaduskar, MBBS, DCH, PGDAP, MA (Clinical Psychology). Child and adolescent health, teen counselling, vaccination and career guidance in Dhantoli, Nagpur."
+seo_title: "Dr. Prajakta Kaduskar | Child and Teen Health, Nagpur"
+meta_description: "Dr. Prajakta A. Kaduskar, MBBS, DCH, PGDAP, MA (Clinical Psychology). Child and adolescent health, counselling and vaccination in Nagpur."
 schema: "Physician (medicalSpecialty: Pediatric), ProfilePage"
 images:
   - "Child specialist niramay.jpg"

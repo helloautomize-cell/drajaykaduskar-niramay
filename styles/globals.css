@@ -482,7 +482,7 @@ em.acc {
   }
 }
 
-/* ---- Phase 2: site shell ---- */
+/* ---- site shell ---- */
 
 /* Mega menu panel: 180ms fade + 6px slide-down */
 @keyframes navmenu-in {
@@ -634,5 +634,30 @@ em.acc {
 @media (min-width: 1024px) {
   .cv-auto {
     content-visibility: visible;
+  }
+}
+
+/* A/A+ text-size switch: scale the root font so all rem-based type grows.
+   Layout uses fixed px for structure, so spacing stays put. */
+html.font-lg {
+  font-size: 112.5%;
+}
+
+/* Print: service pages and blog posts print as clean documents — the
+   navigation, bars, floating actions and footer are hidden; content, the
+   reviewer box and clinic contact remain. */
+@media print {
+  header,
+  footer,
+  [data-print-hide],
+  .no-print {
+    display: none !important;
+  }
+  main,
+  body {
+    background: #fff !important;
+  }
+  a[href]::after {
+    content: "";
   }
 }

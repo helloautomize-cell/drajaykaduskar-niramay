@@ -2,7 +2,7 @@
 page_number: 23
 title: "TMT (treadmill stress test)"
 url: "/heart-care/tmt-stress-test/"
-seo_title: "TMT Test (Treadmill Stress Test) in Nagpur | Niramay Clinics"
+seo_title: "TMT (Treadmill Stress Test) in Nagpur | Niramay Clinics"
 meta_description: "Treadmill stress test (TMT) in Dhantoli, Nagpur. Why it is done, how to prepare, what happens during the test and how results are used."
 schema: "MedicalTest"
 images: []

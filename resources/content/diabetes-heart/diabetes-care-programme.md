@@ -2,8 +2,8 @@
 page_number: 12
 title: "Complete Diabetes Care Programme"
 url: "/diabetes/diabetes-care-programme/"
-seo_title: "Complete Diabetes Care Programme | Niramay Clinics Nagpur"
-meta_description: "A structured yearly diabetes care programme in Nagpur: planned consultations, tests, complication screening and nutrition sessions, organised in one place."
+seo_title: "Diabetes Care Programme | Niramay Clinics, Nagpur"
+meta_description: "A structured yearly diabetes care programme in Nagpur: planned consultations, tests, complication screening and nutrition sessions."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

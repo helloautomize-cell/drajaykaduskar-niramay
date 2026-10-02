@@ -1,5 +1,6 @@
 ---
 title: "Building Self-Esteem in Teenagers with Disabilities"
+seo_title: "Self-Esteem in Teens with Disabilities | Niramay"
 url: "/health-library/self-esteem-teenagers-with-disabilities/"
 original_title: "DEVELOPING SELF-ESTEEM IN ADOLESCENTS WITH DISABILITY"
 original_url: "/developing-self-esteem-in-adolescents-with-disability/"

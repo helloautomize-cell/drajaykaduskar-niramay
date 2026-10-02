@@ -41,15 +41,23 @@ export const metadata: Metadata = {
   },
   description:
     "Specialist outpatient clinic in Dhantoli, Nagpur. Dr. Ajay Kaduskar for diabetes, obesity, thyroid, blood pressure and heart care. Dr. Prajakta Kaduskar for child and adolescent health, counselling and vaccination.",
+  openGraph: { locale: "en_IN" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="en-IN"
       className={`${figtree.variable} ${instrumentSerif.variable} ${notoDevanagari.variable}`}
     >
       <body>
+        {/* remembered A+ text size, applied before paint to avoid a flash */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(localStorage.getItem('nm-font-lg')==='1')document.documentElement.classList.add('font-lg')}catch(e){}",
+          }}
+        />
         <SmoothScroll />
         {children}
         <SpeedInsights />

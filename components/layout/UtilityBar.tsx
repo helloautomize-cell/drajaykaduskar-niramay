@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { site } from "@/lib/site-config";
+import { FontSizeToggle } from "@/components/ui/FontSizeToggle";
 import { ClockIcon, PhoneIcon, EmergencyIcon } from "@/components/icons";
 
 /**
- * Utility bar (plan G1): thin white bar with a bottom hairline.
+ * Utility bar: thin white bar with a bottom hairline.
  * Desktop and tablet only (hidden under 768px). Left: language placeholder
  * and quick links; right: hours, phone and the emergency line in red.
  */
 export function UtilityBar() {
   return (
-    <div className="hidden border-b border-line bg-white md:block">
+    <div data-print-hide className="hidden border-b border-line bg-white md:block">
       <div className="mx-auto flex h-9 max-w-[1240px] items-center gap-5 whitespace-nowrap px-6 text-[12.5px] font-medium text-ink-600">
         <Link
           href="/plan-your-visit/"
@@ -23,6 +24,7 @@ export function UtilityBar() {
         >
           Health Library
         </Link>
+        <FontSizeToggle />
 
         <div className="ml-auto flex items-center gap-5">
           <span className="hidden items-center gap-1.5 lg:inline-flex">

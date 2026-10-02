@@ -2,8 +2,8 @@
 page_number: 20
 title: "Heart care and preventive cardiology"
 url: "/heart-care/"
-seo_title: "Heart Check-up and Preventive Cardiology in Nagpur | Niramay Clinics"
-meta_description: "Find heart risk early: blood pressure, cholesterol, sugar, ECG, 2D Echo and treadmill test (TMT) at Niramay Clinics, Dhantoli, Nagpur, with a clear prevention plan."
+seo_title: "Heart Check-up and Preventive Cardiology | Nagpur"
+meta_description: "Find heart risk early: blood pressure, cholesterol, sugar, ECG, 2D Echo and treadmill test in Dhantoli, Nagpur, with a clear plan."
 schema: "MedicalWebPage"
 images:
   - "NirmayClinics_Diabetes_Complication_Screening2.jpg"

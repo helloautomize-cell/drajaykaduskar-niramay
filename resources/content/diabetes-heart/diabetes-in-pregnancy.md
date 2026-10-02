@@ -2,8 +2,8 @@
 page_number: 10
 title: "Diabetes in pregnancy"
 url: "/diabetes/diabetes-in-pregnancy/"
-seo_title: "Gestational Diabetes and Diabetes in Pregnancy | Nagpur"
-meta_description: "Care for gestational diabetes and pre-existing diabetes in pregnancy in Nagpur, in coordination with your obstetrician: testing, diet, insulin, monitoring and follow-up after delivery."
+seo_title: "Diabetes in Pregnancy | Niramay Clinics, Nagpur"
+meta_description: "Care for gestational diabetes and diabetes in pregnancy in Nagpur, with your obstetrician: testing, diet, insulin and follow-up."
 schema: "MedicalWebPage, MedicalCondition (Gestational diabetes)"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

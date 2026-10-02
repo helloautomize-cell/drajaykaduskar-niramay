@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 import { site } from "@/lib/site-config";
 
-/** Resend-backed form email delivery (Phase 6, Part 2.5). */
+/** Resend-backed form email delivery. */
 
 function esc(s: string): string {
   return s
@@ -64,7 +64,7 @@ function clinicEmailHtml(opts: {
   <div style="padding:0 20px 16px;font-size:12.5px;color:#777">
     Source page: ${esc(opts.sourcePage)}<br>
     Received: ${esc(istNow())} (IST)<br>
-    Consent text shown: "${esc(opts.consentText)}" — agreed ${esc(istNow())} (IST)
+    Consent text shown: "${esc(opts.consentText)}" - agreed ${esc(istNow())} (IST)
   </div>
 </div></body></html>`;
 }
@@ -88,7 +88,7 @@ function clinicEmailText(opts: {
     `WhatsApp: https://wa.me/${opts.phone.replace(/\D/g, "")}`,
     `Source page: ${opts.sourcePage}`,
     `Received: ${istNow()} (IST)`,
-    `Consent text shown: "${opts.consentText}" — agreed ${istNow()} (IST)`,
+    `Consent text shown: "${opts.consentText}" - agreed ${istNow()} (IST)`,
   ].join("\n");
 }
 
@@ -131,7 +131,7 @@ export async function sendWorkshopAck(opts: {
   const from = process.env.FORM_FROM_EMAIL || "Niramay Clinics <onboarding@resend.dev>";
   if (!apiKey) return { ok: false, error: "RESEND_API_KEY is not set" };
   const resend = new Resend(apiKey);
-  const subject = "We received your workshop request — Niramay Clinics";
+  const subject = "We received your workshop request. Niramay Clinics";
   const text = [
     `Thank you for your workshop request from ${opts.organisation}.`,
     "We will contact you within 2 working days.",

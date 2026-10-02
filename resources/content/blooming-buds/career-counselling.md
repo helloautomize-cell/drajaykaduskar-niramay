@@ -2,8 +2,8 @@
 page_number: 31
 title: "Career counselling and aptitude testing"
 url: "/blooming-buds/career-counselling/"
-seo_title: "Career Counselling and Aptitude Test for Students in Nagpur"
-meta_description: "Career guidance for students in classes 8 to 12 and graduates in Nagpur: aptitude, interest and personality assessment, stream and course selection, with parents involved."
+seo_title: "Career Counselling and Aptitude Test | Nagpur"
+meta_description: "Career guidance for students in classes 8 to 12 and graduates in Nagpur: aptitude and interest assessment, stream and course selection."
 schema: "MedicalWebPage, Service"
 images:
   - "Career_Counselling.png"

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as Accordion from "@radix-ui/react-accordion";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import {
   diabetesHeartGroups,
   childTeenGroups,
@@ -16,6 +16,7 @@ import {
 } from "@/lib/nav";
 import { site } from "@/lib/site-config";
 import { ButtonLink } from "@/components/ui/Button";
+import { FontSizeToggle } from "@/components/ui/FontSizeToggle";
 import { MenuIcon, CloseIcon, ChevronIcon, PhoneIcon } from "@/components/icons";
 
 /**
@@ -67,8 +68,13 @@ function SubHeading({ children }: { children: string }) {
   return <p className="eyebrow px-3 pb-1 pt-3 !text-[11px]">{children}</p>;
 }
 
-export function MobileMenu() {
-  const [open, setOpen] = useState(false);
+export function MobileMenu({
+  open,
+  onOpenChange,
+}: {
+  open: boolean;
+  onOpenChange: (next: boolean) => void;
+}) {
   const pushed = useRef(false);
 
   // Close on the browser/gesture back button: push a history entry while the
@@ -79,14 +85,14 @@ export function MobileMenu() {
     history.pushState({ nmMenu: true }, "");
     const onPop = () => {
       pushed.current = false;
-      setOpen(false);
+      onOpenChange(false);
     };
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
-  }, [open]);
+  }, [open, onOpenChange]);
 
-  const onOpenChange = (next: boolean) => {
-    setOpen(next);
+  const handleOpenChange = (next: boolean) => {
+    onOpenChange(next);
     if (!next && pushed.current) {
       pushed.current = false;
       history.back();
@@ -96,7 +102,7 @@ export function MobileMenu() {
   const close = () => onOpenChange(false);
 
   return (
-    <Dialog.Root open={open} onOpenChange={onOpenChange}>
+    <Dialog.Root open={open} onOpenChange={handleOpenChange}>
       <Dialog.Trigger
         aria-label="Open menu"
         className="grid size-11 place-items-center rounded-[12px] text-ink transition-colors hover:bg-plum-50 lg:hidden"
@@ -205,9 +211,12 @@ export function MobileMenu() {
                 Call
               </ButtonLink>
             </div>
-            <p className="mt-2.5 text-center text-[13px] text-ink-600">
-              OPD Mon to Sat, 8:30 am to 6 pm · Phone 8 am to 9 pm daily
-            </p>
+            <div className="mt-2.5 flex items-center justify-center gap-3">
+              <p className="text-[13px] text-ink-600">
+                OPD Mon to Sat, 8:30 am to 6 pm · Phone 8 am to 9 pm daily
+              </p>
+              <FontSizeToggle />
+            </div>
           </div>
         </Dialog.Content>
       </Dialog.Portal>

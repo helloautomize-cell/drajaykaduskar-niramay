@@ -1,5 +1,5 @@
 /**
- * Per-page layout decisions for Phase 3 templates: which template a page
+ * Per-page layout decisions: which template a page
  * uses, its hero badge/image, and its "related services" picks. Hero images
  * follow the approved AI-portrait placement table.
  */

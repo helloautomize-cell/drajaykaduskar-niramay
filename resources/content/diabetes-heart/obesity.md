@@ -2,8 +2,8 @@
 page_number: 17
 title: "Obesity and weight management"
 url: "/obesity/"
-seo_title: "Medical Weight Management in Nagpur | Obesity Clinic, Niramay Clinics"
-meta_description: "Doctor-led obesity care in Nagpur with a SCOPE-certified consultant: finding the cause, diet and activity plans, medicines when appropriate, and body composition tracking."
+seo_title: "Medical Weight Management in Nagpur | Niramay Clinics"
+meta_description: "Doctor-led obesity care in Nagpur with a SCOPE-certified consultant: diet and activity plans, medicines when appropriate, and tracking."
 schema: "MedicalWebPage, MedicalCondition (Obesity)"
 images:
   - "Obesity_Care.png"

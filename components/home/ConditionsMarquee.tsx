@@ -34,7 +34,7 @@ function Row({ items, reverse, className }: { items: ConditionPill[]; reverse?: 
         {items.map((it) => (
           <Pill key={it.href} it={it} />
         ))}
-        {/* duplicate for the seamless loop; hidden from AT and in reduced motion */}
+        {/* duplicate for the continuous loop; hidden from AT and in reduced motion */}
         <span className="marquee-clone contents">
           {items.map((it) => (
             <Pill key={`${it.href}-x`} it={it} hidden />

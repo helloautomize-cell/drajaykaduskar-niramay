@@ -2,8 +2,8 @@
 page_number: 9
 title: "Type 1 diabetes care"
 url: "/diabetes/type-1-diabetes/"
-seo_title: "Type 1 Diabetes Care in Nagpur | Insulin, CGM and Family Support"
-meta_description: "Type 1 diabetes care for teenagers and adults in Nagpur: insulin planning, sugar monitoring, sick-day rules, diet and emotional support for the whole family."
+seo_title: "Type 1 Diabetes Care in Nagpur | Niramay Clinics"
+meta_description: "Type 1 diabetes care for teens and adults in Nagpur: insulin planning, monitoring, sick-day rules, diet and support for the whole family."
 schema: "MedicalWebPage, MedicalCondition"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

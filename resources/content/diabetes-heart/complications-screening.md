@@ -2,8 +2,8 @@
 page_number: 11
 title: "Diabetes complications screening"
 url: "/diabetes/complications-screening/"
-seo_title: "Diabetes Complications Screening in Nagpur | Eyes, Kidneys, Feet, Heart"
-meta_description: "Yearly diabetes complication checks under one roof in Nagpur: retinal photography, kidney tests, foot and nerve examination, ECG and heart assessment."
+seo_title: "Diabetes Complications Screening in Nagpur | Niramay"
+meta_description: "Yearly diabetes complication checks under one roof in Nagpur: retinal photography, kidney tests, foot and nerve checks, ECG."
 schema: "MedicalWebPage, MedicalTest"
 images:
   - "NiramayClinics_slide_img2.jpg"

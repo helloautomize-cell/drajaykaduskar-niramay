@@ -1,5 +1,6 @@
 ---
 title: "Menstrual Hygiene for Teenage Girls: A Practical Guide"
+seo_title: "Menstrual Hygiene for Teenage Girls | Niramay Clinics"
 url: "/health-library/menstrual-hygiene-teenage-girls/"
 original_title: "MENSTRUAL HYGIENE"
 original_url: "/menstrual-hygiene/"

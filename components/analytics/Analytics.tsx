@@ -21,7 +21,7 @@ declare global {
 }
 
 /**
- * GA4 + Consent Mode v2 (phase 6, part 4).
+ * GA4 + Consent Mode v2.
  *
  * - gtag.js is injected ONLY after the visitor clicks Accept. Before that no
  *   request is made to any Google domain.

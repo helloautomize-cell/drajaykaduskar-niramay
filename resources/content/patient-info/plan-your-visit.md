@@ -2,8 +2,8 @@
 page_number: 36
 title: "Plan your visit"
 url: "/plan-your-visit/"
-seo_title: "Plan Your Visit | Niramay Clinics, Dhantoli, Nagpur"
-meta_description: "Everything you need for your visit to Niramay Clinics, Nagpur: how to reach us, timings, what to bring, fasting tests, parking, accessibility and fees."
+seo_title: "Plan Your Visit | Niramay Clinics, Nagpur"
+meta_description: "How to reach Niramay Clinics, Dhantoli, Nagpur: timings, what to bring, fasting tests, parking, accessibility and fees."
 schema: "WebPage"
 images:
   - "Niramay clinic outside.jpg"

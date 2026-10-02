@@ -2,7 +2,7 @@
 page_number: 21
 title: "2D Echo (echocardiography)"
 url: "/heart-care/2d-echo/"
-seo_title: "2D Echo Test in Nagpur | Echocardiography at Niramay Clinics"
+seo_title: "2D Echo Test in Nagpur | Niramay Clinics"
 meta_description: "2D Echo (heart ultrasound) in Dhantoli, Nagpur. What it shows, how long it takes, how to prepare, and when your doctor may advise it."
 schema: "MedicalTest"
 images: []

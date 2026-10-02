@@ -2,8 +2,8 @@
 page_number: 2
 title: "About Niramay Clinics"
 url: "/about/"
-seo_title: "About Niramay Clinics | Family Specialist Practice in Dhantoli, Nagpur"
-meta_description: "Niramay Clinics is a family-run specialist practice in Nagpur for diabetes, heart and metabolic care, and for child and adolescent health. Meet the doctors and the team."
+seo_title: "About Niramay Clinics | Specialist Practice in Nagpur"
+meta_description: "Niramay Clinics is a family-run specialist practice in Nagpur for diabetes, heart and metabolic care, and child and adolescent health."
 schema: "AboutPage, MedicalClinic"
 images:
   - "NiramayClinics_slide_img6.jpg"

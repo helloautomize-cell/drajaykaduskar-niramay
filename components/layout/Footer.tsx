@@ -7,7 +7,7 @@ import { CookieSettingsLink } from "@/components/layout/CookieSettingsLink";
 import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon, ArrowIcon, ChevronIcon } from "@/components/icons";
 
 /**
- * Footer (plan G4): white with a top hairline. Service columns are
+ * Footer: white with a top hairline. Service columns are
  * text-only (no badges); on mobile they collapse into accordions while
  * contact, hours and address stay open at the top. Bottom row has Google
  * profile links (only when configured) and the legal line.

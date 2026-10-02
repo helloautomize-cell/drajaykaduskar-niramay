@@ -1,8 +1,8 @@
 ---
 title: "Coming from outside Nagpur"
 url: "/plan-your-visit/coming-from-outside-nagpur/"
-seo_title: "Visiting Niramay Clinics from Outside Nagpur | Plan Your Trip"
-meta_description: "Travelling to Niramay Clinics, Dhantoli from Wardha, Bhandara, Umred, Katol, Saoner or nearby towns? Plan your visit so consultation, tests and medicines are done in one trip."
+seo_title: "Visiting Niramay Clinics from outside Nagpur"
+meta_description: "Travelling from Wardha, Bhandara, Umred, Katol or nearby towns? Plan your visit so consultation, tests and medicines are done in one trip."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

@@ -2,8 +2,8 @@
 page_number: 13
 title: "Prediabetes and diabetes risk assessment"
 url: "/diabetes/prediabetes-risk-assessment/"
-seo_title: "Prediabetes and Diabetes Risk Check in Nagpur | Niramay Clinics"
-meta_description: "Find out your diabetes risk and act early. Prediabetes testing, Indian Diabetes Risk Score, waist and body composition check, and a practical prevention plan in Nagpur."
+seo_title: "Prediabetes Risk Check in Nagpur | Niramay Clinics"
+meta_description: "A prediabetes check in Nagpur for people with family history, weight gain or past borderline sugars: HbA1c, glucose tests and a prevention plan."
 schema: "MedicalWebPage, MedicalCondition (Prediabetes)"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

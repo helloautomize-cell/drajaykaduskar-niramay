@@ -141,7 +141,7 @@ export function DoctorProfileTemplate({
       <div className="mx-auto max-w-[1240px] px-4 pt-6 sm:px-6">
         <Breadcrumbs
           items={[
-            { label: "Doctors", href: "/doctors/dr-ajay-kaduskar/" },
+            { label: "Doctors", href: "/about/" },
             { label: h1, href: page.meta.url },
           ]}
         />

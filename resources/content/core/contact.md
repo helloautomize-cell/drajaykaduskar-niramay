@@ -2,8 +2,8 @@
 page_number: 6
 title: "Contact us and book an appointment"
 url: "/contact/"
-seo_title: "Contact and Book Appointment | Niramay Clinics, Dhantoli, Nagpur"
-meta_description: "Book an appointment at Niramay Clinics, Dhantoli, Nagpur. Call 0712 2422214 or +91 84591 41584, message on WhatsApp, or send a request online."
+seo_title: "Contact and Book Appointment | Niramay Clinics"
+meta_description: "Book an appointment at Niramay Clinics, Dhantoli, Nagpur. Call 0712 2422214, message on WhatsApp, or send a request online."
 schema: "ContactPage, MedicalClinic"
 images:
   - "Niramay clinic outside.jpg"

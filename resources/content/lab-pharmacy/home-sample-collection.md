@@ -2,8 +2,8 @@
 page_number: 34
 title: "Home sample collection"
 url: "/lab/home-sample-collection/"
-seo_title: "Home Blood Sample Collection in Nagpur | Niramay Laboratory"
-meta_description: "Book home blood sample collection in Nagpur with Niramay Laboratory. One day's prior booking, trained phlebotomists, reports shared with your doctor."
+seo_title: "Home Blood Sample Collection in Nagpur | Niramay Lab"
+meta_description: "Home blood sample collection in Nagpur with Niramay Laboratory. Prior booking, trained phlebotomists, reports shared with your doctor."
 schema: "MedicalWebPage, Service"
 images: []
 reviewed_by: ""

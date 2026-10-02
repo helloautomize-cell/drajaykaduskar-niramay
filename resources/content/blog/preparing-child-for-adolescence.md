@@ -1,5 +1,6 @@
 ---
 title: "Preparing Your Child, and Yourself, for Adolescence"
+seo_title: "Preparing Your Child for Adolescence | Niramay"
 url: "/health-library/preparing-child-for-adolescence/"
 original_title: "PREPARING YOURSELF"
 original_url: "/preparing-yourself/"

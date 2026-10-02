@@ -2,8 +2,8 @@
 page_number: 3
 title: "Dr. Ajay V. Kaduskar"
 url: "/doctors/dr-ajay-kaduskar/"
-seo_title: "Dr. Ajay V. Kaduskar | Diabetologist and Obesity Specialist, Nagpur"
-meta_description: "Dr. Ajay V. Kaduskar, MD (Medicine), PGDHSc (Diabetology), FEACD (Netherlands). Diabetes, obesity, thyroid and metabolic care in Dhantoli, Nagpur, with 20+ years of practice."
+seo_title: "Dr. Ajay V. Kaduskar | Diabetologist, Nagpur"
+meta_description: "Dr. Ajay V. Kaduskar, MD (Medicine), PGDHSc (Diabetology), FEACD. Diabetes, obesity, thyroid and metabolic care in Dhantoli, Nagpur."
 schema: "Physician (name, qualifications, medicalSpecialty: Endocrine/Cardiovascular/PrimaryCare, worksFor, address, sameAs: Google profile), ProfilePage"
 images:
   - "Dr ajay.jpg"

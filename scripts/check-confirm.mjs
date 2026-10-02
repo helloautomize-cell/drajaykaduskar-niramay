@@ -43,7 +43,7 @@ function scan(file, label) {
 for (const d of DIRS) for (const f of files(d)) scan(f, path.relative(ROOT, f));
 for (const f of EXTRA_FILES) scan(f, path.relative(ROOT, f));
 
-// --- Production environment rules (phase 6, part 5A) ---
+// --- Production environment rules ---
 // These are errors when VERCEL_ENV=production, warnings otherwise.
 // Locally, values may live in .env.local (gitignored) — load it for the check.
 try {
@@ -82,6 +82,54 @@ if (/mapsUrl:\s*""/.test(siteConfig)) {
 }
 if (process.env.SITE_INDEXABLE !== "true") {
   envWarnings.push("SITE_INDEXABLE is not true — site stays noindexed (fine until launch)");
+}
+
+// --- Rendered-HTML hygiene (built output in .next/server/app) ---
+// React's own hydration markers (<!-- -->, <!--$--> …) are expected and
+// excluded; everything else listed here must not reach production HTML.
+const BUILD_APP = path.join(ROOT, ".next/server/app");
+const renderErrors = [];
+
+function* htmlFiles(dir) {
+  for (const name of readdirSync(dir)) {
+    const p = path.join(dir, name);
+    if (statSync(p).isDirectory()) yield* htmlFiles(p);
+    else if (name.endsWith(".html")) yield p;
+  }
+}
+
+try {
+  statSync(BUILD_APP);
+  const htmlChecks = [
+    [/(?<!-)<!--(?![-$/?#!]|\s*-->)[^>]{0,200}/, "authored HTML comment"],
+    [/data-testid=/g, "data-testid attribute"],
+    [/lorem ipsum/gi, "lorem ipsum"],
+    [/>\s*TODO\b|\bTODO:/g, "TODO"],
+    [/FIXME/g, "FIXME"],
+    [/\[CONFIRM[^\]]*\]/g, "[CONFIRM] marker"],
+    [/[\u2014\u2013]/g, "em/en dash"],
+  ];
+  for (const f of htmlFiles(BUILD_APP)) {
+    const html = readFileSync(f, "utf8");
+    const rel = path.relative(ROOT, f);
+    for (const [re, label] of htmlChecks) {
+      const m = html.match(re);
+      if (m) {
+        const idx = html.indexOf(m[0]);
+        renderErrors.push(
+          `${rel}: ${label} (${JSON.stringify(html.slice(Math.max(0, idx - 40), idx + 60))})`
+        );
+      }
+    }
+  }
+} catch {
+  envWarnings.push("no production build found — rendered-HTML checks skipped (run after npm run build)");
+}
+
+if (renderErrors.length > 0) {
+  console.log(`launch-check: ${renderErrors.length} rendered-HTML problem(s):`);
+  for (const e of renderErrors.slice(0, 30)) console.log("  ERROR: " + e);
+  process.exit(1);
 }
 
 if (total === 0 && envErrors.length === 0) {

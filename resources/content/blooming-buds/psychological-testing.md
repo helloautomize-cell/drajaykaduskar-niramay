@@ -2,8 +2,8 @@
 page_number: 30
 title: "Psychological testing for children and teenagers"
 url: "/blooming-buds/psychological-testing/"
-seo_title: "IQ, EQ and Personality Testing for Children and Teens in Nagpur"
-meta_description: "Standardised psychological testing in Nagpur: IQ, emotional quotient (EQ), personality and aptitude assessment for children and teenagers, with a feedback session for parents."
+seo_title: "IQ, EQ and Personality Testing for Children | Nagpur"
+meta_description: "IQ, EQ, personality and aptitude assessment for children and teens in Nagpur, with a feedback session for parents."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"

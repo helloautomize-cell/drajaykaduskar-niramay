@@ -2,8 +2,8 @@
 page_number: 14
 title: "Thyroid clinic"
 url: "/thyroid-clinic/"
-seo_title: "Thyroid Clinic in Nagpur | Hypothyroidism and Hyperthyroidism Care"
-meta_description: "Diagnosis and treatment of thyroid disorders in Nagpur: underactive and overactive thyroid, thyroid in pregnancy, and thyroid problems with diabetes. In-house thyroid tests."
+seo_title: "Thyroid Clinic in Nagpur | Niramay Clinics"
+meta_description: "Diagnosis and treatment of thyroid disorders in Nagpur: underactive and overactive thyroid, thyroid in pregnancy, and thyroid with diabetes."
 schema: "MedicalWebPage, MedicalCondition"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

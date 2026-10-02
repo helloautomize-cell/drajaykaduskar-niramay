@@ -2,8 +2,8 @@
 page_number: 35
 title: "Niramay Pharmacy"
 url: "/pharmacy/"
-seo_title: "Niramay Pharmacy, Dhantoli, Nagpur | Licensed Pharmacy with Home Delivery"
-meta_description: "Niramay Pharmacy at Niramay Clinics, Dhantoli, Nagpur: prescribed medicines dispensed by a registered pharmacist, with home delivery in Nagpur."
+seo_title: "Niramay Pharmacy, Dhantoli | Licensed Pharmacy, Nagpur"
+meta_description: "Niramay Pharmacy at Niramay Clinics, Dhantoli: prescribed medicines dispensed by a registered pharmacist, with home delivery in Nagpur."
 schema: "Pharmacy"
 images:
   - "NirmayClinics_Pharmacy.jpg"

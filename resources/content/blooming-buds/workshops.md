@@ -2,8 +2,8 @@
 page_number: 32
 title: "Workshops for schools, parents and teachers"
 url: "/blooming-buds/workshops/"
-seo_title: "Adolescent Health Workshops for Schools and Parents | Nagpur"
-meta_description: "Workshops by Dr. Prajakta Kaduskar for schools, parents and teachers in Nagpur: puberty, mental wellness, screen use, cyber safety, bullying, life skills and exam stress."
+seo_title: "Adolescent Health Workshops for Schools | Nagpur"
+meta_description: "Workshops by Dr. Prajakta Kaduskar for schools, parents and teachers: puberty, mental wellness, screen use, cyber safety and exam stress."
 schema: "MedicalWebPage, Service"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"

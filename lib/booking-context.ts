@@ -1,5 +1,5 @@
 /**
- * Booking context (Phase 6 item 2.2): maps each page to the doctor + reason
+ * Booking context: maps each page to the doctor + reason
  * a "Book" tap should prefill on the /contact/ form. Pages with no clear
  * match return empty — the form then opens blank.
  */

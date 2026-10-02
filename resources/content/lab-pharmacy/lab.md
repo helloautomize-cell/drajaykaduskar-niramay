@@ -2,8 +2,8 @@
 page_number: 33
 title: "Niramay Laboratory"
 url: "/lab/"
-seo_title: "Pathology Lab in Dhantoli, Nagpur | Niramay Laboratory, 7 am to 7 pm"
-meta_description: "Niramay Laboratory, Dhantoli, Nagpur: blood and urine tests with automated analysers, open 7 am to 7 pm, with home sample collection and reports reviewed alongside your consultation."
+seo_title: "Pathology Lab in Dhantoli, Nagpur | Niramay Laboratory"
+meta_description: "Niramay Laboratory, Dhantoli: blood and urine tests with automated analysers, open 7 am to 7 pm, with home sample collection."
 schema: "MedicalWebPage, DiagnosticLab"
 images:
   - "NirmayClinics_Inhouse_pathology.jpg"

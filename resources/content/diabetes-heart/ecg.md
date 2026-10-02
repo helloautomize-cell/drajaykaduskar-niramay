@@ -2,7 +2,7 @@
 page_number: 22
 title: "ECG (electrocardiogram)"
 url: "/heart-care/ecg/"
-seo_title: "ECG Test in Nagpur | Electrocardiogram at Niramay Clinics"
+seo_title: "ECG Test in Nagpur | Niramay Clinics"
 meta_description: "A quick, painless ECG at Niramay Clinics, Dhantoli, Nagpur. What it records, when it is needed, and what to expect."
 schema: "MedicalTest"
 images: []

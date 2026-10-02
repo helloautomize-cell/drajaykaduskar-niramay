@@ -112,8 +112,8 @@ export async function submitAppointment(_prev: FormState, formData: FormData): P
       { label: "Doctor", value: DOCTOR_LABELS[v.doctor] },
       { label: "Reason", value: v.reason },
       { label: "Preferred", value: when },
-      { label: "City", value: v.city || "—" },
-      ...(v.guardian ? [{ label: "Parent/guardian", value: v.guardianName || "—" }] : []),
+      { label: "City", value: v.city || "Not given" },
+      ...(v.guardian ? [{ label: "Parent/guardian", value: v.guardianName || "Not given" }] : []),
     ],
   });
 
@@ -165,9 +165,9 @@ export async function submitWorkshop(_prev: FormState, formData: FormData): Prom
     rows: [
       { label: "School / organisation", value: v.organisation },
       { label: "Audience", value: v.audience },
-      { label: "Class / age range", value: v.ageRange || "—" },
-      { label: "Approximate number", value: v.approxCount || "—" },
-      { label: "Preferred dates", value: v.preferredDates || "—" },
+      { label: "Class / age range", value: v.ageRange || "Not given" },
+      { label: "Approximate number", value: v.approxCount || "Not given" },
+      { label: "Preferred dates", value: v.preferredDates || "Not given" },
       {
         label: "Topics",
         value: v.topics.join(", ") + (v.topicsOther ? ` (${v.topicsOther})` : ""),
@@ -180,7 +180,7 @@ export async function submitWorkshop(_prev: FormState, formData: FormData): Prom
   });
   if (!result.ok) return { ok: false, errors: {}, fatal: "send" };
 
-  // acknowledgement to the requester — failure here must not hide success
+  // acknowledgement to the requester; failure here must not hide success
   await sendWorkshopAck({ to: v.email, organisation: v.organisation }).catch(() => undefined);
   return { ok: true, errors: {} };
 }

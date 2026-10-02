@@ -72,7 +72,7 @@ export const site = {
     disclaimer:
       "The clinic is an outpatient facility and does not handle emergencies. Call 108 or 112 or go to the nearest hospital.",
   },
-  // Google Business Profiles (Part 3): agency pastes the links from GBP
+  // Google Business Profiles: agency pastes the links from GBP
   // manager. GBP A = clinic, GBP B = Dr. Ajay. Empty until supplied.
   googleProfiles: {
     clinic: { name: "Niramay Clinics", mapsUrl: "", reviewUrl: "" },
@@ -112,7 +112,7 @@ export const site = {
     "I agree that Niramay Clinics may contact me about this workshop request. I have read the Privacy Policy.",
   // Privacy Policy + Terms of Use "Last updated" (client-answers item 18)
   legalLastUpdated: "21 August 2026",
-  mapUrl: "", // Google Maps share link — agency copies from GBP (Part 3)
+  mapUrl: "", // Google Maps share link — agency copies from GBP
 } as const;
 
 export type Site = typeof site;

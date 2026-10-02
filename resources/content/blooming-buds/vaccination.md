@@ -2,8 +2,8 @@
 page_number: 27
 title: "Vaccinations for children, teenagers and adults"
 url: "/vaccination/"
-seo_title: "Vaccination Clinic in Nagpur | Child, Teen and Adult Vaccines"
-meta_description: "Vaccinations at Niramay Clinics, Nagpur, following the IAP schedule for children and current guidance for teenagers and adults, including HPV, flu and catch-up doses."
+seo_title: "Vaccination Clinic in Nagpur | Niramay Clinics"
+meta_description: "Vaccinations at Niramay Clinics, Nagpur, following the IAP schedule for children and current guidance for teens and adults, including HPV and flu."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar (children and teenagers) and Dr. Ajay V. Kaduskar (adults)"

@@ -2,8 +2,8 @@
 page_number: 8
 title: "Type 2 diabetes care"
 url: "/diabetes/type-2-diabetes/"
-seo_title: "Type 2 Diabetes Treatment in Nagpur | Dr. Ajay Kaduskar"
-meta_description: "Personalised type 2 diabetes care in Nagpur: diagnosis, diet, activity, medicines, insulin when needed, and regular complication screening at Niramay Clinics."
+seo_title: "Type 2 Diabetes Treatment in Nagpur | Niramay Clinics"
+meta_description: "Personalised type 2 diabetes care in Nagpur: diagnosis, diet, activity, medicines, insulin when needed, and regular complication screening."
 schema: "MedicalWebPage, MedicalCondition"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"

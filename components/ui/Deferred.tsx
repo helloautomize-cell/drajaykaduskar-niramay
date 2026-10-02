@@ -24,6 +24,10 @@ const registry = {
   map: dynamic(() => import("@/components/home/MapToggle").then((m) => m.MapToggle), {
     ssr: false,
   }),
+  swipe: dynamic(
+    () => import("@/components/ui/SwipeCarousel").then((m) => m.SwipeCarousel),
+    { ssr: false }
+  ),
 } as const;
 
 export function Deferred({

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Consent + analytics checks (phase 6, part 5A):
+ * Consent + analytics checks:
  *  - before consent: ZERO requests to googletagmanager / google-analytics /
  *    google.com/maps / youtube / youtube-nocookie on Home, Contact and a blog post
  *  - after Accept: gtag.js loads and page_view fires

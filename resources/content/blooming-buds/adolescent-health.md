@@ -2,8 +2,8 @@
 page_number: 28
 title: "Adolescent physical health"
 url: "/blooming-buds/adolescent-health/"
-seo_title: "Adolescent Health Clinic in Nagpur | Puberty, Periods, PCOS, Growth"
-meta_description: "Teen health care in Nagpur: growth and puberty, periods and PCOS, anaemia, weight, acne, sleep and nutrition, with Dr. Prajakta Kaduskar, adolescent health consultant."
+seo_title: "Adolescent Health Clinic in Nagpur | Niramay Clinics"
+meta_description: "Teen health care in Nagpur: growth and puberty, periods and PCOS, anaemia, weight, acne and nutrition, with Dr. Prajakta Kaduskar."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"

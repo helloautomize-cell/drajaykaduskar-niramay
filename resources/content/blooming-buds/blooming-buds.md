@@ -2,8 +2,8 @@
 page_number: 25
 title: "Blooming Buds Child and Adolescent Care Centre"
 url: "/blooming-buds/"
-seo_title: "Child and Adolescent Health Clinic in Nagpur | Blooming Buds"
-meta_description: "Blooming Buds at Niramay Clinics, Nagpur: baby check-ups, vaccination, teen health, counselling, psychological testing and career guidance with Dr. Prajakta Kaduskar."
+seo_title: "Child and Adolescent Health Clinic | Blooming Buds, Nagpur"
+meta_description: "Blooming Buds at Niramay Clinics: baby check-ups, vaccination, teen health, counselling and career guidance with Dr. Prajakta Kaduskar."
 schema: "MedicalClinic (department), MedicalWebPage"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"

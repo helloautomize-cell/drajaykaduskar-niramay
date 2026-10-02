@@ -20,6 +20,8 @@ export type PageFrontmatter = z.infer<typeof pageFrontmatter>;
 /** Frontmatter for the migrated blog posts in resources/content/blog/ */
 export const postFrontmatter = z.object({
   title: z.string().min(1),
+  /** <title> override when the display title is longer than ~60 chars */
+  seo_title: z.string().default(""),
   url: z.string().min(1),
   original_title: z.string().default(""),
   original_url: z.string().default(""),

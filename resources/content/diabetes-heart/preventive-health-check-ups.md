@@ -2,8 +2,8 @@
 page_number: 24
 title: "Preventive health check-ups"
 url: "/preventive-health-check-ups/"
-seo_title: "Preventive Health Check-ups in Nagpur | Niramay Clinics"
-meta_description: "Doctor-reviewed health check-ups in Nagpur: diabetes, heart, thyroid, kidney and liver screening, with a consultation to explain your results and plan next steps."
+seo_title: "Preventive Health Check-ups in Nagpur | Niramay"
+meta_description: "Doctor-reviewed health check-ups in Nagpur: diabetes, heart, thyroid, kidney and liver screening, with a consultation on your results."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"
@@ -22,7 +22,7 @@ has_confirm_items: false
 
 **H1:** Preventive health check-ups
 
-A check-up is useful only if someone reads the results with you and explains what to do next. Every check-up at Niramay Clinics ends with a doctor's consultation, not just a printed report.
+A check-up is useful only if someone reads the results with you and explains what to do next. Every check-up at Niramay Clinics ends with a doctor's consultation. You never leave with only a printed report.
 
 #### How your check-up is designed
 We do not offer fixed test packages, because a standard list would mean unnecessary or repeated tests for many people. Instead:

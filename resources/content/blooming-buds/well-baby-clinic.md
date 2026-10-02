@@ -2,8 +2,8 @@
 page_number: 26
 title: "Well baby clinic"
 url: "/blooming-buds/well-baby-clinic/"
-seo_title: "Well Baby Clinic in Nagpur | Baby Growth and Development Check-ups"
-meta_description: "Regular baby check-ups in Nagpur: weight and growth charts, milestones, feeding, sleep, and vaccination reminders with Dr. Prajakta Kaduskar."
+seo_title: "Well Baby Clinic in Nagpur | Blooming Buds"
+meta_description: "Regular baby check-ups in Nagpur: growth charts, milestones, feeding, sleep and vaccination reminders with Dr. Prajakta Kaduskar."
 schema: "MedicalWebPage"
 images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"

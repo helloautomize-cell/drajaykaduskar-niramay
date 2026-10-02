@@ -1,5 +1,6 @@
 ---
 title: "Smart Love: Parenting Teenagers with Connection, Not Control"
+seo_title: "Smart Love: Parenting Teenagers | Niramay Clinics"
 url: "/health-library/smart-love-parenting-teenagers/"
 original_title: "SMART LOVE"
 original_url: "/smart-love/"
@@ -26,7 +27,7 @@ has_confirm_items: false
 
 #### Parenting teens: still a challenge
 
-Adolescence is a journey from childhood to adulthood, and parenting a teenager is a journey too: guiding a young person towards independence, passing on values, and helping them handle friendships and relationships. Every child is different, and even the same parents face new challenges with each child.
+Adolescence is the move from childhood to adulthood. Parenting a teenager means guiding a young person towards independence, passing on values, and helping them handle friendships and relationships. Every child is different, and even the same parents face new challenges with each child.
 
 All parents want a happy, successful child, yet there is little agreement on how to get there. We often try to teach teenagers to obey without question. What they need more is to learn to disagree openly and respectfully, and to ask for guidance when they are unsure rather than acting on impulse.
 

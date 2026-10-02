@@ -13,7 +13,7 @@ export function Confirm({
 }) {
   if (process.env.NODE_ENV === "production") return null;
   return (
-    <span className={cn("todo-confirm", className)} title="Awaiting confirmation">
+    <span className={cn("confirm-chip", className)} title="Awaiting confirmation">
       {children}
     </span>
   );
