@@ -15,8 +15,7 @@ export type TemplateKind =
   | "contact"
   | "faqs"
   | "services-index"
-  | "blog-list"
-  | "thank-you";
+  | "blog-list";
 
 const HUB_URLS = new Set(["/diabetes/", "/obesity/", "/heart-care/", "/blooming-buds/"]);
 const LEGAL_SECTION = "legal";
@@ -89,7 +88,6 @@ const midImageOverrides: Record<string, string> = {
 
 export function templateFor(meta: PageFrontmatter): TemplateKind {
   const url = meta.url;
-  if (url === "/contact/thank-you/") return "thank-you";
   if (url === "/contact/") return "contact";
   if (url === "/faqs/") return "faqs";
   if (url === "/services/") return "services-index";

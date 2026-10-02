@@ -43,10 +43,62 @@ function scan(file, label) {
 for (const d of DIRS) for (const f of files(d)) scan(f, path.relative(ROOT, f));
 for (const f of EXTRA_FILES) scan(f, path.relative(ROOT, f));
 
-if (total === 0) {
-  console.log("launch-check: no [CONFIRM] markers remain. Ready to launch.");
-  process.exit(0);
+// --- Production environment rules (phase 6, part 5A) ---
+// These are errors when VERCEL_ENV=production, warnings otherwise.
+// Locally, values may live in .env.local (gitignored) — load it for the check.
+try {
+  for (const line of readFileSync(path.join(ROOT, ".env.local"), "utf8").split("\n")) {
+    const m = line.match(/^([A-Z_][A-Z0-9_]*)=(.*)$/);
+    if (m && process.env[m[1]] === undefined) {
+      process.env[m[1]] = m[2].trim().replace(/^["']|["']$/g, "");
+    }
+  }
+} catch {
+  /* no .env.local — Vercel injects vars directly */
 }
-console.log(`launch-check: ${total} unresolved [CONFIRM] marker(s):`);
-for (const r of report) console.log("  " + r);
-process.exit(1);
+const isProd = process.env.VERCEL_ENV === "production";
+const envErrors = [];
+const envWarnings = [];
+
+const REQUIRED_ENV = [
+  "RESEND_API_KEY",
+  "FORM_TO_EMAIL",
+  "FORM_FROM_EMAIL",
+];
+for (const v of REQUIRED_ENV) {
+  if (!process.env[v]) envErrors.push(`missing env var ${v}`);
+}
+if (/resend\.dev/i.test(process.env.FORM_FROM_EMAIL || "")) {
+  envErrors.push("FORM_FROM_EMAIL uses resend.dev — verify the domain in Resend first");
+}
+if (process.env.FORM_TEST_MODE) {
+  envErrors.push("FORM_TEST_MODE is set — emails would be silently skipped");
+}
+
+// googleProfiles links empty → warning only (links simply do not render)
+const siteConfig = readFileSync(path.join(ROOT, "lib/site-config.ts"), "utf8");
+if (/mapsUrl:\s*""/.test(siteConfig)) {
+  envWarnings.push("site.googleProfiles mapsUrl is empty — Google Maps links will not render");
+}
+if (process.env.SITE_INDEXABLE !== "true") {
+  envWarnings.push("SITE_INDEXABLE is not true — site stays noindexed (fine until launch)");
+}
+
+if (total === 0 && envErrors.length === 0) {
+  console.log("launch-check: no [CONFIRM] markers remain.");
+  if (!isProd) console.log("launch-check: env rules are warnings outside production.");
+}
+if (total > 0) {
+  console.log(`launch-check: ${total} unresolved [CONFIRM] marker(s):`);
+  for (const r of report) console.log("  " + r);
+}
+for (const w of envWarnings) console.log("  warning: " + w);
+if (envErrors.length > 0) {
+  if (isProd) {
+    console.log("launch-check: PRODUCTION environment errors:");
+    for (const e of envErrors) console.log("  ERROR: " + e);
+    process.exit(1);
+  }
+  for (const e of envErrors) console.log("  warning (would fail in production): " + e);
+}
+process.exit(total > 0 ? 1 : 0);

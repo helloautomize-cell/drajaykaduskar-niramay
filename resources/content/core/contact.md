@@ -10,7 +10,7 @@ images:
 reviewed_by: ""
 section: core
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 6. Contact and Book Appointment
@@ -24,11 +24,11 @@ has_confirm_items: true
 **H1:** Contact us and book an appointment
 
 #### Ways to book
-- **Phone:** 0712 2422214 · +91 84591 41584 (9 am to 5 pm **[CONFIRM]**)
+- **Phone:** 0712 2422214 · +91 84591 41584 (8 am to 9 pm, every day)
 - **WhatsApp:** +91 84591 41584
 - **Online:** use the form below. We will call or message you to confirm a time. Your appointment is confirmed only after you hear from us.
 - **Pharmacy:** +91 90213 51693
-- **Email (non-urgent):** admin@niramayclinics.com
+- **Email (non-urgent):** [email](mailto:)
 
 #### Appointment request form
 Fields:
@@ -52,8 +52,14 @@ Opposite Dinanath High School, Dhantoli
 Nagpur, Maharashtra 440012
 [Get directions on Google Maps]
 
+Patients come to us from across Nagpur and from towns up to 100 km away, including Wardha, Bhandara, Umred, Katol, Saoner and Ramtek.
+
 #### Hours
-**[CONFIRM: table by day for each doctor, laboratory (7 am to 7 pm) and pharmacy; Sunday and public holiday status]**
+- **OPD (both doctors):** Monday to Saturday, 8:30 am to 6 pm. Sundays closed.
+- **Laboratory:** Monday to Saturday, 7 am to 7 pm. Sundays closed.
+- **Pharmacy:** Monday to Saturday, 8:30 am to 8 pm. Sundays closed.
+- **Phone:** 8 am to 9 pm, every day.
+- Please call before visiting on public holidays.
 
 #### Emergency notice (highlighted)
 We are an outpatient clinic. If you or someone with you has chest pain, difficulty breathing, signs of stroke (face drooping, arm weakness, slurred speech), very high or very low blood sugar with confusion or drowsiness, a seizure, or any other emergency, **call 108 or 112 now** or go to the nearest hospital emergency department.

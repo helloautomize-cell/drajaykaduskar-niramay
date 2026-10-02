@@ -1,8 +1,14 @@
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { cn } from "@/lib/utils";
-import { readConsent, writeConsent, subscribeConsent, type ConsentState } from "@/lib/consent";
+import {
+  CONSENT_OPEN_EVENT,
+  readConsent,
+  writeConsent,
+  subscribeConsent,
+  type ConsentState,
+} from "@/lib/consent";
 import { CloseIcon } from "@/components/icons";
 
 const SSR_PENDING = Symbol("ssr");
@@ -21,12 +27,27 @@ export function CookieBanner() {
   );
   const [settings, setSettings] = useState(false);
   const [analytics, setAnalytics] = useState(false);
+  // forced open via the footer "Cookie settings" link, even after a stored choice
+  const [forcedOpen, setForcedOpen] = useState(false);
 
-  // SSR/first paint renders nothing; appears only when no choice is stored.
-  if (consent === SSR_PENDING || consent !== null) return null;
+  useEffect(() => {
+    const open = () => {
+      setAnalytics(readConsent()?.analytics === true);
+      setSettings(true);
+      setForcedOpen(true);
+    };
+    window.addEventListener(CONSENT_OPEN_EVENT, open);
+    return () => window.removeEventListener(CONSENT_OPEN_EVENT, open);
+  }, []);
+
+  // SSR/first paint renders nothing; appears only when no choice is stored,
+  // or when the footer link re-opens it.
+  if (!forcedOpen && (consent === SSR_PENDING || consent !== null)) return null;
 
   const decide = (decided: "accepted" | "declined" | "custom", a: boolean) => {
     writeConsent({ analytics: a, decided, at: new Date().toISOString() });
+    setForcedOpen(false);
+    setSettings(false);
   };
 
   return (
@@ -46,7 +67,9 @@ export function CookieBanner() {
           <button
             type="button"
             aria-label="Close cookie notice"
-            onClick={() => decide("declined", false)}
+            onClick={() =>
+              forcedOpen ? (setForcedOpen(false), setSettings(false)) : decide("declined", false)
+            }
             className="grid size-8 shrink-0 place-items-center rounded-[8px] text-ink-600 transition-colors hover:bg-plum-50 hover:text-ink"
           >
             <CloseIcon size={16} />

@@ -42,7 +42,6 @@ Every page file below was split verbatim from `docs/niramay-new-website-content.
 | 36 | Plan your visit | `/plan-your-visit/` | `content/patient-info/plan-your-visit.md` | - | 5 |
 | 37 | Frequently asked questions | `/faqs/` | `content/patient-info/faqs.md` | - | 9 |
 | 38 | Health Library | `/health-library/` | `content/patient-info/health-library.md` | - | 0 |
-| 39 | Videos and health talks | `/videos/` | `content/patient-info/videos.md` | - | 2 |
 | A | Thank you, we have received your request | `/contact/thank-you/` | `content/patient-info/thank-you.md` | - | 1 |
 | B | We could not find that page | `-` | `content/patient-info/404.md` | - | 0 |
 | 40 | Privacy Policy | `/privacy-policy/` | `content/legal/privacy-policy.md` | Lawyer (required by Part 6 note) | 8 |

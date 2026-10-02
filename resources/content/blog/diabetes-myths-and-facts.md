@@ -28,7 +28,7 @@ has_confirm_items: false
 
 Diabetes is one of the fastest-growing long-term conditions in India. In our clinic we regularly meet people whose diagnosis or treatment was delayed by something they had heard from a friend, a relative or a forwarded message. Knowing the facts helps you act early and avoid complications.
 
-*[Video: "Sugar ki Baat: Diabetes and Obesity, Myth vs Fact" with Dr. Ajay Kaduskar]*
+*[Video: "Diabetes and obesity — myth vs fact" with Dr. Ajay Kaduskar]*
 
 #### Myth 1: "No one in my family has diabetes, so I cannot get it."
 

@@ -138,7 +138,7 @@ Home · About (Our Clinic, Dr. Ajay Kaduskar, Dr. Prajakta Kaduskar) · Diabetes
 - **Phone:** 0712 2422214 · +91 84591 41584 (calls and WhatsApp)
 - **Laboratory:** Niramay Laboratory, 7 am to 7 pm **[CONFIRM: days]**
 - **Pharmacy:** Niramay Pharmacy (Niramay Medical), +91 90213 51693
-- **Email:** admin@niramayclinics.com
+- **Email:** ajaykaduskar@gmail.com
 - **Hours:** **[CONFIRM: OPD days and hours for each doctor. Current listings disagree: appointment line 9 am to 5 pm, Google 8:30 am or 9 am, Justdial 8:30 am to 6 pm]**
 
 **Structured data (for the developer)**
@@ -511,7 +511,7 @@ Niramay Clinics has two specialist centres, a laboratory and a pharmacy at one a
 - **WhatsApp:** +91 84591 41584
 - **Online:** use the form below. We will call or message you to confirm a time. Your appointment is confirmed only after you hear from us.
 - **Pharmacy:** +91 90213 51693
-- **Email (non-urgent):** admin@niramayclinics.com
+- **Email (non-urgent):** ajaykaduskar@gmail.com
 
 #### Appointment request form
 Fields:
@@ -2184,7 +2184,7 @@ These terms apply to your use of niramayclinics.com. By using the website you ag
 11. **Privacy.** Our Privacy Policy explains how we handle personal data.
 12. **Changes.** We may update these terms. The latest version will be on this page.
 13. **Governing law.** These terms are governed by the laws of India. Courts at Nagpur, Maharashtra have jurisdiction.
-14. **Contact.** admin@niramayclinics.com · 0712 2422214
+14. **Contact.** ajaykaduskar@gmail.com · 0712 2422214
 
 ---
 
@@ -2231,7 +2231,7 @@ We base content on current guidance from recognised bodies such as the Indian Co
 We may use software tools, including AI-based writing assistants, to help draft or edit text. Every page is checked for accuracy and approved by our doctors before publication, and the doctors remain responsible for the medical content.
 
 #### Updates and corrections
-Medical pages are reviewed at least once a year, and sooner when guidelines change. If you find an error, email admin@niramayclinics.com. We will review it and correct it promptly, and note significant corrections on the page.
+Medical pages are reviewed at least once a year, and sooner when guidelines change. If you find an error, email ajaykaduskar@gmail.com. We will review it and correct it promptly, and note significant corrections on the page.
 
 ---
 
@@ -2267,7 +2267,7 @@ This charter is based on the Charter of Patients' Rights adopted by the Ministry
 7. Respect the privacy of other patients. Do not photograph or record other patients or staff without permission.
 
 #### Feedback and complaints
-Speak to the front desk manager or write to admin@niramayclinics.com. We will acknowledge your complaint within **[CONFIRM: e.g. 2 working days]** and respond within **[CONFIRM: e.g. 15 days]**.
+Speak to the front desk manager or write to ajaykaduskar@gmail.com. We will acknowledge your complaint within **[CONFIRM: e.g. 2 working days]** and respond within **[CONFIRM: e.g. 15 days]**.
 
 ---
 
@@ -2298,7 +2298,7 @@ Please let us know at least **[CONFIRM: e.g. 4 hours]** before your appointment 
 For safety, medicines cannot be returned once they leave the pharmacy, except when the wrong medicine was supplied, the product is damaged, or it is past its expiry date. Insulin and other refrigerated medicines cannot be returned. Please check your medicines before leaving the counter. **[CONFIRM]**
 
 #### 5. Contact
-admin@niramayclinics.com · 0712 2422214
+ajaykaduskar@gmail.com · 0712 2422214
 
 ---
 
@@ -2327,7 +2327,7 @@ This website aims to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at
 - Staff assistance on request: call the front desk before you arrive and we will meet you
 
 #### Feedback
-If you find any part of the website or clinic difficult to use, please tell us at admin@niramayclinics.com or 0712 2422214. We will try to fix it, or provide the information in another way.
+If you find any part of the website or clinic difficult to use, please tell us at ajaykaduskar@gmail.com or 0712 2422214. We will try to fix it, or provide the information in another way.
 
 ---
 ## Part 7. Questionnaire for the doctors (fills every [CONFIRM] item)

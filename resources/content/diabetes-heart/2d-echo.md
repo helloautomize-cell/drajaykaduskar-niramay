@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 21. 2D Echo (Echocardiography)
@@ -19,7 +19,7 @@ has_confirm_items: true
 - **Meta description:** 2D Echo (heart ultrasound) in Dhantoli, Nagpur. What it shows, how long it takes, how to prepare, and when your doctor may advise it.
 - **Schema:** MedicalTest
 
-> **[CONFIRM: who performs and reports the 2D Echo (name and qualification); appointment process; report turnaround time]**
+> Dr. Ajay performs and reports your 2D Echo here at the clinic. It can usually be done the same day, and the report is ready in about 30 minutes.
 
 **H1:** 2D Echo (echocardiography)
 

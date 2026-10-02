@@ -27,6 +27,7 @@ import { FaqAccordion, type FaqItem } from "@/components/sections/FaqAccordion";
 import { StepTracker, type Step } from "@/components/sections/StepTracker";
 import { ContentTable } from "@/components/ui/ContentTable";
 import { VideoFacade } from "@/components/sections/VideoFacade";
+import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
 
 /* ---------------------------------------------------------------- helpers */
 
@@ -376,6 +377,17 @@ function mdastToHast(nodes: RootContent[]): HastRoot {
 
 function AnchorTag({ href, children, ...rest }: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
   const h = href ?? "";
+  // `[email](mailto:)` in markdown -> client-assembled email link
+  // (anti-scrape): bare "email" text shows the address after mount, any
+  // other text becomes the link label.
+  if (h === "mailto:" || h === "mailto:EMAIL") {
+    const bare = typeof children === "string" && children.trim() === "email";
+    return (
+      <ObfuscatedEmail className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
+        {bare ? undefined : children}
+      </ObfuscatedEmail>
+    );
+  }
   if (h.startsWith("/")) {
     return (
       <Link href={h} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">

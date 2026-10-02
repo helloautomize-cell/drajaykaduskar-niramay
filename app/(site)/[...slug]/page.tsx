@@ -24,7 +24,6 @@ import { ServiceDetailTemplate } from "@/components/templates/ServiceDetail";
 import { EditorialTemplate } from "@/components/templates/Editorial";
 import { LegalTemplate } from "@/components/templates/Legal";
 import { ContactPageTemplate } from "@/components/templates/ContactPage";
-import { ThankYouTemplate } from "@/components/templates/ThankYou";
 import { BlogListTemplate } from "@/components/templates/BlogList";
 import { BlogPostTemplate } from "@/components/templates/BlogPost";
 import { ServicesIndexTemplate } from "@/components/templates/ServicesIndex";
@@ -69,7 +68,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
     }
     const page = pageByUrl().get(url);
     if (!page) return {};
-    return pageMetadata(page.meta, { noindex: url === "/contact/thank-you/" });
+    return pageMetadata(page.meta);
   });
 }
 
@@ -289,8 +288,6 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
           <ContactPageTemplate page={page} />
         </>
       );
-    case "thank-you":
-      return <ThankYouTemplate page={page} />;
     case "services-index":
       return (
         <>

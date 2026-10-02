@@ -14,7 +14,7 @@ images:
 reviewed_by: ""
 section: core
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 1. Home
@@ -28,7 +28,7 @@ has_confirm_items: true
 #### Hero
 **H1:** Specialist care for diabetes, heart health and growing children, in Dhantoli, Nagpur
 
-Niramay Clinics brings two specialist practices under one roof. Dr. Ajay V. Kaduskar looks after adults with diabetes, obesity, thyroid problems, high blood pressure and heart risk. Dr. Prajakta A. Kaduskar looks after children and teenagers, from baby check-ups and vaccinations to emotional health and career guidance. Each doctor has more than 20 years of clinical practice.
+Niramay Clinics brings two specialist practices under one roof. Dr. Ajay V. Kaduskar looks after adults with diabetes, obesity, thyroid problems, high blood pressure and heart risk. Dr. Prajakta A. Kaduskar looks after children and teenagers, from baby check-ups and vaccinations to emotional health and career guidance. Between them they bring more than 35 years of clinical practice.
 
 **Buttons:** Book an appointment · Call 0712 2422214
 
@@ -83,7 +83,7 @@ Consultant in diabetes, obesity and metabolic diseases. Director, Niramay Diabet
 
 **Dr. Prajakta A. Kaduskar**
 MBBS, DCH, PGDAP (Adolescent Pediatrics), MA (Clinical Psychology)
-Consultant in child and adolescent health. More than 20 years of practice. Special interests: adolescent health, emotional wellbeing, parenting guidance and school health programmes.
+Consultant in child and adolescent health. More than 15 years of practice. Special interests: adolescent health, emotional wellbeing, parenting guidance and school health programmes.
 [Read profile →]
 
 #### Section: Inside the clinic (parallax image band)
@@ -113,7 +113,7 @@ Yes. Niramay Laboratory is on the premises and is open from 7 am to 7 pm. Home s
 Yes. Both doctors practise at the same address, so many families book back-to-back appointments.
 
 **Is the clinic accessible for elderly patients and wheelchair users?**
-Yes. The building has a lift and the clinic is wheelchair friendly. Two-wheeler parking is available at the building. **[CONFIRM: car parking advice]**
+Yes. The building has a lift and the clinic is wheelchair friendly. Two-wheeler parking is available at the building.
 
 #### Section: Reviews (compliant version)
 **H2:** What patients say

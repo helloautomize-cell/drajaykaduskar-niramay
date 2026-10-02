@@ -118,7 +118,6 @@ export const patientInfoLinks: NavLink[] = [
   { label: "Plan your visit", href: "/plan-your-visit/" },
   { label: "FAQs", href: "/faqs/" },
   { label: "Health Library", href: "/health-library/" },
-  { label: "Videos", href: "/videos/" },
   { label: "Patient rights", href: "/patient-rights/" },
 ];
 

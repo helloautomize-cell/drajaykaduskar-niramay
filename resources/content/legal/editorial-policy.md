@@ -37,4 +37,4 @@ We base content on current guidance from recognised bodies such as the Indian Co
 We may use software tools, including AI-based writing assistants, to help draft or edit text. Every page is checked for accuracy and approved by our doctors before publication, and the doctors remain responsible for the medical content.
 
 #### Updates and corrections
-Medical pages are reviewed at least once a year, and sooner when guidelines change. If you find an error, email admin@niramayclinics.com. We will review it and correct it promptly, and note significant corrections on the page.
+Medical pages are reviewed at least once a year, and sooner when guidelines change. If you find an error, email [email](mailto:). We will review it and correct it promptly, and note significant corrections on the page.

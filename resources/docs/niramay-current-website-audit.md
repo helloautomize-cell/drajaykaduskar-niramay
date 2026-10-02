@@ -251,7 +251,7 @@ The site shows these as an unlabeled 2×2 grid ⚠️.
 | Mobile / WhatsApp | 8459141584 | 084591 41584 | 084591 41584 | – |
 | Pharmacy | **Niramay Medical / Niramay Pharmacy (निरामय फार्मसी)**, own phone **9021351693**; **home delivery service available** (👁 signboards). Not on the website. | | | |
 | Lab | **Niramay Laboratory (निरामय लॅबोरेटरी)**, **7 AM – 7 PM**, home collection facility available (👁 signboard) | | | |
-| Email | **admin@niramayclinics.com** ✅ (Contact page) | | | |
+| Email | **ajaykaduskar@gmail.com** ✅ (Contact page) | | | |
 | Hours | Appointment phone line **9 am – 5 pm** (FAQ); clinic hours not stated ⚠️ | opens 9:00 am | opens 8:30 am | Mon 8:30 am – 6:00 pm |
 | Social | none ⚠️ | | | |
 
@@ -277,7 +277,7 @@ The FAQ page CTA is "Still have questions? Can't find the answer you're looking 
 
 **"Contact Form"** is the one in use on `/contact/`:
 - **Fields:** Full name* · E-mail* · Mobile number* · City name* · Your message · button "Ask us"
-- Sends "Enquiry" to **admin@niramayclinics.com**.
+- Sends "Enquiry" to **ajaykaduskar@gmail.com**.
 - ⚠️ The auto-reply sender is a demo domain (`wordpress@mzagorski.h2g.pl`), but the auto-reply is disabled.
 
 **"Contact form 1"** is the WordPress default, unused:
@@ -374,7 +374,7 @@ The FAQ page CTA is "Still have questions? Can't find the answer you're looking 
 
 - The only WP user is `niramay_admin`, registered with the developer's personal Gmail. The default contact form also sends from that Gmail.
 - Move the admin email to a clinic-owned address before handover.
-- Confirm who owns hosting, domain registrar and DNS, and the `admin@niramayclinics.com` mailbox (MX records must survive the move to Vercel or other Next.js hosting).
+- Confirm who owns hosting, domain registrar and DNS, and the `ajaykaduskar@gmail.com` mailbox (MX records must survive the move to Vercel or other Next.js hosting).
 
 ### 6.3 Custom CSS (Customizer) ✅
 
@@ -452,7 +452,7 @@ Roboto throughout. H1 76px / H2 52px, weight 500, −2px tracking. Body 15/28px,
 
 ### 8.5 FAQs & Contact
 - **FAQs:** icon boxes using a demo icon (`medic4-services-icon1.svg`) and a "Still have questions? Call us" CTA.
-- **Contact:** the heading "We look forward to taking care of you", address, logo, form, "Call us" (AU link 🔴), "Write to us" admin@niramayclinics.com.
+- **Contact:** the heading "We look forward to taking care of you", address, logo, form, "Call us" (AU link 🔴), "Write to us" ajaykaduskar@gmail.com.
 
 ---
 
@@ -528,7 +528,7 @@ Roboto throughout. H1 76px / H2 52px, weight 500, −2px tracking. Body 15/28px,
 - [ ] Slider Revolution export of `home-niramay` (slide order and overlay text)
 - [ ] *Settings › General*: admin email, timezone. *Settings › Reading*: "Discourage search engines"?
 - [ ] Plugin list; Contact Form 7 submission storage (Flamingo?) for enquiry volume and types
-- [ ] Hosting, domain registrar, DNS, MX; who owns `admin@niramayclinics.com`
+- [ ] Hosting, domain registrar, DNS, MX; who owns `ajaykaduskar@gmail.com`
 - [ ] Google Search Console / GA access (none detected; check if Search Console is verified by DNS)
 - [ ] Is the YouTube video `YjXtEOQ724Y` on the clinic's own channel? Channel URL?
 

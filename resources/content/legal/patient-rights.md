@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Lawyer (required by Part 6 note)"
 section: legal
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 44. Patient Rights and Responsibilities
@@ -18,7 +18,7 @@ has_confirm_items: true
 
 **H1:** Patient rights and responsibilities
 
-This charter is based on the Charter of Patients' Rights adopted by the Ministry of Health and Family Welfare, Government of India, on the recommendation of the National Human Rights Commission. It is also displayed at our reception. **[CONFIRM: display at reception]**
+This charter is based on the Charter of Patients' Rights adopted by the Ministry of Health and Family Welfare, Government of India, on the recommendation of the National Human Rights Commission. It is also displayed at our reception.
 
 #### Your rights
 1. **Information.** To know your diagnosis, the nature and purpose of investigations and treatment, likely benefits and risks, and alternatives, in language you understand.
@@ -44,4 +44,4 @@ This charter is based on the Charter of Patients' Rights adopted by the Ministry
 7. Respect the privacy of other patients. Do not photograph or record other patients or staff without permission.
 
 #### Feedback and complaints
-Speak to the front desk manager or write to admin@niramayclinics.com. We will acknowledge your complaint within **[CONFIRM: e.g. 2 working days]** and respond within **[CONFIRM: e.g. 15 days]**.
+Speak to the front desk manager or write to [email](mailto:). We acknowledge every complaint within 24 hours and aim to resolve it within 3 days.

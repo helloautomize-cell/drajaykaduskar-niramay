@@ -9,7 +9,7 @@ images: []
 reviewed_by: ""
 section: patient-info
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 37. Frequently Asked Questions
@@ -23,10 +23,10 @@ has_confirm_items: true
 
 #### Appointments and timings
 **How do I book an appointment?**
-Call 0712 2422214 or +91 84591 41584 between 9 am and 5 pm **[CONFIRM]**, message us on WhatsApp, or use the appointment request form. Online requests are confirmed by phone or message.
+Call 0712 2422214 or +91 84591 41584 between 8 am and 9 pm, any day, message us on WhatsApp, or use the appointment request form. Online requests are confirmed by phone or message.
 
 **What are the clinic timings?**
-**[CONFIRM: by doctor and day]** The laboratory is open from 7 am to 7 pm.
+OPD (both doctors): Monday to Saturday, 8:30 am to 6 pm; Sundays closed. Laboratory: Monday to Saturday, 7 am to 7 pm. Pharmacy: Monday to Saturday, 8:30 am to 8 pm. Please call before visiting on public holidays.
 
 **Do I need a referral?**
 No. You can book directly.
@@ -35,14 +35,14 @@ No. You can book directly.
 Yes. Families often book back-to-back appointments with Dr. Ajay Kaduskar and Dr. Prajakta Kaduskar.
 
 **Do you offer online or video consultations?**
-**[CONFIRM. If yes: "Follow-up consultations can be done by video for existing patients, in line with the Telemedicine Practice Guidelines. First consultations are best done in person."]**
+First consultations are best done in person. For follow-ups, your doctor may suggest a phone or WhatsApp check-in where suitable — ask at your visit.
 
 **What if I am late or need to cancel?**
 Please call as early as possible so another patient can be seen. See our Cancellation and Refund Policy.
 
 #### Tests and reports
 **What are the laboratory timings?**
-7 am to 7 pm. **[CONFIRM days]**
+7 am to 7 pm, Monday to Saturday. Sundays closed.
 
 **Is home sample collection available?**
 Yes, with at least one day's prior booking.
@@ -51,7 +51,7 @@ Yes, with at least one day's prior booking.
 Fasting sugar and some cholesterol tests need 10 to 12 hours of fasting. HbA1c, thyroid and blood counts do not. Check the Laboratory page or ask us.
 
 **How do I get my reports?**
-**[CONFIRM: printed, WhatsApp, email]**
+Reports are ready the same day for most routine tests. Collect them at the clinic or ask us to send them to you on WhatsApp.
 
 **Do you do 2D Echo, ECG and TMT?**
 Yes, at the clinic. Some need an appointment.
@@ -61,7 +61,7 @@ Yes, at the clinic. Some need an appointment.
 Yes, Niramay Pharmacy, phone +91 90213 51693. Medicines are dispensed against a valid prescription.
 
 **Do you deliver medicines?**
-Home delivery is available in Nagpur, and dispatch to outstation patients under our care. **[CONFIRM]**
+Home delivery is available in Nagpur.
 
 #### Children and teenagers
 **From what age do you see children?**
@@ -81,14 +81,16 @@ Yes.
 Yes.
 
 **Is parking available?**
-Ample two-wheeler parking is available at the building. **[CONFIRM: car parking]**
+Two-wheeler parking is available at the building.
 
 #### Fees, insurance and records
 **What are the consultation fees?**
-**[CONFIRM]**
+Fees are shared when you book. We accept cash, UPI and cards.
 
 **Do you accept health insurance?**
-We provide itemised bills and reports for claims. **[CONFIRM: cashless]**
+We do not offer cashless billing for clinic visits or tests, but we give itemised bills and reports for your insurance claim. If you need hospital admission, we help you choose a suitable hospital near you, based on your medical needs. The hospitals we work with offer cashless treatment under most insurance plans.
+
+Dr. Ajay does not tie patients to any one hospital. Where you are admitted depends on where you live and the care you need. What matters to him is that your experience is smooth and well looked after, from the first phone call to your recovery.
 
 **Can I get a copy of my medical records?**
 Yes. Request them at the front desk or by email. We provide copies within the time required by medical regulations (usually 72 hours of a written request).

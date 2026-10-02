@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"
 section: blooming-buds
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 30. Psychological Testing (IQ, EQ, Personality)
@@ -30,17 +30,17 @@ Psychological tests help answer specific questions. Why is a bright child strugg
 - **Aptitude testing:** natural abilities relevant to subject and career choice (see Career Counselling)
 - **Behavioural and attention screening**, with referral for a full evaluation where needed
 
-All tests use standardised, age-appropriate tools. **[CONFIRM: list of tests used, and who administers them]**
+Dr. Prajakta chooses standardised assessments based on your child's needs and explains the results to you in plain words.
 
 #### How it works
 1. A consultation to understand the question you want answered
-2. Testing session or sessions, usually 1 to 3 hours depending on the tests **[CONFIRM]**
+2. Testing session or sessions, planned around your child's needs
 3. A written report
 4. A feedback session with parents and, where appropriate, the young person
 
 #### Good to know
 - A test score describes how a child performed on a particular day and is one piece of information, not a label.
-- Assessment reports from the clinic are for guidance and planning. **Formal certification of a learning disability for school or board exam concessions is issued by government-designated centres.** We can guide you on the process. **[CONFIRM]**
+- Our reports help parents and schools plan support. **Official disability certificates are issued by government medical boards.** We can guide you on the process.
 
 #### Frequently asked questions
 **At what age can IQ be tested?**

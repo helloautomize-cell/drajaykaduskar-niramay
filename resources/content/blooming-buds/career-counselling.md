@@ -10,7 +10,7 @@ images:
 reviewed_by: "Dr. Prajakta A. Kaduskar"
 section: blooming-buds
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 31. Career Counselling and Aptitude Testing
@@ -45,7 +45,7 @@ Career counselling at Blooming Buds is led by Dr. Prajakta Kaduskar, who brings 
 Class 9 or 10 is ideal before stream selection, but it is useful at any stage.
 
 **Do you use fingerprint-based (DMIT) tests?**
-No. Fingerprint-based "multiple intelligence" tests do not have scientific evidence behind them. We use standardised psychological assessments. **[CONFIRM]**
+Guidance is based on standardised aptitude and interest assessments and a conversation with your teenager and you.
 
 **Will the test tell my child exactly which career to choose?**
 No test can do that. The assessment gives evidence about strengths and interests. The final decision is made by the student and family, with guidance.

@@ -13,7 +13,7 @@ images:
 reviewed_by: ""
 section: core
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 2. About Niramay Clinics
@@ -35,7 +35,7 @@ Niramay Clinics is a specialist outpatient practice in Dhantoli, Nagpur, run by 
 - **Dr. Ajay V. Kaduskar** leads the **Niramay Diabetes and Heart Care Centre**. He treats adults with type 1 and type 2 diabetes, diabetes in pregnancy, obesity, thyroid disorders, high blood pressure and high cholesterol, with a focus on preventing complications and protecting the heart.
 - **Dr. Prajakta A. Kaduskar** leads the **Blooming Buds Child and Adolescent Care Centre**. She looks after babies, children and teenagers, combining paediatric training with a postgraduate qualification in adolescent paediatrics and a master's degree in clinical psychology.
 
-Between them they have more than four decades of clinical experience. **[CONFIRM: year the practice was founded]**
+The practice has been caring for Nagpur since 2006. Between them the doctors have more than 35 years of clinical experience. Dr. Ajay does not tie patients to any one hospital. Where a patient is admitted depends on where they live and the care they need.
 
 #### Our mission
 **For adults with diabetes and metabolic conditions:** to provide complete, long-term care for diabetes and related metabolic diseases, so that complications are prevented or found early.
@@ -60,20 +60,21 @@ Between them they have more than four decades of clinical experience. **[CONFIRM
 - Retinal camera for diabetic eye screening
 - Body composition analyser for fat, muscle and visceral fat measurement
 - Nutrition and counselling room
-- Niramay Pharmacy, with home delivery in Nagpur and parcel dispatch for outstation patients **[CONFIRM: details in Part 6]**
+- Niramay Pharmacy, with home delivery in Nagpur
 - Lift access, wheelchair-friendly entry, two-wheeler parking
 
 #### Our team
 **H2:** The people you will meet
-Our front desk and nursing team register you, check your weight and blood pressure, and guide you through tests. Our laboratory team collects samples at the clinic and at home. Our nutritionist works with patients on diet plans. **[CONFIRM: names and roles of staff who agree to be named; nutritionist's name and qualification]**
+Our front desk and nursing team register you, check your weight and blood pressure, and guide you through tests. Our laboratory team collects samples at the clinic and at home. Our trained nutrition team works with patients on diet plans.
 
 #### Community work
-Dr. Prajakta Kaduskar conducts health and life-skills workshops for students, parents and teachers. Dr. Ajay Kaduskar takes part in public education on diabetes, including the "Sugar ki Baat" video series. The **Dr. V. S. Kaduskar Memorial Foundation** is associated with the practice. **[CONFIRM: what the Foundation does, and whether it should be described on the site]**
+Dr. Prajakta Kaduskar conducts health and life-skills workshops for students, parents and teachers. Dr. Ajay Kaduskar takes part in public education on diabetes. The **Dr. V. S. Kaduskar Memorial Foundation**, a trust for diabetes care and diabetes education in rural Nagpur district, is associated with the practice.
 
-#### Recognition
-**[CONFIRM: list of awards and honours, each with the awarding body and year. Shown as a plain factual list, without ranking or comparison.]**
-
-#### Professional memberships
-**[CONFIRM: for example RSSDI, API, IAP, IMA Nagpur, with membership type]**
+#### Leadership and community roles
+Dr. Ajay Kaduskar:
+- Former President, Diabetic Association of India, Nagpur
+- Former Chairman, Association of Physicians of India (API), Vidarbha Chapter
+- Joint Organising Secretary, MAPCON 2023, Nagpur
+- President, Dr. V. S. Kaduskar Memorial Foundation
 
 **CTA:** Book a consultation · Plan your visit

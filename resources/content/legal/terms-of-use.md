@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Lawyer (required by Part 6 note)"
 section: legal
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 41. Terms of Use
@@ -19,11 +19,11 @@ has_confirm_items: true
 
 **H1:** Terms of Use
 
-**Last updated:** [CONFIRM: date]
+**Last updated:** 21 August 2026
 
 These terms apply to your use of niramayclinics.com. By using the website you agree to them.
 
-1. **About the website.** This website gives information about Niramay Clinics, our doctors and services, and lets you request appointments. It is owned and operated by Niramay Clinics, Dhantoli, Nagpur. **[CONFIRM: legal entity]**
+1. **About the website.** This website gives information about Niramay Clinics, our doctors and services, and lets you request appointments. This website is run by Niramay Clinics, 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg, Dhantoli, Nagpur 440012 ("Niramay Clinics", "we").
 2. **Not medical advice.** Content on this website is for general education. It does not create a doctor-patient relationship and is not a substitute for a consultation, diagnosis or treatment. See our Medical Disclaimer.
 3. **Not for emergencies.** Do not use the website, the online form, email or WhatsApp for emergencies. Call 108 or 112, or go to the nearest hospital emergency department.
 4. **Appointment requests.** Submitting a request does not guarantee an appointment. An appointment is confirmed only when we contact you. We may need to reschedule due to medical emergencies or unforeseen circumstances.
@@ -36,4 +36,4 @@ These terms apply to your use of niramayclinics.com. By using the website you ag
 11. **Privacy.** Our Privacy Policy explains how we handle personal data.
 12. **Changes.** We may update these terms. The latest version will be on this page.
 13. **Governing law.** These terms are governed by the laws of India. Courts at Nagpur, Maharashtra have jurisdiction.
-14. **Contact.** admin@niramayclinics.com · 0712 2422214
+14. **Contact.** [email](mailto:) · 0712 2422214

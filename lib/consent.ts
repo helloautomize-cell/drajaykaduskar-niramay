@@ -9,6 +9,7 @@
 
 export const CONSENT_KEY = "nc-consent";
 export const CONSENT_EVENT = "niramay-consent-change";
+export const CONSENT_OPEN_EVENT = "niramay-cookie-settings";
 
 export interface ConsentState {
   analytics: boolean;
@@ -69,4 +70,9 @@ export function subscribeConsent(cb: () => void) {
 /** True only after the visitor has explicitly accepted analytics cookies. */
 export function hasAnalyticsConsent(): boolean {
   return readConsent()?.analytics === true;
+}
+
+/** Ask the cookie banner to open its settings view (footer "Cookie settings"). */
+export function openCookieSettings() {
+  window.dispatchEvent(new CustomEvent(CONSENT_OPEN_EVENT));
 }

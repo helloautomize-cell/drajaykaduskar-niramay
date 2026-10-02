@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"
 section: blooming-buds
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 26. Well Baby Clinic
@@ -33,7 +33,7 @@ Healthy babies need regular check-ups too. Well-baby visits track growth and dev
 - Time for your questions
 
 #### Suggested visit schedule
-Usually at birth or in the first week, then at 6, 10 and 14 weeks, and 6, 9, 12, 15, 18 and 24 months, often combined with vaccination visits. After 2 years, once or twice a year. **[CONFIRM]**
+Usually at birth or in the first week, then at 6, 10 and 14 weeks, and 6, 9, 12, 15, 18 and 24 months, often combined with vaccination visits. After 2 years, once or twice a year.
 
 #### When to see a doctor urgently
 In a baby under 3 months: any fever. At any age: poor feeding, unusual drowsiness or floppiness, fast or difficult breathing, bluish lips, repeated vomiting, fewer wet nappies, a bulging soft spot, a seizure, or a rash that does not fade when pressed. **Go to the nearest children's emergency department.**

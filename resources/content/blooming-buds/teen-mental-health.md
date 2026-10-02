@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"
 section: blooming-buds
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 29. Teen Mental Health and Counselling
@@ -41,7 +41,6 @@ Dr. Prajakta Kaduskar combines medical training in child and adolescent health w
 - Bullying and cyberbullying
 - Sleep and mental wellness
 - Career anxiety and goal setting
-- Group sessions and peer support **[CONFIRM: whether group sessions run currently]**
 - Mindfulness and relaxation training
 - Crisis support and referral to a psychiatrist or hospital when needed
 
@@ -57,7 +56,7 @@ Dr. Prajakta Kaduskar combines medical training in child and adolescent health w
 #### How counselling works here
 1. **First consultation** with the teenager and parents: history, concerns, and a medical check.
 2. **Assessment** using standard screening tools where useful.
-3. **Counselling sessions** with the teenager, typically weekly or fortnightly at first. **[CONFIRM: session length and frequency]**
+3. **Counselling sessions** with the teenager — private, unhurried and planned around your teenager's needs.
 4. **Parent sessions** on communication, boundaries and support at home.
 5. **Referral to a psychiatrist** when medicines or specialised care may be needed, with continued support from us.
 

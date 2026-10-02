@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 16. Nutrition and Lifestyle Counselling
@@ -24,7 +24,7 @@ has_confirm_items: true
 
 Food is the first and most neglected part of treatment for diabetes, weight, blood pressure and cholesterol. There is no single diet that suits everyone. A plan that works is one you can follow on a busy weekday, at a family function and during festivals.
 
-Our nutritionist works with Dr. Ajay Kaduskar's patients to build eating plans around their own food, culture and routine. **[CONFIRM: nutritionist's name and qualification]**
+Our trained nutrition team works with Dr. Ajay Kaduskar's patients to build eating plans around their own food, culture and routine.
 
 #### Who it helps
 - Type 1, type 2 and pregnancy diabetes
@@ -48,7 +48,7 @@ Our nutritionist works with Dr. Ajay Kaduskar's patients to build eating plans a
 - No crash diets and no starvation
 - No forbidden foods, but clear guidance on how often and how much
 - Plans for the whole family where possible, so you do not cook separately
-- No supplements or products are sold or promoted in counselling sessions **[CONFIRM]**
+- No supplements or products are sold or promoted in counselling sessions
 
 #### Frequently asked questions
 **Is intermittent fasting good for diabetes?**

@@ -12,7 +12,7 @@ images:
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 11. Diabetes Complications Screening
@@ -40,7 +40,7 @@ Screening is a central part of diabetes care at Niramay Clinics, and most of it 
 | Liver | Liver tests and fatty liver assessment | Fatty liver disease | As advised |
 
 #### About the eye screening
-We use a retinal camera that photographs the back of the eye. It takes a few minutes and is painless. If changes are found, you will be referred to an eye specialist (ophthalmologist) for further assessment and treatment. Screening does not replace a full eye examination by an ophthalmologist when that is needed. **[CONFIRM: whether drops to widen the pupil are used; who reads the images]**
+We photograph the back of your eye with a modern retinal camera. Most of the time no eye drops are needed. If a clearer view is needed, we use drops to widen the pupil, and your vision may be blurry for a few hours, so it is best not to drive yourself home that day. The photos are reviewed at the clinic, and if we see any changes we guide you to an eye specialist. Screening does not replace a full eye examination by an ophthalmologist when that is needed.
 
 #### Looking after your feet at home
 - Look at your feet every day, including between the toes. Use a mirror or ask a family member.

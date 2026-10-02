@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar"
 section: blooming-buds
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 32. Workshops for Schools, Parents and Teachers
@@ -47,6 +47,6 @@ Some health topics are best discussed in groups: with a class of students, a par
 - School health programmes and referral pathways
 
 #### Format
-Typically 45 to 90 minutes, with talks, discussion and question boxes for anonymous questions. Sessions can be held at your school or organisation in Nagpur. Materials are available in English, Hindi and Marathi. **[CONFIRM: languages, fees or free, how to request]**
+Sessions can be held at your school or organisation in Nagpur. Workshops can be held in English, Hindi or Marathi. Call or use the form to plan one for your school or group. We will contact you within 2 working days.
 
 **CTA:** Request a workshop (form: school or organisation name, audience, approximate number, preferred dates, topics, contact person)

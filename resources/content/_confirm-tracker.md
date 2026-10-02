@@ -137,7 +137,7 @@ One checklist item per `[CONFIRM]` marker in the content files. Tick each item o
 - [ ] cashless
 
 ## content/patient-info/videos.md (2)
-- [ ] who produces "Sugar ki Baat", permission to embed and to use the thumbnail artwork, and links to other episodes
+- [x] RESOLVED (phase 6): "Sugar ki Baat" series name dropped site-wide per client answer; the video embed remains under a descriptive title with a Bluetree Healthcare Solutions credit
 - [ ] any other videos, TV appearances or recorded talks by either doctor
 
 ## content/patient-info/thank-you.md (1)

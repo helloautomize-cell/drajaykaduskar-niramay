@@ -5,6 +5,7 @@ import { TocRail } from "@/components/sections/TocRail";
 import { ReviewerBox } from "@/components/sections/ReviewerBox";
 import { RelatedServices, type RelatedService } from "@/components/sections/RelatedServices";
 import { CtaBand } from "@/components/sections/CtaBand";
+import { WorkshopForm } from "@/components/forms/WorkshopForm";
 import type { ContentPage } from "@/lib/content/pages";
 import type { RenderedDoc } from "@/lib/content/render";
 import type { Doctor } from "@/lib/doctors";
@@ -67,6 +68,18 @@ export function ServiceDetailTemplate({
             {/* body + FAQ (rendered inline via segments); no reveal wrapper —
                 it contains the LCP element and must paint without waiting for JS */}
             <div className="mt-4">{doc.content}</div>
+
+            {page.meta.url === "/blooming-buds/workshops/" && (
+              <section aria-labelledby="workshop-form" className="mt-10 scroll-mt-28" id="request-a-workshop">
+                <h2 id="workshop-form" className="t-h4 text-ink">
+                  Request a workshop
+                </h2>
+                <p className="mt-2 mb-5 text-[15.5px] text-ink-600">
+                  Tell us about your school or group and we will contact you within 2 working days.
+                </p>
+                <WorkshopForm />
+              </section>
+            )}
 
             {reviewer && <ReviewerBox doctor={reviewer} />}
             <RelatedServices items={related} />

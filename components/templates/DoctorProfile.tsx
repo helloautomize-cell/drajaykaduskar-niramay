@@ -27,6 +27,24 @@ function listItems(nodes: RootContent[]): string[] {
   return out;
 }
 
+/**
+ * "Conditions and services" groups: paragraphs like "*Diabetes care:* a · b · c"
+ * become a labelled group of non-clickable chips.
+ */
+function conditionGroups(nodes: RootContent[]): { label: string; items: string[] }[] {
+  const out: { label: string; items: string[] }[] = [];
+  for (const n of nodes) {
+    if (n.type !== "paragraph") continue;
+    const first = n.children[0];
+    if (!first || first.type !== "emphasis") continue;
+    const label = nodesText(first.children).replace(/:\s*$/, "");
+    const rest = nodesText(n.children.slice(1) as RootContent[]);
+    const items = rest.split("·").map((i) => i.trim()).filter(Boolean);
+    if (items.length) out.push({ label, items });
+  }
+  return out;
+}
+
 /** "keep things simple" pull quote (serif accent) beside the real photo. */
 function ApproachBlock({ doctor }: { doctor: Doctor }) {
   const img =
@@ -100,16 +118,19 @@ export function DoctorProfileTemplate({
 
   const about = sections.filter((s) => /^about/i.test(s.title));
   const areas = sections.find((s) => /areas of care/i.test(s.title));
+  const conditions = sections.find((s) => /conditions and services/i.test(s.title));
   const approach = sections.filter((s) => /approach|working with parents/i.test(s.title));
   const rest = sections.filter(
     (s) =>
       !/^about/i.test(s.title) &&
       !/areas of care/i.test(s.title) &&
+      !/conditions and services/i.test(s.title) &&
       !/approach|working with parents/i.test(s.title) &&
       // the template renders real article links — skip the body's placeholder section
       !/articles by|writing/i.test(s.title)
   );
   const areaChips = areas ? listItems(areas.nodes) : [];
+  const condGroups = conditions ? conditionGroups(conditions.nodes) : [];
 
   const h1 = page.h1 || page.meta.title;
   const bookLabel = doctor.id === "ajay" ? "Book with Dr. Ajay" : "Book with Dr. Prajakta";
@@ -177,6 +198,31 @@ export function DoctorProfileTemplate({
                     </li>
                   ))}
                 </ul>
+              </section>
+            )}
+
+            {condGroups.length > 0 && (
+              <section aria-labelledby="conditions-services" className="mt-9 scroll-mt-28" id="conditions-services">
+                <h2 className="t-h4 text-ink">{conditions!.title}</h2>
+                <div className="mt-4 space-y-5">
+                  {condGroups.map((g) => (
+                    <div key={g.label}>
+                      <h3 className="text-[13.5px] font-semibold uppercase tracking-wide text-ink-600">
+                        {g.label}
+                      </h3>
+                      <ul className="mt-2 flex flex-wrap gap-2">
+                        {g.items.map((c) => (
+                          <li
+                            key={c}
+                            className="rounded-full border border-plum/25 bg-plum-50 px-4 py-2 text-[14.5px] font-medium text-ink"
+                          >
+                            {c}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </section>
             )}
 

@@ -4,7 +4,7 @@ title: "Dr. Ajay V. Kaduskar"
 url: "/doctors/dr-ajay-kaduskar/"
 seo_title: "Dr. Ajay V. Kaduskar | Diabetologist and Obesity Specialist, Nagpur"
 meta_description: "Dr. Ajay V. Kaduskar, MD (Medicine), PGDHSc (Diabetology), FEACD (Netherlands). Diabetes, obesity, thyroid and metabolic care in Dhantoli, Nagpur, with 20+ years of practice."
-schema: "Physician (name, qualifications, medicalSpecialty: Endocrinology/Diabetes, worksFor, address, sameAs: Google profile), ProfilePage"
+schema: "Physician (name, qualifications, medicalSpecialty: Endocrine/Cardiovascular/PrimaryCare, worksFor, address, sameAs: Google profile), ProfilePage"
 images:
   - "Dr ajay.jpg"
   - "NiramayClinic_Dr_AjayKaduskar.jpg"
@@ -19,52 +19,61 @@ has_confirm_items: true
 - **URL:** `/doctors/dr-ajay-kaduskar/`
 - **SEO title:** Dr. Ajay V. Kaduskar | Diabetologist and Obesity Specialist, Nagpur
 - **Meta description:** Dr. Ajay V. Kaduskar, MD (Medicine), PGDHSc (Diabetology), FEACD (Netherlands). Diabetes, obesity, thyroid and metabolic care in Dhantoli, Nagpur, with 20+ years of practice.
-- **Schema:** Physician (name, qualifications, medicalSpecialty: Endocrinology/Diabetes, worksFor, address, sameAs: Google profile), ProfilePage
+- **Schema:** Physician (name, qualifications, medicalSpecialty: Endocrine/Cardiovascular/PrimaryCare, worksFor, address, sameAs: Google profile), ProfilePage
 - **Images:** `Dr ajay.jpg` (hero, vertical), `NiramayClinic_Dr_AjayKaduskar.jpg` (avatar)
 
 **H1:** Dr. Ajay V. Kaduskar
 
-**Sub-heading:** Consultant in Diabetes, Obesity and Metabolic Diseases · Director, Niramay Diabetes and Heart Care Centre, Nagpur
+**Sub-heading:** Diabetologist and metabolic diseases consultant · Director, Niramay Diabetes and Heart Care Centre, Nagpur
 
 **Key facts box**
 - **Qualifications:** MD (Medicine); PGDHSc (Diabetology); Fellow, Euro Asian Academy of Clinical Diabetology (FEACD), The Netherlands
-- **Certification:** SCOPE certification in obesity management (World Obesity Federation) **[CONFIRM: year]**
-- **Experience:** more than 20 years **[CONFIRM: exact year of starting practice]**
+- **Certification:** SCOPE certified obesity management specialist (World Obesity Federation)
+- **Experience:** more than 20 years
 - **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]**
-- **Languages:** English, Hindi, Marathi **[CONFIRM]**
+- **Languages:** English, Hindi, Marathi
 - **Consults at:** Niramay Clinics, Dhantoli, Nagpur
-- **OPD:** **[CONFIRM: days and hours]**
+- **OPD:** Monday to Saturday, 8:30 am to 6 pm (Sundays closed)
 
 #### About Dr. Kaduskar
-Dr. Ajay V. Kaduskar is a consultant in diabetes, obesity and metabolic diseases in Nagpur and the director of the Niramay Diabetes and Heart Care Centre in Dhantoli. He has more than 20 years of experience caring for people with type 2 diabetes, type 1 diabetes, diabetes in pregnancy, obesity, high blood pressure, abnormal cholesterol (dyslipidaemia) and heart disease.
-
-After his MD in internal medicine, he completed a postgraduate diploma in diabetology and a fellowship of the Euro Asian Academy of Clinical Diabetology in the Netherlands. He also holds SCOPE certification in obesity management, a programme of the World Obesity Federation for clinicians who treat obesity as a chronic disease.
+Dr. Ajay V. Kaduskar is a diabetologist and metabolic diseases consultant in Nagpur and the director of the Niramay Diabetes and Heart Care Centre in Dhantoli. He has more than 20 years of experience caring for people with type 2 diabetes, type 1 diabetes, diabetes in pregnancy, obesity, high blood pressure, abnormal cholesterol (dyslipidaemia) and heart disease.
 
 His particular interests are **preventing the long-term complications of diabetes** (eye, kidney, nerve, foot and heart damage) and **preventive cardiology**, which means finding and treating heart risk before a heart attack or stroke happens. This is why the clinic has its own retinal camera, Echo, ECG and treadmill testing, and laboratory: so that screening is part of routine care, not an extra errand.
 
-#### Areas of care
-- Type 2 diabetes, including newly diagnosed diabetes and long-standing diabetes that is hard to control
-- Type 1 diabetes in teenagers and adults, including insulin planning and sugar monitoring
-- Diabetes in pregnancy (pre-existing and gestational diabetes)
-- Prediabetes and diabetes risk assessment
-- Obesity, including medical weight management and body composition analysis
-- Thyroid disorders
-- High blood pressure
-- High cholesterol and triglycerides
-- Fatty liver associated with diabetes and obesity
-- Heart risk assessment and preventive cardiology
+#### Education
+- MBBS, Government Medical College, Nagpur
+- MD (Medicine), Lokmanya Tilak Municipal Medical College, Sion, Mumbai
+- PG Diploma in Health Sciences (Diabetology)
+- Fellowship, Euro Asian Academy of Clinical Diabetology (FEACD)
+
+#### Certifications and roles
+- SCOPE certified obesity management specialist (World Obesity Federation)
+- "AI for Healthcare" programme, Yong Loo Lin School of Medicine, National University of Singapore
+- Recent CME topics: latest hypertension guidelines; SGLT2 inhibitors in practice; kidney and heart complications in type 2 diabetes
+- Former President, Diabetic Association of India, Nagpur
+- Former Chairman, Association of Physicians of India (API), Vidarbha Chapter
+- Joint Organising Secretary, MAPCON 2023, Nagpur
+- President, Dr. V. S. Kaduskar Memorial Foundation, a trust for diabetes care and diabetes education in rural Nagpur district
 
 #### Approach to care
-Dr. Kaduskar's consulting room has a framed note that reads "keep things simple". In practice, that means explaining the condition in plain language, choosing the simplest treatment that will work, setting clear targets, and adjusting only what the numbers show needs to change. He places weight on diet and daily activity as the foundation of treatment, and works closely with the clinic's nutritionist.
+- Diabetes education at every visit
+- A whole-person approach: sugar, blood pressure, weight, heart, kidneys, mood and sleep looked at together
+- Most related conditions managed in one place, with referral only when it is truly needed
+- Personalised diet plan and exercise prescription
+- Not tied to any hospital; admission advice based on where you live and what care you need
 
-#### Public health education
-Dr. Kaduskar contributes to public awareness on diabetes and obesity, including the video series "Sugar ki Baat". **[CONFIRM: other talks, CME lectures, publications, TV or newspaper features]** [Watch his videos →]
+#### Conditions and services
+These are shown as grouped chips on the profile page (not clickable; not in the menu). The groups below are rendered from this list — keep names exactly as written.
 
-#### Awards and recognition
-**[CONFIRM: factual list with awarding body and year]**
+*Diabetes care:* Type 2 diabetes · Type 1 diabetes · Diabetes in children and teens (with Dr. Prajakta) · Diabetes in pregnancy and gestational diabetes · Prediabetes and diabetes prevention · Insulin treatment · Insulin pump guidance · Continuous glucose monitoring (CGM) · Diabetic diet counselling · Exercise in diabetes · Vaccination for people with diabetes · Depression and emotional health in diabetes
 
-#### Memberships
-**[CONFIRM]**
+*Heart and metabolism:* High blood pressure · Secondary hypertension evaluation · Cholesterol and lipid disorders · ECG · Obesity management · Lifestyle disease management · Obstructive sleep apnoea · Gout · Metabolic bone disease · Vitamin D and B12 deficiency
+
+*Diabetes complications:* Diabetic kidney disease · Diabetic nerve damage (neuropathy) · Diabetic eye disease (retinopathy) screening · Diabetic foot ulcer care · Complications management
+
+*Hormones and thyroid:* Hypothyroidism · Goitre and thyroid swelling · Parathyroid disorders · Calcium disorders · Adrenal disorders · PCOS / PCOD · Hormonal menstrual problems · Erectile dysfunction
+
+*General medicine:* Fever · Respiratory infections · Abdominal pain · Skin allergies · Piles · Filariasis · Blood tests
 
 #### Articles by Dr. Kaduskar
 Links to his Health Library posts (starting with "10 Common Misconceptions About Diabetes").

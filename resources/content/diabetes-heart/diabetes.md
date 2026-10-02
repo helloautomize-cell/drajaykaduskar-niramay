@@ -12,7 +12,7 @@ images:
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 7. Diabetes and Metabolic Care (hub)
@@ -75,4 +75,4 @@ Please do not stop or reduce medicines on your own. Normal readings usually mean
 Uncontrolled diabetes is a leading cause of kidney damage. Medicines prescribed for diabetes are chosen with your kidney function in mind, and several protect the kidneys and heart. Your kidney tests are checked regularly so treatment can be adjusted.
 
 **Do you treat diabetes in children?**
-Teenagers with type 1 or type 2 diabetes are seen by Dr. Ajay Kaduskar, often together with Dr. Prajakta Kaduskar for growth, school and emotional support. **[CONFIRM: minimum age seen for diabetes]**
+Dr. Ajay treats diabetes at any age. Children and teenagers are often seen together with Dr. Prajakta, so growth, school and emotional needs are covered too.

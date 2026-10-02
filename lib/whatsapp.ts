@@ -45,7 +45,6 @@ const PAGE_NAMES: Record<string, string> = {
   "/plan-your-visit/": "a visit to Niramay Clinics",
   "/faqs/": "Niramay Clinics",
   "/health-library/": "Niramay Clinics",
-  "/videos/": "Niramay Clinics",
   "/patient-rights/": "Niramay Clinics",
 };
 

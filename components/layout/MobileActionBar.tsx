@@ -7,6 +7,8 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { cn } from "@/lib/utils";
 import { site } from "@/lib/site-config";
 import { waLinkFor } from "@/lib/whatsapp";
+import { bookHrefFor } from "@/lib/booking-context";
+import { track } from "@/lib/track";
 import { CalendarIcon, PhoneIcon, WhatsAppIcon, CloseIcon } from "@/components/icons";
 
 const btnCls =
@@ -73,7 +75,7 @@ function CallSheet({ children }: { children: React.ReactNode }) {
 /**
  * Fixed mobile action bar (plan section 2.10): glass over brand gradient,
  * three equal buttons with 20px icons over 13px labels. Hidden above 1024px,
- * while a text input is focused, and on /contact/thank-you/.
+ * while a text input is focused, and on /thank-you/.
  */
 export function MobileActionBar({
   whatsappText,
@@ -105,7 +107,7 @@ export function MobileActionBar({
     ? `${site.whatsapp.url}?text=${encodeURIComponent(whatsappText)}`
     : waLinkFor(pathname ?? "/");
 
-  if (fixed && pathname === "/contact/thank-you/") return null;
+  if (fixed && pathname?.startsWith("/thank-you")) return null;
 
   return (
     <nav
@@ -118,7 +120,12 @@ export function MobileActionBar({
       )}
     >
       <div className="grid grid-cols-3">
-        <Link href="/contact/#book" aria-label="Book Now" className={btnCls}>
+        <Link
+          href={bookHrefFor(pathname ?? "/")}
+          aria-label="Book Now"
+          className={btnCls}
+          onClick={() => track("book_click", { location: "mobile_bar" })}
+        >
           <CalendarIcon size={20} />
           <span className="text-[13px] font-semibold">Book Now</span>
         </Link>

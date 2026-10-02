@@ -10,7 +10,7 @@ images:
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 19. Body Composition and Sarcopenia Assessment
@@ -32,14 +32,20 @@ Weight alone does not tell the full story. Two people with the same weight can h
 - Body water
 
 #### How the test is done
-You stand barefoot on a platform and hold two handles for about a minute. A very small, painless electrical signal passes through the body to estimate fat, muscle and water. **[CONFIRM: analyser model if to be named; the clinic uses a body composition analyser at reception]**
+You stand barefoot on a platform and hold two handles for about a minute. A very small, painless electrical signal passes through the body to estimate fat, muscle and water.
 
 **How to prepare:** come without a heavy meal in the previous 2 to 3 hours, empty your bladder, avoid exercise before the test, and remove metal jewellery. **This test is not done for people with a pacemaker or other implanted electronic device, or during pregnancy.**
 
 #### Sarcopenia: when muscle is lost
 Sarcopenia is the loss of muscle mass and strength. It happens with age, inactivity, illness and sometimes with rapid weight loss, and it is more common in people with diabetes. It leads to weakness, falls, slower recovery and worse sugar control.
 
-Assessment at the clinic combines muscle mass from body composition analysis with simple tests of strength and physical performance, following the Asian Working Group for Sarcopenia criteria. **[CONFIRM: tests used, for example hand grip strength, chair stand test, walking speed]**
+Assessment at the clinic combines the body composition scan with simple tests of strength and physical performance:
+1. **Body composition analyser** — stand on it for about a minute; it measures muscle, fat and water
+2. **Hand grip strength**
+3. **Chair stand test** — stand up from a chair 5 times
+4. **Walking speed** over a short distance
+
+Wear light clothes, avoid a heavy meal just before, and remove socks and metal items for the scan. If you have a pacemaker, please tell us first.
 
 #### Who should get checked
 - People with diabetes, especially over 50

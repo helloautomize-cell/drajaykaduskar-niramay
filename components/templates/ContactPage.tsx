@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { site } from "@/lib/site-config";
-import { Confirm } from "@/components/ui/Confirm";
+
 import { GlassCard } from "@/components/ui/GlassCard";
 import { ClockIcon, EmergencyIcon, PhoneIcon } from "@/components/icons";
 import { renderNodesPublic, splitBody } from "@/lib/content/render";
@@ -48,12 +48,26 @@ export function ContactPageTemplate({ page }: { page: ContentPage }) {
                 <br />
                 {site.address.line3}, {site.address.city} {site.address.pin}
               </p>
+              {(["clinic", "drAjay"] as const)
+                .filter((k) => site.googleProfiles[k].mapsUrl)
+                .map((k) => (
+                  <a
+                    key={k}
+                    href={site.googleProfiles[k].mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-flex items-center gap-1.5 font-semibold text-plum transition-colors hover:text-plum-700"
+                  >
+                    See {site.googleProfiles[k].name} on Google Maps
+                  </a>
+                ))}
             </GlassCard>
             <GlassCard icon={ClockIcon} title="Hours" titleAs="h2" className="border-plum/15 bg-plum-50/60">
-              <p>
-                OPD: <Confirm>days and hours to be confirmed</Confirm>
-              </p>
-              <p className="mt-1">Laboratory: {site.labHours.display}</p>
+              <p>OPD: {site.hours.opd} ({site.hours.sunday.toLowerCase()})</p>
+              <p className="mt-1">Laboratory: {site.hours.lab}</p>
+              <p className="mt-1">Pharmacy: {site.hours.pharmacy}</p>
+              <p className="mt-1">Phone: {site.hours.phone}</p>
+              <p className="mt-1">{site.hours.holiday}</p>
             </GlassCard>
             <GlassCard icon={EmergencyIcon} title="Emergencies" titleAs="h2" className="border-red-200 bg-[#fdf1f1]">
               <p>{site.emergency.disclaimer}</p>

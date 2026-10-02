@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Lawyer (required by Part 6 note)"
 section: legal
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 46. Accessibility Statement
@@ -28,7 +28,7 @@ This website aims to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at
 - Full keyboard navigation and visible focus indicators
 - Clear headings and labelled form fields
 - Click-to-call phone numbers and a simple appointment form
-- Captions or summaries for videos **[CONFIRM]**
+- Embedded videos play with the caption and audio controls provided by YouTube
 
 #### At the clinic
 - Lift access to the clinic
@@ -37,4 +37,4 @@ This website aims to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at
 - Staff assistance on request: call the front desk before you arrive and we will meet you
 
 #### Feedback
-If you find any part of the website or clinic difficult to use, please tell us at admin@niramayclinics.com or 0712 2422214. We will try to fix it, or provide the information in another way.
+If you find any part of the website or clinic difficult to use, please tell us at [email](mailto:) or 0712 2422214. We will try to fix it, or provide the information in another way.

@@ -9,7 +9,7 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { Chip } from "@/components/ui/Chip";
 import { Callout } from "@/components/ui/Callout";
 import { DoctorChip } from "@/components/ui/DoctorChip";
-import { Confirm } from "@/components/ui/Confirm";
+
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/Tabs";
 import { StepTracker } from "@/components/sections/StepTracker";
 import { CenteredCarousel } from "@/components/sections/CenteredCarousel";
@@ -66,7 +66,7 @@ function Swatch({ name, hex, note, textLight }: { name: string; hex: string; not
 }
 
 const whyCards: { icon: IconComponent; title: string; body: string }[] = [
-  { icon: ClockIcon, title: "20+ years of specialist practice", body: "Each of our doctors has more than two decades of clinical experience." },
+  { icon: ClockIcon, title: "Decades of specialist practice", body: "More than 35 years of clinical experience between our two doctors." },
   { icon: TrainedIcon, title: "Trained for what we treat", body: "MD with diabetology training and a Netherlands fellowship; paediatrics with adolescent health and clinical psychology." },
   { icon: LabIcon, title: "Tests under one roof", body: "Laboratory, 2D Echo, ECG, treadmill test, retinal photography and body composition analysis at the clinic." },
   { icon: NutritionPlateIcon, title: "Diet advice you can follow", body: "Our nutritionist plans meals around your home food and routine." },
@@ -294,7 +294,7 @@ export default function Styleguide() {
           </div>
           <div>
             <p className="mb-1 text-[12px] uppercase tracking-wide text-ink-600">Small · 14px, ink-600</p>
-            <p className="t-small">OPD hours <Confirm>TODO_CONFIRM</Confirm> · Lab {site.labHours.short}</p>
+            <p className="t-small">OPD {site.hours.opd} · Lab {site.labHours.short}</p>
           </div>
           <div>
             <p className="mb-1 text-[12px] uppercase tracking-wide text-ink-600">Eyebrow · 12.5px, 0.14em tracking</p>

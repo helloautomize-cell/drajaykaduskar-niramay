@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { MobileActionBar } from "@/components/layout/MobileActionBar";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import { CookieBanner } from "@/components/layout/CookieBanner";
+import { Analytics } from "@/components/analytics/Analytics";
 
 /**
  * Global site shell (plan section 3.1): utility bar, sticky header, footer,
@@ -22,6 +23,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
       <MobileActionBar />
       <FloatingWhatsApp />
       <CookieBanner />
+      <Analytics />
     </>
   );
 }

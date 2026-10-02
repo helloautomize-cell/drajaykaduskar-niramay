@@ -81,6 +81,10 @@ const nextConfig: NextConfig = {
       { source: "/template-item/:slug", destination: "/", permanent: true },
       // safety net for any unlisted /offer/ slug
       { source: "/offer/:slug", destination: "/services/", permanent: true },
+      // old stub thank-you path -> /thank-you/?type=
+      { source: "/contact/thank-you", destination: "/thank-you/", permanent: false },
+      // removed Videos page (Phase 6, item 30)
+      { source: "/videos", destination: "/", permanent: false },
     ];
   },
 };

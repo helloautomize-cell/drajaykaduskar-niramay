@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Figtree, Instrument_Serif, Noto_Sans_Devanagari } from "next/font/google";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../styles/globals.css";
 
 const figtree = Figtree({
@@ -27,8 +28,13 @@ const notoDevanagari = Noto_Sans_Devanagari({
   preload: false,
 });
 
+const indexable = process.env.SITE_INDEXABLE === "true";
+const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined;
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.niramayclinics.com"),
+  ...(indexable ? {} : { robots: { index: false, follow: false } }),
+  ...(gscVerification ? { verification: { google: gscVerification } } : {}),
   title: {
     default: "Niramay Clinics, Dhantoli, Nagpur",
     template: "%s | Niramay Clinics, Nagpur",
@@ -46,6 +52,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <SmoothScroll />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );

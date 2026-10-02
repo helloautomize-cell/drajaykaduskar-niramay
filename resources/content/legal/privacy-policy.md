@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Lawyer (required by Part 6 note)"
 section: legal
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 40. Privacy Policy
@@ -20,18 +20,18 @@ has_confirm_items: true
 
 **H1:** Privacy Policy
 
-**Last updated:** [CONFIRM: date]
+**Last updated:** 21 August 2026
 
 Niramay Clinics ("we", "us") respects your privacy. Health information is among the most sensitive information a person can share, and we treat it that way. This policy explains what personal data we collect through our website, phone, WhatsApp and at the clinic, why we collect it, who we share it with, how long we keep it, and the rights you have.
 
 We follow the Digital Personal Data Protection Act, 2023 and the Digital Personal Data Protection Rules, 2025, the Information Technology Act, 2000 and its rules on sensitive personal data, and the confidentiality duties that apply to doctors under the Indian Medical Council (Professional Conduct, Etiquette and Ethics) Regulations, 2002.
 
 #### 1. Who we are
-Niramay Clinics, comprising the Niramay Diabetes and Heart Care Centre, the Blooming Buds Child and Adolescent Care Centre, Niramay Laboratory and Niramay Pharmacy, 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg, Dhantoli, Nagpur, Maharashtra 440012. For the purposes of data protection law, Niramay Clinics is the "Data Fiduciary". **[CONFIRM: legal entity name, e.g. proprietorship or partnership]**
+Niramay Clinics, comprising the Niramay Diabetes and Heart Care Centre, the Blooming Buds Child and Adolescent Care Centre, Niramay Laboratory and Niramay Pharmacy, 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg, Dhantoli, Nagpur, Maharashtra 440012. For the purposes of data protection law, Niramay Clinics is the "Data Fiduciary".
 
 **Grievance Officer / contact for privacy matters:**
-**[CONFIRM: name]**, Niramay Clinics, address as above
-Email: **[CONFIRM: e.g. privacy@niramayclinics.com]** · Phone: 0712 2422214
+Dr. Ajay Kaduskar, Niramay Clinics, address as above
+Email: [email](mailto:) · Phone: 0712 2422214
 
 #### 2. What we collect
 **Information you give us**
@@ -69,9 +69,8 @@ Adolescents in counselling: what is said in counselling sessions is kept confide
 #### 5. Who we share it with
 Only when needed, and only the minimum necessary:
 - **Our doctors and clinic staff** involved in your care, who are bound by confidentiality
-- **Partner laboratories** for tests not done in-house **[CONFIRM: name]**
 - **Other doctors or hospitals** you are referred to, with your consent
-- **Service providers** who help us run the clinic and website (for example appointment software, cloud hosting, messaging), under contracts that require them to protect your data and use it only on our instructions **[CONFIRM: list of processors]**
+- **Service providers** who help us run the website, under contracts that require them to protect your data and use it only on our instructions: Vercel (hosting), Resend (form email delivery), Cloudflare Turnstile (spam protection), Google Analytics (only with your consent), Google Maps and YouTube (load only when you click), and WhatsApp/Meta and Gmail/Google (when you contact us by WhatsApp or email)
 - **Your insurer or employer** only if you ask us to
 - **Government authorities or courts** when required by law, for example disease notification or a court order
 
@@ -81,8 +80,8 @@ Some of our service providers may store data on servers outside India. Where thi
 We use WhatsApp, SMS and email for appointment reminders and, if you agree, to share reports. These services are run by third parties with their own privacy terms. Please avoid sending detailed medical information over WhatsApp or email unless we have agreed this with you.
 
 #### 7. How long we keep it
-- **Medical records** are kept for at least the period required by medical regulations (a minimum of 3 years from the start of treatment under the 2002 Regulations), and longer where needed for continuity of care, for records of children, or for legal reasons. **[CONFIRM: clinic retention period, for example 10 years, and longer for minors]**
-- **Website enquiries** that do not lead to a visit are deleted within **[CONFIRM: e.g. 12 months]**.
+- **Medical records**: we keep medical records for at least 3 years from your last visit, as required by medical regulations.
+- **Website enquiries**: if you contact us but do not visit, we delete your enquiry within 12 months.
 - **Analytics data** is kept in aggregated form.
 
 When data is no longer needed, it is securely deleted or anonymised.

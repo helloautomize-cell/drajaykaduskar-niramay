@@ -27,16 +27,16 @@ has_confirm_items: true
 
 **Key facts box**
 - **Qualifications:** MBBS; DCH (Diploma in Child Health); PGDAP (Post Graduate Diploma in Adolescent Pediatrics); MA (Clinical Psychology)
-- **Experience:** more than 20 years **[CONFIRM: start year]**
+- **Experience:** more than 15 years
 - **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]**
-- **Languages:** English, Hindi, Marathi **[CONFIRM]**
+- **Languages:** English, Hindi, Marathi
 - **Consults at:** Niramay Clinics, Dhantoli, Nagpur
-- **OPD:** **[CONFIRM: days and hours]**
+- **OPD:** Monday to Saturday, 8:30 am to 6 pm (Sundays closed)
 
 #### About Dr. Kaduskar
 Dr. Prajakta A. Kaduskar is a consultant in child and adolescent health. She trained as a doctor (MBBS), specialised in child health (DCH), completed a postgraduate diploma in adolescent paediatrics, and holds a master's degree in clinical psychology. This combination lets her look at a young person's physical health, emotional health and behaviour together, which is often where the real answer lies.
 
-She has more than 20 years of experience caring for babies, children, teenagers and young adults. Her special interests include academic stress, screen and social media overuse, obesity in young people, self-esteem, emotional resilience, puberty and menstrual health, and career guidance.
+She has more than 15 years of experience caring for babies, children, teenagers and young adults. Her special interests include academic stress, screen and social media overuse, obesity in young people, self-esteem, emotional resilience, puberty and menstrual health, and career guidance.
 
 #### Areas of care
 - Well-baby check-ups, growth and development monitoring
@@ -56,15 +56,9 @@ She has more than 20 years of experience caring for babies, children, teenagers 
 Teenagers need privacy and parents need to be informed. Dr. Kaduskar sees most adolescents partly with their parents and partly alone, and explains at the start what will be shared with the family. Anything that affects the young person's safety is always shared.
 
 #### Schools and community
-She conducts workshops for students, parents and teachers on mental wellness, healthy lifestyle, puberty, digital safety, bullying and life skills. **[CONFIRM: schools or organisations worked with, number of workshops]**
+She conducts workshops for students, parents and teachers on mental wellness, healthy lifestyle, puberty, digital safety, bullying and life skills.
 
 #### Writing
 Dr. Kaduskar has written on parenting teenagers ("Smart Love"), self-esteem in adolescents with disability, preparing children for adolescence, and menstrual hygiene. [Read her articles →]
-
-#### Awards and recognition
-**[CONFIRM: factual list with awarding body and year. Her consulting room shows several awards, including a certificate on advancing mental health]**
-
-#### Memberships
-**[CONFIRM: for example IAP, IAP Adolescent Health Academy, IMA]**
 
 **CTA:** Book an appointment with Dr. Prajakta Kaduskar

@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site-config";
 import { footerDiabetesHeart, footerChildTeen, patientInfoLinks, footerLegal, type NavLink } from "@/lib/nav";
-import { Confirm } from "@/components/ui/Confirm";
+import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
+import { CookieSettingsLink } from "@/components/layout/CookieSettingsLink";
 import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon, ArrowIcon } from "@/components/icons";
 
 /**
@@ -60,11 +61,11 @@ export function Footer() {
             <div className="mt-4 space-y-2 text-[14.5px] text-ink-600">
               <p className="flex items-center gap-2">
                 <ClockIcon size={15} className="shrink-0 text-plum-500" />
-                OPD: <Confirm>hours to be confirmed</Confirm>
+                OPD: {site.hours.opd}
               </p>
               <p className="flex items-center gap-2">
                 <ClockIcon size={15} className="shrink-0 text-plum-500" />
-                Lab {site.labHours.short}
+                Lab: {site.hours.lab} · Pharmacy: {site.hours.pharmacy}
               </p>
               <a href={site.phone.tel} className="flex items-center gap-2 font-semibold text-ink transition-colors hover:text-plum">
                 <PhoneIcon size={15} className="shrink-0 text-plum-500" />
@@ -74,10 +75,10 @@ export function Footer() {
                 <PhoneIcon size={15} className="shrink-0 text-plum-500" />
                 {site.mobile.display}
               </a>
-              <a href={`mailto:${site.email}`} className="flex items-center gap-2 transition-colors hover:text-plum">
+              <span className="flex items-center gap-2">
                 <MailIcon size={15} className="shrink-0 text-plum-500" />
-                {site.email}
-              </a>
+                <ObfuscatedEmail className="transition-colors hover:text-plum" />
+              </span>
               <a
                 href={directionsUrl}
                 target="_blank"
@@ -101,20 +102,36 @@ export function Footer() {
         {/* Bottom row */}
         <div className="mt-12 border-t border-line pt-6">
           <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-[14px]">
-            <span className="font-semibold text-ink">Reviewed us on Google?</span>
-            <span className="text-ink-600">
-              Niramay Diabetes and Heart Care Centre:{" "}
-              <Confirm>review link to be confirmed</Confirm>
-            </span>
-            <span className="text-ink-600">
-              Blooming Buds Child and Adolescent Care Centre:{" "}
-              <Confirm>review link to be confirmed</Confirm>
-            </span>
+            {(["clinic", "drAjay"] as const)
+              .filter((k) => site.googleProfiles[k].mapsUrl)
+              .map((k) => (
+                <a
+                  key={k}
+                  href={site.googleProfiles[k].mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 font-semibold text-ink transition-colors hover:text-plum"
+                >
+                  <MapPinIcon size={15} className="shrink-0 text-plum" />
+                  See {site.googleProfiles[k].name} on Google Maps
+                </a>
+              ))}
+            <Link
+              href="/plan-your-visit/coming-from-outside-nagpur/"
+              className="inline-flex items-center gap-2 text-ink-600 transition-colors hover:text-plum"
+            >
+              Coming from outside Nagpur?
+            </Link>
+            <CookieSettingsLink />
           </div>
-          {/* Social icons stay hidden until account URLs are confirmed (site-config). */}
+          <p className="mt-4 max-w-[720px] text-[13px] leading-relaxed text-ink-600">
+            {site.serviceArea.line}
+          </p>
+          {/* No social media accounts (client-answers) — icons stay hidden. */}
           <p className="mt-5 text-[13px] leading-relaxed text-ink-600">
-            © 2026 Niramay Clinics, Nagpur. Information on this website is for
-            general education and does not replace a consultation.
+            Caring for Nagpur since {site.foundedYear}. © 2026 Niramay Clinics,
+            Nagpur. Information on this website is for general education and
+            does not replace a consultation.
           </p>
         </div>
       </div>

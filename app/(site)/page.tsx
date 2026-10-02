@@ -13,6 +13,7 @@ import { diabetesHeartGroups, childTeenGroups, labPharmacyLinks } from "@/lib/na
 import {
   medicalClinicJsonLd,
   faqPageJsonLd,
+  videoJsonLd,
   JsonLd,
   SITE_URL,
 } from "@/lib/seo";
@@ -23,7 +24,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { AccentHeading } from "@/components/ui/AccentHeading";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { DoctorChip } from "@/components/ui/DoctorChip";
-import { Confirm } from "@/components/ui/Confirm";
+
 import { ServiceBadge } from "@/components/ui/ServiceBadge";
 import { Chip } from "@/components/ui/Chip";
 import { Reveal } from "@/components/ui/Reveal";
@@ -36,6 +37,8 @@ import { type ServiceTab } from "@/components/home/ServiceTabs";
 import { type GalleryStep } from "@/components/home/StepsGallery";
 import { ParallaxBand } from "@/components/home/ParallaxBand";
 import { Deferred } from "@/components/ui/Deferred";
+import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
+import { VideoFacade } from "@/components/sections/VideoFacade";
 import { ServiceGlassCard } from "@/components/sections/ServiceGlassCard";
 import {
   PhoneIcon,
@@ -98,8 +101,8 @@ const fanCards: FanCard[] = [
 const whyCards = [
   {
     icon: SpecialistIcon,
-    title: "20+ years of specialist practice",
-    text: "Each of our doctors has more than two decades of clinical experience.",
+    title: "Decades of specialist practice",
+    text: "More than 35 years of clinical experience between our two doctors.",
   },
   {
     icon: TrainedIcon,
@@ -247,14 +250,10 @@ const doctorCards: Doctor[] = [
 
 // Google profile links are [CONFIRM] in site-config; until they land, these
 // buttons deep-link a Google search for the public listings.
-const G_SEARCH = "https://www.google.com/search?q=";
-const reviewLinks = {
-  centre: `${G_SEARCH}${encodeURIComponent("Niramay Diabetes and Heart Care Centre Dhantoli reviews")}`,
-  doctor: `${G_SEARCH}${encodeURIComponent("Dr. Ajay Kaduskar Niramay Clinics Nagpur reviews")}`,
-};
-const directionsUrl = site.mapUrl.startsWith("http")
-  ? site.mapUrl
-  : `https://maps.google.com/?q=${encodeURIComponent(site.name + ", " + site.address.short)}`;
+const directionsUrl =
+  site.googleProfiles.clinic.mapsUrl ||
+  (site.mapUrl.startsWith("http") ? site.mapUrl : "") ||
+  `https://maps.google.com/?q=${encodeURIComponent(site.name + ", " + site.address.short)}`;
 
 /* ---------------------------------------------- quick-answer extraction */
 
@@ -291,6 +290,25 @@ function homeFaqs(): { q: string; aText: string }[] {
 }
 
 const quickAnswers = homeFaqs();
+
+/* "Watch Dr. Ajay" videos (client-answers item 30) — real YouTube titles and
+   upload dates, self-hosted posters so nothing touches Google until clicked. */
+const watchVideos = [
+  {
+    id: "G2I1fNgxzkE",
+    title: "THE PILLARS OF HEALTH | EPISODE 05 | Dr. Ajay Kaduskar",
+    credit: "Loktantra Mirror",
+    uploadDate: "2025-07-08",
+    poster: "/images/video/G2I1fNgxzkE.jpg",
+  },
+  {
+    id: "YjXtEOQ724Y",
+    title: "Diabetes and obesity — myth vs fact | Dr. Ajay Kaduskar",
+    credit: "Bluetree Healthcare Solutions",
+    uploadDate: "2025-09-30",
+    poster: "/images/video/YjXtEOQ724Y.jpg",
+  },
+];
 const faqItems: FaqItem[] = quickAnswers.map((f) => ({
   q: f.q,
   aText: f.aText,
@@ -299,17 +317,35 @@ const faqItems: FaqItem[] = quickAnswers.map((f) => ({
 
 /* ------------------------------------------------------------ JSON-LD */
 
+const CLINIC_GEO = { "@type": "GeoCoordinates", latitude: 21.134804, longitude: 79.083769 };
+const MON_SAT = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const ALL_DAYS = [...MON_SAT, "Sunday"];
+const hoursSpec = (days: string[], opens: string, closes: string) => ({
+  "@type": "OpeningHoursSpecification",
+  dayOfWeek: days,
+  opens,
+  closes,
+});
+
 const httpOrNull = (v: string) => (v.startsWith("http") ? v : null);
 const clinicLd = {
   ...medicalClinicJsonLd(),
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 21.134804,
-    longitude: 79.083769,
-  },
+  foundingDate: site.foundedYear,
+  geo: CLINIC_GEO,
+  openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "18:00")],
   contactPoint: [
-    { "@type": "ContactPoint", telephone: "+91-712-2422214", contactType: "appointments" },
-    { "@type": "ContactPoint", telephone: "+91-84591-41584", contactType: "customer service" },
+    {
+      "@type": "ContactPoint",
+      telephone: "+91-712-2422214",
+      contactType: "appointments",
+      hoursAvailable: hoursSpec(ALL_DAYS, "08:00", "21:00"),
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: "+91-84591-41584",
+      contactType: "customer service",
+      hoursAvailable: hoursSpec(ALL_DAYS, "08:00", "21:00"),
+    },
   ],
   department: [
     {
@@ -322,8 +358,30 @@ const clinicLd = {
       name: site.centres.child,
       medicalSpecialty: ["Pediatric", "Adolescent Medicine"],
     },
+    {
+      "@type": "MedicalBusiness",
+      name: "Niramay in-house laboratory",
+      openingHoursSpecification: [hoursSpec(MON_SAT, "07:00", "19:00")],
+    },
+    {
+      "@type": "Pharmacy",
+      name: site.pharmacy.name,
+      telephone: site.pharmacy.display,
+      openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "20:00")],
+    },
   ],
-  sameAs: [httpOrNull(site.googleReviews.diabetesHeart), httpOrNull(site.googleReviews.bloomingBuds)].filter(
+  areaServed: [
+    { "@type": "City", name: "Nagpur" },
+    { "@type": "AdministrativeArea", name: "Nagpur district" },
+    { "@type": "AdministrativeArea", name: "Bhandara district" },
+    { "@type": "AdministrativeArea", name: "Wardha district" },
+    {
+      "@type": "GeoCircle",
+      geoMidpoint: CLINIC_GEO,
+      geoRadius: "100000",
+    },
+  ],
+  sameAs: [httpOrNull(site.googleProfiles.clinic.mapsUrl), httpOrNull(site.googleProfiles.drAjay.mapsUrl)].filter(
     (v): v is string => !!v
   ),
 };
@@ -524,7 +582,16 @@ export default function Home() {
 
   return (
     <>
-      <JsonLd data={[clinicLd, websiteLd, ...(faqItems.length ? [faqPageJsonLd(faqItems)] : [])]} />
+      <JsonLd
+        data={[
+          clinicLd,
+          websiteLd,
+          ...(faqItems.length ? [faqPageJsonLd(faqItems)] : []),
+          ...watchVideos.map((v) =>
+            videoJsonLd({ id: v.id, title: v.title, pageUrl: "/", uploadDate: v.uploadDate, thumbnail: v.poster })
+          ),
+        ]}
+      />
 
       {/* ── H1 HERO ─────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden">
@@ -609,7 +676,7 @@ export default function Home() {
               </div>
               <div className="pointer-events-none absolute -right-3 -top-4 sm:-right-6">
                 <span className="home-badge-drift pointer-events-auto glass block rounded-full px-4 py-2 text-[13.5px] font-semibold text-ink">
-                  20+ years each in practice
+                  Caring for Nagpur since 2006
                 </span>
               </div>
               <div className="pointer-events-none absolute -left-3 top-1/2 sm:-left-6">
@@ -638,8 +705,8 @@ export default function Home() {
               />
               <p className="text-[17px] leading-relaxed text-ink-600">
                 Niramay Clinics brings two specialist practices under one roof, so most families can
-                manage adult and child care at a single visit. Each doctor has more than 20 years of
-                clinical practice.
+                manage adult and child care at a single visit. Between them, the doctors bring more than
+                35 years of clinical practice.
               </p>
               <div className="mt-8 space-y-4">
                 {[
@@ -733,7 +800,7 @@ export default function Home() {
               num="05"
               label="Your doctors"
               title="Meet your doctors"
-              lead="Each with more than 20 years of practice."
+              lead="More than 35 years of practice between them."
             />
             <div className="grid gap-6 lg:grid-cols-2">
               {doctorCards.map((d) => (
@@ -744,11 +811,38 @@ export default function Home() {
         </section>
       </Reveal>
 
-      {/* ── H8 06 / CONDITIONS ──────────────────────────────────────── */}
+      {/* ── H7b 06 / WATCH DR. AJAY ─────────────────────────────────── */}
       <Reveal>
         <section className={SECTION}>
           <div className={CONT}>
-            <SectionHead num="06" label="Conditions we look after" title="Care for the conditions we see most" accent="see most" />
+            <SectionHead
+              num="06"
+              label="Watch Dr. Ajay"
+              title="Dr. Ajay talks about diabetes and long-term health"
+              accent="diabetes"
+            />
+            <div className="grid gap-6 lg:grid-cols-2">
+              {watchVideos.map((v) => (
+                <div key={v.id}>
+                  <VideoFacade
+                    id={v.id}
+                    title={v.title}
+                    poster={v.poster}
+                    credit={v.credit}
+                    className="[&>button]:mt-0"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </Reveal>
+
+      {/* ── H8 07 / CONDITIONS ──────────────────────────────────────── */}
+      <Reveal>
+        <section className={SECTION}>
+          <div className={CONT}>
+            <SectionHead num="07" label="Conditions we look after" title="Care for the conditions we see most" accent="see most" />
             <Deferred
               of="conditions"
               props={{ items: conditionCards, ariaLabel: "Conditions we look after" }}
@@ -758,39 +852,8 @@ export default function Home() {
         </section>
       </Reveal>
 
-      {/* ── H9 07 / PATIENT REVIEWS (compliant) ─────────────────────── */}
-      <Reveal>
-        <section className={SECTION}>
-          <div className={CONT}>
-            <div className="mx-auto max-w-[760px] rounded-[24px] border border-line bg-card p-8 text-center shadow-[var(--shadow-card)] sm:p-12">
-              {/* Google "G" mark */}
-              <svg viewBox="0 0 24 24" className="mx-auto size-10" aria-hidden="true">
-                <path fill="#4285F4" d="M23.5 12.3c0-.9-.1-1.5-.3-2.2H12v4.1h6.5a5.6 5.6 0 0 1-2.4 3.6v3h3.9c2.3-2.1 3.5-5.2 3.5-8.5z" />
-                <path fill="#34A853" d="M12 24c3.2 0 5.9-1.1 7.9-2.9l-3.9-3a7.3 7.3 0 0 1-10.8-3.8H1.3v3.1A12 12 0 0 0 12 24z" />
-                <path fill="#FBBC05" d="M5.2 14.3a7.4 7.4 0 0 1 0-4.6v-3H1.3a12 12 0 0 0 0 10.6l3.9-3z" />
-                <path fill="#EA4335" d="M12 4.8a6.9 6.9 0 0 1 4.9 1.9l3.6-3.6A12 12 0 0 0 1.3 6.7l3.9 3a7.4 7.4 0 0 1 6.8-4.9z" />
-              </svg>
-              <Eyebrow className="mt-5">07 / Patient reviews</Eyebrow>
-              <h2 className="t-h3 mt-3 text-ink">Read what patients say about us on Google</h2>
-              <p className="mx-auto mt-3 max-w-[52ch] text-[15.5px] leading-relaxed text-ink-600">
-                We do not publish testimonials on this website. You can read independent patient
-                reviews on our Google profiles.
-              </p>
-              <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-                <ButtonLink href={reviewLinks.centre} variant="secondary" target="_blank" rel="noopener noreferrer">
-                  Reviews: {site.centres.adult}
-                </ButtonLink>
-                <ButtonLink href={reviewLinks.doctor} variant="secondary" target="_blank" rel="noopener noreferrer">
-                  Reviews: {doctors.ajay.name}
-                </ButtonLink>
-                <ButtonLink href={reviewLinks.centre} variant="link" arrow target="_blank" rel="noopener noreferrer">
-                  Write a review
-                </ButtonLink>
-              </div>
-            </div>
-          </div>
-        </section>
-      </Reveal>
+      {/* (The old "Patient reviews" block was removed — links-only policy,
+          Part 3: no ratings, no review counts, no Places API.) */}
 
       {/* ── H10 08 / HEALTH LIBRARY ─────────────────────────────────── */}
       <Reveal>
@@ -798,6 +861,7 @@ export default function Home() {
           <div className={CONT}>
             <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
               <SectionHead num="08" label="From our Health Library" title="Read before your visit" accent="before" />
+
               <ButtonLink href="/health-library/" variant="link" arrow className="mb-2 text-[16px]">
                 Visit the Health Library
               </ButtonLink>
@@ -895,15 +959,12 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <MailIcon size={18} aria-hidden className="mt-0.5 shrink-0 text-plum" />
-                  <a href={`mailto:${site.email}`} className="font-semibold text-ink hover:text-plum">
-                    {site.email}
-                  </a>
+                  <ObfuscatedEmail className="font-semibold text-ink hover:text-plum" />
                 </li>
                 <li className="flex gap-3">
                   <ClockIcon size={18} aria-hidden className="mt-0.5 shrink-0 text-plum" />
                   <span className="text-ink-600">
-                    Lab: {site.labHours.short}
-                    <Confirm> · OPD hours: to be confirmed</Confirm>
+                    OPD: {site.hours.opd} · Lab: {site.hours.lab} · Pharmacy: {site.hours.pharmacy}
                   </span>
                 </li>
                 <li className="flex gap-3">

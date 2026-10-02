@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { MapPinIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
+import { track } from "@/lib/track";
 
 const MAP_EMBED =
   "https://maps.google.com/maps?q=Niramay%20Clinics%2C%20Dhantoli%2C%20Nagpur&output=embed";
@@ -29,7 +30,10 @@ export function MapToggle({ className }: { className?: string }) {
   return (
     <button
       type="button"
-      onClick={() => setLoaded(true)}
+      onClick={() => {
+        setLoaded(true);
+        track("map_load");
+      }}
       aria-label="Show map"
       className={cn(
         "group relative block w-full overflow-hidden rounded-[20px] border border-line text-left",

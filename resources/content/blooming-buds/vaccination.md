@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Prajakta A. Kaduskar (children and teenagers) and Dr. Ajay V. Kaduskar (adults)"
 section: blooming-buds
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 27. Vaccinations for Children, Teenagers and Adults
@@ -25,7 +25,7 @@ has_confirm_items: true
 Vaccines are one of the safest and most effective ways to protect against serious infections. We give vaccines for babies, children, teenagers and adults, following the Indian Academy of Pediatrics (IAP) immunisation schedule for children and current national and professional guidance for adults.
 
 #### For babies and children
-All vaccines in the IAP schedule, from birth through childhood, including the vaccines given in the national programme and the optional vaccines recommended by IAP. We keep a vaccination record for your child and remind you when the next dose is due. **[CONFIRM: reminder system, e.g. SMS or WhatsApp]**
+All vaccines in the IAP schedule, from birth through childhood, including the vaccines given in the national programme and the optional vaccines recommended by IAP. We note the next due date on your child's vaccination record at every visit.
 
 #### For teenagers
 - **Tdap or Td** booster around 10 and 16 years

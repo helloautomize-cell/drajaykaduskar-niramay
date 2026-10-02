@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { site } from "@/lib/site-config";
-import { Confirm } from "@/components/ui/Confirm";
 import { ClockIcon, PhoneIcon, EmergencyIcon } from "@/components/icons";
 
 /**
@@ -33,12 +32,10 @@ export function UtilityBar() {
         </Link>
 
         <div className="ml-auto flex items-center gap-5">
-          {process.env.NODE_ENV !== "production" && (
-            <span className="hidden items-center gap-1.5 lg:inline-flex">
-              <ClockIcon size={14} aria-hidden />
-              OPD: <Confirm>hours to be confirmed</Confirm>
-            </span>
-          )}
+          <span className="hidden items-center gap-1.5 lg:inline-flex">
+            <ClockIcon size={14} aria-hidden />
+            OPD {site.hours.opd}
+          </span>
           <span className="inline-flex items-center gap-1.5">
             <ClockIcon size={14} aria-hidden />
             Lab {site.labHours.short}

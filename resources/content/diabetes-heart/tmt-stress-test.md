@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 23. TMT (Treadmill Stress Test)
@@ -19,7 +19,7 @@ has_confirm_items: true
 - **Meta description:** Treadmill stress test (TMT) in Dhantoli, Nagpur. Why it is done, how to prepare, what happens during the test and how results are used.
 - **Schema:** MedicalTest
 
-> **[CONFIRM: who supervises the TMT (doctor present throughout); protocol used; emergency equipment available, e.g. defibrillator and oxygen]**
+> Dr. Ajay supervises every treadmill test himself, with a trained technician assisting. We follow the standard Bruce protocol, and a defibrillator, oxygen and emergency medicines are kept ready throughout.
 
 **H1:** TMT (treadmill stress test)
 

@@ -125,7 +125,7 @@ Home · About (Our Clinic, Dr. Ajay Kaduskar, Dr. Prajakta Kaduskar) · Diabetes
 - **Phone:** 0712 2422214 · +91 84591 41584 (calls and WhatsApp)
 - **Laboratory:** Niramay Laboratory, 7 am to 7 pm **[CONFIRM: days]**
 - **Pharmacy:** Niramay Pharmacy (Niramay Medical), +91 90213 51693
-- **Email:** admin@niramayclinics.com
+- **Email:** ajaykaduskar@gmail.com
 - **Hours:** **[CONFIRM: OPD days and hours for each doctor. Current listings disagree: appointment line 9 am to 5 pm, Google 8:30 am or 9 am, Justdial 8:30 am to 6 pm]**
 
 **Structured data (for the developer)**

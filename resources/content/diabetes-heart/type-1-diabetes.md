@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 9. Type 1 Diabetes
@@ -46,7 +46,7 @@ No. People with type 1 diabetes always need insulin. Diet and activity help, but
 Yes. With planning around insulin, snacks and testing, children and teenagers with type 1 diabetes can take part in sports, trips and normal school life. We provide a written plan for the school.
 
 **Is an insulin pump or CGM available?**
-We advise on whether a CGM sensor or an insulin pump suits you and help you start and adjust. **[CONFIRM: whether pump initiation is offered at the clinic]**
+If an insulin pump or a continuous glucose monitor (CGM) may suit you, Dr. Ajay explains the options and guides your care.
 
 **Will my child be able to marry and have a career?**
 Yes. People with well-managed type 1 diabetes study, work in almost every profession, marry and have healthy children. Women with type 1 diabetes should plan pregnancy with their doctor in advance.

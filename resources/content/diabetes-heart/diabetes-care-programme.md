@@ -9,7 +9,7 @@ images: []
 reviewed_by: "Dr. Ajay V. Kaduskar"
 section: diabetes-heart
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 12. Complete Diabetes Care Programme
@@ -19,20 +19,20 @@ has_confirm_items: true
 - **Meta description:** A structured yearly diabetes care programme in Nagpur: planned consultations, tests, complication screening and nutrition sessions, organised in one place.
 - **Schema:** MedicalWebPage
 
-> **[CONFIRM: The old site mentions a "Complete Diabetes Care Package" but never described it. The structure below is a proposal based on standard yearly diabetes care. The clinic must confirm the components, the number of visits, validity, and whether a price is shown. If a price is shown, list exactly what is included and excluded.]**
 
 **H1:** Complete Diabetes Care Programme
 
 Diabetes is a lifelong condition, and good care follows a rhythm: regular reviews, tests at the right intervals, and yearly screening for complications. The Complete Diabetes Care Programme organises a full year of that care in advance, so nothing is missed and costs are clear from the start.
 
-#### What the programme includes (proposed)
-- **Consultations:** an initial detailed consultation with Dr. Ajay Kaduskar and follow-up consultations through the year **[CONFIRM: number, e.g. 4]**
-- **Quarterly tests:** HbA1c and fasting and post-meal blood sugar
-- **Yearly tests:** lipid profile, kidney function with eGFR, urine albumin to creatinine ratio, liver tests, thyroid test (TSH), complete blood count, vitamin B12 for people on certain long-term diabetes medicines **[CONFIRM list]**
-- **Complication screening:** retinal photography, foot and nerve examination, ECG
-- **Body composition analysis** at the start and end of the year
-- **Nutrition counselling sessions** **[CONFIRM: number]**
+#### What the programme includes
+The programme runs for 12 months from your first visit and includes:
+- **12 consultations** with Dr. Ajay Kaduskar, starting with a detailed first consultation
+- **4 HbA1c tests** through the year
+- **Eye and foot screening** for diabetes complications
+- **4 diet counselling sessions** with our trained nutrition team
 - **A personal diabetes record**: your targets, results and medicine changes kept in one place
+
+The fee is shared when you book.
 
 #### Who it is for
 - People newly diagnosed with diabetes who want a structured first year
@@ -40,11 +40,11 @@ Diabetes is a lifelong condition, and good care follows a rhythm: regular review
 - Families who prefer planned, predictable costs
 
 #### What is not included
-Medicines, insulin, glucometer strips and CGM sensors, specialist referrals (for example to an eye surgeon or nephrologist), and any tests beyond the list above are charged separately. **[CONFIRM]**
+Medicines, insulin, glucometer strips and CGM sensors, specialist referrals (for example to an eye surgeon or nephrologist), and any tests beyond the list above are charged separately.
 
 #### Frequently asked questions
 **Can I join at any time of year?**
-Yes. The programme runs for 12 months from your first visit. **[CONFIRM]**
+Yes. The programme runs for 12 months from your first visit.
 
 **Is it covered by health insurance?**
-Outpatient coverage depends on your policy. We provide bills and reports for claims. **[CONFIRM]**
+Outpatient coverage depends on your policy. We provide itemised bills and reports for insurance claims.
