@@ -637,6 +637,15 @@ em.acc {
   }
 }
 
+/* Below-the-fold content sections: skip style/layout/paint work until the
+   section nears the viewport. Keeps long pages cheap during the LCP window.
+   `auto` re-uses the real rendered size once seen, so scroll height stays
+   stable. */
+.cv-section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+
 /* A/A+ text-size switch: scale the root font so all rem-based type grows.
    Layout uses fixed px for structure, so spacing stays put. */
 html.font-lg {
@@ -647,6 +656,9 @@ html.font-lg {
    navigation, bars, floating actions and footer are hidden; content, the
    reviewer box and clinic contact remain. */
 @media print {
+  .cv-section {
+    content-visibility: visible;
+  }
   header,
   footer,
   [data-print-hide],

@@ -39,11 +39,23 @@ export function HeroFan({
 
   const start = () => {
     if (reduce || timer.current) return;
-    timer.current = setInterval(() => setFront((f) => (f + 1) % cards.length), intervalMs);
+    // The first swap waits past the LCP measurement window: a slow run that
+    // rotated the stack at 5s would make the newly fronted card the LCP
+    // element. Later swaps run at the normal interval.
+    timer.current = setTimeout(() => {
+      setFront((f) => (f + 1) % cards.length);
+      timer.current = setInterval(
+        () => setFront((f) => (f + 1) % cards.length),
+        intervalMs
+      );
+    }, intervalMs + 4000);
   };
   const stop = () => {
-    if (timer.current) clearInterval(timer.current);
-    timer.current = null;
+    if (timer.current) {
+      clearTimeout(timer.current);
+      clearInterval(timer.current);
+      timer.current = null;
+    }
   };
 
   useEffect(() => {

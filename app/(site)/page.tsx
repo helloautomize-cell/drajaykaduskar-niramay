@@ -61,7 +61,7 @@ import {
 
 const CONT = "mx-auto max-w-[1240px] px-4 sm:px-6";
 // One spacing scale: 56px mobile / 96px desktop section padding
-const SECTION = "py-14 lg:py-24";
+const SECTION = "py-14 lg:py-24 cv-section";
 
 export const dynamic = "error"; // fully static
 
