@@ -71,10 +71,10 @@ export function useAutoplay({
       hover.current = false;
       poke();
     },
-    onFocusIn: () => {
+    onFocus: () => {
       focus.current = true;
     },
-    onFocusOut: (e: React.FocusEvent) => {
+    onBlur: (e: React.FocusEvent) => {
       if (!e.currentTarget.contains(e.relatedTarget as Node)) {
         focus.current = false;
         poke();

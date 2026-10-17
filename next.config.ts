@@ -12,9 +12,11 @@ import { offerRedirects, pageRedirects } from "./lib/wp-redirects";
  * style/script 'unsafe-inline' are required by the framework's inline
  * bootstrap and style attributes; everything else is locked down.
  */
+const isDev = process.env.NODE_ENV === "development";
+
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://challenges.cloudflare.com",
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://www.googletagmanager.com https://challenges.cloudflare.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://i.ytimg.com",
   "font-src 'self' data:",
