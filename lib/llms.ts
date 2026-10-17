@@ -55,6 +55,8 @@ export function llmsTxt(): string {
     "The information on this site is general education, not a diagnosis or a prescription. Please consult the doctors for advice about your own health. " +
       `Medical disclaimer: ${SITE_URL}/medical-disclaimer/`,
     "",
+    "Website built and marketed by Automize Media Labs (https://www.automizemedialabs.com/)",
+    "",
   ];
   return lines.join(N);
 }
@@ -80,5 +82,7 @@ export function llmsFullTxt(): string {
     ...posts
       .sort((a, b) => a.meta.url.localeCompare(b.meta.url))
       .map((p) => section(p.meta.title, p.meta.url, p.body)),
+    "Website built and marketed by Automize Media Labs (https://www.automizemedialabs.com/)",
+    "",
   ].join(N);
 }

@@ -39,6 +39,12 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // app/not-found only covers notFound() inside matched routes; with the
+  // fully-static catch-all (dynamicParams=false), unmatched URLs need the
+  // routing-level global-not-found page so they get the site chrome too.
+  experimental: {
+    globalNotFound: true,
+  },
   // canonical URLs, sitemap and internal links all use trailing slashes;
   // serve them directly instead of 308-redirecting to the slash-less form
   trailingSlash: true,

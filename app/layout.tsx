@@ -42,6 +42,8 @@ export const metadata: Metadata = {
   description:
     "Specialist outpatient clinic in Dhantoli, Nagpur. Dr. Ajay Kaduskar for diabetes, obesity, thyroid, blood pressure and heart care. Dr. Prajakta Kaduskar for child and adolescent health, counselling and vaccination.",
   openGraph: { locale: "en_IN" },
+  authors: [{ name: "Automize Media Labs", url: "https://www.automizemedialabs.com/" }],
+  creator: "Automize Media Labs",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

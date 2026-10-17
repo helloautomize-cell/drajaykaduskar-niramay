@@ -156,6 +156,11 @@ export function websiteNode() {
     url: `${SITE_URL}/`,
     inLanguage: "en-IN",
     publisher: { "@id": CLINIC_ID },
+    creator: {
+      "@type": "Organization",
+      name: "Automize Media Labs",
+      url: "https://www.automizemedialabs.com/",
+    },
   };
 }
 

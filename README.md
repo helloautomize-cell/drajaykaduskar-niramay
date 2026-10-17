@@ -76,3 +76,5 @@ See `.env.example` for the full list. In short:
 
 Hosted on Vercel; pushes to `main` deploy automatically. Launch steps
 (domain, `SITE_INDEXABLE`, Search Console, Bing, GBP) are handled separately.
+
+Built and marketed by Automize Media Labs - https://www.automizemedialabs.com/
