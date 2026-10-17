@@ -148,6 +148,21 @@ export function Footer() {
           </p>
         </div>
       </div>
+
+      {/* Agency credit strip */}
+      <div className="mt-10 bg-ink">
+        <p className="mx-auto max-w-[1240px] px-4 py-3.5 text-center text-[13px] text-plum-100/80 sm:px-6">
+          Built &amp; Marketed by{" "}
+          <a
+            href="https://www.automizemedialabs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-peach underline-offset-2 transition-colors hover:underline"
+          >
+            Automize Media Labs
+          </a>
+        </p>
+      </div>
     </footer>
   );
 }
