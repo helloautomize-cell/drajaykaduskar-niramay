@@ -372,12 +372,18 @@ export function blogPostingNode(post: {
   author: Doctor;
   reviewedBy?: Doctor;
   image?: string;
+  description?: string;
+  wordCount?: number;
+  articleSection?: string;
+  keywords?: string[];
+  citation?: { name: string; url: string }[];
 }) {
   return {
     "@type": "BlogPosting",
     "@id": `${SITE_URL}${post.url}#article`,
     headline: post.title,
     url: `${SITE_URL}${post.url}`,
+    mainEntityOfPage: `${SITE_URL}${post.url}`,
     inLanguage: "en-IN",
     isPartOf: { "@id": WEBSITE_ID },
     datePublished: post.published || undefined,
@@ -385,7 +391,68 @@ export function blogPostingNode(post: {
     author: { "@id": PHYSICIAN_ID[post.author.id] },
     ...(post.reviewedBy ? { reviewedBy: { "@id": PHYSICIAN_ID[post.reviewedBy.id] } } : {}),
     ...(post.image ? { image: `${SITE_URL}${post.image}` } : {}),
+    ...(post.description ? { description: post.description } : {}),
+    ...(post.wordCount ? { wordCount: post.wordCount } : {}),
+    ...(post.articleSection ? { articleSection: post.articleSection } : {}),
+    ...(post.keywords?.length ? { keywords: post.keywords } : {}),
+    ...(post.citation?.length
+      ? { citation: post.citation.map((c) => ({ "@type": "CreativeWork", name: c.name, url: c.url })) }
+      : {}),
     publisher: { "@id": CLINIC_ID },
+  };
+}
+
+/** MedicalWebPage node for a blog article (audience Patient, physician-reviewed). */
+export function postMedicalWebPageNode(post: {
+  title: string;
+  url: string;
+  description?: string;
+  about?: string;
+  lastReviewed?: string;
+  reviewedBy?: Doctor;
+}) {
+  const node: Record<string, unknown> = {
+    "@type": "MedicalWebPage",
+    "@id": `${SITE_URL}${post.url}#webpage`,
+    name: post.title,
+    url: `${SITE_URL}${post.url}`,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": WEBSITE_ID },
+    about: { "@type": "MedicalCondition", name: post.about || post.title },
+    audience: { "@type": "Patient" },
+    ...(post.description ? { description: post.description } : {}),
+  };
+  if (post.reviewedBy) {
+    node.reviewedBy = { "@id": PHYSICIAN_ID[post.reviewedBy.id] };
+    node.lastReviewed = post.lastReviewed;
+  }
+  return node;
+}
+
+/** CollectionPage + ItemList for the grouped blog index. */
+export function collectionPageNode(index: {
+  title: string;
+  url: string;
+  description?: string;
+  items: { name: string; url: string }[];
+}) {
+  return {
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}${index.url}#webpage`,
+    name: index.title,
+    url: `${SITE_URL}${index.url}`,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": WEBSITE_ID },
+    ...(index.description ? { description: index.description } : {}),
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: index.items.map((it, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: it.name,
+        url: `${SITE_URL}${it.url}`,
+      })),
+    },
   };
 }
 

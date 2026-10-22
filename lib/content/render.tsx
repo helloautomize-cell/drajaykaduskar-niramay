@@ -321,8 +321,20 @@ export function segment(mdast: Root): Segment[] {
         out.push({ kind: "video", caption: videoCaption });
         continue;
       }
-      // "**Summary box:**" + bullet list -> "In brief" card at the top of a post
       const first = p.children[0];
+      // "**Quick answer.** <text>" -> info callout shown directly under the H1
+      if (first?.type === "strong" && /^quick answer\b/i.test(textOf(first))) {
+        flush();
+        const rest = p.children.slice(1);
+        out.push({
+          kind: "callout",
+          variant: "info",
+          title: "Quick answer",
+          nodes: rest.length ? [{ ...p, children: rest } as Paragraph] : [],
+        });
+        continue;
+      }
+      // "**Summary box:**" + bullet list -> "In brief" card at the top of a post
       if (first?.type === "strong" && /^summary box/i.test(textOf(first))) {
         const next = children[i + 1];
         if (next?.type === "list") {

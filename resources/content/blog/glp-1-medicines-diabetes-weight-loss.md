@@ -1,0 +1,605 @@
+---
+title: "GLP-1 Medicines for Diabetes & Weight Loss: How They Work, Key Differences & Who May Need Them"
+seo_title: "GLP-1 Medicines for Diabetes & Weight Loss | Niramay"
+url: "/health-library/glp-1-medicines-diabetes-weight-loss/"
+author: "Dr. Ajay V. Kaduskar"
+author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
+reviewed_by: "Dr. Ajay V. Kaduskar"
+published: "2026-10-22"
+updated: "2026-10-22"
+category: "GLP-1 Medicines"
+reading_time: "Approximately 14 minutes"
+excerpt: "GLP-1 medicines can help manage blood sugar and weight in suitable patients. Learn how they work, how semaglutide differs from tirzepatide, and who may benefit."
+image: "blog/glp-1-medicines-diabetes-weight-loss.webp"
+image_alt: "GLP-1 Medicines for Diabetes and Weight Loss: How They Work, cover graphic"
+keywords: ["GLP-1 medicines for diabetes and weight loss", "GLP-1 medicines", "GLP-1 drugs for diabetes", "GLP-1 weight loss medicines", "semaglutide vs tirzepatide", "semaglutide for diabetes", "tirzepatide for diabetes", "GLP-1 receptor agonists", "GIP and GLP-1 medicines"]
+sources:
+  - name: "NIDDK: Prescription medicines for overweight and obesity"
+    url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+  - name: "WHO: Diabetes fact sheet"
+    url: "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+related: ["/obesity/weight-management-medicines/", "/diabetes/", "/obesity/"]
+cluster: 7
+pillar: true
+section: blog
+status: draft
+---
+
+**Quick answer.** GLP-1 medicines work by copying some of the effects of a natural hormone called glucagon-like peptide-1, or GLP-1. They help the body release insulin when blood glucose is elevated, reduce glucagon activity, slow stomach emptying and influence appetite. This combination can improve blood sugar control and make it easier for some people to eat less. Semaglutide is a GLP-1 receptor agonist. Tirzepatide works differently because it acts on both GIP and GLP-1 receptors. Both are used in appropriate patients with diabetes and/or obesity, depending on the specific product and its approved indication. These medicines are not automatically right for everyone. A doctor needs to look at the person's diabetes, weight, other health conditions, current medicines and treatment goals before recommending one.
+
+GLP-1 medicines have become an important option in the treatment of Type 2 diabetes and obesity. They can help lower blood glucose, reduce appetite and support weight loss in people for whom these medicines are medically appropriate.
+
+But there is a lot of confusion around them.
+
+Are GLP-1 medicines only for diabetes? Is semaglutide the same as tirzepatide? Can they replace metformin or insulin? And does everyone struggling with weight need one?
+
+The answer to each question depends on the person's health, treatment goals and the specific medicine being considered.
+
+#### What Exactly Are GLP-1 Medicines?
+
+GLP-1 stands for **glucagon-like peptide-1**.
+
+It is a hormone produced in the intestine after eating. Among other things, it helps the body respond to a rise in blood glucose.
+
+GLP-1 medicines are designed to produce some of these effects for much longer than naturally occurring GLP-1.
+
+Medicines in this broader treatment group include:
+
+- Semaglutide
+
+- Liraglutide
+
+- Dulaglutide
+
+- Tirzepatide
+
+There is an important technical point here: **tirzepatide is not a GLP-1-only medicine.** It acts on both the GIP and GLP-1 pathways.
+
+That distinction matters because patients often hear all of these medicines described simply as "GLP-1 drugs," even though their mechanisms are not identical.
+
+The Niramay Clinics content plan places this article as the clinical foundation of its GLP-1 topic cluster, with separate supporting content planned for medication comparisons, eligibility, treatment initiation and administration.
+
+#### How Do GLP-1 Medicines Work?
+
+The easiest way to understand these medicines is to look at what happens after you eat.
+
+##### They help the pancreas release insulin
+
+When blood glucose rises after a meal, GLP-1 signalling helps the pancreas release insulin.
+
+Insulin allows glucose to move out of the bloodstream and into cells, where it can be used for energy or stored.
+
+This glucose-dependent action is one reason GLP-1 medicines generally have a lower risk of causing hypoglycaemia when used alone than some older diabetes medicines. The risk can be different when they are combined with insulin or medicines such as sulfonylureas.
+
+##### They reduce glucagon
+
+Glucagon has an important role in raising blood glucose, particularly by signalling the liver to release stored glucose.
+
+GLP-1-based treatment can reduce inappropriate glucagon activity when blood glucose is elevated. This contributes to better glucose control.
+
+##### They slow the movement of food from the stomach
+
+GLP-1 medicines can slow gastric emptying.
+
+In practical terms, food may leave the stomach more slowly, which can affect how quickly glucose enters the bloodstream after a meal.
+
+It can also contribute to a longer-lasting feeling of fullness.
+
+This effect is one reason doctors need to know about significant gastrointestinal problems before prescribing these medicines.
+
+##### They influence appetite
+
+GLP-1 signalling also affects areas of the brain involved in appetite and food intake.
+
+Many people taking these medicines report feeling less hungry or becoming satisfied after smaller portions.
+
+That reduction in food intake can contribute to weight loss.
+
+So, although people often call these "weight-loss injections", their effects are broader than weight alone.
+
+#### What Is the Difference Between Semaglutide and Tirzepatide?
+
+This is one of the most common questions patients have.
+
+The simplest distinction is:
+
+**Semaglutide acts primarily through the GLP-1 receptor. Tirzepatide acts through both GIP and GLP-1 receptors.**
+
+GIP stands for **glucose-dependent insulinotropic polypeptide**. It is another hormone involved in the body's response to food.
+
+| **Feature** | **Semaglutide** | **Tirzepatide** |
+|----|----|----|
+| Main pathway | GLP-1 receptor | GIP + GLP-1 receptors |
+| Drug type | GLP-1 receptor agonist | Dual GIP/GLP-1 receptor agonist |
+| Blood glucose effect | Can improve glucose control | Can improve glucose control |
+| Appetite effect | Can reduce appetite | Can reduce appetite |
+| Weight-management role | Used for appropriate patients under its relevant indication | Used for appropriate patients under its relevant indication |
+| Formulation | Depends on the specific product | Depends on the specific product |
+| Treatment choice | Depends on medical needs and individual factors | Depends on medical needs and individual factors |
+
+This comparison does **not** mean that one medicine should automatically be chosen over the other.
+
+The appropriate choice can depend on diabetes control, weight, cardiovascular and kidney health, other medicines, adverse-effect concerns, access, cost and the patient's treatment priorities.
+
+#### Are GLP-1 Medicines Used Only for Diabetes?
+
+No.
+
+Some medicines in this group are used to treat Type 2 diabetes. Certain medicines also have approved indications for chronic weight management in people who do not have diabetes but meet the relevant medical criteria.
+
+That distinction is worth understanding.
+
+A person does not need to have diabetes simply because they are being considered for a GLP-1-based medicine for obesity. At the same time, having obesity does not automatically mean that medication is necessary.
+
+Doctors generally look at the overall picture, including:
+
+- BMI and weight history
+
+- Waist circumference where relevant
+
+- Blood glucose and diabetes status
+
+- Blood pressure
+
+- Cholesterol
+
+- Cardiovascular risk
+
+- Fatty liver and other metabolic conditions
+
+- Previous weight-management efforts
+
+- Current medicines
+
+- Potential contraindications
+
+- The patient's treatment goals
+
+The aim is to treat the person's health condition, rather than simply chase a number on the weighing scale.
+
+#### Who May Need a GLP-1 Medicine?
+
+There is no single group of patients who automatically "needs" a GLP-1 medicine.
+
+Instead, doctors may consider these medicines in several situations.
+
+##### Type 2 diabetes with inadequate glucose control
+
+A person with Type 2 diabetes may be considered for a GLP-1-based medicine when blood glucose remains above the individual's treatment target or when the existing treatment plan needs to be changed.
+
+The decision does not depend on HbA1c alone.
+
+The doctor also considers the person's weight, other medical conditions, current medicines and the risks and benefits of available treatment options.
+
+##### Type 2 diabetes with overweight or obesity
+
+This is an important situation because diabetes and excess weight frequently occur together.
+
+For these patients, a treatment that can help with both glucose control and weight may be useful.
+
+The 2026 ADA Standards of Care place considerable emphasis on selecting glucose-lowering treatments with beneficial effects on weight for people with Type 2 diabetes and overweight or obesity.
+
+##### Obesity requiring medical treatment
+
+Obesity is a chronic medical condition. Diet and physical activity remain central to treatment, but they are not always enough on their own for every person.
+
+For patients who meet the appropriate criteria, prescription medication can be one part of a longer-term weight-management plan.
+
+The decision should take into account health risks associated with obesity, previous attempts at weight management, potential benefits and adverse effects, and whether the patient can realistically continue treatment.
+
+##### Certain cardiovascular or kidney-risk situations
+
+Some GLP-1-based medicines have demonstrated cardiovascular benefits in specific groups of people with Type 2 diabetes.
+
+Certain medicines may also have a role in people with diabetes and chronic kidney disease, depending on the clinical situation.
+
+This is an area where treatment selection becomes particularly individual. A person with diabetes may need a medicine partly because of cardiovascular or kidney considerations, even when weight loss is not the main goal.
+
+#### Who May Not Be a Suitable Candidate?
+
+These medicines are not appropriate for everybody.
+
+Before prescribing one, a doctor may need to consider a history of:
+
+- Serious allergic reaction to the medicine
+
+- Medullary thyroid carcinoma
+
+- Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)
+
+- Severe gastrointestinal motility problems
+
+- Pancreatitis
+
+- Gallbladder disease
+
+- Certain diabetic eye complications
+
+- Pregnancy or plans for pregnancy
+
+- Medicines that may increase the risk of hypoglycaemia
+
+The exact contraindications and warnings vary between products, so the prescribing information for the particular medicine matters.
+
+This is also why buying or using a prescription medicine simply because someone else has had a good experience with it can be unsafe.
+
+#### Do GLP-1 Medicines Replace Metformin?
+
+Not necessarily.
+
+Metformin and GLP-1-based medicines work in different ways, and they can sometimes be used together.
+
+For some patients, a GLP-1 medicine may become an important part of treatment. For others, metformin may remain appropriate, either alone or alongside another medicine.
+
+The same principle applies to insulin.
+
+#### Do GLP-1 Medicines Replace Insulin?
+
+They do not automatically replace insulin.
+
+Some people with Type 2 diabetes continue to require insulin because their pancreas does not produce enough insulin or because of the severity and duration of their diabetes.
+
+A GLP-1 medicine may sometimes be added to an insulin-based treatment plan. If this happens, the overall medication regimen may need adjustment because blood glucose can change and the risk of hypoglycaemia can be affected.
+
+**Insulin should never be stopped or reduced without medical advice.**
+
+#### What Happens Before Starting a GLP-1 Medicine?
+
+Starting treatment should involve more than simply deciding which injection to use.
+
+A doctor may first review:
+
+**Blood glucose:** HbA1c, fasting glucose, home glucose readings or other relevant information can help establish the current level of diabetes control.
+
+**Weight and metabolic health:** Weight, BMI and sometimes waist circumference provide useful context. Blood pressure and cholesterol may also be reviewed.
+
+**Kidney function:** Kidney health can influence overall diabetes treatment decisions.
+
+**Heart health:** A history of cardiovascular disease or cardiovascular risk factors may influence medicine selection.
+
+**Digestive symptoms:** Existing gastrointestinal problems are relevant because GLP-1-based medicines can affect stomach emptying and cause gastrointestinal side effects.
+
+**Current medication:** The doctor needs to know about diabetes medicines, insulin and other prescription or non-prescription treatments.
+
+**Pregnancy:** Pregnancy status and pregnancy plans need to be discussed when relevant.
+
+**Treatment goals:** The reason for treatment matters. Someone primarily concerned about glucose control may have different priorities from someone being treated mainly for obesity.
+
+This assessment is especially relevant in metabolic health, where diabetes, obesity, blood pressure, cholesterol and cardiovascular risk can overlap. Niramay Clinics describes its clinical focus around diabetes, obesity, metabolic disease, preventive cardiology and prevention of diabetes complications.
+
+#### How Is the Treatment Usually Started?
+
+Most GLP-1-based medicines are introduced gradually.
+
+A lower starting dose is commonly used, followed by stepwise increases according to the specific product's prescribing information and the patient's response.
+
+Why start slowly?
+
+One reason is tolerability. Nausea and other digestive symptoms can be more noticeable when treatment begins or when the dose is increased.
+
+The correct dose is not simply the highest dose a person can tolerate. Treatment needs to be adjusted according to the medicine, its approved indication, response and the patient's clinical circumstances.
+
+A separate supporting article in the Niramay content cluster is planned specifically around how GLP-1 treatment is started, including titration and the first few weeks of treatment.
+
+#### What Side Effects Can GLP-1 Medicines Cause?
+
+Digestive symptoms are among the most commonly reported side effects.
+
+These can include:
+
+- Nausea
+
+- Vomiting
+
+- Diarrhoea
+
+- Constipation
+
+- Abdominal discomfort
+
+- Indigestion
+
+- Reduced appetite
+
+For some people, these symptoms settle as the body becomes accustomed to treatment. For others, they may persist or become troublesome.
+
+Eating smaller meals, eating slowly and avoiding foods that clearly worsen symptoms may help some people. But persistent symptoms should not simply be ignored.
+
+##### When should side effects be checked by a doctor?
+
+Contact your healthcare professional if vomiting continues, you cannot maintain adequate fluid intake, abdominal pain is significant or symptoms are interfering with normal daily activities.
+
+Severe abdominal pain, repeated vomiting, marked dehydration or other concerning symptoms warrant prompt medical assessment.
+
+#### Can GLP-1 Medicines Cause Low Blood Sugar?
+
+On their own, GLP-1-based medicines generally have a relatively low risk of causing hypoglycaemia because their effect on insulin secretion is linked to blood glucose.
+
+That does not mean the risk is always absent.
+
+The situation can change when a GLP-1 medicine is combined with insulin or certain medicines that increase insulin release.
+
+A patient may therefore need changes to the wider diabetes treatment plan when a GLP-1 medicine is introduced.
+
+Symptoms of low blood sugar can include:
+
+- Shaking
+
+- Sweating
+
+- Hunger
+
+- Dizziness
+
+- Weakness
+
+- Palpitations
+
+- Confusion
+
+Anyone using diabetes medication should know how to recognise hypoglycaemia and what their doctor has advised them to do if it occurs.
+
+#### Are GLP-1 Medicines Safe During Pregnancy?
+
+Weight-loss medicines should not be used during pregnancy.
+
+Pregnancy requires a different approach to managing blood glucose and weight. If someone is pregnant, planning pregnancy or could become pregnant, this should be discussed with the treating doctor before starting or continuing medication.
+
+Some GLP-1-based medicines carry specific pregnancy warnings, and certain medicines need to be stopped well before a planned pregnancy.
+
+This is not a decision to make independently. Speak with your doctor about the appropriate timing and alternatives.
+
+#### Can GLP-1 Medicines Be Used Long Term?
+
+They can be used as part of long-term treatment when medically appropriate.
+
+This is particularly relevant to obesity. Obesity is a chronic condition, so stopping treatment simply because a certain weight has been reached may not always be the end of the treatment plan.
+
+Weight regain can occur after obesity medication is stopped.
+
+That does not mean the medicine has "failed". It reflects the fact that appetite regulation, energy balance and metabolic disease involve biological processes that can persist after treatment is discontinued.
+
+Patients considering these medicines should therefore ask about the longer-term plan before starting:
+
+- How will progress be monitored?
+
+- What happens if the medicine works well?
+
+- How long might treatment continue?
+
+- What happens if it has to be stopped?
+
+- What will happen if weight begins to return?
+
+- How will nutrition and exercise fit into treatment?
+
+#### What Role Do Diet and Exercise Play?
+
+GLP-1 treatment does not make lifestyle management irrelevant.
+
+In fact, many patients benefit from using medication and lifestyle changes together.
+
+A sensible plan may include:
+
+- Balanced meals
+
+- Appropriate portion sizes
+
+- Adequate protein and fibre
+
+- Regular physical activity
+
+- Resistance training where appropriate
+
+- Sufficient sleep
+
+- Blood pressure management
+
+- Cholesterol management
+
+- Regular diabetes monitoring
+
+For someone with obesity or Type 2 diabetes, preserving muscle while losing excess body fat can also matter. The treatment plan should therefore look beyond the weighing scale.
+
+#### Is Semaglutide Better Than Tirzepatide?
+
+There is no universal answer to this question.
+
+Semaglutide and tirzepatide have different mechanisms and are used under different product indications. Their effects, dosing schedules, tolerability and other practical considerations can also differ.
+
+The choice depends on what the patient is being treated for and what matters most clinically.
+
+For example, the relevant question may be:
+
+- Is blood glucose the main concern?
+
+- Is obesity also present?
+
+- Is cardiovascular disease present?
+
+- Is kidney disease present?
+
+- What other diabetes medicines is the patient taking?
+
+- How well has the patient tolerated previous treatments?
+
+- Is the medicine accessible and affordable?
+
+- What treatment can the patient realistically continue?
+
+A consultation should therefore focus on **fit**, not simply on which medicine is generating the most attention online.
+
+#### What Should You Ask Your Doctor Before Starting?
+
+If you are considering a GLP-1 medicine, take a few practical questions to your appointment.
+
+You could ask:
+
+1. **What is the main reason you are considering this medicine for me?**
+
+2. **Is it being used for diabetes, weight management, or both?**
+
+3. **How will we measure whether it is working?**
+
+4. **What side effects should I expect?**
+
+5. **Which symptoms should make me contact you?**
+
+6. **Will any of my current medicines need to change?**
+
+7. **How long might I need treatment?**
+
+8. **What happens if I stop the medicine?**
+
+9. **What dietary and exercise changes should I make alongside it?**
+
+10. **What will the ongoing cost and follow-up involve?**
+
+These questions can make the consultation much more useful and help you understand why a particular treatment has been selected.
+
+#### When Should You Seek Medical Attention?
+
+Most side effects from GLP-1 medicines are not emergencies, but certain symptoms should not be ignored.
+
+Seek prompt medical assessment for symptoms such as:
+
+- Severe or persistent abdominal pain
+
+- Repeated vomiting
+
+- Severe dehydration
+
+- Loss of consciousness
+
+- Severe hypoglycaemia
+
+- Difficulty breathing
+
+- Signs of a serious allergic reaction
+
+- Sudden neurological symptoms
+
+- Very high blood glucose accompanied by vomiting, severe weakness or dehydration
+
+The appropriate response depends on the symptoms and the person's overall medical condition.
+
+#### Common Myths About GLP-1 Medicines
+
+##### "GLP-1 medicines are just cosmetic weight-loss injections."
+
+Not quite.
+
+Some medicines in this group are used to treat Type 2 diabetes, while specific products also have approved indications for chronic weight management.
+
+Their effects involve glucose regulation, appetite and other metabolic processes.
+
+##### "If I take a GLP-1 medicine, I don't need to change my lifestyle."
+
+Medication does not replace nutrition, physical activity, sleep or other aspects of metabolic care.
+
+The two approaches can work alongside each other.
+
+##### "Everyone with Type 2 diabetes should take a GLP-1 medicine."
+
+No.
+
+Diabetes treatment is individual. A GLP-1 medicine may be useful for one patient and unnecessary or unsuitable for another.
+
+##### "GLP-1 medicines permanently cure obesity."
+
+They do not.
+
+Obesity is a chronic condition, and weight can return after treatment is stopped. Long-term management is often part of successful obesity care.
+
+##### "I can use the same GLP-1 medicine that worked for someone I know."
+
+This is not a safe assumption.
+
+Different medicines have different indications, contraindications and dosing requirements. Your own medical history matters.
+
+#### Key Takeaways
+
+- GLP-1 medicines can improve blood glucose control and support weight management in suitable patients.
+
+- They work partly by increasing glucose-dependent insulin release, reducing glucagon activity, slowing gastric emptying and influencing appetite.
+
+- Semaglutide primarily acts through the GLP-1 receptor.
+
+- Tirzepatide acts through both GIP and GLP-1 receptors.
+
+- GLP-1-based treatment may be considered for some people with Type 2 diabetes, obesity or both.
+
+- Not everyone with diabetes or obesity needs these medicines.
+
+- Existing medical conditions and other medicines must be considered before treatment.
+
+- Nausea, vomiting, diarrhoea and constipation are among the commonly reported side effects.
+
+- Hypoglycaemia becomes a greater consideration when these medicines are combined with insulin or certain other diabetes medicines.
+
+- Lifestyle measures remain an important part of diabetes and weight management.
+
+- Treatment should be started, adjusted and stopped with appropriate medical supervision.
+
+- A long-term plan matters because weight and metabolic risk can return after treatment is discontinued.
+
+#### Final Thoughts
+
+GLP-1 medicines have added an important option to the treatment of Type 2 diabetes and obesity. Their effects go beyond simply lowering the number on a glucose meter or weighing scale.
+
+For the right patient, they may help improve glucose control, reduce appetite and support weight management. But the right medicine, dose and treatment duration are different from person to person.
+
+That is why a good GLP-1 consultation is about more than choosing a popular medicine. It should look at the person's diabetes, weight, cardiovascular and kidney health, current medication, possible side effects, treatment goals and ability to continue treatment over time.
+
+If you are considering a GLP-1 medicine, the safest starting point is a proper medical assessment rather than self-treatment.
+
+#### Sources and further reading
+
+- [NIDDK: Prescription medicines for overweight and obesity](https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity)
+- [WHO: Diabetes fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)
+
+#### Frequently asked questions
+
+**What are GLP-1 medicines used for?**
+
+GLP-1 medicines are prescription treatments used for conditions such as Type 2 diabetes and, depending on the specific medicine, chronic weight management. They can improve glucose regulation, reduce appetite and support weight loss in suitable patients. The choice depends on the person's medical history, treatment goals and the approved use of the particular medicine.
+
+**What is the difference between semaglutide and tirzepatide?**
+
+Semaglutide primarily activates the GLP-1 receptor. Tirzepatide activates both GIP and GLP-1 receptors. Both can improve blood glucose control and support weight management in appropriate patients, but they are not identical medicines. Their mechanism, approved uses, dosing and suitability can differ.
+
+**Can someone with Type 2 diabetes take a GLP-1 medicine?**
+
+Some people with Type 2 diabetes may benefit from GLP-1-based treatment, particularly when additional glucose control or weight management is needed. Cardiovascular and kidney health may also influence the choice of diabetes medicine. A GLP-1 medicine is not automatically required for everyone with Type 2 diabetes.
+
+**Do GLP-1 medicines replace insulin?**
+
+Not automatically. Some people with Type 2 diabetes continue to need insulin because their bodies do not produce enough insulin or because of other clinical circumstances. A GLP-1 medicine may sometimes be added to insulin treatment, but any adjustment to insulin should be made by the treating healthcare professional.
+
+**What are the common side effects of GLP-1 medicines?**
+
+Nausea, vomiting, diarrhoea, constipation, abdominal discomfort and reduced appetite are among the common side effects. These symptoms may be more noticeable when treatment starts or the dose is increased. Persistent vomiting, significant abdominal pain or dehydration should be discussed with a healthcare professional.
+
+**Can people without diabetes use GLP-1 medicines for weight management?**
+
+Certain medicines in this treatment group have approved indications for chronic weight management in people who do not have diabetes but meet the relevant medical criteria. Whether medication is appropriate depends on factors such as BMI, weight-related health problems, previous treatment efforts, medical history and potential contraindications.
+
+**Can weight return after stopping a GLP-1 medicine?**
+
+Yes. Some people regain weight after stopping obesity medication. This is one reason obesity treatment needs to be viewed as longer-term management rather than a short course of treatment. Before stopping a medicine, patients should discuss how weight, appetite, blood glucose and other metabolic risks will be managed afterward.
+
+**Who should avoid GLP-1 medicines?**
+
+Suitability depends on the specific medicine. Certain medicines should not be used by people with a personal or family history of medullary thyroid carcinoma or MEN 2, while other medical conditions may require caution or additional monitoring. Pregnancy, significant gastrointestinal problems, pancreatitis history and other factors should be discussed with a doctor before treatment.
+
+#### Related reading
+
+- [Semaglutide vs Tirzepatide: Which One Might Suit You?](/health-library/semaglutide-vs-tirzepatide-difference-which-suits-you/)
+- [Do GLP-1 Medicines Replace Metformin or Insulin?](/health-library/do-glp-1-medicines-replace-metformin-or-insulin/)
+- [Who Should Not Take GLP-1 Medicines?](/health-library/who-should-not-take-glp-1-medicines/)
+- [How Is GLP-1 Treatment Started? Dose and First Weeks](/health-library/how-glp-1-treatment-is-started-dose-titration-first-weeks/)
+- [How Are GLP-1 Medicines Given? Technique and Storage](/health-library/how-glp-1-medicines-are-given-injection-technique-storage/)
+
+Related guides: [GLP-1 for Diabetes & Weight Loss in India](/health-library/glp-1-diabetes-weight-loss-india-price-results-side-effects/)
+
+If you would like advice suited to your own reports and medicines, you can [book an appointment](/contact/#book) or [visit Niramay Clinics in Dhantoli, Nagpur](/contact/).

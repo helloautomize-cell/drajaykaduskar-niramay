@@ -1,0 +1,587 @@
+---
+title: "Gestational Diabetes (GDM): Testing, Blood Sugar Targets, Diet, Insulin & After-Pregnancy Care"
+seo_title: "Gestational Diabetes (GDM) | Niramay"
+url: "/health-library/gestational-diabetes-gdm-testing-blood-sugar-targets-diet-insulin-postpartum-care/"
+author: "Dr. Ajay V. Kaduskar"
+author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
+reviewed_by: "Dr. Ajay V. Kaduskar"
+published: "2026-10-22"
+updated: "2026-10-22"
+category: "Gestational Diabetes"
+reading_time: "Approximately 14 to 16 minutes"
+excerpt: "Gestational diabetes can often be managed well with the right care. Learn about GDM testing, blood sugar targets, diet, insulin and follow-up after delivery."
+image: "blog/gestational-diabetes-gdm-testing-blood-sugar-targets-diet-insulin-postpartum-care.webp"
+image_alt: "Gestational Diabetes (GDM): Testing, Blood Sugar Targets, Diet, Insulin and After-Pregnancy Care, article cover graphic"
+keywords: ["gestational diabetes", "gestational diabetes mellitus", "GDM in pregnancy", "gestational diabetes test", "GDM blood sugar levels", "gestational diabetes diet", "gestational diabetes insulin", "blood sugar targets in pregnancy", "gestational diabetes symptoms"]
+sources:
+  - name: "WHO: Diabetes fact sheet"
+    url: "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+  - name: "NIDDK: Gestational diabetes"
+    url: "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational"
+related: ["/diabetes/diabetes-in-pregnancy/", "/diabetes/", "/preventive-health-check-ups/"]
+cluster: 9
+pillar: true
+section: blog
+status: draft
+---
+
+**Quick answer.** **Gestational diabetes is diagnosed through blood glucose testing during pregnancy, even when there are no symptoms.** Screening is commonly performed around 24 to 28 weeks, although women with certain risk factors may be tested earlier. Once GDM is diagnosed, treatment usually involves a combination of nutrition changes, pregnancy-appropriate physical activity and home blood glucose monitoring. Common treatment targets are fasting glucose below **95 mg/dL**, 1-hour after meals below **140 mg/dL**, or 2-hours after meals below **120 mg/dL**. If glucose remains above the recommended range despite lifestyle measures, insulin may be required. After delivery, blood sugar often falls toward normal, but follow-up should not stop there. A postpartum diabetes test is recommended because a history of GDM increases the risk of developing Type 2 diabetes later in life.
+
+Gestational diabetes mellitus, usually called **GDM**, is diabetes first diagnosed during pregnancy. It develops when the body cannot produce enough insulin to keep blood glucose at the desired level as pregnancy increases insulin resistance.
+
+One of the frustrating things about GDM is that there may be no obvious warning signs. A woman can feel completely well and still have elevated blood sugar. That is why glucose testing during pregnancy is so important.
+
+For many women, treatment starts with changes to food choices, meal portions and physical activity, along with regular blood sugar checks. Some will need medication or insulin as pregnancy progresses.
+
+A diagnosis of GDM does not automatically mean that a woman will have diabetes for the rest of her life. Blood sugar often improves after delivery. There is, however, an important follow-up step: women who have had gestational diabetes have a higher future risk of [Type 2 diabetes](/health-library/type-2-diabetes-symptoms-diagnosis-management/) and should continue to be screened after pregnancy.
+
+#### What Is Gestational Diabetes?
+
+Gestational diabetes is a form of high blood glucose that is first recognized during pregnancy.
+
+During pregnancy, the placenta produces hormones that help support the baby's growth. Those same hormonal changes can make the mother's cells less responsive to insulin. This is known as **insulin resistance**.
+
+The pancreas normally compensates by making more insulin. If it cannot keep up with the increased demand, glucose starts to build up in the bloodstream.
+
+That is how GDM can develop in someone who did not have diabetes before becoming pregnant.
+
+It is worth making a distinction here. Diabetes diagnosed early in pregnancy may sometimes represent previously undiagnosed Type 1 or Type 2 diabetes rather than typical gestational diabetes. This is one reason doctors pay attention to both the timing and the results of glucose testing.
+
+#### What Are the Symptoms of Gestational Diabetes?
+
+Most women with GDM do not notice any specific symptoms.
+
+In some cases, high blood sugar can be associated with increased thirst, frequent urination, tiredness or blurred vision. The problem is that several of these symptoms can also occur during an otherwise normal pregnancy.
+
+So symptoms alone cannot tell you whether you have gestational diabetes.
+
+**A blood glucose test is much more reliable than waiting for symptoms to appear.**
+
+#### When Is Gestational Diabetes Testing Done?
+
+GDM screening is commonly carried out during the second half of pregnancy.
+
+For many women, testing takes place between **24 and 28 weeks of pregnancy**. Earlier testing may be recommended when there is a higher risk of diabetes, such as a previous history of GDM or other metabolic risk factors.
+
+If an early test is normal, the doctor may still recommend repeat testing later in pregnancy because insulin resistance can increase as pregnancy progresses.
+
+This is especially relevant for women who have previously experienced gestational diabetes.
+
+#### How Is Gestational Diabetes Diagnosed?
+
+There is not just one testing method used worldwide. Different guidelines and healthcare systems use different approaches.
+
+##### The Oral Glucose Tolerance Test
+
+The **oral glucose tolerance test (OGTT)** looks at how the body handles a measured amount of glucose.
+
+With a commonly used 75-g OGTT, blood glucose may be measured while fasting and again after the glucose drink.
+
+Under the one-step criteria commonly used internationally, GDM can be diagnosed when one or more of the following values meets the specified threshold:
+
+| **Measurement** | **Threshold** |
+|-----------------|---------------|
+| Fasting glucose | 92 mg/dL |
+| 1-hour glucose | 180 mg/dL |
+| 2-hour glucose | 153 mg/dL |
+
+The exact testing protocol used by your doctor may differ.
+
+##### The DIPSI Test Used in India
+
+The **Diabetes in Pregnancy Study Group India (DIPSI)** approach has also been used widely in India.
+
+A woman receives 75 g of oral glucose and has her blood glucose checked two hours later. The test can be performed irrespective of when she last ate.
+
+A 2-hour plasma glucose level of **140 mg/dL or higher** is used as the diagnostic threshold in this approach.
+
+Because different diagnostic systems use different thresholds and procedures, test results should always be interpreted according to the method that was actually used.
+
+#### What Are the Blood Sugar Targets in Gestational Diabetes?
+
+Once GDM has been diagnosed, monitoring generally focuses on fasting and after-meal blood glucose.
+
+Common pregnancy targets are:
+
+| **Blood glucose check** | **Common target** |
+|-------------------------|---------------------|
+| Fasting | **Below 95 mg/dL** |
+| 1 hour after a meal | **Below 140 mg/dL** |
+| 2 hours after a meal | **Below 120 mg/dL** |
+
+These are treatment targets rather than diagnostic criteria.
+
+That distinction matters.
+
+The number used to diagnose gestational diabetes is not necessarily the same number your doctor will use when monitoring treatment.
+
+The aim is also not to drive glucose as low as possible. Pregnancy requires a careful balance between controlling high blood sugar and avoiding hypoglycaemia, particularly when insulin is being used.
+
+Your doctor may also set an individualized monitoring schedule depending on your glucose pattern and treatment.
+
+#### How Do You Check Blood Sugar at Home During Pregnancy?
+
+Most women who need regular monitoring use a blood glucose meter.
+
+Depending on the treatment plan, you may be asked to check:
+
+- Your fasting glucose in the morning
+
+- Glucose after breakfast
+
+- Glucose after lunch
+
+- Glucose after dinner
+
+- Additional readings when specifically advised
+
+Try to record the readings consistently.
+
+It can also be useful to note what you ate, when you ate, whether you exercised and when medication or insulin was taken. Over several days, this gives your doctor something more useful than a collection of isolated numbers.
+
+For example, consistently high fasting readings suggest a different pattern from glucose that rises mainly after a particular meal.
+
+Some pregnant women may also use continuous glucose monitoring (CGM). Whether this is useful depends on the type of diabetes, treatment and individual circumstances.
+
+#### What Should You Eat If You Have Gestational Diabetes?
+
+A diagnosis of GDM does not mean you have to stop eating carbohydrates or follow an extremely restrictive diet.
+
+Pregnancy still requires adequate nutrition.
+
+The practical goal is to choose suitable carbohydrate sources, pay attention to portions and spread food intake appropriately throughout the day.
+
+A balanced meal may include:
+
+- Vegetables
+
+- Protein-rich foods
+
+- Whole grains or other suitable carbohydrate sources
+
+- Pulses and legumes
+
+- Appropriate portions of fruit
+
+- Healthy fats
+
+- Suitable dairy foods
+
+- Adequate fluids
+
+Carbohydrates have the most direct effect on blood glucose, so the quantity and timing of carbohydrate-containing foods are particularly relevant.
+
+The ideal plan is not identical for every pregnant woman.
+
+Calorie and nutritional requirements, weight, activity level, glucose readings, food preferences and the stage of pregnancy all need to be considered.
+
+#### Can Indian Foods Be Included in a Gestational Diabetes Diet?
+
+Yes.
+
+Having GDM does not mean giving up familiar Indian meals.
+
+The way a meal is put together often matters as much as the individual food itself. Portion size, carbohydrate quantity and the combination of vegetables and protein can all influence the post-meal glucose response.
+
+For example, meals may include:
+
+- Roti with vegetables and a protein source
+
+- Dal with vegetables and an appropriate portion of rice
+
+- Paneer with vegetables and a suitable carbohydrate portion
+
+- Eggs with vegetables and whole-grain options
+
+- Unsweetened curd where appropriate
+
+The important point is not to label individual foods as simply "good" or "bad."
+
+A dietitian or diabetes clinician can help adapt your existing eating pattern instead of forcing you into a completely unfamiliar diet.
+
+#### Which Foods Should Be Limited With Gestational Diabetes?
+
+Foods and drinks containing a large amount of added sugar or rapidly absorbed carbohydrates can make blood glucose harder to control.
+
+Examples include:
+
+- Sugary soft drinks
+
+- Sweetened beverages
+
+- Fruit juices
+
+- Mithai and other sweets
+
+- Cakes and pastries
+
+- Large portions of refined carbohydrates
+
+- Highly processed snack foods
+
+That does not mean every carbohydrate-containing food needs to be removed.
+
+Even nutritious foods can raise glucose when eaten in large quantities. Portion size and the overall meal pattern remain important.
+
+Fruit is a good example. Whole fruit can often be included in a pregnancy diet, while fruit juice is much easier to consume quickly and contains less of the fibre found in whole fruit.
+
+#### Can You Eat Rice During Gestational Diabetes?
+
+Rice does not automatically have to be removed from the diet.
+
+The more useful questions are **how much rice you are eating, what type you are choosing and what you eat alongside it**.
+
+A moderate portion of rice served with vegetables, dal and an appropriate protein source is quite different from a large serving of rice eaten by itself.
+
+Your own post-meal glucose readings can provide useful information about how your body responds.
+
+The same idea applies to foods such as roti, poha, upma, idli and bread.
+
+Rather than creating a long list of foods that are completely forbidden, the focus should be on portions, meal composition and individual response.
+
+#### Does Exercise Help With Gestational Diabetes?
+
+For women who have no medical reason to restrict activity, appropriate physical activity can be a useful part of GDM management.
+
+Exercise can improve insulin sensitivity and may help reduce blood glucose, particularly after meals.
+
+Walking is one simple option for many pregnant women. Other forms of pregnancy-appropriate exercise may also be suitable.
+
+However, pregnancy is not the time to start an aggressive exercise programme without medical advice.
+
+Women with bleeding, placenta-related complications, risk of premature labour or other pregnancy concerns should discuss physical activity with their obstetrician before exercising.
+
+#### When Is Insulin Needed for Gestational Diabetes?
+
+Insulin may be recommended when blood glucose continues to exceed the desired pregnancy targets despite appropriate nutrition and physical activity.
+
+This is an important point because some women feel that needing insulin means they have somehow failed to manage their diabetes.
+
+It does not.
+
+Pregnancy itself causes increasing insulin resistance. As pregnancy progresses, the body's insulin requirements can change considerably. In some women, lifestyle measures simply are not enough to overcome this physiological change.
+
+Insulin may then be the safest way to bring glucose into the desired range.
+
+##### Is Insulin Safe During Pregnancy?
+
+Insulin has a well-established role in the management of diabetes during pregnancy.
+
+The type of insulin, timing and dose depend on the individual's glucose pattern and treatment plan.
+
+Do not change an insulin dose yourself, even if a particular reading seems unusually high or low. Discuss the pattern with your treating doctor.
+
+##### Does Needing Insulin Mean the GDM Is Severe?
+
+Not necessarily.
+
+The need for insulin mainly tells us that the current glucose levels are not being controlled adequately with the measures already being used.
+
+Some women need insulin for part or all of pregnancy and no longer require it once pregnancy-related insulin resistance falls after delivery.
+
+#### Can Metformin Be Used for Gestational Diabetes?
+
+Metformin is used in some treatment pathways for GDM.
+
+Its role varies between guidelines and clinical situations. In some cases, it may be considered when diet and physical activity do not achieve the desired glucose levels. In other situations, insulin may be preferred.
+
+Metformin also crosses the placenta, so its use during pregnancy should be discussed carefully with the treating healthcare professional.
+
+This is not a medicine to start or stop based on online information.
+
+Your obstetrician or diabetes specialist can consider your glucose readings, gestational age, medical history and other pregnancy-related factors before choosing treatment.
+
+#### What Happens If Gestational Diabetes Is Not Controlled?
+
+Persistently high blood glucose during pregnancy can increase the risk of complications.
+
+These can include:
+
+- Excessive fetal growth
+
+- Difficult delivery
+
+- Shoulder dystocia
+
+- High blood pressure or preeclampsia
+
+- Increased likelihood of induction or caesarean delivery in some situations
+
+- Low blood glucose in the newborn after birth
+
+- Other newborn complications
+
+Having GDM does not mean these complications will definitely occur.
+
+The purpose of monitoring and treatment is to reduce avoidable risks while keeping both mother and baby well.
+
+#### Can Gestational Diabetes Affect the Baby?
+
+It can.
+
+Glucose crosses the placenta from the mother to the fetus. When maternal blood glucose remains high, the fetus can receive more glucose and respond by producing more insulin.
+
+This can contribute to increased fetal growth.
+
+After delivery, the mother's glucose supply stops suddenly, but the baby's insulin level may remain relatively high for a period. This is one reason newborns of mothers with diabetes may be monitored for low blood glucose.
+
+Your maternity team may also monitor fetal growth and wellbeing throughout pregnancy depending on your individual circumstances.
+
+#### Does Gestational Diabetes Mean You Need a Caesarean Section?
+
+No.
+
+A diagnosis of GDM does not automatically mean that a caesarean delivery will be necessary.
+
+Delivery planning takes several factors into account, including:
+
+- Fetal growth
+
+- Glucose control
+
+- Blood pressure
+
+- Gestational age
+
+- Estimated fetal weight
+
+- Previous pregnancy history
+
+- Other maternal or fetal concerns
+
+- Whether medication or insulin is required
+
+Your obstetrician will consider these factors together when discussing delivery.
+
+#### What Happens to Blood Sugar After Delivery?
+
+The hormonal changes of pregnancy begin to reverse after the placenta is delivered.
+
+As a result, insulin resistance generally falls quickly. A woman who needed insulin during pregnancy may therefore require much less treatment, or may no longer need insulin.
+
+That decision should still be made by the treating medical team.
+
+For many women with GDM, blood glucose returns toward the normal range after delivery.
+
+But there is another step that should not be overlooked: **postpartum diabetes testing**.
+
+#### When Should You Test for Diabetes After Gestational Diabetes?
+
+The postpartum period provides an opportunity to find out whether blood glucose has returned to normal.
+
+The American Diabetes Association recommends a **75-g oral glucose tolerance test 4 to 12 weeks after delivery** for women with recent GDM.
+
+Some Indian care pathways use a postpartum assessment around six weeks after delivery.
+
+The exact timing should follow the plan given by your healthcare team.
+
+Why is this test necessary?
+
+Because the fact that blood sugar improves after pregnancy does not guarantee that glucose metabolism has completely returned to normal.
+
+The postpartum test can identify:
+
+- Normal glucose regulation
+
+- Prediabetes
+
+- Diabetes
+
+Finding prediabetes or diabetes early allows appropriate treatment and prevention strategies to begin.
+
+#### Does Gestational Diabetes Increase the Risk of Type 2 Diabetes?
+
+Yes.
+
+Women who have had GDM have a higher risk of developing Type 2 diabetes later compared with women who did not have GDM.
+
+This does not mean that Type 2 diabetes is inevitable.
+
+It does mean that regular screening is worth taking seriously.
+
+The ADA recommends ongoing screening every **1 to 3 years** after a history of GDM, depending on the individual's risk and previous test results.
+
+Long-term care may include:
+
+- Regular diabetes screening
+
+- Regular physical activity
+
+- A balanced eating pattern
+
+- Maintaining a healthy weight where appropriate
+
+- Blood pressure monitoring
+
+- Cholesterol management
+
+- Planning ahead for future pregnancies
+
+#### Can Gestational Diabetes Happen Again in Another Pregnancy?
+
+Yes, it can.
+
+A previous history of GDM is itself a risk factor for GDM in a future pregnancy.
+
+If you have had gestational diabetes before, tell your obstetrician at the beginning of your next pregnancy.
+
+Your doctor may recommend glucose testing earlier than usual. Even if that early test is normal, repeat testing later in pregnancy may still be needed.
+
+This is one area where knowing your previous pregnancy history can make a real difference to antenatal planning.
+
+#### Is Breastfeeding Beneficial After Gestational Diabetes?
+
+Breastfeeding is generally encouraged when medically appropriate.
+
+For women with a history of GDM, breastfeeding may also be associated with a lower future risk of Type 2 diabetes.
+
+The postpartum period can be demanding, though. Nutrition should support recovery and milk production rather than being built around rapid weight loss.
+
+If diabetes medication is required after delivery, the doctor should also consider whether the mother is breastfeeding when choosing treatment.
+
+#### Common Myths About Gestational Diabetes
+
+##### "GDM happens because a woman eats too much sugar."
+
+Not necessarily.
+
+Pregnancy-related hormonal changes and increasing insulin resistance play a major role. Food choices are important for managing glucose, but GDM cannot simply be blamed on eating sugar.
+
+##### "I have to stop eating carbohydrates completely."
+
+No.
+
+Carbohydrates remain an important source of energy during pregnancy. The focus is usually on choosing appropriate sources, controlling portions and spreading carbohydrate intake sensibly across meals.
+
+##### "If I need insulin, I have failed."
+
+Absolutely not.
+
+Some women require insulin because their body's insulin requirements increase substantially during pregnancy. This can happen despite careful attention to diet and activity.
+
+##### "GDM disappears after delivery, so I don't need another diabetes test."
+
+This is a common misunderstanding.
+
+Blood glucose often improves after delivery, but the future risk of Type 2 diabetes remains higher. Postpartum testing and continued screening are therefore important.
+
+##### "Having GDM means my baby will definitely be very large."
+
+Not necessarily.
+
+Fetal growth depends on many factors. Good glucose management, appropriate antenatal care and monitoring can help the medical team identify concerns early.
+
+#### When Should You Contact Your Doctor?
+
+If your blood glucose readings are repeatedly above the targets given to you, contact your healthcare team rather than trying to adjust treatment yourself.
+
+You should also seek urgent medical attention for serious symptoms such as:
+
+- Loss of consciousness
+
+- Severe confusion
+
+- Seizures
+
+- Severe weakness
+
+- Persistent vomiting with significant dehydration
+
+- Difficulty breathing
+
+- Chest pain
+
+- Severe hypoglycaemia
+
+- Sudden neurological symptoms
+
+Pregnancy-specific warning signs also need prompt assessment. These include significant vaginal bleeding, severe abdominal pain or noticeably reduced fetal movement.
+
+#### Key Takeaways
+
+- Gestational diabetes is high blood glucose first recognized during pregnancy.
+
+- Many women have no obvious symptoms, making screening particularly important.
+
+- GDM testing is commonly performed around 24 to 28 weeks, with earlier assessment for women at higher risk.
+
+- Different diagnostic criteria are used around the world, so results should be interpreted according to the test method used.
+
+- Common treatment targets are fasting below 95 mg/dL, 1-hour post-meal below 140 mg/dL and 2-hour post-meal below 120 mg/dL.
+
+- Nutrition and pregnancy-appropriate activity form the foundation of management for many women.
+
+- Insulin may be necessary when glucose remains above target.
+
+- GDM does not automatically mean that a caesarean delivery is required.
+
+- Blood glucose often improves after childbirth, but postpartum testing remains important.
+
+- A history of GDM increases future Type 2 diabetes risk, making regular screening worthwhile.
+
+#### Final Thoughts
+
+Gestational diabetes can feel overwhelming when the diagnosis first appears on a pregnancy report. In practice, management is usually much more structured than it may initially seem.
+
+The first step is understanding the diagnosis and knowing which glucose numbers your healthcare team wants you to aim for. From there, food choices, activity, home monitoring and treatment can be adjusted according to how your blood sugar behaves.
+
+There may also be changes later in pregnancy. A woman who manages her GDM with lifestyle measures early on may eventually need insulin as insulin resistance increases. That is not a sign that she has done something wrong. It is simply one of the ways pregnancy can affect glucose metabolism.
+
+And care should not stop at delivery.
+
+The postpartum diabetes test and long-term screening are important because GDM can be an early warning sign of future metabolic problems. Taking that follow-up seriously gives women an opportunity to monitor their health well beyond pregnancy.
+
+#### When to seek urgent care
+
+In pregnancy, seek urgent care for vomiting, reduced fetal movements, severe headache, blurred vision, or symptoms of very high or very low sugar.
+
+#### Sources and further reading
+
+- [WHO: Diabetes fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)
+- [NIDDK: Gestational diabetes](https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational)
+
+#### Frequently asked questions
+
+**What blood sugar level is high in gestational diabetes?**
+
+Common treatment targets during pregnancy are fasting glucose below 95 mg/dL, 1-hour post-meal glucose below 140 mg/dL and 2-hour post-meal glucose below 120 mg/dL. These are treatment targets, not the same thresholds used to diagnose GDM. Your doctor may individualize the targets depending on your pregnancy and treatment.
+
+**When is the gestational diabetes test done?**
+
+GDM screening is commonly performed between 24 and 28 weeks of pregnancy. Women with previous GDM or other diabetes risk factors may be tested earlier. If an early test is normal, another test later in pregnancy may still be recommended.
+
+**Can gestational diabetes be controlled without insulin?**
+
+Yes, some women can keep their blood glucose within the desired range through appropriate nutrition, physical activity and regular monitoring. If glucose remains above target despite these measures, medication or insulin may be recommended.
+
+**Is insulin safe during pregnancy?**
+
+Insulin has an established role in treating diabetes during pregnancy and may be recommended when blood glucose cannot be controlled adequately through lifestyle measures. The type and dose need to be determined by the treating clinician. Insulin should not be started or changed without medical guidance.
+
+**Does gestational diabetes go away after delivery?**
+
+Blood glucose often improves after delivery because pregnancy-related insulin resistance falls once the placenta is delivered. However, women with previous GDM remain at increased risk of future Type 2 diabetes. That is why postpartum testing and continued screening are recommended.
+
+**When should I test for diabetes after gestational diabetes?**
+
+A 75-g oral glucose tolerance test is generally recommended around 4 to 12 weeks after delivery. If the result is normal, ongoing diabetes screening is still recommended at regular intervals because a history of GDM increases future Type 2 diabetes risk.
+
+**Can I eat rice if I have gestational diabetes?**
+
+Rice can often be included in a GDM meal plan. Portion size, the type of rice, what you eat with it and your individual glucose response all matter. A balanced meal containing vegetables, protein and an appropriate carbohydrate portion may be easier to manage than a large serving of rice alone.
+
+**Can gestational diabetes affect the baby?**
+
+Poorly controlled maternal blood glucose can increase the risk of excessive fetal growth and some complications after birth, including neonatal hypoglycaemia. This is why glucose monitoring, appropriate nutrition and antenatal assessment are important parts of GDM care.
+
+#### Related reading
+
+- [Gestational Diabetes Test: When and What Results Mean](/health-library/gestational-diabetes-test-when-done-results-meaning/)
+- [Gestational Diabetes Diet: Indian Foods and Meal Timing](/health-library/gestational-diabetes-diet-indian-foods-meal-timing/)
+- [When Is Insulin Needed in Gestational Diabetes?](/health-library/when-is-insulin-needed-in-gestational-diabetes/)
+- [Does Gestational Diabetes Go Away After Delivery?](/health-library/does-gestational-diabetes-go-away-after-delivery/)
+- [After Gestational Diabetes: When to Test for Type 2](/health-library/after-gestational-diabetes-when-to-test-for-type-2-diabetes/)
+
+Related guides: [Type 2 Diabetes](/health-library/type-2-diabetes-symptoms-diagnosis-management/)
+
+If you would like advice suited to your own reports and medicines, you can [book an appointment](/contact/#book) or [visit Niramay Clinics in Dhantoli, Nagpur](/contact/).

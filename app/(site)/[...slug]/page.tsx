@@ -18,9 +18,12 @@ import {
   faqPageNode,
   breadcrumbNode,
   blogPostingNode,
+  postMedicalWebPageNode,
+  collectionPageNode,
   videoNode,
   SITE_URL,
 } from "@/lib/seo";
+import { clusterFor } from "@/lib/blog-clusters";
 import {
   diabetesHeartGroups,
   childTeenGroups,
@@ -65,6 +68,9 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
     const url = urlOf(p);
     const post = p.slug?.[0] === "health-library" && p.slug.length === 2 ? postBySlug().get(p.slug[1]) : undefined;
     if (post) {
+      const ogImage = post.meta.image
+        ? `${SITE_URL}/images/${post.meta.image}`
+        : `${SITE_URL}/og${post.meta.url}`;
       return {
         title: post.meta.seo_title
           ? { absolute: post.meta.seo_title }
@@ -73,6 +79,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
           post.meta.excerpt ||
           `An article by ${post.meta.author} on the Niramay Clinics Health Library.`,
         alternates: { canonical: post.meta.url },
+        robots: { index: true, follow: true },
         openGraph: {
           title: post.meta.seo_title || post.meta.title,
           description: post.meta.excerpt || undefined,
@@ -80,11 +87,14 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
           siteName: site.name,
           locale: "en_IN",
           type: "article",
+          publishedTime: post.meta.published || undefined,
+          modifiedTime: post.meta.updated || undefined,
           images: [
             {
-              url: `${SITE_URL}/og${post.meta.url}`,
-              width: 1200,
-              height: 630,
+              url: ogImage,
+              width: post.meta.image ? 1280 : 1200,
+              height: post.meta.image ? 720 : 630,
+              alt: post.meta.image_alt || post.meta.title,
             },
           ],
         },
@@ -207,12 +217,29 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
       .slice(0, 2);
     const relatedPages = relatedPagesFor(post.meta.related);
     const postImage = post.meta.image ? `/images/${post.meta.image}` : undefined;
+    const cluster = clusterFor(post.meta.cluster);
+    const wordCount = post.body.split(/\s+/).filter(Boolean).length;
+    const crumbs = [
+      { label: "Health Library", href: "/health-library/" },
+      ...(cluster
+        ? [{ label: cluster.name, href: `/health-library/#cluster-${cluster.n}` }]
+        : []),
+      { label: post.meta.title, href: post.meta.url },
+    ];
 
     const graph: (object | null)[] = [
       clinicNode(),
       websiteNode(),
       physicianNode(author),
       ...(reviewer.id !== author.id ? [physicianNode(reviewer)] : []),
+      postMedicalWebPageNode({
+        title: post.meta.title,
+        url: post.meta.url,
+        description: post.meta.excerpt || undefined,
+        about: cluster?.name || post.meta.category || post.meta.title,
+        lastReviewed: post.meta.updated || post.meta.published || undefined,
+        reviewedBy: reviewer,
+      }),
       blogPostingNode({
         title: post.meta.title,
         url: post.meta.url,
@@ -221,14 +248,13 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
         author,
         reviewedBy: reviewer,
         image: postImage,
+        description: post.meta.excerpt || undefined,
+        wordCount,
+        articleSection: cluster?.name || post.meta.category || undefined,
+        keywords: post.meta.keywords,
+        citation: post.meta.sources,
       }),
-      breadcrumbNode(
-        [
-          { label: "Health Library", href: "/health-library/" },
-          { label: post.meta.title, href: post.meta.url },
-        ],
-        post.meta.url
-      ),
+      breadcrumbNode(crumbs, post.meta.url),
       doc.faq.length > 0 ? faqPageNode(doc.faq, post.meta.url) : null,
       post.meta.video
         ? videoNode({
@@ -250,6 +276,7 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
           reviewer={reviewer}
           relatedPages={relatedPages}
           relatedPosts={relatedPosts}
+          cluster={cluster}
         />
       </>
     );
@@ -340,13 +367,25 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
           <FaqsTemplate page={page} doc={doc} crumbs={crumbs} />
         </>
       );
-    case "blog-list":
+    case "blog-list": {
+      const posts = allPosts();
       return (
         <>
           {ld}
-          <BlogListTemplate page={page} posts={allPosts()} />
+          <JsonLd
+            nodes={[
+              collectionPageNode({
+                title: page.h1 || page.meta.title,
+                url: page.meta.url,
+                description: page.meta.meta_description || undefined,
+                items: posts.map((p) => ({ name: p.meta.title, url: p.meta.url })),
+              }),
+            ]}
+          />
+          <BlogListTemplate page={page} posts={posts} />
         </>
       );
+    }
     case "editorial":
     default:
       return (

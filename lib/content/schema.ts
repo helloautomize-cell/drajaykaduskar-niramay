@@ -41,6 +41,15 @@ export const postFrontmatter = z.object({
   excerpt: z.string().default(""),
   /** related service/page URLs shown as glass cards at the end of the post */
   related: z.array(z.string()).default([]),
+  /** alt text for the featured image */
+  image_alt: z.string().default(""),
+  /** content cluster number for grouped blog index + breadcrumbs */
+  cluster: z.union([z.number(), z.string()]).optional(),
+  /** whether this post is the pillar page of its cluster */
+  pillar: z.boolean().default(false),
+  keywords: z.array(z.string()).default([]),
+  /** external sources listed under "Sources and further reading" */
+  sources: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
   section: z.literal("blog").or(z.string()),
   status: z.string().default("draft"),
   has_confirm_items: z.boolean().default(false),
