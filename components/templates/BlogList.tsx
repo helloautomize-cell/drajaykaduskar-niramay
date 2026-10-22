@@ -102,7 +102,7 @@ export function BlogListTemplate({
                     {doctor && (
                       <AuthorChip
                         doctor={doctor}
-                        meta={`Published ${formatDate(p.meta.published)} · ${p.meta.reading_time || `${readingTime(p.body)} min`} read`}
+                        meta={`Published ${formatDate(p.meta.published)} · ${(p.meta.reading_time || `${readingTime(p.body)} min`).replace(/\s*read$/i, "")} read`}
                       />
                     )}
                   </div>

@@ -12,12 +12,15 @@ export function ReviewerBox({
   doctor,
   author,
   lastReviewed,
+  nextReviewDue,
   className,
 }: {
   doctor: Doctor;
   /** post author, when different from the generic "content team" wording */
   author?: Doctor;
   lastReviewed?: string;
+  /** override the default "12 months later" text (blog articles) */
+  nextReviewDue?: string;
   className?: string;
 }) {
   return (
@@ -61,7 +64,8 @@ export function ReviewerBox({
           <strong className="text-ink">Last reviewed:</strong>{" "}
           {lastReviewed ? lastReviewed : <Confirm>date of sign-off</Confirm>}
           {" · "}
-          <strong className="text-ink">Next review due:</strong> 12 months later
+          <strong className="text-ink">Next review due:</strong>{" "}
+          {nextReviewDue ?? "12 months later"}
         </p>
         <p className="mt-2">
           This page is for general information and is not a substitute for a

@@ -105,6 +105,7 @@ export function BlogPostTemplate({
           doctor={reviewer}
           author={author}
           lastReviewed={meta.updated ? "October 2026" : undefined}
+          nextReviewDue="October 2027"
         />
 
         {relatedPages.length > 0 && (
