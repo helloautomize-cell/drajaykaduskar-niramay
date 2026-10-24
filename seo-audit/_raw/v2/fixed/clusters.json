@@ -1,0 +1,641 @@
+{
+ "out": [
+  {
+   "cluster": 1,
+   "pillar": "/health-library/type-2-diabetes-symptoms-diagnosis-management/",
+   "pillarTitle": "Type 2 Diabetes: Symptoms, Diagnosis, Blood Sugar Control & Long-Term Management",
+   "supports": [
+    "/health-library/can-type-2-diabetes-be-reversed-remission/",
+    "/health-library/control-blood-sugar-naturally/",
+    "/health-library/first-signs-of-type-2-diabetes/",
+    "/health-library/how-often-check-blood-sugar-hba1c/",
+    "/health-library/when-to-see-a-diabetologist/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/can-type-2-diabetes-be-reversed-remission/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 888
+    },
+    {
+     "url": "/health-library/control-blood-sugar-naturally/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 479
+    },
+    {
+     "url": "/health-library/first-signs-of-type-2-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 856
+    },
+    {
+     "url": "/health-library/how-often-check-blood-sugar-hba1c/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 478
+    },
+    {
+     "url": "/health-library/when-to-see-a-diabetologist/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 511
+    }
+   ]
+  },
+  {
+   "cluster": 2,
+   "pillar": "/health-library/prediabetes-hba1c-blood-sugar-symptoms-prevention/",
+   "pillarTitle": "Prediabetes: HbA1c, Blood Sugar Levels, Symptoms & How to Prevent Type 2 Diabetes",
+   "supports": [
+    "/health-library/can-prediabetes-go-away/",
+    "/health-library/how-often-test-diabetes-prediabetes/",
+    "/health-library/prediabetes-diet-indian-what-to-eat/",
+    "/health-library/prediabetes-hba1c-what-the-number-means/",
+    "/health-library/prediabetes-weight-loss-how-much-helps/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/can-prediabetes-go-away/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 734
+    },
+    {
+     "url": "/health-library/how-often-test-diabetes-prediabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 873
+    },
+    {
+     "url": "/health-library/prediabetes-diet-indian-what-to-eat/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 890
+    },
+    {
+     "url": "/health-library/prediabetes-hba1c-what-the-number-means/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 738
+    },
+    {
+     "url": "/health-library/prediabetes-weight-loss-how-much-helps/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 822
+    }
+   ]
+  },
+  {
+   "cluster": 3,
+   "pillar": "/health-library/diabetes-diet-for-indians/",
+   "pillarTitle": "Diabetes Diet for Indians: What to Eat, What to Limit & How to Build a Practical Meal Plan",
+   "supports": [
+    "/health-library/best-indian-breakfast-for-diabetes/",
+    "/health-library/can-people-with-diabetes-eat-rice/",
+    "/health-library/diabetes-and-sweets-handling-mithai/",
+    "/health-library/diabetes-diet-for-weight-loss/",
+    "/health-library/fruits-for-diabetes-which-how-much-when/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/best-indian-breakfast-for-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 781
+    },
+    {
+     "url": "/health-library/can-people-with-diabetes-eat-rice/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 815
+    },
+    {
+     "url": "/health-library/diabetes-and-sweets-handling-mithai/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1219
+    },
+    {
+     "url": "/health-library/diabetes-diet-for-weight-loss/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 551
+    },
+    {
+     "url": "/health-library/fruits-for-diabetes-which-how-much-when/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 764
+    }
+   ]
+  },
+  {
+   "cluster": 4,
+   "pillar": "/health-library/glp-1-diabetes-weight-loss-india-price-results-side-effects/",
+   "pillarTitle": "GLP-1 for Diabetes & Weight Loss in India: Affordability, Real Results & Side Effects",
+   "supports": [
+    "/health-library/glp-1-injections-india-why-more-affordable/",
+    "/health-library/glp-1-side-effects-nausea-constipation-management/",
+    "/health-library/how-much-weight-can-you-lose-on-glp-1-medicines/",
+    "/health-library/is-glp-1-medicine-worth-the-cost/",
+    "/health-library/what-happens-when-you-stop-glp-1-weight-loss-medicine/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/glp-1-injections-india-why-more-affordable/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1043
+    },
+    {
+     "url": "/health-library/glp-1-side-effects-nausea-constipation-management/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1193
+    },
+    {
+     "url": "/health-library/how-much-weight-can-you-lose-on-glp-1-medicines/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1289
+    },
+    {
+     "url": "/health-library/is-glp-1-medicine-worth-the-cost/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1096
+    },
+    {
+     "url": "/health-library/what-happens-when-you-stop-glp-1-weight-loss-medicine/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 963
+    }
+   ]
+  },
+  {
+   "cluster": 5,
+   "pillar": "/health-library/technology-evolution-glp-1-drugs/",
+   "pillarTitle": "The Technology & Evolution of GLP-1 Drugs: From Diabetes Injection to Global Weight-Loss Breakthrough",
+   "supports": [
+    "/health-library/dual-triple-agonists-after-semaglutide-tirzepatide/",
+    "/health-library/history-of-glp-1-drugs-natural-discovery-to-medicines/",
+    "/health-library/how-glp-1-injection-pens-work-technology/",
+    "/health-library/oral-glp-1-tablets-replacing-weight-loss-injections/",
+    "/health-library/why-glp-1-medicines-became-global-trend/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/dual-triple-agonists-after-semaglutide-tirzepatide/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 912
+    },
+    {
+     "url": "/health-library/history-of-glp-1-drugs-natural-discovery-to-medicines/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1019
+    },
+    {
+     "url": "/health-library/how-glp-1-injection-pens-work-technology/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1005
+    },
+    {
+     "url": "/health-library/oral-glp-1-tablets-replacing-weight-loss-injections/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 944
+    },
+    {
+     "url": "/health-library/why-glp-1-medicines-became-global-trend/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 995
+    }
+   ]
+  },
+  {
+   "cluster": 6,
+   "pillar": "/health-library/diabetes-and-obesity-diabesity-guide/",
+   "pillarTitle": "Diabetes and Obesity (Diabesity): Weight Management, Insulin Resistance and Metabolic Health",
+   "supports": [
+    "/health-library/belly-fat-diabetes-metabolic-health-waist-size/",
+    "/health-library/weight-loss-improve-type-2-diabetes/",
+    "/health-library/what-is-diabesity/",
+    "/health-library/what-is-insulin-resistance-symptoms-causes-weight/",
+    "/health-library/why-hard-to-lose-weight-with-type-2-diabetes/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/belly-fat-diabetes-metabolic-health-waist-size/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1022
+    },
+    {
+     "url": "/health-library/weight-loss-improve-type-2-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 490
+    },
+    {
+     "url": "/health-library/what-is-diabesity/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 465
+    },
+    {
+     "url": "/health-library/what-is-insulin-resistance-symptoms-causes-weight/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 998
+    },
+    {
+     "url": "/health-library/why-hard-to-lose-weight-with-type-2-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 986
+    }
+   ]
+  },
+  {
+   "cluster": 7,
+   "pillar": "/health-library/glp-1-medicines-diabetes-weight-loss/",
+   "pillarTitle": "GLP-1 Medicines for Diabetes & Weight Loss: How They Work, Key Differences & Who May Need Them",
+   "supports": [
+    "/health-library/do-glp-1-medicines-replace-metformin-or-insulin/",
+    "/health-library/how-glp-1-medicines-are-given-injection-technique-storage/",
+    "/health-library/how-glp-1-treatment-is-started-dose-titration-first-weeks/",
+    "/health-library/semaglutide-vs-tirzepatide-difference-which-suits-you/",
+    "/health-library/who-should-not-take-glp-1-medicines/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/do-glp-1-medicines-replace-metformin-or-insulin/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 554
+    },
+    {
+     "url": "/health-library/how-glp-1-medicines-are-given-injection-technique-storage/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1336
+    },
+    {
+     "url": "/health-library/how-glp-1-treatment-is-started-dose-titration-first-weeks/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1026
+    },
+    {
+     "url": "/health-library/semaglutide-vs-tirzepatide-difference-which-suits-you/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 883
+    },
+    {
+     "url": "/health-library/who-should-not-take-glp-1-medicines/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 993
+    }
+   ]
+  },
+  {
+   "cluster": 8,
+   "pillar": "/health-library/continuous-glucose-monitoring-cgm-guide/",
+   "pillarTitle": "Continuous Glucose Monitoring (CGM): How It Works, Who Needs It & How to Read the Data",
+   "supports": [
+    "/health-library/cgm-in-pregnancy-when-useful-what-to-know/",
+    "/health-library/cgm-vs-glucometer-type-2-diabetes/",
+    "/health-library/does-everyone-with-type-2-diabetes-need-cgm/",
+    "/health-library/how-to-read-cgm-report-agp-time-in-range-patterns/",
+    "/health-library/what-is-time-in-range-tir-diabetes/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/cgm-in-pregnancy-when-useful-what-to-know/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1110
+    },
+    {
+     "url": "/health-library/cgm-vs-glucometer-type-2-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 955
+    },
+    {
+     "url": "/health-library/does-everyone-with-type-2-diabetes-need-cgm/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 550
+    },
+    {
+     "url": "/health-library/how-to-read-cgm-report-agp-time-in-range-patterns/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1221
+    },
+    {
+     "url": "/health-library/what-is-time-in-range-tir-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 896
+    }
+   ]
+  },
+  {
+   "cluster": 9,
+   "pillar": "/health-library/gestational-diabetes-gdm-testing-blood-sugar-targets-diet-insulin-postpartum-care/",
+   "pillarTitle": "Gestational Diabetes (GDM): Testing, Blood Sugar Targets, Diet, Insulin & After-Pregnancy Care",
+   "supports": [
+    "/health-library/after-gestational-diabetes-when-to-test-for-type-2-diabetes/",
+    "/health-library/does-gestational-diabetes-go-away-after-delivery/",
+    "/health-library/gestational-diabetes-diet-indian-foods-meal-timing/",
+    "/health-library/gestational-diabetes-test-when-done-results-meaning/",
+    "/health-library/when-is-insulin-needed-in-gestational-diabetes/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/after-gestational-diabetes-when-to-test-for-type-2-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 988
+    },
+    {
+     "url": "/health-library/does-gestational-diabetes-go-away-after-delivery/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1093
+    },
+    {
+     "url": "/health-library/gestational-diabetes-diet-indian-foods-meal-timing/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1083
+    },
+    {
+     "url": "/health-library/gestational-diabetes-test-when-done-results-meaning/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1025
+    },
+    {
+     "url": "/health-library/when-is-insulin-needed-in-gestational-diabetes/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1078
+    }
+   ]
+  },
+  {
+   "cluster": 10,
+   "pillar": "/health-library/metabolic-syndrome-fatty-liver-diabetes-heart-kidney-connection/",
+   "pillarTitle": "Metabolic Syndrome, Fatty Liver & Cardiometabolic Health: The Diabetes-Heart-Kidney Connection",
+   "supports": [
+    "/health-library/diabetes-and-heart-disease-blood-sugar-metabolic-risk/",
+    "/health-library/diabetes-and-kidney-disease-tests-you-should-have/",
+    "/health-library/fatty-liver-and-diabetes-why-they-occur-together/",
+    "/health-library/high-triglycerides-diabetes-obesity/",
+    "/health-library/what-is-metabolic-syndrome-5-risk-factors/"
+   ],
+   "pillarLinksToSupports": 5,
+   "pillarMissing": [],
+   "pillarToService": false,
+   "pillarToDoctor": true,
+   "supportRows": [
+    {
+     "url": "/health-library/diabetes-and-heart-disease-blood-sugar-metabolic-risk/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1119
+    },
+    {
+     "url": "/health-library/diabetes-and-kidney-disease-tests-you-should-have/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 965
+    },
+    {
+     "url": "/health-library/fatty-liver-and-diabetes-why-they-occur-together/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 1069
+    },
+    {
+     "url": "/health-library/high-triglycerides-diabetes-obesity/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 493
+    },
+    {
+     "url": "/health-library/what-is-metabolic-syndrome-5-risk-factors/",
+     "toPillar": true,
+     "pillarLinkRank": 3,
+     "siblings": 4,
+     "toService": true,
+     "toDoctor": true,
+     "words": 520
+    }
+   ]
+  }
+ ],
+ "unclustered": [
+  "/health-library/diabetes-myths-and-facts/",
+  "/health-library/menstrual-hygiene-teenage-girls/",
+  "/health-library/preparing-child-for-adolescence/",
+  "/health-library/self-esteem-teenagers-with-disabilities/",
+  "/health-library/smart-love-parenting-teenagers/"
+ ]
+}

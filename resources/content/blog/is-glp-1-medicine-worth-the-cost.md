@@ -11,7 +11,7 @@ category: "GLP-1 in India"
 reading_time: "4 min read"
 excerpt: "GLP-1 medicines can improve blood sugar, weight and overall health. They can also be a long-term expense. The right choice is not the same for everyone."
 image: "blog/is-glp-1-medicine-worth-the-cost.webp"
-image_alt: "Indian couple sitting with a diabetologist reviewing a treatment plan and a notebook on a clinic"
+image_alt: "Indian couple sitting with a diabetologist reviewing a treatment plan and a notebook on a clinic desk"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,7 +28,7 @@ status: draft
 
 GLP-1 medicines can improve blood sugar, weight and overall health. They can also be a long-term expense. The right choice is not the same for everyone. This guide helps you weigh the benefits against the cost in a clear, practical way.
 
-#### What Do You Get for the Cost?
+#### What do you get for the cost?
 
 Depending on the medicine and your condition, benefits may include:
 
@@ -48,7 +48,7 @@ Depending on the medicine and your condition, benefits may include:
 
 - Better mobility and quality of life
 
-#### What Are the Costs to Consider?
+#### What are the costs to consider?
 
 ##### Direct costs
 
@@ -70,7 +70,7 @@ Depending on the medicine and your condition, benefits may include:
 
 - The cost of stopping, if weight returns
 
-#### Who Is Most Likely to Benefit?
+#### Who is most likely to benefit?
 
 - Adults with type 2 diabetes and a BMI in the overweight or obese range
 
@@ -82,7 +82,7 @@ Depending on the medicine and your condition, benefits may include:
 
 - Individuals who are ready to change diet and activity along with the medicine
 
-#### When Might It Not Be Worth It?
+#### When might it not be worth it?
 
 - You cannot continue the medicine for long enough to benefit
 
@@ -94,11 +94,11 @@ Depending on the medicine and your condition, benefits may include:
 
 - You are pregnant, planning pregnancy or breastfeeding
 
-#### What Are the Cheaper Options?
+#### What are the cheaper options?
 
 For many people with type 2 diabetes, metformin and other well-proven tablets give good results at a much lower cost. Lifestyle change, structured diet and exercise remain the base of treatment. Metabolic surgery is another option for selected people with severe obesity. Your doctor can discuss these alternatives.
 
-#### Questions to Ask Yourself
+#### Questions to ask yourself
 
 1. What is my main goal: lower blood sugar, weight loss, or protecting my heart and kidneys?
 
@@ -110,7 +110,7 @@ For many people with type 2 diabetes, metformin and other well-proven tablets gi
 
 5. What are my alternatives?
 
-#### Questions to Ask Your Doctor
+#### Questions to ask your doctor
 
 - How much improvement can I expect in my case?
 
@@ -122,7 +122,7 @@ For many people with type 2 diabetes, metformin and other well-proven tablets gi
 
 - What is the total monthly cost, including follow-up?
 
-#### Key Takeaways
+#### What to remember
 
 - Value depends on your health, goals and ability to continue treatment.
 
@@ -133,8 +133,6 @@ For many people with type 2 diabetes, metformin and other well-proven tablets gi
 - Plan for the long term before starting.
 
 - A personalised discussion with your doctor leads to the best decision.
-
-#### Final Thoughts
 
 Spending money on health is a personal decision. A good plan makes sure you get real benefit for what you spend. To discuss whether a GLP-1 medicine is right for you, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

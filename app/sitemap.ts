@@ -5,7 +5,8 @@ import { SITE_URL } from "@/lib/seo";
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = allPages()
     .map((p) => ({ url: p.meta.url, modified: p.modified }))
-    .filter((p) => p.url !== "-")
+    // "-" and "" are non-routable placeholders (404 content file)
+    .filter((p) => p.url !== "-" && p.url.startsWith("/"))
     .map((p) => ({
       url: `${SITE_URL}${p.url}`,
       lastModified: p.modified || undefined,

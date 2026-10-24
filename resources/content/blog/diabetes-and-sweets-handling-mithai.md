@@ -1,6 +1,6 @@
 ---
 title: "Diabetes and Sweets: Handling Mithai Without Spikes"
-seo_title: "Diabetes and Sweets | Niramay"
+seo_title: "Diabetes and Sweets: The Mithai Guide | Niramay"
 url: "/health-library/diabetes-and-sweets-handling-mithai/"
 author: "Dr. Ajay V. Kaduskar"
 author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
@@ -28,29 +28,29 @@ status: draft
 
 Festivals, weddings and family visits all come with mithai. If you have diabetes, it can feel like everyone is enjoying something you must avoid. The truth is more kind. Most people with diabetes can enjoy a small portion of sweets now and then, if they plan well.
 
-#### Why Do Sweets Raise Blood Sugar?
+#### Why do sweets raise blood sugar?
 
 Most mithai is made of sugar, refined flour, milk solids and ghee. The sugar and flour are digested fast and enter the blood quickly. Fat and milk slow this a little, but the overall carbohydrate load is high. A single piece of some sweets can carry as many carbohydrates as a full chapati or more.
 
-#### Is a Sugar-Free Sweet Safe?
+#### Is a sugar-free sweet safe?
 
 "Sugar-free" does not mean carbohydrate-free or calorie-free. Many such sweets contain dates, jaggery, refined flour, khoya or sugar alcohols, which can still raise blood sugar. Read the labels, and watch the portion. Artificial sweeteners in small amounts are usually acceptable, but they do not make a large portion safe.
 
-#### How Can You Enjoy Mithai Safely?
+#### How can you enjoy mithai safely?
 
-##### 1. Keep the portion small
+##### 1. keep the portion small
 
 One small piece, about the size of a coin or a small cube, is a reasonable serving. Share a piece with someone, or cut it into halves and eat slowly.
 
-##### 2. Do not eat it alone on an empty stomach
+##### 2. do not eat it alone on an empty stomach
 
 Eat it right after a balanced meal that contains vegetables, dal, curd or paneer. The fibre and protein slow the rise in blood sugar.
 
-##### 3. Swap something else
+##### 3. swap something else
 
 Plan the day so that mithai replaces part of the carbohydrate in the meal, such as a roti or half the rice, rather than being added on top.
 
-##### 4. Choose better options
+##### 4. choose better options
 
 - Sweets made with nuts, such as a small piece of dry fruit burfi
 
@@ -60,15 +60,15 @@ Plan the day so that mithai replaces part of the carbohydrate in the meal, such 
 
 - Roasted makhana or chikki made with nuts in small servings
 
-##### 5. Move after eating
+##### 5. move after eating
 
 A 10 to 15 minute walk after the meal helps lower the post-meal rise.
 
-##### 6. Check your sugar
+##### 6. check your sugar
 
 If you use a glucometer, check two hours after the sweet to learn your own response. If you take insulin or certain tablets, ask your doctor how to adjust.
 
-#### What Should You Avoid?
+#### What should you avoid?
 
 - Eating several pieces at once
 
@@ -80,7 +80,7 @@ If you use a glucometer, check two hours after the sweet to learn your own respo
 
 - Skipping meals to "save room" for dessert, which can cause low or very high sugar
 
-#### How Do You Handle Festivals and Weddings?
+#### How do you handle festivals and weddings?
 
 - Eat a healthy meal or snack before the event, so you are not very hungry.
 
@@ -92,7 +92,7 @@ If you use a glucometer, check two hours after the sweet to learn your own respo
 
 - Keep your medicines and glucometer with you.
 
-#### When Should You Talk to Your Doctor?
+#### When should you talk to your doctor?
 
 - Your sugar is often above target even without sweets
 
@@ -102,7 +102,7 @@ If you use a glucometer, check two hours after the sweet to learn your own respo
 
 - You have a very high reading with thirst, tiredness or blurred vision
 
-#### Key Takeaways
+#### Points to keep
 
 - Occasional mithai in a small portion is fine for most people with diabetes.
 
@@ -113,8 +113,6 @@ If you use a glucometer, check two hours after the sweet to learn your own respo
 - A short walk after eating helps.
 
 - Plan ahead for festivals, and check your sugar to learn your response.
-
-#### Final Thoughts
 
 Diabetes care is about balance, not punishment. With a little planning, you can share in the joy of festivals while keeping your blood sugar steady. For a personalised food plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

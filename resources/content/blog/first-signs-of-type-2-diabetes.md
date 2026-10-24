@@ -1,6 +1,6 @@
 ---
 title: "First Signs of Type 2 Diabetes You Should Not Ignore"
-seo_title: "First Signs of Type 2 Diabetes You Should Not | Niramay"
+seo_title: "First Signs of Type 2 Diabetes | Niramay"
 url: "/health-library/first-signs-of-type-2-diabetes/"
 author: "Dr. Ajay V. Kaduskar"
 author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
@@ -11,7 +11,7 @@ category: "Type 2 Diabetes"
 reading_time: "4 min read"
 excerpt: "Type 2 diabetes is a long-term condition in which blood sugar stays high because the body does not respond well to insulin and gradually makes less of it."
 image: "blog/first-signs-of-type-2-diabetes.webp"
-image_alt: "Adult drinking water at a kitchen counter looking tired in a Nagpur home, with a glucometer"
+image_alt: "Adult drinking water at a kitchen counter looking tired in a Nagpur home, with a glucometer beside them"
 sources:
   - name: "WHO: Diabetes fact sheet"
     url: "https://www.who.int/news-room/fact-sheets/detail/diabetes"
@@ -28,7 +28,7 @@ status: draft
 
 Type 2 diabetes is a long-term condition in which blood sugar stays high because the body does not respond well to insulin and gradually makes less of it. It often develops slowly, and many people have no clear symptoms for years. Knowing the early signs helps you get tested and treated sooner.
 
-#### What Are the Common Early Signs?
+#### What are the common early signs?
 
 ##### Increased thirst and frequent urination
 
@@ -58,11 +58,11 @@ Some people lose weight without trying or feel hungrier than usual.
 
 Dark, velvety skin in the neck folds or armpits, called acanthosis nigricans, can signal insulin resistance.
 
-#### Why Do Many People Have No Symptoms?
+#### Why do many people have no symptoms?
 
 Blood sugar often rises gradually, and the body adjusts. People may notice symptoms only when sugar is quite high or complications begin. This is why screening matters.
 
-#### Who Should Get Tested?
+#### Who should get tested?
 
 - Adults over about 30 to 35, especially with family history
 
@@ -78,7 +78,7 @@ Blood sugar often rises gradually, and the body adjusts. People may notice sympt
 
 South Asians, including Indians, tend to develop diabetes at a younger age and lower body weight, so earlier screening is often advised.
 
-#### Which Tests Confirm Diabetes?
+#### Which tests confirm diabetes?
 
 - Fasting plasma glucose
 
@@ -88,11 +88,11 @@ South Asians, including Indians, tend to develop diabetes at a younger age and l
 
 Your doctor interprets results and often repeats a test to confirm.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See a doctor if you have any of the signs above or risk factors, even if you feel well. Seek urgent care for extreme thirst, vomiting, confusion, deep rapid breathing or drowsiness, which may indicate very high sugar levels.
 
-#### Key Takeaways
+#### A quick recap
 
 - Type 2 diabetes often develops silently.
 
@@ -103,8 +103,6 @@ See a doctor if you have any of the signs above or risk factors, even if you fee
 - People with risk factors should get tested.
 
 - Simple blood tests confirm the diagnosis.
-
-#### Final Thoughts
 
 Early detection gives you the best chance to control diabetes and prevent complications. If you notice symptoms or have risk factors, a simple test can provide clarity. Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur, diagnoses and treats type 2 diabetes.
 

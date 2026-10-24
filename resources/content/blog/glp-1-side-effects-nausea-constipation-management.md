@@ -28,11 +28,11 @@ status: draft
 
 GLP-1 medicines are effective, but many people feel some stomach upset when they start. This is common, usually mild and often settles with time and small changes in eating habits. Knowing what to expect helps you stay on treatment safely.
 
-#### Why Do These Medicines Cause Stomach Symptoms?
+#### Why do these medicines cause stomach symptoms?
 
 GLP-1 medicines slow the emptying of the stomach and act on appetite centres in the brain. Food stays in the stomach longer, so you feel full sooner. This is part of how they work, but it can cause nausea, bloating and reflux, especially with large or fatty meals.
 
-#### What Are the Common Side Effects?
+#### What are the common side effects?
 
 - Nausea
 
@@ -50,7 +50,7 @@ GLP-1 medicines slow the emptying of the stomach and act on appetite centres in 
 
 - Mild redness or itching at the injection site
 
-#### How Can You Manage Nausea and Vomiting?
+#### How can you manage nausea and vomiting?
 
 - Eat small, frequent meals instead of large ones.
 
@@ -70,7 +70,7 @@ GLP-1 medicines slow the emptying of the stomach and act on appetite centres in 
 
 - Ask your doctor about anti-nausea medicine if needed.
 
-#### How Can You Manage Constipation?
+#### How can you manage constipation?
 
 - Drink enough water, 2 to 3 litres a day unless advised otherwise.
 
@@ -80,7 +80,7 @@ GLP-1 medicines slow the emptying of the stomach and act on appetite centres in 
 
 - Ask your doctor about a mild stool softener or fibre supplement.
 
-#### How Can You Manage Diarrhoea?
+#### How can you manage diarrhoea?
 
 - Drink oral rehydration solution or fluids.
 
@@ -90,11 +90,11 @@ GLP-1 medicines slow the emptying of the stomach and act on appetite centres in 
 
 - Inform your doctor if it lasts more than two days.
 
-#### How Does the Dose Affect Side Effects?
+#### How does the dose affect side effects?
 
 Doctors usually start with a low dose and increase every few weeks. This gives the body time to adjust. If side effects are strong, the dose may be held or reduced for a while. Do not increase the dose faster than advised.
 
-#### What About Serious Side Effects?
+#### What about serious side effects?
 
 Rare but important problems include:
 
@@ -112,11 +112,11 @@ Rare but important problems include:
 
 - **Eye changes:** Sudden vision changes, especially in people with diabetic eye disease.
 
-#### When Should You See a Doctor Urgently?
+#### When should you see a doctor urgently?
 
 Seek medical care at once for severe or constant stomach pain, repeated vomiting, inability to drink fluids, signs of dehydration, yellowing of the skin or eyes, swelling of the face or throat, or a fast heartbeat with dizziness.
 
-#### Key Takeaways
+#### A quick recap
 
 - Nausea, vomiting, diarrhoea and constipation are the most common side effects.
 
@@ -127,8 +127,6 @@ Seek medical care at once for severe or constant stomach pain, repeated vomiting
 - Severe abdominal pain, persistent vomiting or allergic signs need urgent care.
 
 - Never stop or change doses without speaking to your doctor.
-
-#### Final Thoughts
 
 Most people tolerate GLP-1 medicines well when they are started slowly and supported with simple food changes. Speak up early if something feels wrong. For safe supervision and dose planning, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

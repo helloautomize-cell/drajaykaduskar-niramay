@@ -17,9 +17,9 @@ has_confirm_items: false
 
 ### Page 11. Diabetes Complications Screening
 
-- **URL:** `/diabetes/complications-screening/`
-- **SEO title:** Diabetes Complications Screening in Nagpur | Eyes, Kidneys, Feet, Heart
-- **Meta description:** Yearly diabetes complication checks under one roof in Nagpur: retinal photography, kidney tests, foot and nerve examination, ECG and heart assessment.
+- **URL:** `/[diabetes](/diabetes/)/complications-screening/`
+- **SEO title:** Diabetes Complications Screening in Nagpur | Eyes, [Kidney](/diabetes/)s, Feet, Heart
+- **Meta description:** Yearly diabetes complication checks under one roof in Nagpur: retinal photography, kidney tests, foot and nerve examination, [ECG](/heart-care/ecg/) and heart assessment.
 - **Schema:** MedicalWebPage, MedicalTest
 - **Images:** `NiramayClinics_slide_img2.jpg` (hero), `NirmayClinics_Diabetes_Complication_Screening1.jpg`, `NirmayClinics_Diabetes_Complication_Screening2.jpg`
 
@@ -50,6 +50,11 @@ We photograph the back of your eye with a modern retinal camera. Most of the tim
 - Do not cut corns or use corn plasters. Show them to us.
 - Seek care the same day for any wound, blister, redness, swelling or colour change.
 
+#### When to get screened sooner
+Do not wait for the yearly check if you notice any change in vision, numbness or burning in your feet, a foot wound that is healing slowly, swelling on your face or feet, foamy urine, or chest discomfort on exertion. Tell your doctor at the next visit or call the clinic.
+
+#### When to see a doctor
+Do not wait for your yearly screen if you notice new blurring or loss of vision, foot numbness, a non-healing foot wound, burning or tingling in the feet, swelling, or foam in the urine. These can be early signs of nerve, eye or kidney involvement and deserve a prompt review.
 #### Frequently asked questions
 **I see clearly. Do I still need eye screening?**
 Yes. Diabetic eye damage often causes no change in vision until it is advanced. A yearly retinal photograph is the only way to know.
@@ -59,3 +64,6 @@ Routine urine tests miss small amounts of protein. The urine albumin to creatini
 
 **Why is my heart checked if I have no chest pain?**
 People with diabetes can have heart disease without typical chest pain. Checking blood pressure, cholesterol and ECG regularly, and doing an Echo or treadmill test when indicated, helps find problems earlier.
+
+**How often should complications screening be done?**
+For most people with diabetes, once a year covers eyes, kidneys, feet and heart. Some findings need more frequent checks, and your doctor will tell you the interval after reviewing results.

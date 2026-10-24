@@ -63,8 +63,7 @@ The practice has been caring for Nagpur since 2006. Between them the doctors hav
 - Niramay Pharmacy, with home delivery in Nagpur
 - Lift access, wheelchair-friendly entry, two-wheeler parking
 
-#### Our team
-**H2:** The people you will meet
+#### The people you will meet
 Our front desk and nursing team register you, check your weight and blood pressure, and guide you through tests. Our laboratory team collects samples at the clinic and at home. Our trained nutrition team works with patients on diet plans.
 
 #### Community work

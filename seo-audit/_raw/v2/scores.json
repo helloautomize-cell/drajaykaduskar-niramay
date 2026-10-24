@@ -1,0 +1,18 @@
+{
+ "overall": 72,
+ "effective_visibility_today": 0,
+ "note": "Post-Prompt-2 scores measured on the local production build (SITE_INDEXABLE=true). Live score is unchanged until Vercel Production gets SITE_INDEXABLE=true; that one env flip lifts Crawling & AI-bot access and AEO/GEO to the values below.",
+ "areas": {
+  "Crawling & AI-bot access": 70,
+  "Technical": 78,
+  "Schema": 88,
+  "E-E-A-T": 68,
+  "Pillar linking": 82,
+  "FAQs": 62,
+  "Entities & semantics": 80,
+  "Keywords": 68,
+  "Content humanness": 72,
+  "AEO/GEO readiness": 55
+ },
+ "method": "Each area scored 0-100 against the checklist items that belong to it (PASS = full, PARTIAL = half, FAIL = 0), adjusted for severity and page coverage. Re-scored after Prompt 2 fixes on the 111-URL local build."
+}

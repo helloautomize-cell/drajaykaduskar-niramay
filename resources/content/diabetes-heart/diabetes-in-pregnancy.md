@@ -14,9 +14,9 @@ has_confirm_items: false
 
 ### Page 10. Diabetes in Pregnancy
 
-- **URL:** `/diabetes/diabetes-in-pregnancy/`
-- **SEO title:** Gestational Diabetes and Diabetes in Pregnancy | Nagpur
-- **Meta description:** Care for gestational diabetes and pre-existing diabetes in pregnancy in Nagpur, in coordination with your obstetrician: testing, diet, insulin, monitoring and follow-up after delivery.
+- **URL:** `/diabetes/diabetes-in-[pregnan](/diabetes/diabetes-in-pregnancy/)cy/`
+- **SEO title:** Gestational [Diabetes](/diabetes/) and Diabetes in Pregnancy | Nagpur
+- **Meta description:** Care for gestational diabetes and pre-existing diabetes in pregnancy in Nagpur, in coordination with your obstetrician: testing, [diet](/nutrition-lifestyle-counselling/), insulin, monitoring and follow-up after delivery.
 - **Schema:** MedicalWebPage, MedicalCondition (Gestational diabetes)
 
 **H1:** Diabetes in pregnancy
@@ -26,7 +26,7 @@ When a woman has diabetes during pregnancy, two people are being cared for at on
 Dr. Ajay Kaduskar works alongside your obstetrician. Your gynaecologist remains in charge of your pregnancy; we take care of the sugar.
 
 #### Two situations
-**Gestational diabetes (GDM):** high blood sugar that is first found during pregnancy. India's national guidelines recommend testing all pregnant women with a glucose test at the first antenatal visit and again at 24 to 28 weeks. Most women with GDM return to normal sugar after delivery, but have a higher chance of type 2 diabetes later in life.
+**Gestational diabetes (GDM):** high blood sugar that is first found during pregnancy. India's national guidelines recommend testing all pregnant women with a glucose test at the first antenatal visit and again at 24 to 28 weeks. Most women with GDM return to normal sugar after delivery, but have a higher chance of [type 2](/diabetes/type-2-diabetes/) diabetes later in life.
 
 **Pre-existing diabetes:** a woman with type 1 or type 2 diabetes who becomes pregnant, or plans to. Planning before conception is ideal. Sugar control, a review of all medicines (some must be changed before pregnancy), folic acid and eye and kidney checks should be done before trying to conceive.
 
@@ -38,6 +38,8 @@ Dr. Ajay Kaduskar works alongside your obstetrician. Your gynaecologist remains 
 - Regular sharing of readings and plans with your obstetrician
 - **After delivery:** a sugar test about 6 to 12 weeks after the baby is born, then regular checks every 1 to 3 years, because the risk of type 2 diabetes stays higher. Breastfeeding and a return to a healthy weight help lower that risk.
 
+#### When to see a doctor
+Contact your doctor if your readings stay above target, if you notice reduced baby movements, leaking fluid, bleeding, severe headache, blurred vision or pain under the right ribs - these can signal complications that need same-day assessment.
 #### Frequently asked questions
 **Will my baby be born with diabetes?**
 No. Babies are not born with diabetes because the mother had gestational diabetes. Newborns may have low sugar in the first hours, which the hospital team checks. Good sugar control in pregnancy reduces this.
@@ -50,3 +52,7 @@ Yes, and it is encouraged. Breastfeeding helps lower blood sugar after delivery.
 
 **I had gestational diabetes before. What about my next pregnancy?**
 The chance of GDM in a later pregnancy is higher. Get your sugar checked before planning the next pregnancy and early in it.
+
+#### Sources and further reading
+- [Diabetes — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)
+- [ICMR–INDIAB study](https://doi.org/10.1016/S2213-8587(23)00119-5) (The Lancet Diabetes & Endocrinology, 2023)

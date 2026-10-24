@@ -3,7 +3,7 @@ page_number: 46
 title: "Accessibility statement"
 url: "/accessibility/"
 seo_title: ""
-meta_description: ""
+meta_description: "How the Niramay Clinics website is built to be usable by everyone: text size, contrast, keyboard access, and how to report a problem."
 schema: ""
 images: []
 reviewed_by: "Lawyer (required by Part 6 note)"

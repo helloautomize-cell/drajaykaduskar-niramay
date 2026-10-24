@@ -14,7 +14,7 @@ has_confirm_items: false
 
 ### Page 18. Medicines for Weight Management
 
-- **URL:** `/obesity/weight-management-medicines/`
+- **URL:** `/[obesity](/obesity/)/weight-management-medicines/`
 - **SEO title:** Weight Loss Medicines and Injections: Doctor-Supervised Care, Nagpur
 - **Meta description:** Thinking about weight-loss injections or tablets? Learn who they may suit, why medical supervision matters, side effects to know and how Niramay Clinics, Nagpur assesses you.
 - **Schema:** MedicalWebPage
@@ -27,7 +27,7 @@ Newer medicines, including weekly injections, have changed obesity treatment and
 At Niramay Clinics, these medicines are considered only after a medical assessment, and only for people for whom the expected benefit outweighs the risk.
 
 #### Who may be considered
-Medicines for weight management are generally considered for adults whose body weight is in the obesity range, or who are overweight and have weight-related conditions such as type 2 diabetes, prediabetes, high blood pressure, fatty liver or sleep apnoea, and for whom diet and activity changes alone have not been enough. Final eligibility follows current Indian guidelines and the approved use of each medicine.
+Medicines for weight management are generally considered for adults whose body weight is in the obesity range, or who are overweight and have weight-related conditions such as type 2 diabetes, prediabetes, high blood pressure, fatty liver or sleep apnoea, and for whom [diet](/nutrition-lifestyle-counselling/) and activity changes alone have not been enough. Final eligibility follows current Indian guidelines and the approved use of each medicine.
 
 #### Who should not take them, or needs extra care
 - Pregnancy, planning pregnancy, or breastfeeding
@@ -35,10 +35,10 @@ Medicines for weight management are generally considered for adults whose body w
 - Past pancreatitis or gallbladder disease
 - Eating disorders
 - Under 18, except in specific situations under specialist care
-- People taking insulin or certain diabetes tablets, who need dose changes to avoid low sugar
+- People taking insulin or certain [diabetes](/diabetes/) tablets, who need dose changes to avoid low sugar
 
 #### What supervision at the clinic involves
-- Assessment of weight, waist, body composition, sugar, kidney and liver function before starting
+- Assessment of weight, waist, [body composition](/obesity/body-composition-sarcopenia/), sugar, kidney and liver function before starting
 - Choice of medicine based on your health, other conditions and budget
 - Gradual dose increases to reduce side effects
 - Nutrition guidance to keep enough protein and protect muscle, with regular body composition checks
@@ -63,3 +63,6 @@ It depends on the person, the medicine and the goal. Your doctor will explain th
 
 **Can I start without seeing a doctor if a friend is using it?**
 No. These are prescription medicines that need a medical assessment, monitoring and adjustment of other medicines.
+
+#### Sources and further reading
+- [Obesity and overweight — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight)

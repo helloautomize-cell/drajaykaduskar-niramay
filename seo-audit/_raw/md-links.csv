@@ -1,0 +1,9 @@
+source,anchor,target,loc,file
+/contact/,email,mailto:,body,contact.md
+/accessibility/,email,mailto:,body,accessibility.md
+/cancellation-refund-policy/,email,mailto:,body,cancellation-refund-policy.md
+/editorial-policy/,email,mailto:,body,editorial-policy.md
+/patient-rights/,email,mailto:,body,patient-rights.md
+/privacy-policy/,email,mailto:,body,privacy-policy.md
+/terms-of-use/,email,mailto:,body,terms-of-use.md
+/plan-your-visit/,Coming from outside Nagpur?,/plan-your-visit/coming-from-outside-nagpur/,body,plan-your-visit.md

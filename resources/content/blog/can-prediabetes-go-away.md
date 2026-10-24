@@ -28,11 +28,11 @@ status: draft
 
 Prediabetes means your blood sugar is higher than normal but not yet in the diabetes range. It is common and often silent. The encouraging news is that prediabetes can often return to normal, and many people prevent or delay type 2 diabetes through lifestyle changes.
 
-#### Why Does Prediabetes Happen?
+#### Why does prediabetes happen?
 
 Prediabetes usually develops because cells become less responsive to insulin, a state called insulin resistance. Excess weight, especially around the waist, inactivity, poor sleep, family history and age all contribute. In Indians, insulin resistance can develop at a lower body weight.
 
-#### Which Changes Make the Biggest Difference?
+#### Which changes make the biggest difference?
 
 ##### Weight loss
 
@@ -62,23 +62,23 @@ Poor sleep and chronic stress raise blood sugar. Aim for regular, adequate sleep
 
 Both affect blood sugar and overall health.
 
-#### How Long Does It Take?
+#### How long does it take?
 
 Some people see improvement in fasting sugar within weeks, while HbA1c usually reflects changes after about three months. Consistency over months matters more than quick fixes.
 
-#### Can Medicines Help?
+#### Can medicines help?
 
 For some high-risk people, doctors may prescribe metformin alongside lifestyle changes. Medicines do not replace healthy habits.
 
-#### Does Prediabetes Always Become Diabetes?
+#### Does prediabetes always become diabetes?
 
 No. Without changes, many people progress over time, but lifestyle measures can prevent or delay this. Even if diabetes develops later, the habits you build will improve control.
 
-#### How Often Should You Test?
+#### How often should you test?
 
 Usually at least once a year, or more often while making changes. Your doctor will guide timing based on your risk.
 
-#### Key Takeaways
+#### In short
 
 - Prediabetes can often return to normal.
 
@@ -89,8 +89,6 @@ Usually at least once a year, or more often while making changes. Your doctor wi
 - Cut refined carbohydrates and sugary drinks.
 
 - Test regularly to track progress.
-
-#### Final Thoughts
 
 Prediabetes is a chance to change course before diabetes develops. Small, sustained steps can make a big difference. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur helps patients build practical, personalised prevention plans.
 

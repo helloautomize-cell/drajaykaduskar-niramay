@@ -11,7 +11,7 @@ category: "Technology and Evolution of GLP-1"
 reading_time: "5 min read"
 excerpt: "GLP-1 medicines are now in the headlines for diabetes and weight loss. But they did not appear overnight. Guidance from Dr. Ajay V. Kaduskar, diabetologist..."
 image: "blog/history-of-glp-1-drugs-natural-discovery-to-medicines.webp"
-image_alt: "Laboratory bench with glass vials, a microscope and handwritten research notes, with a diabetologist"
+image_alt: "Laboratory bench with glass vials, a microscope and handwritten research notes, with a diabetologist reviewing them"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,23 +28,23 @@ status: draft
 
 GLP-1 medicines are now in the headlines for diabetes and weight loss. But they did not appear overnight. Their story spans several decades and began with curious scientists studying how the gut talks to the pancreas.
 
-#### How Was the Gut-Pancreas Link Found?
+#### How was the gut-pancreas link found?
 
 In the 1960s, researchers noticed that sugar taken by mouth caused a larger insulin release than the same sugar given through a vein. This difference was called the incretin effect. It suggested that hormones from the gut signal the pancreas to release insulin when food arrives.
 
-#### How Was GLP-1 Discovered?
+#### How was GLP-1 discovered?
 
 In the 1980s, scientists studying the gene for glucagon found a related fragment, which they named glucagon-like peptide-1. They showed that this hormone, made by gut cells, strongly stimulates insulin release when blood sugar is high. It also reduces glucagon, slows stomach emptying and lowers appetite.
 
-#### What Was the Problem With the Natural Hormone?
+#### What was the problem with the natural hormone?
 
 Natural GLP-1 is broken down by an enzyme in the blood within a couple of minutes. A medicine based on it could not work for long. This led researchers to look for ways to make a stable version.
 
-#### Where Did the Gila Monster Come In?
+#### Where did the gila monster come in?
 
 In the early 1990s, researchers studying the saliva of the Gila monster, a venomous lizard from North America, found a hormone called exendin-4. It was similar to human GLP-1 but resisted breakdown. This led to the first GLP-1 medicine for diabetes, exenatide, approved in the mid-2000s. It was taken as an injection twice a day.
 
-#### How Did the Medicines Improve?
+#### How did the medicines improve?
 
 ##### Longer-acting versions
 
@@ -62,7 +62,7 @@ Doctors noticed that people on GLP-1 medicines lost weight, which led to trials 
 
 Tirzepatide acts on two gut hormones, GLP-1 and GIP, and showed even greater effects in some trials.
 
-#### What Did Researchers Learn Along the Way?
+#### What did researchers learn along the way?
 
 - GLP-1 medicines lower blood sugar with a low risk of hypoglycaemia on their own.
 
@@ -72,15 +72,15 @@ Tirzepatide acts on two gut hormones, GLP-1 and GIP, and showed even greater eff
 
 - They affect appetite centres in the brain.
 
-#### Why Does This History Matter?
+#### Why does this history matter?
 
 Knowing the story shows that these medicines are the result of decades of careful research and not a passing fad. It also explains why they are used under medical supervision and why newer versions keep appearing.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 If you are considering a GLP-1 medicine for diabetes or weight, speak to a diabetologist first to check whether it is suitable and safe for you.
 
-#### Key Takeaways
+#### A quick recap
 
 - GLP-1 is a gut hormone that helps control blood sugar and appetite.
 
@@ -91,8 +91,6 @@ If you are considering a GLP-1 medicine for diabetes or weight, speak to a diabe
 - Semaglutide and tirzepatide are the result of decades of improvement.
 
 - These medicines should be started only with medical guidance.
-
-#### Final Thoughts
 
 The path from a lizard's saliva to modern medicine shows how patient science can change lives. To learn whether this class of medicines is right for you, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

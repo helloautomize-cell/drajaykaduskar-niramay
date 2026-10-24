@@ -15,21 +15,21 @@ has_confirm_items: false
 ### Page 16. Nutrition and Lifestyle Counselling
 
 - **URL:** `/nutrition-lifestyle-counselling/`
-- **SEO title:** Diet and Nutrition Counselling for Diabetes and Weight | Nagpur
-- **Meta description:** Personalised diet plans for diabetes, weight, thyroid, blood pressure and pregnancy in Nagpur, built around Indian home food, your routine and family habits.
+- **SEO title:** Diet and Nutrition Counselling for [Diabetes](/diabetes/) and Weight | Nagpur
+- **Meta description:** Personalised diet plans for diabetes, weight, [thyroid](/thyroid-clinic/), blood pressure and pregnancy in Nagpur, built around Indian home food, your routine and family habits.
 - **Schema:** MedicalWebPage
 - **Images:** nutrition photo **[re-shoot needed]**
 
 **H1:** Nutrition and lifestyle counselling
 
-Food is the first and most neglected part of treatment for diabetes, weight, blood pressure and cholesterol. There is no single diet that suits everyone. A plan that works is one you can follow on a busy weekday, at a family function and during festivals.
+Food is the first and most neglected part of treatment for diabetes, weight, [blood pressure](/hypertension-clinic/) and cholesterol. There is no single diet that suits everyone. A plan that works is one you can follow on a busy weekday, at a family function and during festivals.
 
 Our trained nutrition team works with Dr. Ajay Kaduskar's patients to build eating plans around their own food, culture and routine.
 
 #### Who it helps
-- Type 1, type 2 and pregnancy diabetes
+- Type 1, type 2 and [pregnan](/diabetes/diabetes-in-pregnancy/)cy diabetes
 - Prediabetes
-- Weight management, including people on weight-loss medicines, to protect muscle and nutrition
+- [Weight](/obesity/) management, including people on weight-loss medicines, to protect muscle and nutrition
 - High blood pressure and cholesterol
 - Fatty liver
 - Thyroid disorders
@@ -50,6 +50,8 @@ Our trained nutrition team works with Dr. Ajay Kaduskar's patients to build eati
 - Plans for the whole family where possible, so you do not cook separately
 - No supplements or products are sold or promoted in counselling sessions
 
+#### When to see a doctor
+See a doctor if you are losing weight without trying, feel unusually tired, or your sugar, blood pressure or cholesterol reports keep drifting up despite your efforts. Food changes work best when they are planned around your reports, not only around generic diet charts.
 #### Frequently asked questions
 **Is intermittent fasting good for diabetes?**
 Some people do well with time-restricted eating, but it can cause low sugar in people on insulin or certain tablets. Discuss it with your doctor before trying it.
@@ -59,3 +61,6 @@ Reducing refined carbohydrates helps most people with diabetes. Very strict diet
 
 **Can the plan include my family's food?**
 Yes. We usually plan around the meals cooked at home, with changes in portions and combinations rather than separate cooking.
+
+**Do I have to give up rice and roti?**
+No. Plans are built around your own food, including rice, roti and festival meals. The focus is on portion, timing and combinations rather than banning familiar foods.

@@ -75,9 +75,9 @@ const nextConfig: NextConfig = {
       // safety net for any unlisted /offer/ slug
       { source: "/offer/:slug", destination: "/services/", permanent: true },
       // old stub thank-you path -> /thank-you/?type=
-      { source: "/contact/thank-you", destination: "/thank-you/", permanent: false },
+      { source: "/contact/thank-you", destination: "/thank-you/", permanent: true },
       // retired standalone videos page -> home
-      { source: "/videos", destination: "/", permanent: false },
+      { source: "/videos", destination: "/", permanent: true },
     ];
   },
 };

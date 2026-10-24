@@ -16,7 +16,7 @@ has_confirm_items: false
 
 - **URL:** `/diabetes/type-2-diabetes/`
 - **SEO title:** Type 2 Diabetes Treatment in Nagpur | Dr. Ajay Kaduskar
-- **Meta description:** Personalised type 2 diabetes care in Nagpur: diagnosis, diet, activity, medicines, insulin when needed, and regular complication screening at Niramay Clinics.
+- **Meta description:** Personalised type 2 diabetes care in Nagpur: diagnosis, diet, activity, medicines, insulin when needed, and regular [complication screening](/diabetes/complications-screening/) at Niramay Clinics.
 - **Schema:** MedicalWebPage, MedicalCondition
 
 **H1:** Type 2 diabetes care
@@ -27,11 +27,11 @@ Type 2 diabetes happens when the body does not respond well to insulin (insulin 
 Many Indians develop type 2 diabetes at a younger age and at a lower body weight than people in Western countries. Doctors call this the "Asian Indian phenotype": more fat around the abdomen and in the liver, and less muscle, even when weight looks normal. This is why waist size matters as much as weight, and why testing should not wait for symptoms.
 
 #### How we manage type 2 diabetes
-**1. Understanding where you are.** We look at your HbA1c, home readings, weight, waist, blood pressure, cholesterol, kidney and liver tests, and any existing complications. Body composition analysis shows how much of your weight is fat and how much is muscle.
+**1. Understanding where you are.** We look at your HbA1c, home readings, weight, waist, blood pressure, cholesterol, kidney and liver tests, and any existing complications. [Body composition](/obesity/body-composition-sarcopenia/) analysis shows how much of your weight is fat and how much is muscle.
 
 **2. Setting your targets.** For many adults, an HbA1c below 7% is a reasonable target, but targets are individual. Older adults, people with heart disease, or those prone to low sugar may have different goals.
 
-**3. Food and activity first.** Our nutritionist plans meals around what you already eat: rotis, rice, dal, sabzi, snacks, festival food. Small, steady changes in portion, timing and food quality work better than strict diets that cannot be kept up. Regular walking and simple strength exercises improve insulin sensitivity.
+**3. [Food and activity](/nutrition-lifestyle-counselling/) first.** Our nutritionist plans meals around what you already eat: rotis, rice, dal, sabzi, snacks, festival food. Small, steady changes in portion, timing and food quality work better than strict diets that cannot be kept up. Regular walking and simple strength exercises improve insulin sensitivity.
 
 **4. Medicines when needed.** Most people with type 2 diabetes need one or more medicines at some stage, because the condition tends to progress over years. Modern diabetes medicines differ in how they work. Some also help with weight or protect the heart and kidneys. Your doctor will choose based on your sugar levels, weight, kidney function, heart health, cost and preference, and explain the reason for each.
 
@@ -62,3 +62,7 @@ Usually every 3 months until your targets are reached, then every 3 to 6 months.
 
 **What about diabetes and fatty liver?**
 Fatty liver is common in people with type 2 diabetes and obesity and often has no symptoms. We check liver tests and assess liver fat risk, and weight management helps both conditions.
+
+#### Sources and further reading
+- [Standards of Care in Diabetes — American Diabetes Association](https://professional.diabetes.org/standards-of-care)
+- [Diabetes — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)

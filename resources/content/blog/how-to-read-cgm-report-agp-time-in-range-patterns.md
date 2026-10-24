@@ -11,7 +11,7 @@ category: "Continuous Glucose Monitoring"
 reading_time: "5 min read"
 excerpt: "A CGM report can look confusing. Learn how to read the AGP chart, time in range, averages and variability, and spot patterns you can act on with your doctor."
 image: "blog/how-to-read-cgm-report-agp-time-in-range-patterns.webp"
-image_alt: "Diabetologist pointing at a printed ambulatory glucose profile chart on a clinic desk while an Indian"
+image_alt: "Diabetologist pointing at a printed ambulatory glucose profile chart on a clinic desk while an Indian patient looks on"
 sources:
   - name: "NIDDK: Continuous glucose monitoring"
     url: "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes/continuous-glucose-monitoring"
@@ -28,7 +28,7 @@ status: draft
 
 After wearing a continuous glucose monitor for two weeks, you receive a report full of charts and numbers. It can look overwhelming. In truth, only a few parts matter, and learning them helps you see what is happening with your diabetes.
 
-#### What Is the AGP?
+#### What is the AGP?
 
 The AGP is a standard report format used worldwide. It includes:
 
@@ -40,7 +40,7 @@ The AGP is a standard report format used worldwide. It includes:
 
 4. Daily graphs for each day
 
-#### What Are the Key Metrics?
+#### What are the key metrics?
 
 ##### Time in range (TIR)
 
@@ -58,7 +58,7 @@ The percentage of time below 70 mg/dL, and below 54 mg/dL. These should be as lo
 
 The mean of all readings. It is similar to HbA1c but covers only the wearing period.
 
-##### Glucose Management Indicator (GMI)
+##### Glucose management indicator (GMI)
 
 An estimated HbA1c calculated from the CGM average. It may differ from your lab HbA1c.
 
@@ -70,7 +70,7 @@ The coefficient of variation shows how much your glucose swings. A value of 36 p
 
 The report should show that you wore the sensor for at least 70 percent of the 14 days. Otherwise, the data may not represent your usual pattern.
 
-#### How Do You Read the AGP Graph?
+#### How do you read the AGP graph?
 
 The graph has a central line, the median glucose, and shaded bands around it.
 
@@ -84,7 +84,7 @@ The graph has a central line, the median glucose, and shaded bands around it.
 
 A flat, narrow band within the target range is the ideal picture.
 
-#### What Patterns Should You Look For?
+#### What patterns should you look for?
 
 - **Post-meal peaks:** A rise after breakfast, lunch or dinner. This suggests food portions or timing need review.
 
@@ -98,7 +98,7 @@ A flat, narrow band within the target range is the ideal picture.
 
 - **Wide swings:** Suggest inconsistent meals, activity or medicine timing.
 
-#### How Do You Use the Report?
+#### How do you use the report?
 
 1. Check sensor wear and time in range first.
 
@@ -112,7 +112,7 @@ A flat, narrow band within the target range is the ideal picture.
 
 6. Review again after the next sensor.
 
-#### What Mistakes Should You Avoid?
+#### What mistakes should you avoid?
 
 - Reacting to a single reading rather than patterns
 
@@ -122,11 +122,11 @@ A flat, narrow band within the target range is the ideal picture.
 
 - Comparing your numbers with someone else's
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Contact your doctor if you see frequent lows, long periods above 250 mg/dL, sudden changes from your usual pattern or if the numbers confuse you.
 
-#### Key Takeaways
+#### A quick recap
 
 - The AGP combines 14 days of CGM data into one typical day.
 
@@ -137,8 +137,6 @@ Contact your doctor if you see frequent lows, long periods above 250 mg/dL, sudd
 - Fix lows first, then address highs.
 
 - Review the report with your doctor and plan small changes.
-
-#### Final Thoughts
 
 A CGM report is a map, and your doctor helps you read it. Small, steady changes based on real patterns improve control and safety. To review your report, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

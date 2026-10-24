@@ -1,11 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
+import { altFor } from "@/lib/alt-text";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ServiceBadge } from "@/components/ui/ServiceBadge";
 import { TocRail } from "@/components/sections/TocRail";
 import { ReviewerBox } from "@/components/sections/ReviewerBox";
 import { RelatedServices, type RelatedService } from "@/components/sections/RelatedServices";
+import { ReviewByline } from "@/components/sections/ReviewByline";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { WorkshopForm } from "@/components/forms/WorkshopForm";
+import { formatDate } from "./BlogList";
+import { plusYear } from "@/lib/utils";
 import type { ContentPage } from "@/lib/content/pages";
 import type { RenderedDoc } from "@/lib/content/render";
 import type { Doctor } from "@/lib/doctors";
@@ -23,6 +28,8 @@ export function ServiceDetailTemplate({
   heroImage,
   reviewer,
   related,
+  articles = [],
+  parent,
 }: {
   page: ContentPage;
   doc: RenderedDoc;
@@ -31,6 +38,9 @@ export function ServiceDetailTemplate({
   heroImage: string | null;
   reviewer: Doctor | null;
   related: RelatedService[];
+  articles?: { title: string; href: string }[];
+  /** parent hub — rendered as a "Part of" back-link under the byline */
+  parent?: { label: string; href: string };
 }) {
   const h1 = page.h1 || page.meta.title;
 
@@ -51,11 +61,28 @@ export function ServiceDetailTemplate({
                 <p className="mt-3 text-[17px] leading-relaxed text-ink-600">
                   {page.meta.meta_description}
                 </p>
+                {reviewer && (
+                  <ReviewByline
+                    doctor={reviewer}
+                    lastReviewed={formatDate(page.meta.reviewed || page.modified)}
+                  />
+                )}
+                {parent && (
+                  <p className="mt-2 text-[13.5px] text-ink-600">
+                    Part of{" "}
+                    <Link
+                      href={parent.href}
+                      className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum"
+                    >
+                      {parent.label}
+                    </Link>
+                  </p>
+                )}
               </div>
               {heroImage && (
                 <Image
                   src={heroImage}
-                  alt={h1}
+                  alt={altFor(heroImage, h1)}
                   width={360}
                   height={300}
                   className="hidden w-[240px] shrink-0 rounded-t-[120px] rounded-b-[18px] object-cover md:block"
@@ -81,7 +108,30 @@ export function ServiceDetailTemplate({
               </section>
             )}
 
-            {reviewer && <ReviewerBox doctor={reviewer} />}
+            {articles.length > 0 && (
+              <section aria-label="From our Health Library" className="mt-12">
+                <h2 className="t-h4 text-ink">From our Health Library</h2>
+                <ul className="mt-4 space-y-2.5">
+                  {articles.map((a) => (
+                    <li key={a.href}>
+                      <Link
+                        href={a.href}
+                        className="text-[15.5px] font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum"
+                      >
+                        {a.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+            {reviewer && (
+              <ReviewerBox
+                doctor={reviewer}
+                lastReviewed={formatDate(page.meta.reviewed || page.modified)}
+                nextReviewDue={formatDate(plusYear(page.meta.reviewed || page.modified))}
+              />
+            )}
             <RelatedServices items={related} />
             <CtaBand />
           </div>

@@ -28,7 +28,7 @@ status: draft
 
 Triglycerides are a type of fat in the blood. High levels often go hand in hand with diabetes and excess weight.
 
-#### Why Triglycerides Rise
+#### Why triglycerides rise
 
 - Insulin resistance increases fat production in the liver
 
@@ -42,7 +42,7 @@ Triglycerides are a type of fat in the blood. High levels often go hand in hand 
 
 - Genetic tendencies
 
-#### Why It Matters
+#### Why it matters
 
 - Higher risk of heart disease
 
@@ -50,7 +50,7 @@ Triglycerides are a type of fat in the blood. High levels often go hand in hand 
 
 - Very high levels can trigger acute pancreatitis
 
-#### How to Lower Triglycerides
+#### How to lower triglycerides
 
 ##### Diet
 
@@ -78,7 +78,7 @@ Triglycerides are a type of fat in the blood. High levels often go hand in hand 
 
 A fasting blood test measures triglycerides along with cholesterol. Your doctor will advise how often to repeat it.
 
-#### Key Takeaways
+#### The quick version
 
 - Diabetes and obesity raise triglycerides.
 
@@ -89,8 +89,6 @@ A fasting blood test measures triglycerides along with cholesterol. Your doctor 
 - Control of diabetes matters.
 
 - Very high levels need urgent care.
-
-#### Final Thoughts
 
 Triglycerides respond well to lifestyle change. For guidance, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

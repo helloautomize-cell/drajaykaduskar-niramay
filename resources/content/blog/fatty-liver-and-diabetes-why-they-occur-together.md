@@ -28,15 +28,15 @@ status: draft
 
 Many people with diabetes are told, often by chance on an ultrasound, that they have a fatty liver. It is easy to dismiss because it causes no symptoms. But fatty liver and diabetes feed each other, and ignoring it can lead to serious liver and heart problems.
 
-#### What Is Fatty Liver?
+#### What is fatty liver?
 
 When fat makes up more than about 5 percent of the liver's weight, it is called fatty liver. Alcohol can cause it, but most fatty liver in people with diabetes is linked to metabolic causes, not alcohol. The newer term MASLD reflects this link to metabolic health. A more advanced form with inflammation is called MASH.
 
-#### What Are the Symptoms?
+#### What are the symptoms?
 
 Most people have no symptoms. Some feel tired or have discomfort in the upper right abdomen. Signs of advanced disease include yellow eyes, swelling of the legs or belly, easy bruising and confusion.
 
-#### How Is It Detected?
+#### How is it detected?
 
 - **Ultrasound:** The most common test. It shows a bright liver but cannot show scarring.
 
@@ -52,7 +52,7 @@ Most people have no symptoms. Some feel tired or have discomfort in the upper ri
 
 The 2026 diabetes guidance recommends that people with type 2 diabetes be screened for liver scarring risk, regardless of liver enzymes.
 
-#### What Does Fatty Liver Lead To?
+#### What does fatty liver lead to?
 
 - Liver inflammation (MASH)
 
@@ -66,7 +66,7 @@ The 2026 diabetes guidance recommends that people with type 2 diabetes be screen
 
 In fact, heart disease is the commonest cause of death in people with fatty liver and diabetes.
 
-#### How Is It Treated?
+#### How is it treated?
 
 ##### Lose weight
 
@@ -98,11 +98,11 @@ Manage blood pressure, cholesterol and sleep apnoea.
 
 Metabolic surgery can improve fatty liver in people with severe obesity.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if your ultrasound shows fatty liver, your liver enzymes are high, you have diabetes and have never had a liver check, or you notice yellow eyes, swelling or black stools.
 
-#### Key Takeaways
+#### What to remember
 
 - Fatty liver is very common in type 2 diabetes.
 
@@ -113,8 +113,6 @@ See your doctor if your ultrasound shows fatty liver, your liver enzymes are hig
 - Weight loss, diet, exercise and selected medicines help.
 
 - Untreated, it can progress to scarring and increase heart risk.
-
-#### Final Thoughts
 
 A fatty liver is a warning that can be reversed in its early stages. Acting now protects your liver, heart and kidneys. To get screened and plan treatment, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

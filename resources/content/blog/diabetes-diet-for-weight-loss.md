@@ -11,7 +11,7 @@ category: "Diabetes Diet for Indians"
 reading_time: "4 min read"
 excerpt: "Losing weight can improve blood sugar, but diabetes needs a careful approach. Learn how to build an Indian diet that supports weight loss safely."
 image: "blog/diabetes-diet-for-weight-loss.webp"
-image_alt: "Balanced Indian thali with dal, vegetables, a small portion of rice and roti, and salad. fresh"
+image_alt: "Balanced Indian thali with dal, vegetables, a small portion of rice and roti, and a fresh salad"
 sources:
   - name: "WHO: Healthy diet"
     url: "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
@@ -28,7 +28,7 @@ status: draft
 
 Weight loss can improve blood sugar, blood pressure and cholesterol. With diabetes, the way you lose weight matters as much as how much.
 
-#### Build the Plate
+#### Build the plate
 
 - Half the plate: vegetables and salad
 
@@ -36,7 +36,7 @@ Weight loss can improve blood sugar, blood pressure and cholesterol. With diabet
 
 - A quarter: whole grains, millets or a controlled portion of rice or roti
 
-#### Choices That Help
+#### Choices that help
 
 - Choose whole grains and millets over refined flour
 
@@ -48,7 +48,7 @@ Weight loss can improve blood sugar, blood pressure and cholesterol. With diabet
 
 - Eat at regular times and avoid long gaps
 
-#### Portions and Habits
+#### Portions and habits
 
 - Use a smaller plate
 
@@ -58,19 +58,19 @@ Weight loss can improve blood sugar, blood pressure and cholesterol. With diabet
 
 - Keep healthy snacks like roasted chana or nuts in small amounts
 
-#### Move More
+#### Move more
 
 Brisk walking, strength exercise and an active day support weight loss and sugar control.
 
-#### Safety With Medicines
+#### Safety with medicines
 
 If you take insulin or tablets that can cause low sugar, discuss diet changes with your doctor first, as doses may need adjusting.
 
-#### Realistic Pace
+#### Realistic pace
 
 A steady loss over weeks to months is easier to sustain than rapid loss.
 
-#### Key Takeaways
+#### In short
 
 - Gradual loss is safest.
 
@@ -81,8 +81,6 @@ A steady loss over weeks to months is easier to sustain than rapid loss.
 - Adjust medicines with medical advice.
 
 - Combine diet with activity.
-
-#### Final Thoughts
 
 A diet you can keep up is the one that works. For a personalised plan, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

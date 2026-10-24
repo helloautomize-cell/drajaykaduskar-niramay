@@ -1,6 +1,6 @@
 ---
 title: "What Is Diabesity? Understanding Diabetes and Obesity Together"
-seo_title: "What Is Diabesity? Understanding Diabetes and | Niramay"
+seo_title: "What Is Diabesity? Diabetes and Obesity | Niramay"
 url: "/health-library/what-is-diabesity/"
 author: "Dr. Ajay V. Kaduskar"
 author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
@@ -11,7 +11,7 @@ category: "Diabesity"
 reading_time: "4 min read"
 excerpt: "Diabesity describes the overlap of diabetes and obesity. Learn why the two are linked, what it means for your health and how to manage both together."
 image: "blog/what-is-diabesity.webp"
-image_alt: "Doctor explaining a body chart to an Indian patient in a modern clinic. supportive mood, shallow"
+image_alt: "Doctor explaining a body chart to an Indian patient in a modern clinic"
 sources:
   - name: "WHO: Obesity and overweight"
     url: "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
@@ -28,7 +28,7 @@ status: draft
 
 "Diabesity" is an informal term for diabetes that occurs alongside obesity. The two conditions feed each other, so treating them together works best.
 
-#### How the Two Are Linked
+#### How the two are linked
 
 - Fat cells release substances that reduce insulin action
 
@@ -38,11 +38,11 @@ status: draft
 
 - Some diabetes medicines can add weight
 
-#### Why South Asians Need Extra Care
+#### Why south asians need extra care
 
 People of South Asian origin may develop diabetes at lower body weights and with more abdominal fat, so waist size matters.
 
-#### Health Risks
+#### Health risks
 
 - Heart disease and high blood pressure
 
@@ -54,7 +54,7 @@ People of South Asian origin may develop diabetes at lower body weights and with
 
 - Kidney and eye complications
 
-#### Managing Both Together
+#### Managing both together
 
 - Balanced diet with portion control
 
@@ -66,11 +66,11 @@ People of South Asian origin may develop diabetes at lower body weights and with
 
 - Metabolic surgery for selected people with significant obesity
 
-#### Set Realistic Goals
+#### Set realistic goals
 
 Steady weight loss and improving blood sugar are goals worth celebrating, even without a "perfect" weight.
 
-#### Key Takeaways
+#### In short
 
 - Diabetes and obesity are closely linked.
 
@@ -81,8 +81,6 @@ Steady weight loss and improving blood sugar are goals worth celebrating, even w
 - Medicines and surgery are options.
 
 - Realistic goals sustain progress.
-
-#### Final Thoughts
 
 You can improve both conditions together. For a combined plan, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

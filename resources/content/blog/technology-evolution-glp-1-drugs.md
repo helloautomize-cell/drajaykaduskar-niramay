@@ -103,7 +103,7 @@ But natural GLP-1 still had one major weakness: it disappeared from the bloodstr
 
 Drug developers needed another approach.
 
-#### An unexpected clue came from the Gila monster
+#### An unexpected clue came from the gila monster
 
 One of the more unusual chapters in the development of GLP-1 medicines involves a desert-dwelling reptile.
 
@@ -392,25 +392,25 @@ Nobody can say exactly what the final form of future treatment will be.
 
 Several directions, however, are already visible.
 
-#### 1. More oral medicines
+#### 1. more oral medicines
 
 The success of oral GLP-1 formulations has shown that injection-free treatment is possible.
 
 Future research may produce additional oral medicines with different dosing schedules and pharmacological characteristics.
 
-#### 2. Multi-hormone medicines
+#### 2. multi-hormone medicines
 
 Dual and triple agonists are being investigated because metabolism involves several interconnected pathways.
 
-#### 3. Longer treatment intervals
+#### 3. longer treatment intervals
 
 Researchers continue to look for ways of maintaining therapeutic effects while reducing how frequently medication needs to be administered.
 
-#### 4. Better delivery systems
+#### 4. better delivery systems
 
 Injection devices are likely to continue becoming easier to use.
 
-#### 5. More personalized treatment
+#### 5. more personalized treatment
 
 As the field develops, clinicians may have a wider range of medicines to choose from rather than treating every patient with the same approach.
 
@@ -532,7 +532,7 @@ That is a clinical question.
 
 It requires an assessment rather than an internet comparison.
 
-#### GLP-1 Drug Evolution at a Glance
+#### GLP-1 drug evolution at a glance
 
 | **Period** | **Major development** | **Why it mattered** |
 |----|----|----|
@@ -563,8 +563,6 @@ Consider discussing GLP-1 treatment with a qualified doctor if you have:
 - questions about switching between diabetes or weight-management treatments
 
 Do not start, stop or change a prescription GLP-1 medicine solely because of advice from social media or an online article.
-
-#### Final Thoughts
 
 The GLP-1 story is a good example of how medical innovation usually happens.
 

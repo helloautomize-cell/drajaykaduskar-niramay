@@ -28,12 +28,13 @@ const notoDevanagari = Noto_Sans_Devanagari({
   preload: false,
 });
 
-const indexable = process.env.SITE_INDEXABLE === "true";
+// Noindex is enforced per-request by proxy.ts via the X-Robots-Tag header, so
+// the flag can flip at deploy time without rebuilding. No robots meta here:
+// a build-time baked value would go stale the moment the flag changes.
 const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.niramayclinics.com"),
-  ...(indexable ? {} : { robots: { index: false, follow: false } }),
   ...(gscVerification ? { verification: { google: gscVerification } } : {}),
   title: {
     default: "Niramay Clinics, Dhantoli, Nagpur",

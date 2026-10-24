@@ -28,7 +28,7 @@ status: draft
 
 Breakfast sets the tone for blood sugar through the morning. For people with diabetes, a breakfast with enough protein and fibre and a controlled amount of carbohydrate helps prevent spikes and mid-morning hunger. Many traditional Indian breakfasts can be adapted to suit diabetes.
 
-#### What Makes a Good Diabetes Breakfast?
+#### What makes a good diabetes breakfast?
 
 - Protein, such as eggs, dal, paneer, curd or sprouts
 
@@ -40,7 +40,7 @@ Breakfast sets the tone for blood sugar through the morning. For people with dia
 
 - Healthy fats in small amounts
 
-#### Practical Indian Breakfast Ideas
+#### Practical Indian breakfast ideas
 
 ##### Moong dal or besan chilla
 
@@ -70,7 +70,7 @@ Whole wheat or multigrain roti stuffed with paneer, methi or mixed vegetables, w
 
 Moong sprouts with onion, tomato, lemon and spices make a high-protein option.
 
-#### What Are Common Breakfast Mistakes?
+#### What are common breakfast mistakes?
 
 - Skipping breakfast, which can lead to overeating later
 
@@ -86,15 +86,15 @@ Moong sprouts with onion, tomato, lemon and spices make a high-protein option.
 
 - Eating only fruit for breakfast
 
-#### Is Fruit Okay at Breakfast?
+#### Is fruit okay at breakfast?
 
 Whole fruit can be part of breakfast in a moderate portion alongside protein, such as an apple with eggs or curd. Avoid fruit juice.
 
-#### How Do You Know If Your Breakfast Works?
+#### How do you know if your breakfast works?
 
 Checking blood sugar about two hours after breakfast, as advised by your doctor, helps you see which options suit you best.
 
-#### Key Takeaways
+#### The quick version
 
 - Include protein and fibre at breakfast.
 
@@ -105,8 +105,6 @@ Checking blood sugar about two hours after breakfast, as advised by your doctor,
 - Avoid sugary cereals, juices and fried foods.
 
 - Check post-breakfast sugar to personalise.
-
-#### Final Thoughts
 
 A thoughtful breakfast can make blood sugar easier to manage for the rest of the day. Familiar Indian dishes, adjusted with more protein and vegetables, work well. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur helps patients plan diabetes-friendly meals.
 

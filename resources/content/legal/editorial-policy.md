@@ -2,8 +2,8 @@
 page_number: 43
 title: "Editorial and Medical Review Policy"
 url: "/editorial-policy/"
-seo_title: ""
-meta_description: ""
+seo_title: "Editorial and Review Policy | Niramay Clinics"
+meta_description: "How medical content at Niramay Clinics is written, reviewed by our doctors, corrected and kept up to date."
 schema: ""
 images: []
 reviewed_by: "Lawyer (required by Part 6 note)"

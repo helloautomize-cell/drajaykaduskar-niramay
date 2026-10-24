@@ -28,7 +28,7 @@ status: draft
 
 If you have been told you have prediabetes, regular testing is important. It shows whether your lifestyle changes are working and catches diabetes early if it develops. Testing frequency depends on your results and risk factors.
 
-#### Why Is Regular Testing Important?
+#### Why is regular testing important?
 
 - Prediabetes can progress silently to type 2 diabetes
 
@@ -38,7 +38,7 @@ If you have been told you have prediabetes, regular testing is important. It sho
 
 - Regular checks keep motivation high
 
-#### Which Tests Are Used?
+#### Which tests are used?
 
 ##### HbA1c
 
@@ -54,7 +54,7 @@ Measures sugar before and two hours after a glucose drink. It can detect problem
 
 Using the same test each time helps compare results.
 
-#### How Often Should You Test?
+#### How often should you test?
 
 - At least once a year for most people with prediabetes
 
@@ -62,7 +62,7 @@ Using the same test each time helps compare results.
 
 - More frequently if you develop symptoms such as excessive thirst, frequent urination or unexplained weight loss
 
-#### What Other Checks Matter?
+#### What other checks matter?
 
 Prediabetes often comes with other risk factors. Doctors may check:
 
@@ -76,11 +76,11 @@ Prediabetes often comes with other risk factors. Doctors may check:
 
 - Kidney function in some people
 
-#### Should You Check Sugar at Home?
+#### Should you check sugar at home?
 
 Routine home glucose monitoring is not usually necessary for prediabetes. Your doctor may suggest occasional checks in specific situations, but lab HbA1c or fasting glucose remain the main tests.
 
-#### What Do Changes in Results Mean?
+#### What do changes in results mean?
 
 - Falling into the normal range: keep up healthy habits and continue annual checks
 
@@ -88,7 +88,7 @@ Routine home glucose monitoring is not usually necessary for prediabetes. Your d
 
 - Rising toward or into the diabetes range: your doctor will confirm and discuss treatment
 
-#### Key Takeaways
+#### What to remember
 
 - Test at least once a year with prediabetes.
 
@@ -99,8 +99,6 @@ Routine home glucose monitoring is not usually necessary for prediabetes. Your d
 - Check blood pressure, cholesterol and weight too.
 
 - Regular testing supports early action.
-
-#### Final Thoughts
 
 Regular testing turns prediabetes into an opportunity to stay ahead of diabetes. Your doctor can set the right schedule for you. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur monitors patients with prediabetes and helps them stay on track.
 

@@ -15,7 +15,7 @@ has_confirm_items: false
 
 ### Page 19. Body Composition and Sarcopenia Assessment
 
-- **URL:** `/obesity/body-composition-sarcopenia/`
+- **URL:** `/[obesity](/obesity/)/body-composition-sarcopenia/`
 - **SEO title:** Body Composition Analysis and Sarcopenia Check in Nagpur
 - **Meta description:** Know your body fat, visceral fat and muscle mass with body composition analysis at Niramay Clinics, Nagpur. Screening for sarcopenia (age-related muscle loss).
 - **Schema:** MedicalWebPage, MedicalTest
@@ -32,7 +32,7 @@ Weight alone does not tell the full story. Two people with the same weight can h
 - Body water
 
 #### How the test is done
-You stand barefoot on a platform and hold two handles for about a minute. A very small, painless electrical signal passes through the body to estimate fat, muscle and water.
+You stand barefoot on a platform and hold two handles for about a minute. A very small electrical signal you cannot feel passes through the body to estimate fat, muscle and water.
 
 **How to prepare:** come without a heavy meal in the previous 2 to 3 hours, empty your bladder, avoid exercise before the test, and remove metal jewellery. **This test is not done for people with a pacemaker or other implanted electronic device, or during pregnancy.**
 
@@ -55,3 +55,20 @@ Wear light clothes, avoid a heavy meal just before, and remove socks and metal i
 
 #### What helps protect muscle
 Enough protein through the day, regular strength exercise, adequate vitamin D, staying active, and treating underlying conditions. Your plan will be based on your results.
+
+#### Frequently asked questions
+
+**Is body composition analysis safe?**
+Yes. It uses a very small electrical signal you cannot feel to estimate fat, muscle and water. It is not done if you have a pacemaker or implanted device, and we will ask first.
+
+**Do I need to fast or prepare?**
+Best readings come on an empty bladder, a few hours after a meal, without heavy exercise just before. Normal morning clothing is fine; you will remove footwear and socks.
+
+**Who benefits from this test?**
+Anyone managing weight, people with diabetes or sarcopenia risk, older adults losing strength, and patients who want to track real fat and muscle change rather than only the weighing scale.
+
+**How long does the analysis take?**
+The scan itself takes only a few minutes. Most of the visit is spent going through your report with the doctor or nutritionist so you understand what the fat, muscle and water numbers mean for you.
+
+**How is this different from checking weight or BMI?**
+Weight and BMI cannot separate fat from muscle. The analysis shows how much of your weight is fat, where it sits, and whether you have enough muscle - so progress is measured by real body change, not only the scale.

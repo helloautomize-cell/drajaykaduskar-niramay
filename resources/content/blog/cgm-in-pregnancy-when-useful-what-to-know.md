@@ -28,11 +28,11 @@ status: draft
 
 Blood sugar control matters a great deal in pregnancy. Tight, stable sugars protect both the mother and baby. Continuous glucose monitoring (CGM) can give a fuller picture than finger-pricks alone, and is increasingly used in diabetic pregnancies.
 
-#### Why Does Blood Sugar Control Matter in Pregnancy?
+#### Why does blood sugar control matter in pregnancy?
 
 High blood sugar can increase the risk of a large baby, premature birth, birth injuries, low blood sugar in the newborn, high blood pressure in pregnancy and caesarean delivery. In early pregnancy, uncontrolled sugars can raise the risk of birth defects. Low sugars also need to be avoided, especially in women on insulin.
 
-#### How Can CGM Help?
+#### How can CGM help?
 
 - It shows patterns that finger-pricks miss, such as post-meal peaks and night-time lows.
 
@@ -44,7 +44,7 @@ High blood sugar can increase the risk of a large baby, premature birth, birth i
 
 - Studies in type 1 diabetes in pregnancy show that CGM can improve time in range and may reduce complications for babies.
 
-#### What Are the Pregnancy Targets?
+#### What are the pregnancy targets?
 
 Typical targets for CGM in pregnancy with type 1 diabetes are:
 
@@ -58,7 +58,7 @@ Typical targets for CGM in pregnancy with type 1 diabetes are:
 
 Targets in type 2 and gestational diabetes may be similar, but your team will individualise them.
 
-#### Who May Benefit Most?
+#### Who may benefit most?
 
 - Pregnant women with type 1 diabetes
 
@@ -70,7 +70,7 @@ Targets in type 2 and gestational diabetes may be similar, but your team will in
 
 - Women who find it hard to do multiple finger-pricks
 
-#### What Are the Limits?
+#### What are the limits?
 
 - A small lag compared with blood readings
 
@@ -84,7 +84,7 @@ Targets in type 2 and gestational diabetes may be similar, but your team will in
 
 - Need to confirm unusual readings with a finger-prick
 
-#### How Should You Use CGM Safely in Pregnancy?
+#### How should you use CGM safely in pregnancy?
 
 1. Start with your doctor's advice, preferably before or in early pregnancy.
 
@@ -100,15 +100,15 @@ Targets in type 2 and gestational diabetes may be similar, but your team will in
 
 7. Do not change insulin doses on your own.
 
-#### What About Gestational Diabetes?
+#### What about gestational diabetes?
 
 Many women with gestational diabetes manage with diet and a glucometer. A CGM may be useful for a short period to understand patterns, particularly when sugars are hard to control. Its role is still being studied, and practices differ.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Contact your team if you have repeated lows or highs, a sensor that gives suspicious readings, skin reactions, or symptoms such as extreme thirst, vomiting or reduced baby movements.
 
-#### Key Takeaways
+#### Points to keep
 
 - CGM can improve safety and control in diabetic pregnancies.
 
@@ -119,8 +119,6 @@ Contact your team if you have repeated lows or highs, a sensor that gives suspic
 - Finger-pricks are still needed when readings are doubtful.
 
 - Use it under the guidance of your diabetes and obstetric team.
-
-#### Final Thoughts
 
 A steady sugar level gives your baby the best start. CGM is a helpful tool, not a replacement for care and follow-up. For guidance during pregnancy, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

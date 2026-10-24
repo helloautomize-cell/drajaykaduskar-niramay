@@ -14,6 +14,7 @@ import { diabetesHeartGroups, childTeenGroups, labPharmacyLinks } from "@/lib/na
 import {
   clinicNode,
   websiteNode,
+  webPageNode,
   faqPageNode,
   videoNode,
   JsonLd,
@@ -443,6 +444,16 @@ const serviceTabsFallback = (
         View all services
       </ButtonLink>
     </div>
+    {/* the other tabs' links stay reachable without JS and to crawlers */}
+    <ul className="sr-only">
+      {serviceTabs.slice(1).flatMap((t) =>
+        t.slides.filter((s) => s.href).map((s) => (
+          <li key={s.href}>
+            <Link href={s.href!}>{`${t.label}: ${s.title}`}</Link>
+          </li>
+        ))
+      )}
+    </ul>
   </div>
 );
 
@@ -551,6 +562,7 @@ export default function Home() {
         nodes={[
           clinicNode(),
           websiteNode(),
+          webPageNode(home.meta, "WebPage"),
           faqItems.length ? faqPageNode(faqItems, "/") : null,
           ...watchVideos.map((v) =>
             videoNode({ id: v.id, title: v.title, pageUrl: "/", uploadDate: v.uploadDate, thumbnail: v.poster })

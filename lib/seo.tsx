@@ -7,7 +7,8 @@
  *                                              LocalBusiness + Organization)
  *   https://www.niramayclinics.com/#website  - WebSite
  *   https://www.niramayclinics.com/#dr-ajay / #dr-prajakta - Physicians
- *   <pageUrl>#webpage | #condition | #article | #faq | #breadcrumb | #video
+ *   <pageUrl>#webpage | #condition | #service | #test | #article | #faq | #breadcrumb | #video-<id>
+ *   https://www.niramayclinics.com/health-library/#topic-<key> - article topics
  */
 import type { Metadata } from "next";
 import { site } from "@/lib/site-config";
@@ -44,9 +45,11 @@ export function pageMetadata(meta: PageFrontmatter, opts?: { noindex?: boolean; 
       url: meta.url,
       siteName: site.name,
       locale: "en_IN",
-      type: "article",
+      // blog posts set type "article" in their own generateMetadata
+      type: meta.url.startsWith("/doctors/") ? "profile" : "website",
       ...(opts?.image ? { images: [{ url: `${SITE_URL}${opts.image}` }] } : ogImages ? { images: ogImages } : {}),
     },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
@@ -100,7 +103,7 @@ export function clinicNode() {
     geo: clinicGeo,
     foundingDate: site.foundedYear,
     founder: { "@id": PHYSICIAN_ID.ajay },
-    medicalSpecialty: ["Diabetology", "Pediatric", "Cardiology"],
+    medicalSpecialty: ["Endocrine", "Pediatric", "Cardiovascular"],
     openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "18:00")],
     contactPoint: [
       {
@@ -120,12 +123,12 @@ export function clinicNode() {
       {
         "@type": "MedicalClinic",
         name: site.centres.adult,
-        medicalSpecialty: ["Diabetology", "Cardiology"],
+        medicalSpecialty: ["Endocrine", "Cardiovascular"],
       },
       {
         "@type": "MedicalClinic",
         name: site.centres.child,
-        medicalSpecialty: ["Pediatric", "Adolescent Medicine"],
+        medicalSpecialty: ["Pediatric"],
       },
       {
         "@type": "MedicalBusiness",
@@ -195,6 +198,15 @@ const physicianExtras: Record<string, Record<string, unknown>> = {
   },
   prajakta: {
     medicalSpecialty: ["Pediatric"],
+    knowsAbout: [
+      "Well baby care", "Childhood and adolescent vaccination", "Puberty and adolescent health",
+      "Teen mental health and counselling", "Psychological and aptitude testing",
+      "Career guidance", "Parenting support",
+    ],
+    hasCredential: [
+      "MBBS", "DCH (Diploma in Child Health)",
+      "PG Diploma in Adolescent Paediatrics (PGDAP)", "MA (Clinical Psychology)",
+    ].map((c) => ({ "@type": "EducationalOccupationalCredential", name: c })),
   },
 };
 
@@ -235,50 +247,58 @@ export function profilePageNode(d: Doctor) {
  */
 const CONDITIONS: Record<
   string,
-  { name: string; alternateName?: string; treatments: string[]; specialty: string }
+  { name: string; alternateName?: string; treatments: string[]; specialty: string; sameAs?: string[] }
 > = {
   "/diabetes/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Diabetes", "https://meshb.nlm.nih.gov/record/ui?ui=D003920"],
     name: "Diabetes mellitus",
     alternateName: "Madhumeh",
     treatments: ["Nutrition and lifestyle changes", "Oral medicines", "Insulin therapy"],
-    specialty: "Diabetology",
+    specialty: "Endocrine",
   },
   "/diabetes/type-1-diabetes/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Type_1_diabetes", "https://meshb.nlm.nih.gov/record/ui?ui=D003922"],
     name: "Type 1 diabetes mellitus",
     alternateName: "Type 1 diabetes",
     treatments: ["Insulin therapy", "Blood glucose monitoring", "Diabetes education"],
-    specialty: "Diabetology",
+    specialty: "Endocrine",
   },
   "/diabetes/type-2-diabetes/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Type_2_diabetes", "https://meshb.nlm.nih.gov/record/ui?ui=D003924"],
     name: "Type 2 diabetes mellitus",
     alternateName: "Madhumeh",
     treatments: ["Nutrition and lifestyle changes", "Oral medicines", "Insulin therapy when needed"],
-    specialty: "Diabetology",
+    specialty: "Endocrine",
   },
   "/diabetes/diabetes-in-pregnancy/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Gestational_diabetes", "https://meshb.nlm.nih.gov/record/ui?ui=D016640"],
     name: "Gestational diabetes mellitus",
     alternateName: "Diabetes in pregnancy",
     treatments: ["Nutrition and lifestyle changes", "Blood glucose monitoring", "Insulin therapy when needed"],
-    specialty: "Diabetology",
+    specialty: "Endocrine",
   },
   "/diabetes/prediabetes-risk-assessment/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Prediabetes", "https://meshb.nlm.nih.gov/record/ui?ui=D011236"],
     name: "Prediabetes",
     treatments: ["Nutrition and lifestyle changes", "Weight management", "Regular blood sugar checks"],
-    specialty: "Diabetology",
+    specialty: "Endocrine",
   },
   "/obesity/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Obesity", "https://meshb.nlm.nih.gov/record/ui?ui=D009765"],
     name: "Obesity",
     alternateName: "Motapa",
     treatments: ["Nutrition and lifestyle changes", "Medical weight management", "Behavioural support"],
-    specialty: "Diabetology",
+    specialty: "Endocrine",
   },
   "/hypertension-clinic/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Hypertension", "https://meshb.nlm.nih.gov/record/ui?ui=D006973"],
     name: "Hypertension",
     alternateName: "High blood pressure",
     treatments: ["Lifestyle changes", "Antihypertensive medicines", "Regular blood pressure monitoring"],
-    specialty: "Cardiology",
+    specialty: "Cardiovascular",
   },
   "/thyroid-clinic/": {
+    sameAs: ["https://en.wikipedia.org/wiki/Thyroid_disease", "https://meshb.nlm.nih.gov/record/ui?ui=D013959"],
     name: "Thyroid disorder",
     alternateName: "Thyroid",
     treatments: ["Thyroid hormone medicines", "Regular thyroid function tests"],
@@ -296,6 +316,7 @@ export function medicalConditionNode(meta: PageFrontmatter) {
     "@id": `${SITE_URL}${meta.url}#condition`,
     name: c.name,
     ...(c.alternateName ? { alternateName: c.alternateName } : {}),
+    ...(c.sameAs ? { sameAs: c.sameAs } : {}),
     possibleTreatment: c.treatments.map((t) => ({ "@type": "MedicalTherapy", name: t })),
     relevantSpecialty: { "@type": "MedicalSpecialty", name: c.specialty },
   };
@@ -304,7 +325,7 @@ export function medicalConditionNode(meta: PageFrontmatter) {
 export function medicalWebPageNode(
   meta: PageFrontmatter,
   doctor: Doctor | null,
-  opts?: { lastReviewed?: string }
+  opts?: { lastReviewed?: string; aboutId?: string }
 ) {
   const cond = CONDITIONS[meta.url];
   const node: Record<string, unknown> = {
@@ -315,15 +336,83 @@ export function medicalWebPageNode(
     inLanguage: "en-IN",
     isPartOf: { "@id": WEBSITE_ID },
     description: meta.meta_description || undefined,
+    // about: the modelled condition, else the page's own service/test node,
+    // else the clinic. Never a fabricated entity.
     about: cond
       ? { "@id": `${SITE_URL}${meta.url}#condition` }
-      : { "@type": "MedicalProcedure", name: meta.title },
+      : opts?.aboutId
+        ? { "@id": opts.aboutId }
+        : { "@id": CLINIC_ID },
+    audience: { "@type": "Patient" },
   };
   if (doctor) {
     node.reviewedBy = { "@id": PHYSICIAN_ID[doctor.id] };
-    node.lastReviewed = opts?.lastReviewed;
+    if (opts?.lastReviewed) node.lastReviewed = opts.lastReviewed;
   }
   return node;
+}
+
+/** Generic page node for non-medical pages (AboutPage, ContactPage, home ...). */
+export function webPageNode(meta: PageFrontmatter, type: string = "WebPage", opts?: { aboutId?: string }) {
+  return {
+    "@type": type,
+    "@id": `${SITE_URL}${meta.url}#webpage`,
+    name: meta.title,
+    url: `${SITE_URL}${meta.url}`,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": WEBSITE_ID },
+    about: { "@id": opts?.aboutId ?? CLINIC_ID },
+    ...(type === "ProfilePage" && opts?.aboutId ? { mainEntity: { "@id": opts.aboutId } } : {}),
+    ...(meta.meta_description ? { description: meta.meta_description } : {}),
+  };
+}
+
+/**
+ * Service entity for pages that describe something the clinic does (not a
+ * condition and not a lab test). Type per page; provider is the clinic.
+ */
+const SERVICES: Record<string, { type: string; name: string; extra?: Record<string, unknown> }> = {
+  "/vaccination/": { type: "MedicalProcedure", name: "Vaccination for children, teenagers and adults" },
+  "/diabetes/diabetes-care-programme/": { type: "MedicalTherapy", name: "Structured yearly diabetes care programme" },
+  "/nutrition-lifestyle-counselling/": { type: "MedicalTherapy", name: "Medical nutrition and lifestyle counselling" },
+  "/obesity/weight-management-medicines/": { type: "MedicalTherapy", name: "Medical weight management with medicines" },
+  "/preventive-health-check-ups/": { type: "MedicalProcedure", name: "Preventive health check-up" },
+  "/heart-care/": { type: "MedicalProcedure", name: "Preventive heart check-up" },
+  "/blooming-buds/": { type: "MedicalProcedure", name: "Child and adolescent health care" },
+  "/blooming-buds/well-baby-clinic/": { type: "MedicalProcedure", name: "Well-baby check-up" },
+  "/blooming-buds/adolescent-health/": { type: "MedicalProcedure", name: "Adolescent health consultation" },
+  "/blooming-buds/teen-mental-health/": { type: "MedicalTherapy", name: "Teen counselling" },
+  "/blooming-buds/psychological-testing/": { type: "MedicalTest", name: "Psychological testing for children and teenagers" },
+  "/blooming-buds/career-counselling/": { type: "Service", name: "Career counselling and aptitude testing" },
+  "/blooming-buds/workshops/": { type: "Service", name: "Health and life-skills workshops for schools" },
+  "/lab/": { type: "Service", name: "In-house pathology laboratory" },
+  "/lab/home-sample-collection/": { type: "Service", name: "Home blood sample collection" },
+  "/pharmacy/": {
+    type: "Pharmacy",
+    name: "Niramay Pharmacy (in-house)",
+    extra: {
+      telephone: site.pharmacy.display,
+      address: postalAddress,
+      parentOrganization: { "@id": CLINIC_ID },
+    },
+  },
+  "/plan-your-visit/coming-from-outside-nagpur/": { type: "Service", name: "Planned visits for patients from outside Nagpur" },
+};
+
+export const serviceIdFor = (url: string) => (SERVICES[url] ? `${SITE_URL}${url}#service` : undefined);
+
+export function serviceNode(meta: PageFrontmatter) {
+  const s = SERVICES[meta.url];
+  if (!s) return null;
+  return {
+    "@type": s.type,
+    "@id": `${SITE_URL}${meta.url}#service`,
+    name: s.name,
+    url: `${SITE_URL}${meta.url}`,
+    ...(s.type === "Service" ? { provider: { "@id": CLINIC_ID }, areaServed } : {}),
+    ...(meta.meta_description ? { description: meta.meta_description } : {}),
+    ...(s.extra ?? {}),
+  };
 }
 
 export function medicalTestNode(meta: PageFrontmatter) {
@@ -370,7 +459,6 @@ export function blogPostingNode(post: {
   published: string;
   updated?: string;
   author: Doctor;
-  reviewedBy?: Doctor;
   image?: string;
   description?: string;
   wordCount?: number;
@@ -389,7 +477,7 @@ export function blogPostingNode(post: {
     datePublished: post.published || undefined,
     dateModified: post.updated || post.published || undefined,
     author: { "@id": PHYSICIAN_ID[post.author.id] },
-    ...(post.reviewedBy ? { reviewedBy: { "@id": PHYSICIAN_ID[post.reviewedBy.id] } } : {}),
+    // reviewedBy lives on the MedicalWebPage node (a WebPage property)
     ...(post.image ? { image: `${SITE_URL}${post.image}` } : {}),
     ...(post.description ? { description: post.description } : {}),
     ...(post.wordCount ? { wordCount: post.wordCount } : {}),
@@ -402,12 +490,47 @@ export function blogPostingNode(post: {
   };
 }
 
+/**
+ * What each Health Library cluster is about, typed correctly (a drug class is
+ * not a MedicalCondition). Shared @ids so all posts in a cluster point at one
+ * entity. Keyed by cluster number; legacy posts key by category.
+ */
+const W = "https://en.wikipedia.org/wiki/";
+const MESH = "https://meshb.nlm.nih.gov/record/ui?ui=";
+type Topic = { key: string; type: string; name: string; sameAs?: string[] };
+const TOPICS: Record<string, Topic> = {
+  "1": { key: "type-2-diabetes", type: "MedicalCondition", name: "Type 2 diabetes mellitus", sameAs: [`${W}Type_2_diabetes`, `${MESH}D003924`] },
+  "2": { key: "prediabetes", type: "MedicalCondition", name: "Prediabetes", sameAs: [`${W}Prediabetes`, `${MESH}D011236`] },
+  "3": { key: "diabetic-diet", type: "Diet", name: "Diet for diabetes", sameAs: [`${W}Diabetic_diet`] },
+  "4": { key: "glp-1-ra", type: "DrugClass", name: "GLP-1 receptor agonists", sameAs: [`${W}GLP-1_receptor_agonist`, `${MESH}D000097789`] },
+  "5": { key: "glp-1-ra", type: "DrugClass", name: "GLP-1 receptor agonists", sameAs: [`${W}GLP-1_receptor_agonist`, `${MESH}D000097789`] },
+  "6": { key: "obesity", type: "MedicalCondition", name: "Obesity with type 2 diabetes (diabesity)", sameAs: [`${W}Obesity`, `${MESH}D009765`] },
+  "7": { key: "glp-1-ra", type: "DrugClass", name: "GLP-1 receptor agonists", sameAs: [`${W}GLP-1_receptor_agonist`, `${MESH}D000097789`] },
+  "8": { key: "cgm", type: "MedicalDevice", name: "Continuous glucose monitor", sameAs: [`${W}Continuous_glucose_monitor`] },
+  "9": { key: "gestational-diabetes", type: "MedicalCondition", name: "Gestational diabetes mellitus", sameAs: [`${W}Gestational_diabetes`, `${MESH}D016640`] },
+  "10": { key: "metabolic-syndrome", type: "MedicalCondition", name: "Metabolic syndrome", sameAs: [`${W}Metabolic_syndrome`, `${MESH}D024821`] },
+  Diabetes: { key: "diabetes", type: "MedicalCondition", name: "Diabetes mellitus", sameAs: [`${W}Diabetes`, `${MESH}D003920`] },
+  "Adolescent health": { key: "adolescent-health", type: "Thing", name: "Adolescent health", sameAs: [`${W}Adolescent_health`] },
+  Parenting: { key: "parenting", type: "Thing", name: "Parenting teenagers", sameAs: [`${W}Parenting`] },
+};
+
+export function topicNode(clusterOrCategory: string | number | undefined): (Topic & { "@id": string }) | null {
+  const t = clusterOrCategory !== undefined ? TOPICS[String(clusterOrCategory)] : undefined;
+  return t ? { ...t, "@id": `${SITE_URL}/health-library/#topic-${t.key}` } : null;
+}
+
+export function topicEntity(clusterOrCategory: string | number | undefined) {
+  const t = topicNode(clusterOrCategory);
+  if (!t) return null;
+  return { "@type": t.type, "@id": t["@id"], name: t.name, ...(t.sameAs ? { sameAs: t.sameAs } : {}) };
+}
+
 /** MedicalWebPage node for a blog article (audience Patient, physician-reviewed). */
 export function postMedicalWebPageNode(post: {
   title: string;
   url: string;
   description?: string;
-  about?: string;
+  aboutId?: string;
   lastReviewed?: string;
   reviewedBy?: Doctor;
 }) {
@@ -418,7 +541,8 @@ export function postMedicalWebPageNode(post: {
     url: `${SITE_URL}${post.url}`,
     inLanguage: "en-IN",
     isPartOf: { "@id": WEBSITE_ID },
-    about: { "@type": "MedicalCondition", name: post.about || post.title },
+    mainEntity: { "@id": `${SITE_URL}${post.url}#article` },
+    ...(post.aboutId ? { about: { "@id": post.aboutId } } : {}),
     audience: { "@type": "Patient" },
     ...(post.description ? { description: post.description } : {}),
   };
@@ -466,7 +590,8 @@ export function videoNode(video: {
 }) {
   return {
     "@type": "VideoObject",
-    "@id": `${SITE_URL}${video.pageUrl}#video`,
+    // per-video id: a page can embed more than one video
+    "@id": `${SITE_URL}${video.pageUrl}#video-${video.id}`,
     name: video.title,
     embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
     url: `${SITE_URL}${video.pageUrl}`,

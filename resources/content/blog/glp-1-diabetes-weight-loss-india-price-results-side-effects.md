@@ -18,6 +18,12 @@ sources:
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
   - name: "WHO: Diabetes fact sheet"
     url: "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+  - name: "Reuters: Eli Lilly launches Mounjaro in India (pricing)"
+    url: "https://www.reuters.com/business/healthcare-pharmaceuticals/eli-lilly-launches-weight-loss-drug-mounjaro-india-after-drug-regulator-approval-2025-03-20/"
+  - name: "Mint: Ozempic enters India (pricing)"
+    url: "https://www.livemint.com/companies/news/novo-nordisk-india-ozempic-launch-obesity-market-leadership-11765515663674.html"
+  - name: "Economic Times: Wegovy India launch and price"
+    url: "https://economictimes.indiatimes.com/news/new-updates/novo-nordisk-launches-blockbuster-weight-loss-drug-wegovy-in-india-check-price-dosage-and-other-details/articleshow/122042130.cms"
 related: ["/obesity/weight-management-medicines/", "/obesity/", "/diabetes/"]
 cluster: 4
 pillar: true
@@ -27,7 +33,7 @@ status: draft
 
 **Quick answer.** GLP-1-based medicines can be useful for selected people with Type 2 diabetes, obesity or both. They may improve glucose control, reduce appetite and support clinically meaningful weight loss. However, the amount of weight lost varies from person to person, and side effects, particularly nausea, vomiting, diarrhoea and constipation, can occur. In India, the cost depends heavily on the specific medicine, formulation and dose. The price of the starter dose can look very different from the cost of the maintenance dose. The important question is therefore not simply **"Which GLP-1 injection is cheapest?"** It is: > **Which treatment is medically appropriate, tolerable and financially sustainable for me?** That decision should be made with a qualified doctor rather than based on an online price or someone else's weight-loss experience.
 
-#### GLP-1 Medicines in India: What Patients Should Know About Price, Weight Loss and Side Effects
+#### GLP-1 medicines in India: what patients should know about price, weight loss and side effects
 
 [GLP-1 medicines](/health-library/glp-1-medicines-diabetes-weight-loss/) have gone from being something discussed mainly in diabetes clinics to a topic that comes up everywhere, from social media and news reports to conversations between friends trying to lose weight.
 
@@ -45,7 +51,7 @@ How much weight can you realistically expect to lose? How much can blood sugar i
 
 This guide looks at those practical questions.
 
-#### What Are GLP-1 Medicines?
+#### What are GLP-1 medicines?
 
 GLP-1 stands for **glucagon-like peptide-1**.
 
@@ -71,7 +77,7 @@ Tirzepatide is slightly different from medicines that act only on the GLP-1 rece
 
 The important point for patients is that these are **prescription medicines**, not ordinary weight-loss supplements.
 
-#### Why Are GLP-1 Medicines Getting More Attention in India?
+#### Why are GLP-1 medicines getting more attention in India?
 
 A major reason is changing affordability.
 
@@ -103,21 +109,25 @@ The final cost depends on:
 
 A person who sees the price of a starter dose online should not assume that this will be their monthly cost throughout treatment.
 
-#### How Much Do GLP-1 Medicines Cost in India?
+#### How much do GLP-1 medicines cost in India?
 
 There isn't one standard **GLP-1 price in India**.
 
-Different medicines and doses can have very different prices, and prices can change over time.
+Different medicines and doses can have very different prices, and prices can change over time. These are the published monthly prices at the time of writing - pharmacies may sell below MRP and manufacturers have already cut prices once:
+
+| Medicine (generic first) | Published monthly price in India |
+|----|----|
+| Semaglutide 2.4 mg (Wegovy) | ₹10,850 to ₹16,400 after a 37% price cut |
+| Semaglutide 1 mg (Ozempic) | ₹8,800 to ₹11,175 |
+| Tirzepatide (Mounjaro) | ₹14,000 for the 2.5 mg starting dose, up to ₹27,500 for the 15 mg dose |
+
+Sources: launch and price reports in Reuters, The Economic Times and Mint (see Sources below).
 
 For example, listed prices for semaglutide-based Wegovy have varied by strength, with the lower starting strength costing substantially less than the higher maintenance strengths.
 
 Similarly, tirzepatide products such as Mounjaro become more expensive at higher doses.
 
-This is why a simple comparison such as:
-
-**"Medicine A costs ₹X and Medicine B costs ₹Y."**
-
-doesn't tell the whole story.
+This is why a simple comparison such as "Medicine A costs this much, Medicine B costs that much" doesn't tell the whole story.
 
 A better comparison considers the **complete treatment pathway**.
 
@@ -133,7 +143,7 @@ A better comparison considers the **complete treatment pathway**.
 
 So when calculating affordability, think in terms of **total treatment cost**, not just the price of one injection or pen.
 
-#### Why Are Starter and Maintenance Doses Different?
+#### Why are starter and maintenance doses different?
 
 GLP-1 treatment is generally not started at the highest dose.
 
@@ -151,7 +161,7 @@ It also means that patients should never decide to increase the dose themselves 
 
 The appropriate dose is the one that provides the intended clinical benefit while remaining tolerable and medically appropriate.
 
-#### How Much Weight Can You Actually Lose With GLP-1 Medicines?
+#### How much weight can you actually lose with GLP-1 medicines?
 
 This is probably the question patients ask most often.
 
@@ -197,7 +207,7 @@ They won't.
 
 Some people will lose more. Some less. Some may have difficulty tolerating the medicine. Others may have a strong response.
 
-#### What About Tirzepatide?
+#### What about tirzepatide?
 
 Tirzepatide has also produced substantial weight loss in clinical studies.
 
@@ -219,7 +229,7 @@ This distinction is important because social media often turns clinical trial re
 
 That is much more certain than the evidence allows.
 
-#### Why Can Weight Loss Be Different in People With Diabetes?
+#### Why can weight loss be different in people with diabetes?
 
 Having Type 2 diabetes can affect the amount of weight someone loses with obesity medication.
 
@@ -233,7 +243,7 @@ Someone with Type 2 diabetes should not compare their progress directly with a s
 
 Different people are starting from different metabolic situations.
 
-#### Does GLP-1 Treatment Only Matter for Weight?
+#### Does GLP-1 treatment only matter for weight?
 
 No.
 
@@ -261,7 +271,7 @@ So a treatment can be clinically useful even if the number on the weighing scale
 
 This is one reason doctors look at **more than body weight** when reviewing treatment.
 
-#### How Soon Will You Start Losing Weight?
+#### How soon will you start losing weight?
 
 Some people notice reduced appetite fairly early.
 
@@ -279,7 +289,7 @@ That does not automatically mean the medicine has stopped working.
 
 If progress is consistently inadequate, however, it is worth reviewing the situation with your doctor rather than simply increasing the dose.
 
-#### What Are the Common Side Effects of GLP-1 Medicines?
+#### What are the common side effects of GLP-1 medicines?
 
 The most frequently discussed side effects involve the digestive system.
 
@@ -305,7 +315,7 @@ That is one reason gradual dose escalation matters.
 
 A patient who experiences mild nausea during the first few days may find that it settles as the body adjusts. But severe or persistent symptoms should not simply be tolerated without medical advice.
 
-#### Why Does GLP-1 Treatment Cause Nausea?
+#### Why does GLP-1 treatment cause nausea?
 
 Part of the answer lies in how these medicines affect appetite and digestion.
 
@@ -319,35 +329,35 @@ Some patients find that smaller meals, slower eating and avoiding foods that tri
 
 If vomiting continues or you cannot maintain adequate fluid intake, contact your doctor.
 
-#### GLP-1 Side Effects: What Can You Do?
+#### GLP-1 side effects: what can you do?
 
 A few practical habits can make a difference.
 
-##### 1. Reduce portion size
+##### 1. reduce portion size
 
 Don't assume you need to finish the same quantity of food you used to eat.
 
 Your appetite may change.
 
-##### 2. Eat slowly
+##### 2. eat slowly
 
 Give your body time to register fullness.
 
-##### 3. Stay hydrated
+##### 3. stay hydrated
 
 This becomes particularly important if you experience vomiting or diarrhoea.
 
-##### 4. Follow the prescribed dose schedule
+##### 4. follow the prescribed dose schedule
 
 Don't increase the dose because you think a faster increase will produce faster weight loss.
 
-##### 5. Report persistent symptoms
+##### 5. report persistent symptoms
 
 Occasional mild nausea is different from repeated vomiting, severe abdominal pain or significant dehydration.
 
 The latter should be medically assessed.
 
-#### Are There Serious GLP-1 Side Effects?
+#### Are there serious GLP-1 side effects?
 
 Most commonly reported problems are gastrointestinal, but serious adverse effects can occur.
 
@@ -369,7 +379,7 @@ Patients should also understand that their existing diabetes medicines matter.
 
 If someone is taking insulin or a medicine such as a sulfonylurea, glucose levels may need closer monitoring because the combination can increase the risk of low blood sugar.
 
-#### Can GLP-1 Medicines Cause Hypoglycaemia?
+#### Can GLP-1 medicines cause hypoglycaemia?
 
 GLP-1-based medicines do not generally cause the same degree of hypoglycaemia risk when used alone as insulin or some insulin-releasing medicines.
 
@@ -381,7 +391,7 @@ This is why patients should not independently reduce, stop or increase insulin o
 
 Medication changes should be based on glucose readings and clinical assessment.
 
-#### What Happens If You Stop Taking a GLP-1 Medicine?
+#### What happens if you stop taking a GLP-1 medicine?
 
 This is an important question that often gets overlooked when people focus on the initial weight-loss results.
 
@@ -421,7 +431,7 @@ It should be:
 
 **"What is my long-term maintenance plan?"**
 
-#### Is a Cheaper GLP-1 Medicine Automatically the Better Choice?
+#### Is a cheaper GLP-1 medicine automatically the better choice?
 
 No.
 
@@ -449,7 +459,7 @@ Is the product being obtained through a legitimate source?
 
 A treatment that costs less but is inappropriate, poorly tolerated or difficult to continue does not necessarily represent better value.
 
-#### What Should You Check Before Buying a GLP-1 Injection?
+#### What should you check before buying a GLP-1 injection?
 
 The rapid increase in demand has also created opportunities for misleading online marketing.
 
@@ -471,7 +481,7 @@ Patients should also be careful about products whose storage conditions, origin,
 
 An injectable medicine is not something to purchase simply because a website offers a dramatic discount.
 
-#### What Is the Real Cost of GLP-1 Treatment?
+#### What is the real cost of GLP-1 treatment?
 
 Suppose someone is comparing two medicines based purely on their advertised monthly price.
 
@@ -497,7 +507,7 @@ It is:
 
 That gives you a much more useful number.
 
-#### What If You Cannot Afford Long-Term Treatment?
+#### What if you cannot afford long-term treatment?
 
 Tell your doctor.
 
@@ -509,7 +519,7 @@ There is little value in starting a treatment that you already know you cannot s
 
 Affordability is part of good medical planning.
 
-#### Who Should Be Particularly Careful With GLP-1 Medicines?
+#### Who should be particularly careful with GLP-1 medicines?
 
 A proper medical history is important before treatment.
 
@@ -537,7 +547,7 @@ The exact contraindications and precautions depend on the specific medicine.
 
 That is why copying somebody else's prescription is unsafe.
 
-#### Can You Take GLP-1 Medicines Without Changing Your Lifestyle?
+#### Can you take GLP-1 medicines without changing your lifestyle?
 
 Medication can help, but it shouldn't be viewed as a replacement for healthy habits.
 
@@ -559,7 +569,7 @@ A good treatment plan may include:
 
 This is particularly important during weight loss because preserving muscle mass and maintaining adequate nutrition matter as much as seeing the number on the scale decrease.
 
-#### What Should You Ask Your Doctor Before Starting?
+#### What should you ask your doctor before starting?
 
 If you are considering GLP-1 treatment, don't leave the consultation with only a prescription.
 
@@ -599,7 +609,7 @@ What is the plan if I need to stop or change the medicine later?
 
 These questions can make the treatment decision much clearer.
 
-#### When Should You Seek Medical Help?
+#### When should you seek medical help?
 
 Do not ignore severe or unusual symptoms.
 
@@ -625,33 +635,33 @@ Seek medical attention for symptoms such as:
 
 A person with diabetes should also understand the symptoms of very high and very low blood glucose and know when urgent care is required.
 
-#### 6 Common Myths About GLP-1 Medicines
+#### 6 common myths about GLP-1 medicines
 
 #### Myth 1: "GLP-1 injections guarantee dramatic weight loss."
 
 **Reality:** Clinical trials show substantial average weight loss with some medicines, but individual responses vary.
 
-#### Myth 2: "The cheapest GLP-1 medicine is the best."
+#### Myth 2: "the cheapest GLP-1 medicine is the best."
 
 **Reality:** Cost is one consideration. Medical suitability, dose, tolerability, product quality and long-term affordability also matter.
 
-#### Myth 3: "Once I lose weight, my diabetes is cured."
+#### Myth 3: "once i lose weight, my diabetes is cured."
 
 **Reality:** Weight loss can substantially improve metabolic health and diabetes control, but it does not mean every person can stop treatment.
 
-#### Myth 4: "GLP-1 medicines mean I don't need diet or exercise."
+#### Myth 4: "GLP-1 medicines mean i don't need diet or exercise."
 
 **Reality:** Medication works best as part of an overall diabetes and weight-management plan.
 
-#### Myth 5: "If I don't lose weight quickly, I should increase the dose."
+#### Myth 5: "if i don't lose weight quickly, i should increase the dose."
 
 **Reality:** Dose increases should follow the prescribed treatment schedule and clinical assessment. Faster escalation can increase side effects.
 
-#### Myth 6: "If I regain weight after stopping, the medicine didn't work."
+#### Myth 6: "if i regain weight after stopping, the medicine didn't work."
 
 **Reality:** Weight regain after stopping effective obesity treatment can occur. Long-term maintenance needs to be considered from the beginning.
 
-#### GLP-1 Treatment: The Bottom Line
+#### A realistic view of GLP-1 treatment
 
 GLP-1 medicines have opened up new possibilities for managing Type 2 diabetes and obesity.
 
@@ -667,7 +677,7 @@ And when it comes to weight loss, clinical trial numbers are useful for setting 
 
 **The right treatment is not necessarily the cheapest one or the one that produces the fastest result. It is the treatment that is medically appropriate, tolerated and sustainable for the individual patient.**
 
-#### A Practical Checklist Before Starting GLP-1 Treatment
+#### A practical checklist before starting GLP-1 treatment
 
 Before beginning treatment, make sure you understand:
 
@@ -693,7 +703,7 @@ Before beginning treatment, make sure you understand:
 
 Having these answers can prevent many of the problems that arise when treatment is started based only on online information.
 
-#### When Should You Talk to a Diabetologist?
+#### When should you talk to a diabetologist?
 
 Consider discussing GLP-1 treatment with a diabetologist if you have:
 
@@ -713,7 +723,7 @@ Consider discussing GLP-1 treatment with a diabetologist if you have:
 
 An individual assessment is especially important if you are already taking multiple diabetes medicines.
 
-#### Final Takeaway
+#### Final takeaway
 
 GLP-1 medicines are no longer simply a niche topic in diabetes care. They are now part of a much larger conversation around obesity, metabolic health and long-term diabetes management.
 

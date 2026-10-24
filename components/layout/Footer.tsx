@@ -1,7 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site-config";
-import { footerDiabetesHeart, footerChildTeen, patientInfoLinks, footerLegal, type NavLink } from "@/lib/nav";
+import {
+  footerDiabetesHeart,
+  footerChildTeen,
+  footerLabPharmacy,
+  footerDoctors,
+  patientInfoLinks,
+  footerLegal,
+  type NavLink,
+} from "@/lib/nav";
 import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
 import { CookieSettingsLink } from "@/components/layout/CookieSettingsLink";
 import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon, ArrowIcon, ChevronIcon } from "@/components/icons";
@@ -52,7 +60,7 @@ export function Footer() {
   return (
     <footer className="border-t border-line bg-white pb-[calc(80px+env(safe-area-inset-bottom))] lg:pb-0">
       <div className="mx-auto max-w-[1240px] px-4 py-10 sm:px-6 md:py-14">
-        <div className="grid gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1fr]">
+        <div className="grid gap-6 md:grid-cols-2 md:gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr_1fr_1fr]">
           {/* (a) Clinic: contact, hours and address stay open at the top */}
           <div>
             <Link href="/" aria-label="Niramay Clinics home" className="inline-block">
@@ -105,9 +113,11 @@ export function Footer() {
             </div>
           </div>
 
-          {/* (b)-(e) link columns: accordions on mobile */}
+          {/* (b)-(g) link columns: accordions on mobile */}
           <LinkColumn heading="Diabetes and Heart" links={footerDiabetesHeart} />
           <LinkColumn heading="Child and Teen" links={footerChildTeen} />
+          <LinkColumn heading="Lab and Pharmacy" links={footerLabPharmacy} />
+          <LinkColumn heading="Doctors" links={footerDoctors} />
           <LinkColumn heading="Patient Info" links={patientInfoLinks} />
           <LinkColumn heading="Legal" links={footerLegal} />
         </div>

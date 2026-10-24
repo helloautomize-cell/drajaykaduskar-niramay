@@ -11,7 +11,7 @@ category: "Type 2 Diabetes"
 reading_time: "4 min read"
 excerpt: "Many people with diabetes want to manage blood sugar through lifestyle first. Healthy habits are powerful, but they work best with medical guidance."
 image: "blog/control-blood-sugar-naturally.webp"
-image_alt: "Indian family walking together in a park in the evening with a healthy home-cooked meal prepared"
+image_alt: "Indian family walking together in a park in the evening after a healthy home-cooked meal"
 sources:
   - name: "WHO: Diabetes fact sheet"
     url: "https://www.who.int/news-room/fact-sheets/detail/diabetes"
@@ -28,7 +28,7 @@ status: draft
 
 Many people with diabetes want to manage blood sugar through lifestyle first. Healthy habits are powerful, but they work best with medical guidance.
 
-#### What Works
+#### What works
 
 ##### Eat in a balanced way
 
@@ -56,7 +56,7 @@ Even modest weight loss improves insulin response.
 
 Poor sleep and chronic stress can raise blood sugar.
 
-#### What Does Not Replace Treatment
+#### What does not replace treatment
 
 - Herbal powders, juices and supplements sold as cures
 
@@ -64,15 +64,15 @@ Poor sleep and chronic stress can raise blood sugar.
 
 - Stopping medicines because sugar looks better
 
-#### Monitor Your Progress
+#### Monitor your progress
 
 Regular blood sugar checks and HbA1c show whether your plan is working.
 
-#### When Medicines Are Needed
+#### When medicines are needed
 
 If lifestyle alone does not reach your target, medicines are a normal and safe next step.
 
-#### Key Takeaways
+#### Points to keep
 
 - Lifestyle is the foundation of diabetes care.
 
@@ -83,8 +83,6 @@ If lifestyle alone does not reach your target, medicines are a normal and safe n
 - Do not stop medicines on your own.
 
 - Monitor and review with your doctor.
-
-#### Final Thoughts
 
 Small, steady habits make the biggest difference. For a personalised plan, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

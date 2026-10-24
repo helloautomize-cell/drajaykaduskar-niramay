@@ -115,9 +115,11 @@ export const aboutClinicLink: NavLink = { label: "About the clinic", href: "/abo
 
 /* ---- Patient Info ---- */
 export const patientInfoLinks: NavLink[] = [
+  { label: "All services", href: "/services/" },
   { label: "Plan your visit", href: "/plan-your-visit/" },
   { label: "FAQs", href: "/faqs/" },
   { label: "Health Library", href: "/health-library/" },
+  { label: "Contact us", href: "/contact/" },
   // "Patient Rights" lives only in the Legal footer column — not duplicated here
 ];
 
@@ -136,6 +138,19 @@ export const childTeenFeatured = [
 /* ---- Footer link columns (text only) ---- */
 export const footerDiabetesHeart: NavLink[] = diabetesHeartGroups.flatMap((g) => g.links);
 export const footerChildTeen: NavLink[] = childTeenGroups.flatMap((g) => g.links);
+export const footerLabPharmacy: NavLink[] = labPharmacyLinks;
+export const footerDoctors: NavLink[] = [
+  ...doctorLinks.map((d) => ({ label: d.name, href: d.href })),
+  aboutClinicLink,
+];
+/** Every header-menu link, for the pre-JS nav stand-in (crawlers + no-JS). */
+export const allNavLinks: NavLink[] = [
+  ...footerDiabetesHeart,
+  ...footerChildTeen,
+  ...labPharmacyLinks,
+  ...footerDoctors,
+  ...patientInfoLinks,
+];
 export const footerLegal: NavLink[] = [
   { label: "Privacy Policy", href: "/privacy-policy/" },
   { label: "Terms of Use", href: "/terms-of-use/" },

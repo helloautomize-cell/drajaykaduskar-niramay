@@ -31,7 +31,7 @@ When type 2 diabetes and obesity occur in the same person, doctors sometimes cal
 
 A lot of people hear "you need to lose weight" at the same appointment where they're told their sugar is high. It can feel like a lecture. It shouldn't be. This article explains what's going on in the body, why weight loss is often harder for people with diabetes, what treatment options exist today, and what kind of progress is realistic.
 
-#### What Is Diabesity?
+#### What is diabesity?
 
 Diabesity isn't a separate diagnosis. It's shorthand for a very common combination: type 2 diabetes plus excess body weight.
 
@@ -41,7 +41,7 @@ The term exists because the two conditions keep pushing on each other. Carrying 
 
 Yes. Most major medical bodies now classify obesity as a chronic medical condition. Body weight is shaped by genes, hormones, appetite signalling, sleep, stress, medicines, working hours, cost of food and plenty more. Nobody decides to develop obesity, and treating it with the same seriousness as high blood pressure tends to lead to better care and less shame.
 
-#### How Are Diabetes and Obesity Connected?
+#### How are diabetes and obesity connected?
 
 Start with insulin. It's a hormone made by the pancreas, and after a meal it helps glucose move out of the blood and into muscle, liver and fat cells.
 
@@ -51,13 +51,13 @@ The traffic runs both ways. High insulin levels encourage the body to store fat.
 
 So when someone with diabetes says they're trying hard and the scale isn't moving, they're usually telling the truth. There's biology working against them.
 
-#### What Is Insulin Resistance?
+#### What is insulin resistance?
 
 Insulin resistance means the body's cells don't respond to insulin as well as they should, so glucose has trouble getting from the blood into the cells. The pancreas compensates by producing more insulin, which can mask the problem for a long time.
 
 On its own, insulin resistance usually causes no clear symptoms. Some people notice their waist getting bigger, or feel heavy and sleepy after meals. Others develop dark, velvety skin at the back of the neck or in the armpits (acanthosis nigricans), or skin tags. None of these proves anything by itself. Fasting glucose, HbA1c, a lipid profile, blood pressure and a waist measurement together tell a doctor much more.
 
-#### Why Does Belly Fat Matter More Than Body Weight?
+#### Why does belly fat matter more than body weight?
 
 Fat under the skin, on the hips and thighs for example, is called subcutaneous fat. Fat stored deep inside the abdomen, wrapped around the liver, pancreas and intestines, is visceral fat.
 
@@ -69,7 +69,7 @@ Studies have repeatedly found that many South Asians, Indians included, carry mo
 
 In practice, it means type 2 diabetes often shows up earlier and at a lower weight in Indians. Someone who looks only slightly overweight may already have marked insulin resistance. Indian guidelines use lower BMI and waist cut-offs for exactly this reason.
 
-#### How Is Obesity Measured in Diabetes?
+#### How is obesity measured in diabetes?
 
 Doctors look at a few numbers together rather than relying on one.
 
@@ -81,7 +81,7 @@ Doctors look at a few numbers together rather than relying on one.
 
 BMI is a screening number. It can't tell fat from muscle and says nothing about where fat is stored. Where available, body composition analysis adds detail. Your doctor will read all of this alongside your blood reports, blood pressure and medical history.
 
-#### What Are the Signs That Diabetes and Excess Weight Are Affecting Your Health?
+#### What are the signs that diabetes and excess weight are affecting your health?
 
 Early on, many people feel perfectly fine. That's part of the problem.
 
@@ -89,13 +89,13 @@ When symptoms do appear, the usual ones are thirst, passing urine more often, ti
 
 Because so much of this develops quietly, regular blood tests are more reliable than waiting to feel unwell.
 
-#### Who Is at Higher Risk of Diabesity?
+#### Who is at higher risk of diabesity?
 
 Your risk is higher if diabetes runs in your family, or if you've already been told you have prediabetes. A history of gestational diabetes or PCOS raises it too. So do high blood pressure, abnormal cholesterol, fatty liver and a waist above the cut-offs mentioned earlier. A desk-bound job, short or poor sleep, sleep apnoea and long-term use of certain medicines (steroids and some psychiatric drugs, for instance) all play a part.
 
 Having one or more of these doesn't mean diabetes is inevitable. It does mean testing earlier and more regularly makes sense.
 
-#### How Is Diabesity Diagnosed and Assessed?
+#### How is diabesity diagnosed and assessed?
 
 Type 2 diabetes is confirmed with blood tests. Assessing diabesity goes a step further, looking at what the combination of high sugar and extra weight is doing elsewhere in the body.
 
@@ -123,7 +123,7 @@ Type 2 diabetes is confirmed with blood tests. Assessing diabesity goes a step f
 
 Weight gain sometimes has a contributing medical cause: a hormonal problem, a sleep disorder, a medicine side effect. Finding it can change the whole plan. At Niramay Clinics, obesity care begins by looking for these possible causes before deciding on treatment.
 
-#### How Much Weight Loss Improves Type 2 Diabetes?
+#### How much weight loss improves Type 2 diabetes?
 
 Less than most people expect, at least to start seeing benefits.
 
@@ -137,7 +137,7 @@ For some people, yes, particularly if diabetes was diagnosed fairly recently. Af
 
 Remission isn't a cure. Sugar can rise again, especially if weight comes back, so checks continue. And it isn't possible for everyone. People who don't reach remission still benefit a great deal from losing weight.
 
-#### What Are the Treatment Options for Diabesity?
+#### What are the treatment options for diabesity?
 
 The plan should deal with blood sugar and weight at the same time, and it will change as you go.
 
@@ -151,7 +151,7 @@ Festivals, weddings and restaurant meals are part of life. Planning a smaller po
 
 One caution. If you take insulin, or tablets that can cause low sugar, don't make big changes to your meals without talking to your doctor first.
 
-##### Physical Activity
+##### Physical activity
 
 Moving your muscles helps them take up glucose, and this happens even before any weight comes off.
 
@@ -159,7 +159,7 @@ For many adults with type 2 diabetes, the usual guidance is at least 150 minutes
 
 Start where you are and build slowly. If you have heart disease, foot problems or eye complications, or you're on insulin or sulfonylureas, ask your doctor what's safe for you and how to avoid low sugar during exercise.
 
-##### Sleep and Stress
+##### Sleep and stress
 
 Sleep gets overlooked. Short or poor sleep raises appetite, disturbs hunger hormones and worsens insulin resistance. Most adults do better with seven hours or more.
 
@@ -200,13 +200,13 @@ Many people with diabesity need insulin at some point to keep sugar safely under
 
 For some people with severe obesity and type 2 diabetes, especially when other treatments haven't worked well enough, surgery may be an option. It can lead to large, lasting weight loss and big improvements in blood sugar. It's a serious step that needs careful evaluation beforehand and follow-up for life afterwards.
 
-##### Monitoring and Follow-Up
+##### Monitoring and follow-up
 
 Diabesity is long-term, so review visits are part of the treatment. Typically that means HbA1c every three to six months depending on how well controlled things are, along with weight, waist and blood pressure at each visit. Cholesterol and triglycerides get checked periodically. Kidney function and urine albumin are checked at least once a year, as are the eyes and feet. Liver tests are added if fatty liver is a concern.
 
 Catching a drift early is much easier than dealing with a complication later.
 
-#### Why Is It So Hard to Lose Weight With Type 2 Diabetes?
+#### Why is it so hard to lose weight with Type 2 diabetes?
 
 This is probably the most common frustration we hear. "I've cut down on food and I'm still not losing weight."
 
@@ -214,13 +214,13 @@ Several things are usually going on at once. Insulin resistance and high insulin
 
 If you've been genuinely trying and nothing is changing, that's a reason to review the treatment. It isn't evidence that you've failed.
 
-#### What Happens If Diabesity Is Not Managed?
+#### What happens if diabesity is not managed?
 
 Years of high sugar, excess weight and the problems that travel with them raise the risk of complications. The main ones are heart attack and stroke, heart failure, kidney disease, damage to the retina (diabetic retinopathy), and nerve damage that causes numbness, tingling or pain in the feet. Fatty liver can progress to inflammation and scarring in some people. Sleep apnoea and knee arthritis are also more common.
 
 None of these is guaranteed. Keeping sugar, blood pressure and cholesterol in range, not smoking and managing weight all lower the odds considerably.
 
-#### How Can Complications Be Prevented?
+#### How can complications be prevented?
 
 It helps to think of prevention as several small levers pulled together rather than one big one.
 
@@ -228,7 +228,7 @@ Keep your blood sugar within the targets you've agreed with your doctor. Treat b
 
 Long-term diabetes care at Niramay Clinics in Dhantoli, Nagpur, looks at the heart, kidneys, eyes, liver and nerves alongside blood sugar for this reason.
 
-#### When Should You Seek Urgent Medical Help?
+#### When should you seek urgent medical help?
 
 Go to a hospital or seek urgent care if there is:
 
@@ -248,7 +248,7 @@ Go to a hospital or seek urgent care if there is:
 
 These can have more than one cause, and some are serious. They need to be seen quickly.
 
-#### Common Myths About Diabetes and Obesity
+#### Common myths about diabetes and obesity
 
 **"It's just overeating."** Food matters, but so do genes, hormones, sleep, medicines, stress and surroundings. Blame tends to delay care rather than improve it.
 
@@ -262,7 +262,7 @@ These can have more than one cause, and some are serious. They need to be seen q
 
 **"Skipping meals is the quickest way."** On insulin or sulfonylureas, it's a quick way to a dangerous low. Supervised changes are much safer.
 
-#### Key Takeaways
+#### What to remember
 
 - Diabesity means type 2 diabetes and obesity together, linked mainly by insulin resistance.
 
@@ -273,8 +273,6 @@ These can have more than one cause, and some are serious. They need to be seen q
 - Treatment brings together food, activity, sleep and medicines chosen for both sugar and weight, with a doctor guiding changes.
 
 - Regular checks of the heart, kidneys, eyes, liver and feet catch problems early.
-
-#### Final Thoughts
 
 Having diabetes and struggling with weight at the same time is tiring, and plenty of people have been told to "just lose weight" without any real help doing it. Treatment has moved on. There are more options now than there were even five years ago, and modest, steady progress counts for more than most people realise.
 

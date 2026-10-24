@@ -28,7 +28,7 @@ status: draft
 
 In type 2 diabetes, excess body fat makes the body less responsive to insulin. Losing weight can reverse part of that problem.
 
-#### Why Weight Loss Helps
+#### Why weight loss helps
 
 - Reduces fat in the liver and pancreas
 
@@ -38,7 +38,7 @@ In type 2 diabetes, excess body fat makes the body less responsive to insulin. L
 
 - May reduce the dose or number of medicines
 
-#### What Different Amounts May Do
+#### What different amounts may do
 
 - Modest loss: better sugar and blood pressure
 
@@ -46,7 +46,7 @@ In type 2 diabetes, excess body fat makes the body less responsive to insulin. L
 
 - Maintaining the loss matters as much as achieving it
 
-#### Safe Ways to Lose Weight
+#### Safe ways to lose weight
 
 - Portion control and fewer refined carbohydrates
 
@@ -58,11 +58,11 @@ In type 2 diabetes, excess body fat makes the body less responsive to insulin. L
 
 - Medical support when needed, including medicines or procedures
 
-#### Adjust Medicines
+#### Adjust medicines
 
 As weight falls, sugar may drop. Doses of insulin and some tablets may need reducing to avoid low sugar. Do not change them yourself.
 
-#### Keep the Weight Off
+#### Keep the weight off
 
 - Continue healthy habits
 
@@ -70,7 +70,7 @@ As weight falls, sugar may drop. Doses of insulin and some tablets may need redu
 
 - Keep follow-up visits
 
-#### Key Takeaways
+#### What to remember
 
 - Modest weight loss helps.
 
@@ -81,8 +81,6 @@ As weight falls, sugar may drop. Doses of insulin and some tablets may need redu
 - Sustained habits keep results.
 
 - Medical support is available.
-
-#### Final Thoughts
 
 Every kilogram counts. For a weight and diabetes plan, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

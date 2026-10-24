@@ -11,7 +11,7 @@ category: "Technology and Evolution of GLP-1"
 reading_time: "4 min read"
 excerpt: "A few years ago, few people outside diabetes clinics had heard of GLP-1. Today, the term appears in news, social media and family conversations."
 image: "blog/why-glp-1-medicines-became-global-trend.webp"
-image_alt: "Indian family at a dining table looking at a phone showing a news article while"
+image_alt: "Indian family at a dining table looking at a phone showing a news article about weight-loss medicines"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,7 +28,7 @@ status: draft
 
 A few years ago, few people outside diabetes clinics had heard of GLP-1. Today, the term appears in news, social media and family conversations. What changed so fast, and what should you take from it?
 
-#### What Changed in the Science?
+#### What changed in the science?
 
 - Earlier weight-loss medicines gave modest results and had safety concerns.
 
@@ -40,15 +40,15 @@ A few years ago, few people outside diabetes clinics had heard of GLP-1. Today, 
 
 - Obesity began to be seen as a chronic disease, not a failure of willpower.
 
-#### Why Is Obesity Such a Big Problem?
+#### Why is obesity such a big problem?
 
 Obesity raises the risk of type 2 diabetes, heart disease, fatty liver, joint problems and some cancers. In India, many people develop diabetes at lower body weights, and belly fat is common. Few effective long-term options existed before, so the arrival of strong medicines drew attention.
 
-#### How Did Social Media and Celebrities Play a Part?
+#### How did social media and celebrities play a part?
 
 Dramatic before-and-after stories spread quickly online. Public figures spoke about using these medicines. This created strong demand and curiosity, but also myths, misuse and unrealistic expectations. Many posts do not show side effects, regain after stopping or the supervision behind the results.
 
-#### What Role Did the Market Play?
+#### What role did the market play?
 
 - Companies invested heavily in research and marketing.
 
@@ -60,11 +60,11 @@ Dramatic before-and-after stories spread quickly online. Public figures spoke ab
 
 - Investors tracked the sector as one of the biggest in medicine.
 
-#### What Is Different in India?
+#### What is different in India?
 
 India has a very large number of people with diabetes and obesity risk. Cost, access and cultural attitudes to weight shape the conversation. With more brands entering the market, interest is high. At the same time, concerns about unsupervised use, counterfeit products and online sales have grown.
 
-#### What Should You Be Careful About?
+#### What should you be careful about?
 
 - Trend-driven decisions without medical advice
 
@@ -76,15 +76,15 @@ India has a very large number of people with diabetes and obesity risk. Cost, ac
 
 - Using medicines for small cosmetic weight loss when risks may outweigh benefits
 
-#### Who Should Seriously Consider Them?
+#### Who should seriously consider them?
 
 People with type 2 diabetes, especially with obesity, heart or kidney disease, and people with obesity and weight-related health problems may benefit most. A doctor can assess your health and risks.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 If you are considering a GLP-1 medicine, see a diabetologist for a proper assessment. Do not start on someone else's advice or from an online source.
 
-#### Key Takeaways
+#### What to remember
 
 - GLP-1 medicines grew popular because of strong trial results and a huge need.
 
@@ -95,8 +95,6 @@ If you are considering a GLP-1 medicine, see a diabetologist for a proper assess
 - Trend does not mean suitability. Medical advice is essential.
 
 - Lifestyle remains the foundation.
-
-#### Final Thoughts
 
 It is good that obesity and diabetes are finally being taken seriously. Use the buzz as a reason to speak with a doctor, not as a shortcut. To get honest, personalised advice, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

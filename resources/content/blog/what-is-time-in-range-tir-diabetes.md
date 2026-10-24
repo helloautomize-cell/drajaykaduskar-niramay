@@ -11,7 +11,7 @@ category: "Continuous Glucose Monitoring"
 reading_time: "4 min read"
 excerpt: "HbA1c tells you your average blood sugar over three months. Time in range shows this difference. Guidance from Dr. Ajay V. Kaduskar, diabetologist at..."
 image: "blog/what-is-time-in-range-tir-diabetes.webp"
-image_alt: "Diabetologist and patient looking at a smartphone showing a smooth glucose graph with a coloured target"
+image_alt: "Diabetologist and patient looking at a smartphone showing a smooth glucose graph with a coloured target zone"
 sources:
   - name: "NIDDK: Continuous glucose monitoring"
     url: "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes/continuous-glucose-monitoring"
@@ -28,11 +28,11 @@ status: draft
 
 HbA1c tells you your average blood sugar over three months. But two people with the same HbA1c can have very different days, one steady and the other swinging up and down. Time in range shows this difference.
 
-#### Why Was TIR Introduced?
+#### Why was TIR introduced?
 
 HbA1c is an average. It does not show how high or low your sugar goes, or how often. A person with frequent highs and lows can have a "normal" average. TIR captures this variation and is closely linked to complications, along with HbA1c.
 
-#### What Are the Standard Ranges?
+#### What are the standard ranges?
 
 International consensus targets for most adults with type 1 or type 2 diabetes:
 
@@ -46,15 +46,15 @@ International consensus targets for most adults with type 1 or type 2 diabetes:
 
 Targets differ for older adults, people at high risk of low sugar and pregnancy. In pregnancy, the usual range is tighter, about 63 to 140 mg/dL.
 
-#### How Does TIR Relate to HbA1c?
+#### How does TIR relate to HbA1c?
 
 A TIR of about 70 percent roughly matches an HbA1c of around 7 percent. Each 10 percent change in TIR corresponds to about 0.5 percent change in HbA1c. But HbA1c and TIR are not interchangeable. TIR adds detail about daily swings and low sugar.
 
-#### How Is TIR Measured?
+#### How is TIR measured?
 
 You need a CGM. The device records glucose every few minutes. The software calculates TIR for the last 14 days, as long as the sensor was worn at least 70 percent of the time. Your report will show the percentage in each range.
 
-#### How Can You Improve Your TIR?
+#### How can you improve your TIR?
 
 ##### Food
 
@@ -80,15 +80,15 @@ Poor sleep and stress raise sugar. Aim for regular sleep and relaxation.
 
 Look for repeated highs after a particular meal, early morning rises or night-time lows. Small adjustments to those moments can add up.
 
-#### Is TIR Useful Without a CGM?
+#### Is TIR useful without a CGM?
 
 TIR needs continuous data. But the idea of aiming for steady sugar, rather than only a good average, is valuable for everyone.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if your time in range is less than your target, if your time below 70 mg/dL is more than 4 percent, or if you have night-time lows or symptoms of hypoglycaemia.
 
-#### Key Takeaways
+#### A quick recap
 
 - TIR is the percentage of time your sugar is within 70 to 180 mg/dL.
 
@@ -99,8 +99,6 @@ See your doctor if your time in range is less than your target, if your time bel
 - It requires a CGM.
 
 - Food, activity, sleep and medicine adjustments improve it.
-
-#### Final Thoughts
 
 Time in range turns your glucose graph into a simple, useful goal. Even small improvements in TIR are linked to better outcomes. To use CGM data effectively, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

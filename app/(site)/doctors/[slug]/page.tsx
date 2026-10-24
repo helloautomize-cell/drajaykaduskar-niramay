@@ -63,7 +63,7 @@ export default async function DoctorPage({ params }: { params: Promise<{ slug: s
           profilePageNode(doctor),
           breadcrumbNode(
             [
-              { label: "Doctors", href: "/about/" },
+              { label: "About", href: "/about/" },
               { label: page.h1 || page.meta.title, href: page.meta.url },
             ],
             page.meta.url

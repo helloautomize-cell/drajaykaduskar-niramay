@@ -28,41 +28,41 @@ status: draft
 
 If you have type 2 diabetes and find that weight does not budge despite effort, you are not alone, and you are not lazy. Diabetes, its medicines and the hormones involved can all work against weight loss. Knowing why helps you choose smarter strategies.
 
-#### What Makes It Harder?
+#### What makes it harder?
 
-##### 1. Insulin resistance and high insulin levels
+##### 1. insulin resistance and high insulin levels
 
 When cells resist insulin, the body makes more of it. High insulin promotes fat storage, especially around the belly, and makes fat harder to burn.
 
-##### 2. Hunger and fullness hormones
+##### 2. hunger and fullness hormones
 
 Obesity and diabetes can change hormones such as leptin, ghrelin and GLP-1. Hunger rises, fullness fades, and cravings increase.
 
-##### 3. Medicines that raise weight
+##### 3. medicines that raise weight
 
 Insulin, sulfonylureas (such as glimepiride) and pioglitazone can cause weight gain. Some medicines for blood pressure, depression, epilepsy or steroids can also add weight. Never stop them on your own. Ask your doctor about alternatives.
 
-##### 4. Fear of low blood sugar
+##### 4. fear of low blood sugar
 
 Some people eat extra snacks to avoid hypoglycaemia, which adds calories.
 
-##### 5. Poor sleep and stress
+##### 5. poor sleep and stress
 
 Short sleep and stress increase appetite and cortisol, which favours belly fat.
 
-##### 6. Reduced muscle and activity
+##### 6. reduced muscle and activity
 
 Fatigue, joint pain, neuropathy or foot problems can limit exercise. Less muscle lowers the metabolic rate.
 
-##### 7. Other conditions
+##### 7. other conditions
 
 Thyroid disease, PCOS, sleep apnoea and depression may make weight loss harder.
 
-##### 8. Crash diets and yo-yo cycles
+##### 8. crash diets and yo-yo cycles
 
 Extreme dieting leads to muscle loss, slower metabolism and rebound weight gain.
 
-#### What Actually Helps?
+#### What actually helps?
 
 ##### Food
 
@@ -98,11 +98,11 @@ Ask your doctor whether your diabetes medicines can be changed to ones that help
 
 GLP-1 medicines, other weight-loss medicines and metabolic surgery can be considered in suitable patients with obesity.
 
-#### How Much Weight Loss Is Worth Aiming For?
+#### How much weight loss is worth aiming for?
 
 Even 5 percent can improve blood sugar, blood pressure and cholesterol. Ten percent or more can improve blood sugar dramatically, and in some cases lead to remission of diabetes.
 
-#### What Should You Avoid?
+#### What should you avoid?
 
 - Crash diets and fasting without medical advice
 
@@ -112,11 +112,11 @@ Even 5 percent can improve blood sugar, blood pressure and cholesterol. Ten perc
 
 - Comparing yourself with others
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See a diabetologist if you are gaining weight despite effort, if your sugars are not controlled, or if you plan major dietary changes while taking insulin or tablets that can cause low sugar.
 
-#### Key Takeaways
+#### The quick version
 
 - Insulin resistance, hormones, medicines, sleep and stress can make weight loss harder in type 2 diabetes.
 
@@ -127,8 +127,6 @@ See a diabetologist if you are gaining weight despite effort, if your sugars are
 - Weight-loss medicines or surgery can be options.
 
 - Even 5 percent weight loss brings benefits.
-
-#### Final Thoughts
 
 Be kind to yourself and focus on steady, sustainable changes. The right team and plan can make a big difference. For a personalised weight and diabetes plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

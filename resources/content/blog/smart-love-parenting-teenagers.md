@@ -63,7 +63,7 @@ How parents can help:
 
 > **If your teenager talks about hopelessness, self-harm or suicide, take it seriously and get help the same day.** Call 112 in an emergency, or Tele-MANAS, the Government of India's free 24-hour mental health helpline, on **14416** or **1-800-891-4416**.
 
-#### "Smart Love"
+#### "Smart love"
 
 The book *Smart Love* by Martha Heineman Pieper and William J. Pieper offers a compassionate approach to parenting, from newborns to teenagers. Its central idea is that a child's inner happiness is the foundation of good behaviour. In our own words, the ideas I find most useful for parents are:
 

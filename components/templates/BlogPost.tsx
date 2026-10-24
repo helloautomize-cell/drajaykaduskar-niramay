@@ -6,9 +6,11 @@ import { ReviewerBox } from "@/components/sections/ReviewerBox";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { ServiceGlassCard } from "@/components/sections/ServiceGlassCard";
 import { readingTime, formatDate } from "./BlogList";
+import { plusYear } from "@/lib/utils";
 import type { RenderedDoc } from "@/lib/content/render";
 import type { BlogPost } from "@/lib/content/pages";
 import type { Doctor } from "@/lib/doctors";
+import type { BlogCluster } from "@/lib/blog-clusters";
 import type { RelatedService } from "@/components/sections/RelatedServices";
 
 /**
@@ -31,9 +33,12 @@ export function BlogPostTemplate({
   reviewer: Doctor;
   relatedPages: RelatedService[];
   relatedPosts: BlogPost[];
-  cluster?: { n: number; name: string };
+  cluster?: BlogCluster;
 }) {
   const meta = post.meta;
+  const reviewedOn = meta.reviewed || meta.updated || meta.published;
+  // the pillar's own breadcrumb is Health Library -> title (no self-crumb)
+  const pillarUrl = cluster ? `/health-library/${cluster.pillar}/` : null;
 
   return (
     <article>
@@ -41,8 +46,8 @@ export function BlogPostTemplate({
         <Breadcrumbs
           items={[
             { label: "Health Library", href: "/health-library/" },
-            ...(cluster
-              ? [{ label: cluster.name, href: `/health-library/#cluster-${cluster.n}` }]
+            ...(cluster && pillarUrl !== post.meta.url
+              ? [{ label: cluster.name, href: pillarUrl! }]
               : []),
             { label: post.meta.title, href: post.meta.url },
           ]}
@@ -61,7 +66,7 @@ export function BlogPostTemplate({
           >
             {author.name}
           </Link>
-          , Diabetologist, Nagpur
+          , {author.bylineRole}, Nagpur
         </p>
         <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-3">
           <AuthorChip
@@ -104,8 +109,8 @@ export function BlogPostTemplate({
         <ReviewerBox
           doctor={reviewer}
           author={author}
-          lastReviewed={meta.updated ? "October 2026" : undefined}
-          nextReviewDue="October 2027"
+          lastReviewed={reviewedOn ? formatDate(reviewedOn) : undefined}
+          nextReviewDue={reviewedOn ? formatDate(plusYear(reviewedOn)) : undefined}
         />
 
         {relatedPages.length > 0 && (

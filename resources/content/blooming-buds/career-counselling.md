@@ -16,7 +16,7 @@ has_confirm_items: false
 ### Page 31. Career Counselling and Aptitude Testing
 
 - **URL:** `/blooming-buds/career-counselling/`
-- **SEO title:** Career Counselling and Aptitude Test for Students in Nagpur
+- **SEO title:** Career Counselling and [Aptitude](/blooming-buds/psychological-testing/) Test for Students in Nagpur
 - **Meta description:** Career guidance for students in classes 8 to 12 and graduates in Nagpur: aptitude, interest and personality assessment, stream and course selection, with parents involved.
 - **Schema:** MedicalWebPage, Service
 - **Images:** `Career_Counselling.png` (to be redrawn with a student figure)
@@ -25,7 +25,7 @@ has_confirm_items: false
 
 Choosing a stream after class 10, or a course after class 12, is one of the first big decisions a young person makes, often under pressure from marks, relatives, friends and social media. Good career counselling does not tell a student what to become. It helps them understand their abilities, interests and personality, and match them with realistic options.
 
-Career counselling at Blooming Buds is led by Dr. Prajakta Kaduskar, who brings training in adolescent health and clinical psychology. That matters because career confusion often comes with anxiety, low confidence or family conflict, and those are addressed too.
+Career counselling at [Blooming Buds](/blooming-buds/) is led by Dr. Prajakta Kaduskar, who brings training in adolescent health and clinical psychology. That matters because career confusion often comes with anxiety, low confidence or family conflict, and those are addressed too.
 
 #### Who it is for
 - Students in classes 8 to 10 choosing a stream (science, commerce, arts, vocational)
