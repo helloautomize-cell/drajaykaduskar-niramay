@@ -28,15 +28,15 @@ status: draft
 
 Insulin resistance is one of the most common hidden problems in modern life. It can be present for many years before blood sugar rises to the diabetes range. Spotting it early gives you the best chance to prevent diabetes and other health problems.
 
-#### What Does Insulin Do?
+#### What does insulin do?
 
 After a meal, blood sugar rises. Insulin acts like a key, unlocking the cells of the muscles, liver and fat so that sugar can enter and be used for energy. This keeps blood sugar in a healthy range.
 
-#### What Goes Wrong in Insulin Resistance?
+#### What goes wrong in insulin resistance?
 
 The cells become "deaf" to insulin. Sugar stays in the blood, so the pancreas releases extra insulin. High insulin levels cause weight gain, particularly around the belly, and make the resistance worse. Over the years, the pancreas may fail to keep up, leading to prediabetes and type 2 diabetes.
 
-#### What Are the Symptoms?
+#### What are the symptoms?
 
 Many people have no symptoms. Signs that may suggest it include:
 
@@ -58,11 +58,11 @@ Many people have no symptoms. Signs that may suggest it include:
 
 - High blood pressure, triglycerides or low HDL cholesterol
 
-#### How Is It Diagnosed?
+#### How is it diagnosed?
 
 There is no single routine test. Doctors look at the pattern: waist size, BMI, blood pressure, fasting blood sugar, HbA1c, lipid profile and sometimes fasting insulin levels. A diagnosis of prediabetes or metabolic syndrome often signals insulin resistance.
 
-#### How Can You Improve It?
+#### How can you improve it?
 
 ##### Move more
 
@@ -88,11 +88,11 @@ Aim for seven to eight hours of sleep. Treat sleep apnoea if present. Manage str
 
 Metformin and other medicines may help in selected people, such as those with prediabetes at high risk, PCOS or type 2 diabetes. GLP-1 medicines can help in people with obesity.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Get tested if you have a large waist, a family history of diabetes, skin changes, PCOS, high blood pressure or cholesterol, or fatty liver. Early testing can prevent progression.
 
-#### Key Takeaways
+#### In short
 
 - Insulin resistance means cells respond poorly to insulin.
 
@@ -103,8 +103,6 @@ Get tested if you have a large waist, a family history of diabetes, skin changes
 - Exercise, healthy eating and weight loss can improve it.
 
 - Early testing helps prevent type 2 diabetes.
-
-#### Final Thoughts
 
 Insulin resistance is a warning, not a sentence. Acting early gives you a lot of control. For a personal assessment, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

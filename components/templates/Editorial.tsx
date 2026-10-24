@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ReviewerBox } from "@/components/sections/ReviewerBox";
+import { ReviewByline } from "@/components/sections/ReviewByline";
+import { formatDate } from "./BlogList";
+import { plusYear } from "@/lib/utils";
 import { CtaBand } from "@/components/sections/CtaBand";
 import type { ContentPage } from "@/lib/content/pages";
 import type { RenderedDoc } from "@/lib/content/render";
@@ -36,6 +39,12 @@ export function EditorialTemplate({
             {page.meta.meta_description}
           </p>
         )}
+        {reviewer && (
+          <ReviewByline
+            doctor={reviewer}
+            lastReviewed={formatDate(page.meta.reviewed || page.modified)}
+          />
+        )}
         <div className="mt-6">{doc.content}</div>
         {images.map((img) => (
           <Image
@@ -48,7 +57,13 @@ export function EditorialTemplate({
             sizes="(min-width:860px) 820px, 100vw"
           />
         ))}
-        {reviewer && <ReviewerBox doctor={reviewer} />}
+        {reviewer && (
+          <ReviewerBox
+            doctor={reviewer}
+            lastReviewed={formatDate(page.meta.reviewed || page.modified)}
+            nextReviewDue={formatDate(plusYear(page.meta.reviewed || page.modified))}
+          />
+        )}
         {cta && <CtaBand />}
       </div>
     </article>

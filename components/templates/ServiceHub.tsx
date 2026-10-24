@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { altFor } from "@/lib/alt-text";
 import { site } from "@/lib/site-config";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { AccentHeading } from "@/components/ui/AccentHeading";
@@ -9,6 +11,9 @@ import { ButtonLink } from "@/components/ui/Button";
 import { PhoneIcon } from "@/components/icons";
 import { ServiceCarousel } from "@/components/sections/ServiceCarousel";
 import { ReviewerBox } from "@/components/sections/ReviewerBox";
+import { ReviewByline } from "@/components/sections/ReviewByline";
+import { formatDate } from "./BlogList";
+import { plusYear } from "@/lib/utils";
 import { CtaBand } from "@/components/sections/CtaBand";
 import type { ContentPage } from "@/lib/content/pages";
 import type { RenderedDoc } from "@/lib/content/render";
@@ -29,6 +34,7 @@ export function ServiceHubTemplate({
   midImage,
   reviewer,
   subServices,
+  articles = [],
 }: {
   page: ContentPage;
   doc: RenderedDoc;
@@ -38,6 +44,7 @@ export function ServiceHubTemplate({
   midImage: string | null;
   reviewer: Doctor | null;
   subServices: ServiceSlide[];
+  articles?: { title: string; href: string }[];
 }) {
   const h1 = page.h1 || page.meta.title;
   const words = h1.split(" ");
@@ -60,6 +67,12 @@ export function ServiceHubTemplate({
             <p className="mt-4 max-w-[52ch] text-[18px] leading-relaxed text-ink-600">
               {page.meta.meta_description}
             </p>
+            {reviewer && (
+              <ReviewByline
+                doctor={reviewer}
+                lastReviewed={formatDate(page.meta.reviewed || page.modified)}
+              />
+            )}
             <div className="mt-6 flex flex-wrap gap-3">
               <BookButton href="/contact/#book" />
               <ButtonLink
@@ -75,7 +88,7 @@ export function ServiceHubTemplate({
             <div className="relative overflow-hidden rounded-t-[160px] rounded-b-[24px]">
               <Image
                 src={heroImage}
-                alt={h1}
+                alt={altFor(heroImage, h1)}
                 width={720}
                 height={620}
                 className="h-auto w-full object-cover"
@@ -113,7 +126,30 @@ export function ServiceHubTemplate({
       )}
 
       <div className={cn("mx-auto max-w-[820px] px-4 sm:px-6")}>
-        {reviewer && <ReviewerBox doctor={reviewer} />}
+        {articles.length > 0 && (
+          <section aria-label="From our Health Library" className="mt-14">
+            <h2 className="t-h4 text-ink">From our Health Library</h2>
+            <ul className="mt-4 space-y-2.5">
+              {articles.map((a) => (
+                <li key={a.href}>
+                  <Link
+                    href={a.href}
+                    className="text-[15.5px] font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum"
+                  >
+                    {a.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {reviewer && (
+          <ReviewerBox
+            doctor={reviewer}
+            lastReviewed={formatDate(page.meta.reviewed || page.modified)}
+            nextReviewDue={formatDate(plusYear(page.meta.reviewed || page.modified))}
+          />
+        )}
         <CtaBand />
       </div>
     </article>

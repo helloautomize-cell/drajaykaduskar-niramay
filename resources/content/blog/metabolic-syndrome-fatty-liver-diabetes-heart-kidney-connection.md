@@ -33,7 +33,7 @@ In clinic, it rarely arrives as a single diagnosis. More often a patient comes i
 
 They usually aren't separate. This article explains how they connect, which tests are actually useful, what treatment looks like, and which symptoms mean you shouldn't wait.
 
-#### What Is Metabolic Syndrome?
+#### What is metabolic syndrome?
 
 It isn't one disease. It's a pattern of risk factors that feed off each other, and together they do more damage to blood vessels and organs than you'd expect from adding up the individual numbers.
 
@@ -61,7 +61,7 @@ Indians, and South Asians generally, tend to store more fat deep inside the abdo
 
 So someone can have a normal BMI, look slim in a photograph, and still carry enough visceral fat to push their sugar and triglycerides up. People sometimes call this the "thin-fat" Indian body type. A measuring tape around the waist often picks it up when the weighing scale doesn't.
 
-#### What Causes Metabolic Syndrome?
+#### What causes metabolic syndrome?
 
 ##### Why is insulin resistance at the centre of it?
 
@@ -81,7 +81,7 @@ Certain medical conditions and medicines matter as well. PCOS, an underactive th
 
 None of this comes down to willpower. Two people can eat the same food, walk the same distance and end up with very different blood reports.
 
-#### What Are the Symptoms of Metabolic Syndrome?
+#### What are the symptoms of metabolic syndrome?
 
 Usually there aren't any that you'd notice. It gets picked up on a waist measurement, a routine blood pressure check or a health package blood test.
 
@@ -89,13 +89,13 @@ That said, a few things can hint at insulin resistance. Dark, velvety patches of
 
 Once blood sugar has climbed into the diabetes range, the more familiar symptoms can show up: thirst, passing urine often, blurred vision, or weight loss you can't explain.
 
-#### Who Is at Higher Risk?
+#### Who is at higher risk?
 
 It's worth getting checked if your waist is above the limits in the table, or if your BMI is 23 or more (the overweight cut-off generally used for Asian adults). The same applies if you already have prediabetes, diabetes, high blood pressure, abnormal cholesterol or fatty liver on a scan.
 
 A history of gestational diabetes or PCOS puts women in the higher-risk group. So does a close family history of diabetes or early heart attacks, a largely sedentary job, and heavy snoring.
 
-#### Fatty Liver and Metabolic Syndrome: How Are They Connected?
+#### Fatty liver and metabolic syndrome: how are they connected?
 
 ##### What is MASLD?
 
@@ -122,15 +122,15 @@ That's why a large share of people with Type 2 diabetes turn out to have fatty l
 
 Most people with fatty liver stay at the first stage. The thing that predicts who will run into liver trouble later is the amount of fibrosis, or scarring. The words "fatty liver" on an ultrasound report don't tell you that.
 
-##### My liver tests are normal. Does fatty liver still matter?
+##### My liver tests are normal. does fatty liver still matter?
 
 It can. Liver enzymes such as ALT and AST are often completely normal in people with significant fat, and sometimes even with scarring. Ultrasound is good at spotting moderate or heavy fat, but it can't measure scarring reliably.
 
-To get a sense of fibrosis risk, doctors often start with the FIB-4 score, a calculation that uses your age, AST, ALT and platelet count from routine blood tests. If that comes back in the uncertain or higher range, a liver stiffness scan (elastography, such as FibroScan) is the usual next step. It's painless and takes a few minutes. Some people will need further tests or a liver specialist's opinion.
+To get a sense of fibrosis risk, doctors often start with the FIB-4 score, a calculation that uses your age, AST, ALT and platelet count from routine blood tests. If that comes back in the uncertain or higher range, a liver stiffness scan (elastography, such as FibroScan) is the usual next step. It is non-invasive and takes a few minutes. Some people will need further tests or a liver specialist's opinion.
 
 One thing surprises many patients. In people with MASLD, the heart is often at greater risk than the liver. A fatty liver report is a good prompt to look at blood pressure, cholesterol and sugar too, not only at the liver.
 
-#### How Does Metabolic Syndrome Affect the Heart?
+#### How does metabolic syndrome affect the heart?
 
 ##### Why does it raise the risk of heart attack and stroke?
 
@@ -148,7 +148,7 @@ Early signs tend to be vague: getting breathless on stairs you used to manage ea
 
 Yes, and it happens more often than people expect. In long-standing diabetes, particularly where there's nerve damage, a heart attack may show up as breathlessness, sweating, sudden exhaustion, nausea, or discomfort in the jaw, arm or upper abdomen rather than classic crushing chest pain. These symptoms deserve the same urgency.
 
-#### How Does Metabolic Syndrome Affect the Kidneys?
+#### How does metabolic syndrome affect the kidneys?
 
 ##### Why are diabetes and high blood pressure so hard on the kidneys?
 
@@ -167,13 +167,13 @@ Two tests do most of the work, and they're both simple.
 
 If you have diabetes, both are generally recommended at least once a year, and more often when results are abnormal. A standard urine routine test (dipstick) isn't sensitive enough to catch early albumin leakage, so it isn't a substitute for UACR.
 
-#### The Diabetes-Heart-Kidney Connection
+#### The diabetes-heart-kidney connection
 
 Doctors increasingly talk about cardiovascular-kidney-metabolic health, or CKM, because these organs don't get sick in isolation. Damaged kidneys push blood pressure up, which strains the heart. A weakened heart sends less blood to the kidneys. Diabetes and fatty liver worsen cholesterol and inflammation, affecting both. And albumin in the urine turns out to be a warning sign for the heart, not just the kidneys.
 
 For patients, the practical upshot is that good care looks at all of it together. It's also why some of the newer diabetes medicines are chosen not only for their effect on sugar but because they've been shown to protect the heart or kidneys in suitable people.
 
-#### How Is Metabolic Syndrome Diagnosed?
+#### How is metabolic syndrome diagnosed?
 
 There's no single test. Diagnosis comes from putting together a basic examination and a set of blood and urine results.
 
@@ -185,11 +185,11 @@ Depending on what turns up, you might also need an ultrasound or elastography of
 
 Not everyone needs every test. Your age, symptoms and existing reports decide what's sensible.
 
-#### What Are the Treatment Options?
+#### What are the treatment options?
 
 The aim is to protect the heart, liver, kidneys and brain over the long term. Getting individual numbers into range is part of that, but it's a means rather than the goal. Lifestyle change is the base for nearly everyone, and medicines are added when risk is already high or targets aren't being reached.
 
-##### Lifestyle Management
+##### Lifestyle management
 
 The useful thing about lifestyle changes is that they work on several problems at the same time. One improvement in daily routine can nudge sugar, blood pressure, triglycerides and liver fat all in the right direction.
 
@@ -211,7 +211,7 @@ Sweetened drinks and packaged juices are worth singling out, because they're str
 
 A dietitian can turn these ideas into a plan that fits your food habits, family meals and budget.
 
-##### Physical Activity
+##### Physical activity
 
 Exercise makes muscles more sensitive to insulin, and that effect starts before any weight comes off.
 
@@ -229,21 +229,21 @@ Some people with obesity may benefit from anti-obesity medication, including GLP
 
 Please don't start, stop or change the dose of any of these on your own. Several need periodic blood tests or kidney monitoring.
 
-##### Monitoring and Follow-Up
+##### Monitoring and follow-up
 
 Metabolic syndrome is long-term, and a lot of the benefit comes from steady follow-up rather than one big consultation. Waist, weight and blood pressure are usually checked at each visit. If you have diabetes, HbA1c is typically repeated every three to six months, kidney tests at least once a year, and eyes and feet examined regularly. Lipids are rechecked yearly or after a change in treatment. People with fatty liver may have their fibrosis risk reassessed from time to time.
 
-#### What Happens If Metabolic Syndrome Isn't Treated?
+#### What happens if metabolic syndrome isn't treated?
 
 It tends to progress. Over a number of years, prediabetes can turn into Type 2 diabetes. Plaque in the arteries can lead to a heart attack or stroke. Heart failure becomes more likely. Kidney function can decline gradually, and in advanced cases dialysis may eventually be needed. Some people with fatty liver move on to inflammation, scarring and cirrhosis. Obesity and fatty liver are also linked to a higher risk of certain cancers.
 
 That's a list of possibilities, not a forecast. Plenty of people with metabolic syndrome never develop these complications, and the risk can be lowered at almost any point.
 
-#### How Can Complications Be Prevented?
+#### How can complications be prevented?
 
 Mostly by not relying on any one number. Know your waist size, blood pressure, HbA1c, lipid profile, UACR and eGFR, and agree on targets with your doctor. Work on changes you can keep up for years rather than weeks. Take prescribed medicines regularly, and if something causes side effects, tell your doctor instead of quietly stopping it. Get checked for liver scarring, kidney damage and heart risk early rather than waiting for symptoms. And keep your follow-up appointments, particularly when you're feeling well, because that's exactly when these conditions progress unnoticed.
 
-#### Common Myths About Metabolic Syndrome and Fatty Liver
+#### Common myths about metabolic syndrome and fatty liver
 
 "I'm not fat, so this can't be me." Many Indians develop metabolic syndrome at a normal BMI because of visceral fat. Waist size and blood tests give a more honest picture than weight.
 
@@ -257,7 +257,7 @@ Mostly by not relying on any one number. Know your waist size, blood pressure, H
 
 "A herbal detox will clean my liver." No supplement has been shown to replace proper evaluation and treatment, and some herbal products can injure the liver.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Book a metabolic check-up if your waist is above the limits mentioned earlier, if you've been told you have fatty liver, prediabetes, diabetes, high blood pressure, high triglycerides or low HDL, or if you've had gestational diabetes or have PCOS. A strong family history of diabetes or early heart disease is reason enough on its own.
 
@@ -269,7 +269,7 @@ Sudden weakness or numbness on one side of the face or body, slurred speech, a d
 
 Yellow eyes or skin, vomiting blood, black tarry stools or new confusion can signal serious liver trouble. Rapidly increasing swelling of the belly or legs, very high sugar with vomiting, drowsiness or dehydration, or a sharp drop in how much urine you're passing also need prompt medical attention.
 
-#### Key Takeaways
+#### Points to keep
 
 - Three or more of five risk factors (large waist, high triglycerides, low HDL, raised blood pressure, raised fasting sugar) means metabolic syndrome.
 
@@ -284,8 +284,6 @@ Yellow eyes or skin, vomiting blood, black tarry stools or new confusion can sig
 - Lifestyle change is the base of treatment; medicines are added according to individual risk.
 
 - Chest pain, stroke symptoms, jaundice or sudden breathlessness need emergency care.
-
-#### Final Thoughts
 
 A stack of borderline reports can feel like five separate problems, each needing its own fix. More often they're one problem showing up in five places. That's actually encouraging, because the same handful of steps (better sleep, more movement, smaller portions of refined carbs, a smaller waist, and the right medicines when they're needed) tends to improve several of them at once.
 

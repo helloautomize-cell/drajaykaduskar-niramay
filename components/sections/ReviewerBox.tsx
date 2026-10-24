@@ -40,25 +40,38 @@ export function ReviewerBox({
       />
       <div className="text-[15px] leading-relaxed text-ink-600">
         <p>
-          {author ? (
+          {author && author.id === doctor.id ? (
+            // self-review: one honest line, no implied second reviewer
             <>
-              <strong className="text-ink">Written by</strong>{" "}
-              <Link href={author.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
-                {author.name}
+              <strong className="text-ink">Written and medically reviewed by</strong>{" "}
+              <Link href={doctor.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
+                {doctor.name}
               </Link>
-              , {author.qualifications}.{" "}
+              , {doctor.qualifications}.
             </>
           ) : (
             <>
-              <strong className="text-ink">Written by</strong> the Niramay Clinics
-              medical content team.{" "}
+              {author ? (
+                <>
+                  <strong className="text-ink">Written by</strong>{" "}
+                  <Link href={author.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
+                    {author.name}
+                  </Link>
+                  , {author.qualifications}.{" "}
+                </>
+              ) : (
+                <>
+                  <strong className="text-ink">Written by</strong> the Niramay Clinics
+                  medical content team.{" "}
+                </>
+              )}
+              <strong className="text-ink">Medically reviewed by</strong>{" "}
+              <Link href={doctor.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
+                {doctor.name}
+              </Link>
+              , {doctor.qualifications}.
             </>
           )}
-          <strong className="text-ink">Medically reviewed by</strong>{" "}
-          <Link href={doctor.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
-            {doctor.name}
-          </Link>
-          , {doctor.qualifications}.
         </p>
         <p className="mt-2">
           <strong className="text-ink">Last reviewed:</strong>{" "}

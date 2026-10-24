@@ -95,4 +95,4 @@ Discipline works best when it is fair, firm and friendly. When your teenager fac
 
 Teenagers with disabilities are teenagers first. Like everyone, they want to be happy. They may not reach every goal, but it matters that they try and that they understand the obstacles they face. Families, schools and health professionals can help them build the confidence to live full lives.
 
-If you are concerned about your teenager's confidence, mood or social life, Blooming Buds can help with assessment, counselling and guidance for the family.
+If you are concerned about your teenager's confidence, mood or social life, Blooming Buds can help with assessment, [counsell](/blooming-buds/teen-mental-health/)ing and guidance for the family.

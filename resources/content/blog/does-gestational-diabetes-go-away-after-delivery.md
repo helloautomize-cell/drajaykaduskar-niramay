@@ -28,11 +28,11 @@ status: draft
 
 After months of watching your diet, checking sugars and attending visits, the big question is whether it ends with the birth. The short answer is that, for most women, blood sugar returns to normal soon after delivery. But the story does not end there.
 
-#### Why Does It Usually Settle?
+#### Why does it usually settle?
 
 During pregnancy, the placenta makes hormones that make the body more resistant to insulin. If the pancreas cannot make enough extra insulin to compensate, sugars rise. After delivery, these hormones drop quickly, and insulin sensitivity improves. Sugar levels in most women return to normal within days.
 
-#### What Happens in the First Days After Birth?
+#### What happens in the first days after birth?
 
 - If you took insulin or tablets in pregnancy, they are usually stopped right after delivery.
 
@@ -42,7 +42,7 @@ During pregnancy, the placenta makes hormones that make the body more resistant 
 
 - Your baby's sugar is also monitored, since babies of mothers with gestational diabetes can have low sugar after birth.
 
-#### When Should You Be Tested Again?
+#### When should you be tested again?
 
 - **6 to 12 weeks after delivery:** A 75 g oral glucose tolerance test (OGTT) is recommended to see if diabetes or prediabetes persists. Fasting sugar and HbA1c may also be done, though OGTT is preferred in many guidelines.
 
@@ -50,11 +50,11 @@ During pregnancy, the placenta makes hormones that make the body more resistant 
 
 - **Before the next pregnancy:** To check your sugar and plan.
 
-#### How High Is the Risk of Type 2 Diabetes?
+#### How high is the risk of Type 2 diabetes?
 
 Women who have had gestational diabetes have a much higher risk of developing type 2 diabetes later, with studies suggesting a risk several times greater than other women. In India, where the baseline risk is already high, this is especially important. The risk is highest in those who needed insulin, had high sugars early in pregnancy, were overweight or have a family history.
 
-#### How Can You Lower Your Risk?
+#### How can you lower your risk?
 
 - Return to a healthy weight gradually after delivery.
 
@@ -72,19 +72,19 @@ Women who have had gestational diabetes have a much higher risk of developing ty
 
 - Discuss medicines such as metformin with your doctor if your risk is very high.
 
-#### What About Future Pregnancies?
+#### What about future pregnancies?
 
 Gestational diabetes tends to recur in later pregnancies. Plan early testing and monitor sugars. Entering the next pregnancy at a healthy weight lowers the chance.
 
-#### What About Your Baby?
+#### What about your baby?
 
 Children of mothers with gestational diabetes may have a higher risk of obesity and diabetes later in life. Breastfeeding, a healthy diet and an active lifestyle for the child help.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if after delivery you have excessive thirst, frequent urination, tiredness, blurred vision or repeated infections. Do not wait for the 6 to 12 week visit if you have symptoms.
 
-#### Key Takeaways
+#### A quick recap
 
 - Gestational diabetes usually resolves soon after delivery.
 
@@ -95,8 +95,6 @@ See your doctor if after delivery you have excessive thirst, frequent urination,
 - Healthy weight, activity and breastfeeding lower your risk.
 
 - Plan for future pregnancies with early testing.
-
-#### Final Thoughts
 
 Your pregnancy gave you an early warning. Use it to protect your health for years to come. For a follow-up plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

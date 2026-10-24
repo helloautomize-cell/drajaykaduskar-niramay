@@ -14,9 +14,9 @@ has_confirm_items: false
 
 ### Page 12. Complete Diabetes Care Programme
 
-- **URL:** `/diabetes/diabetes-care-programme/`
+- **URL:** `/[diabetes](/diabetes/)/diabetes-care-programme/`
 - **SEO title:** Complete Diabetes Care Programme | Niramay Clinics Nagpur
-- **Meta description:** A structured yearly diabetes care programme in Nagpur: planned consultations, tests, complication screening and nutrition sessions, organised in one place.
+- **Meta description:** A structured yearly diabetes care programme in Nagpur: planned consultations, tests, [complication screening](/diabetes/complications-screening/) and nutrition sessions, organised in one place.
 - **Schema:** MedicalWebPage
 
 
@@ -29,7 +29,7 @@ The programme runs for 12 months from your first visit and includes:
 - **12 consultations** with Dr. Ajay Kaduskar, starting with a detailed first consultation
 - **4 HbA1c tests** through the year
 - **Eye and foot screening** for diabetes complications
-- **4 diet counselling sessions** with our trained nutrition team
+- **4 diet counselling sessions** with our trained [nutrition](/nutrition-lifestyle-counselling/) team
 - **A personal diabetes record**: your targets, results and medicine changes kept in one place
 
 The fee is shared when you book.
@@ -48,3 +48,9 @@ Yes. The programme runs for 12 months from your first visit.
 
 **Is it covered by health insurance?**
 Outpatient coverage depends on your policy. We provide itemised bills and reports for insurance claims.
+
+**Is the programme only for people whose sugar is uncontrolled?**
+No. It is built for steady, planned care at any stage, including people whose sugar is currently fine. The point is to stay ahead of complications rather than react to them.
+
+**Can I join if I already see another doctor?**
+Yes. The programme can run alongside your existing care, and records are shared with your doctor if you wish. Many patients use it for the yearly screening and structured reviews.

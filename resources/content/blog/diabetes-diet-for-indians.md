@@ -33,7 +33,7 @@ Suddenly, ordinary questions come up at almost every meal.
 
 *Can I still eat rice? Is roti better? What about mangoes? Should I stop eating sweets completely? Is poha okay for breakfast? What should I eat if I am also trying to lose weight?*
 
-The good news is that managing diabetes does not usually require throwing away the way you have always eaten.
+Managing diabetes does not usually require throwing away the way you have always eaten.
 
 For most people, the focus is on **how much you eat, how often you eat it, what you combine it with, and how the overall diet fits into your treatment plan**.
 
@@ -41,7 +41,7 @@ Indian food can absolutely be part of a diabetes-conscious eating pattern. Rice,
 
 This guide looks at how to make those changes without turning every meal into a complicated calculation.
 
-#### What Is a Diabetes-Friendly Indian Diet?
+#### What is a diabetes-friendly Indian diet?
 
 There is no single meal plan that suits every person with diabetes.
 
@@ -75,7 +75,7 @@ In fact, many traditional Indian meals already contain useful foods such as puls
 
 The challenge is often the way the meal is put together and the quantity consumed.
 
-#### How to Build a Balanced Plate for Diabetes
+#### How to build a balanced plate for diabetes
 
 One of the easiest ways to think about a meal is to look at the plate rather than individual foods.
 
@@ -95,7 +95,7 @@ For example, someone who is physically active may have different requirements fr
 
 That is why the plate method is better viewed as a **starting framework**, rather than a rigid prescription.
 
-#### Which Indian Foods Can Be Included in a Diabetes Diet?
+#### Which Indian foods can be included in a diabetes diet?
 
 A diabetes diagnosis does not suddenly make ordinary Indian foods unhealthy.
 
@@ -141,7 +141,7 @@ The cooking method matters too.
 
 A vegetable dish prepared with a modest amount of oil is very different from a preparation that is heavily fried or made with large amounts of cream, butter or other calorie-dense ingredients.
 
-##### Dal, Pulses and Beans
+##### Dal, pulses and beans
 
 Dal and pulses are familiar staples in many Indian households and can be useful components of a balanced meal.
 
@@ -167,7 +167,7 @@ That distinction is worth remembering. Calling dal a "protein food" does not mea
 
 A sensible portion alongside vegetables and an appropriate amount of rice or roti can work well for many people.
 
-#### What About Protein?
+#### What about protein?
 
 Protein is an important part of a satisfying meal.
 
@@ -195,7 +195,7 @@ For someone who also wants to lose weight, including an appropriate protein sour
 
 However, more protein is not automatically better for everyone. People with kidney disease, for example, may require specific dietary advice.
 
-#### Can You Eat Rice If You Have Diabetes?
+#### Can you eat rice if you have diabetes?
 
 **Yes.**
 
@@ -235,7 +235,7 @@ Some people find that they can comfortably include rice in their routine. Others
 
 There is no universal portion that works for everyone.
 
-#### Is Roti Better Than Rice for Diabetes?
+#### Is roti better than rice for diabetes?
 
 This is another question patients ask frequently.
 
@@ -259,7 +259,7 @@ may be a very different meal from:
 
 The name of the food alone does not tell the whole story.
 
-#### What Should You Eat for Breakfast With Diabetes?
+#### What should you eat for breakfast with diabetes?
 
 Breakfast is often where Indian diets become heavily carbohydrate-based.
 
@@ -291,7 +291,7 @@ The goal is not to find one "perfect diabetic breakfast."
 
 It is to avoid making breakfast almost entirely refined or rapidly digested carbohydrate.
 
-#### Can People With Diabetes Eat Fruit?
+#### Can people with diabetes eat fruit?
 
 Yes.
 
@@ -323,7 +323,7 @@ There is no need to label a fruit as "forbidden" simply because it tastes sweet.
 
 At the same time, fruit is not carbohydrate-free. Eating very large portions can still affect blood glucose.
 
-#### Whole Fruit or Fruit Juice: Which Is Better?
+#### Whole fruit or fruit juice: which is better?
 
 For most people with diabetes, whole fruit is the more practical choice.
 
@@ -337,7 +337,7 @@ So instead of:
 
 consider simply eating an appropriate portion of whole fruit.
 
-#### What Are Better Snack Options for Diabetes?
+#### What are better snack options for diabetes?
 
 Snacking can quietly add a lot of carbohydrate, fat and calories to the day.
 
@@ -365,7 +365,7 @@ Some people are perfectly comfortable with three main meals. Others may need sna
 
 If you are eating because you are genuinely hungry, consider what is driving that hunger. If you are eating simply because snacks are always available, changing the routine may be more useful than searching for a "diabetic snack."
 
-#### Which Foods Should Be Limited?
+#### Which foods should be limited?
 
 Rather than creating an enormous "foods to avoid" list, it is usually more useful to identify foods that are best kept occasional.
 
@@ -417,7 +417,7 @@ Regularly eating samosas, pakoras, puris and other deep-fried foods can make wei
 
 The occasional food is different from a daily routine.
 
-#### Can You Eat Sweets During Festivals?
+#### Can you eat sweets during festivals?
 
 Food is part of family life, celebrations and culture.
 
@@ -449,7 +449,7 @@ At the same time, a festival should not turn into several days of unrestricted s
 
 The pattern over time matters.
 
-#### Why Do Fibre and Protein Matter?
+#### Why do fibre and protein matter?
 
 Two things that can make meals more satisfying are **fibre and protein**.
 
@@ -483,7 +483,7 @@ Eggs, fish, chicken, curd, paneer, tofu, dal and beans are examples of foods tha
 
 The amount needed varies from person to person.Again, this is one reason why copying someone else's diabetes meal plan is not always appropriate.
 
-#### Can a Diabetes Diet Help With Weight Loss?
+#### Can a diabetes diet help with weight loss?
 
 It can, when the eating pattern helps create an appropriate reduction in overall calorie intake while still providing adequate nutrition.
 
@@ -509,7 +509,7 @@ There is no requirement to follow an extreme low-carbohydrate diet or survive on
 
 A diet that produces rapid weight loss but cannot be maintained is unlikely to be a useful long-term solution.
 
-#### What About Exercise After Meals?
+#### What about exercise after meals?
 
 Physical activity is an important part of diabetes management.
 
@@ -535,7 +535,7 @@ during or after exercise, speak with your healthcare professional. These symptom
 
 Your exercise routine and medication may need to be considered together.
 
-#### Does Diabetes Medication Affect Meal Timing?
+#### Does diabetes medication affect meal timing?
 
 Sometimes it does.
 
@@ -547,7 +547,7 @@ If you take insulin or a medicine that can cause hypoglycaemia, ask your doctor 
 
 **Never change insulin or diabetes medication simply because you have changed your diet unless your treating clinician has advised you to do so.**
 
-#### How to Create a Practical Indian Diabetes Meal Plan
+#### How to create a practical Indian diabetes meal plan
 
 A meal plan should fit your actual day.
 
@@ -568,7 +568,7 @@ These are **examples, not prescribed quantities**.
 
 A person's calorie and carbohydrate requirements can vary significantly.
 
-#### Sample Indian Meal Combinations
+#### Sample Indian meal combinations
 
 ##### Meal option 1
 
@@ -614,7 +614,7 @@ A person's calorie and carbohydrate requirements can vary significantly.
 
 These examples are intended to demonstrate **how to structure a meal**, not to prescribe an identical diet to every patient.
 
-#### What If You Eat at Restaurants?
+#### What if you eat at restaurants?
 
 You do not have to stop eating outside after being diagnosed with diabetes.
 
@@ -638,15 +638,15 @@ Also remember that restaurant food may contain considerably more oil, salt and c
 
 The occasional restaurant meal is not the problem. Frequency and overall eating habits matter.
 
-#### Common Diabetes Diet Myths
+#### Common diabetes diet myths
 
-##### "I have diabetes, so I can never eat rice."
+##### "I have diabetes, so i can never eat rice."
 
 Not necessarily.
 
 Rice can be included in a suitable meal plan. The amount and the rest of the meal are important.
 
-##### "Fruit is basically sugar, so I should avoid it."
+##### "Fruit is basically sugar, so i should avoid it."
 
 Whole fruit can generally be part of a balanced diet. It contains carbohydrate, but it also provides fibre and important nutrients.
 
@@ -658,7 +658,7 @@ Brown rice may have nutritional advantages over refined white rice, but it still
 
 The serving still matters.
 
-##### "Sugar-free means I can eat as much as I want."
+##### "Sugar-free means i can eat as much as i want."
 
 No.
 
@@ -682,7 +682,7 @@ A balanced diabetes diet can be built around ordinary foods available in most In
 
 Vegetables, pulses, curd, eggs, fish, chicken, whole grains, nuts and fruit can all be part of a suitable eating pattern.
 
-#### When Should Your Diet Be Personalised?
+#### When should your diet be personalised?
 
 General dietary advice is useful, but there are situations where individual guidance becomes particularly important.
 
@@ -712,13 +712,13 @@ Your nutritional needs can also change over time.
 
 A meal plan that suited you two years ago may no longer be appropriate if your weight, medication, activity level or health status has changed.
 
-#### How to Make a Diabetes Diet Easier to Follow
+#### How to make a diabetes diet easier to follow
 
 You do not need to change everything at once.
 
 Start with a few changes that are realistic.
 
-##### 1. Look at your carbohydrate portions
+##### 1. look at your carbohydrate portions
 
 You may not need to remove rice or roti. Start by checking whether the portion is larger than you actually need.
 
@@ -758,7 +758,7 @@ Regular physical activity is an important part of diabetes management when medic
 
 Medication changes, weight changes, pregnancy, kidney problems or significant changes in activity can all affect dietary requirements.
 
-#### The Bottom Line
+#### The bottom line
 
 A diabetes diet does not have to mean giving up Indian food.
 

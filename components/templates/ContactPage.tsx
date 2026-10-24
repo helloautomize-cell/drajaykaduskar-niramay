@@ -4,7 +4,8 @@ import { ContactForm } from "@/components/forms/ContactForm";
 import { site } from "@/lib/site-config";
 
 import { GlassCard } from "@/components/ui/GlassCard";
-import { ClockIcon, EmergencyIcon, PhoneIcon } from "@/components/icons";
+import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
+import { ClockIcon, EmergencyIcon, MapPinIcon, PhoneIcon } from "@/components/icons";
 import { renderNodesPublic, splitBody } from "@/lib/content/render";
 import type { ContentPage } from "@/lib/content/pages";
 
@@ -48,6 +49,17 @@ export function ContactPageTemplate({ page }: { page: ContentPage }) {
                 <br />
                 {site.address.line3}, {site.address.city} {site.address.pin}
               </p>
+              <a
+                href={`https://maps.google.com/?q=${encodeURIComponent(site.name + ", " + site.address.short)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-flex items-center gap-1.5 font-semibold text-plum transition-colors hover:text-plum-700"
+              >
+                <MapPinIcon size={15} aria-hidden /> Get directions
+              </a>
+              <span className="mt-2 block">
+                <ObfuscatedEmail className="font-semibold text-plum transition-colors hover:text-plum-700" />
+              </span>
               {(["clinic", "drAjay"] as const)
                 .filter((k) => site.googleProfiles[k].mapsUrl)
                 .map((k) => (

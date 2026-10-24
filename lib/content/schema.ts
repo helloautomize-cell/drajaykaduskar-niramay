@@ -11,6 +11,8 @@ export const pageFrontmatter = z.object({
   schema: z.string().default(""),
   images: z.array(z.string()).default([]),
   reviewed_by: z.string().default(""),
+  /** explicit "last medically reviewed" date; falls back to file modified date */
+  reviewed: z.string().default(""),
   section: z.string().min(1),
   status: z.string().default("draft"),
   has_confirm_items: z.boolean().default(false),
@@ -32,6 +34,8 @@ export const postFrontmatter = z.object({
   reviewed_by: z.string().default(""),
   published: z.string().default(""),
   updated: z.string().default(""),
+  /** explicit "last medically reviewed" date; falls back to updated/published */
+  reviewed: z.string().default(""),
   category: z.string().default(""),
   reading_time: z.string().default(""),
   /** processed image path under /images/, e.g. "blog/diabetes-myths.jpg" */

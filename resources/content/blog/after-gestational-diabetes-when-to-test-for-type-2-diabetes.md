@@ -11,7 +11,7 @@ category: "Gestational Diabetes"
 reading_time: "4 min read"
 excerpt: "Had gestational diabetes? Learn which tests to do after delivery, how often to repeat them for life and the habits that lower your risk of type 2 diabetes."
 image: "blog/after-gestational-diabetes-when-to-test-for-type-2-diabetes.webp"
-image_alt: "Indian woman in her thirties receiving a blood test in a clinic while her young child"
+image_alt: "Indian woman in her thirties receiving a blood test in a clinic while her young child waits beside her"
 sources:
   - name: "WHO: Diabetes fact sheet"
     url: "https://www.who.int/news-room/fact-sheets/detail/diabetes"
@@ -28,11 +28,11 @@ status: draft
 
 Many women feel relief once their baby is born and the diabetes seems to have gone. But having had gestational diabetes means your body has shown a tendency to struggle with sugar. A simple testing schedule can catch problems early, long before they cause harm.
 
-#### Why Is Follow-up Testing So Important?
+#### Why is follow-up testing so important?
 
 Women with a history of gestational diabetes have a significantly higher lifetime risk of type 2 diabetes. Many develop it within five to ten years. In India, with high diabetes risk, this is even more relevant. Type 2 diabetes can be silent for years, and early detection prevents complications of the eyes, kidneys, nerves and heart.
 
-#### What Tests Should You Do?
+#### What tests should you do?
 
 ##### First test: 6 to 12 weeks after delivery
 
@@ -48,7 +48,7 @@ A 75 g OGTT is the preferred test. You fast overnight, give a sample, drink the 
 
 Your doctor will choose which test suits you. HbA1c may be less reliable in some situations, such as anaemia or recent blood loss around childbirth, so it is often delayed until several months after delivery.
 
-#### How Do You Interpret the Results?
+#### How do you interpret the results?
 
 | Result | What it means |
 |---|---|
@@ -61,7 +61,7 @@ Your doctor will choose which test suits you. HbA1c may be less reliable in some
 
 A diagnosis should be confirmed by your doctor.
 
-#### How Often Should You Test?
+#### How often should you test?
 
 - **Normal result:** At least every 3 years, or yearly if you have other risk factors.
 
@@ -71,7 +71,7 @@ A diagnosis should be confirmed by your doctor.
 
 - **Any time:** If you notice symptoms such as excess thirst, frequent urination, tiredness or blurred vision.
 
-#### How Can You Lower Your Risk?
+#### How can you lower your risk?
 
 - Aim for a healthy weight, including a gradual return to your pre-pregnancy weight.
 
@@ -87,15 +87,15 @@ A diagnosis should be confirmed by your doctor.
 
 - Check your blood pressure and cholesterol.
 
-#### What If You Plan Another Pregnancy?
+#### What if you plan another pregnancy?
 
 Visit your doctor before conceiving. Check your sugar, aim for a healthy weight and begin folic acid. Early testing is advised in the next pregnancy, since gestational diabetes can recur.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if you have symptoms of high sugar, if you missed your post-delivery test or if your last test was more than a few years ago.
 
-#### Key Takeaways
+#### The quick version
 
 - Test 6 to 12 weeks after delivery, preferably with an OGTT.
 
@@ -106,8 +106,6 @@ See your doctor if you have symptoms of high sugar, if you missed your post-deli
 - Plan the next pregnancy early with your doctor.
 
 - Do not wait for symptoms.
-
-#### Final Thoughts
 
 Gestational diabetes is an early warning and an opportunity. A few simple tests and healthy habits can protect you for decades. To set up your follow-up plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

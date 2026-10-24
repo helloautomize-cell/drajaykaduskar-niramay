@@ -56,8 +56,12 @@ Get your blood sugar checked if you have any of the following:
 - Symptoms such as frequent urination, unusual thirst, tiredness, blurred vision, slow-healing wounds or repeated infections
 
 #### Explore
-Type 2 diabetes · Type 1 diabetes · Diabetes in pregnancy · Complications screening · Complete Diabetes Care Programme · Prediabetes and risk assessment · Thyroid clinic · Hypertension clinic · Nutrition and lifestyle counselling
+[Type 2 diabetes](/diabetes/type-2-diabetes/) · [Type 1 diabetes](/diabetes/type-1-diabetes/) · [Diabetes in pregnancy](/diabetes/diabetes-in-pregnancy/) · [Complications screening](/diabetes/complications-screening/) · [Complete Diabetes Care Programme](/diabetes/diabetes-care-programme/) · [Prediabetes and risk assessment](/diabetes/prediabetes-risk-assessment/) · [Thyroid clinic](/thyroid-clinic/) · [Hypertension clinic](/hypertension-clinic/) · [Nutrition and lifestyle counselling](/nutrition-lifestyle-counselling/)
 
+From our Health Library: [10 common myths about diabetes, and the facts](/health-library/diabetes-myths-and-facts/)
+
+#### When to see a doctor
+See a doctor if you notice increased thirst, frequent urination, unexplained weight loss, constant tiredness, blurred vision, slow-healing cuts, or tingling in the feet. If your blood sugar is very high or very low with confusion, drowsiness or vomiting, treat it as urgent and seek immediate care.
 #### Frequently asked questions
 **What are normal blood sugar levels?**
 For most adults without diabetes, fasting blood sugar is below 100 mg/dL and HbA1c is below 5.7%. Diabetes is usually diagnosed when fasting sugar is 126 mg/dL or higher, a 2-hour glucose tolerance test reading is 200 mg/dL or higher, or HbA1c is 6.5% or higher, confirmed on repeat testing. Your doctor will interpret results in context.
@@ -76,3 +80,7 @@ Uncontrolled diabetes is a leading cause of kidney damage. Medicines prescribed 
 
 **Do you treat diabetes in children?**
 Dr. Ajay treats diabetes at any age. Children and teenagers are often seen together with Dr. Prajakta, so growth, school and emotional needs are covered too.
+
+#### Sources and further reading
+- [ICMR–INDIAB study: metabolic non-communicable disease health report of India](https://doi.org/10.1016/S2213-8587(23)00119-5) (The Lancet Diabetes & Endocrinology, 2023)
+- [Diabetes — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)

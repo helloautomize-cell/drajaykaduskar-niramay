@@ -3,7 +3,7 @@ page_number: 41
 title: "Terms of Use"
 url: "/terms-of-use/"
 seo_title: "Terms of Use | Niramay Clinics, Nagpur"
-meta_description: ""
+meta_description: "The terms for using the Niramay Clinics website, booking appointments online and using our content."
 schema: ""
 images: []
 reviewed_by: "Lawyer (required by Part 6 note)"

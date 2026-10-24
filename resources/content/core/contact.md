@@ -24,11 +24,11 @@ has_confirm_items: false
 **H1:** Contact us and book an appointment
 
 #### Ways to book
-- **Phone:** 0712 2422214 · +91 84591 41584 (8 am to 9 pm, every day)
-- **WhatsApp:** +91 84591 41584
+- **Phone:** [0712 2422214](tel:+917122422214) · [+91 84591 41584](tel:+918459141584) (8 am to 9 pm, every day)
+- **WhatsApp:** [+91 84591 41584](https://wa.me/918459141584)
 - **Online:** use the form below. We will call or message you to confirm a time. Your appointment is confirmed only after you hear from us.
-- **Pharmacy:** +91 90213 51693
-- **Email (non-urgent):** [email](mailto:)
+- **Pharmacy:** [+91 90213 51693](tel:+919021351693)
+- **Email (non-urgent):** use the email shown beside the address card
 
 #### Appointment request form
 Fields:
@@ -50,7 +50,7 @@ Niramay Clinics
 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg
 Opposite Dinanath High School, Dhantoli
 Nagpur, Maharashtra 440012
-[Get directions on Google Maps]
+[Get directions on Google Maps](https://maps.google.com/?q=Niramay+Clinics%2C+572+Indu+Bhaskar+Apartments%2C+Dr.+N.+B.+Khare+Marg%2C+Dhantoli%2C+Nagpur)
 
 Patients come to us from across Nagpur and from towns up to 100 km away, including Wardha, Bhandara, Umred, Katol, Saoner and Ramtek.
 

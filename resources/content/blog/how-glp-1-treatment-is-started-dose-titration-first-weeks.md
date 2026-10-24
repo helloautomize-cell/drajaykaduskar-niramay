@@ -28,7 +28,7 @@ status: draft
 
 Starting a new injection can feel daunting. Knowing what the first weeks look like helps you feel prepared. This guide explains how treatment usually begins, why the dose goes up slowly and what to expect.
 
-#### Step 1: The Medical Assessment
+#### Step 1: the medical assessment
 
 Before the first dose, your doctor will:
 
@@ -46,15 +46,15 @@ Before the first dose, your doctor will:
 
 - Discuss goals, expected results, side effects and costs
 
-#### Step 2: Choosing the Medicine and Form
+#### Step 2: choosing the medicine and form
 
 The medicine, brand, pen and form (injection or tablet) are chosen based on your condition, goals and availability. Your doctor will teach you or a family member how to use the pen.
 
-#### Step 3: Starting Low
+#### Step 3: starting low
 
 The first dose is a small starting dose. It is not meant to give the full effect. Its job is to let your gut and brain get used to the medicine.
 
-#### Step 4: Slow Dose Increase (Titration)
+#### Step 4: slow dose increase (Titration)
 
 Most schedules increase the dose every 4 weeks, depending on the medicine. For example, weekly injections often start at the lowest dose for four weeks, then step up. The exact schedule depends on the product. Your doctor will follow the approved plan for your medicine.
 
@@ -68,7 +68,7 @@ The dose may be:
 
 You do not need to reach the highest dose to benefit.
 
-#### What Do the First Weeks Feel Like?
+#### What do the first weeks feel like?
 
 - Reduced appetite and feeling full sooner
 
@@ -82,7 +82,7 @@ You do not need to reach the highest dose to benefit.
 
 - Lower blood sugar readings in people with diabetes
 
-#### How Can You Make the First Weeks Easier?
+#### How can you make the first weeks easier?
 
 - Eat small, slow meals and stop when full.
 
@@ -98,11 +98,11 @@ You do not need to reach the highest dose to benefit.
 
 - Keep a simple diary of dose, symptoms, weight and sugar readings.
 
-#### What About Other Diabetes Medicines?
+#### What about other diabetes medicines?
 
 If you take insulin or a sulfonylurea (such as glimepiride), your doctor may reduce these doses to avoid low blood sugar as the GLP-1 medicine works. Never adjust them on your own.
 
-#### What Follow-Up Should You Expect?
+#### What follow-up should you expect?
 
 - A review within 2 to 4 weeks
 
@@ -114,15 +114,15 @@ If you take insulin or a sulfonylurea (such as glimepiride), your doctor may red
 
 - Regular weight, waist and blood sugar tracking
 
-#### What If You Miss a Dose?
+#### What if you miss a dose?
 
 For weekly injections, instructions usually allow a missed dose to be taken within a few days of the due date. If it is much later, skip it and continue on schedule. Follow the instructions for your specific medicine, and ask your doctor if unsure.
 
-#### When Should You See a Doctor Urgently?
+#### When should you see a doctor urgently?
 
 Contact your doctor if you have severe or persistent stomach pain, repeated vomiting, unable to drink fluids, signs of dehydration, severe low sugar symptoms or allergic signs.
 
-#### Key Takeaways
+#### The quick version
 
 - Treatment starts with a careful assessment.
 
@@ -133,8 +133,6 @@ Contact your doctor if you have severe or persistent stomach pain, repeated vomi
 - Diet habits and follow-up make the first weeks easier.
 
 - Other diabetes medicines may need adjustment.
-
-#### Final Thoughts
 
 A slow start makes treatment easier to stick with. With good support, most people settle into their treatment in a few weeks. To begin safely, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

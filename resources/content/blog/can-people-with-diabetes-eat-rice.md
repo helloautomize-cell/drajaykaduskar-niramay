@@ -28,11 +28,11 @@ status: draft
 
 Rice is a staple in many Indian homes, and many people with diabetes worry they must give it up. Rice is a carbohydrate that raises blood sugar, but with the right portion, type and pairing, many people with diabetes can include rice in their meals.
 
-#### Why Does Rice Raise Blood Sugar?
+#### Why does rice raise blood sugar?
 
 White rice is mostly starch, which breaks down into glucose. Polished white rice has less fibre and can raise blood sugar quickly, especially in large portions. The total amount of carbohydrate you eat matters most.
 
-#### Which Types of Rice Are Better?
+#### Which types of rice are better?
 
 ##### Brown rice
 
@@ -52,11 +52,11 @@ Combining rice with jowar, bajra, foxtail millet or other millets increases fibr
 
 Portion still matters for every type.
 
-#### How Much Rice Can You Eat?
+#### How much rice can you eat?
 
 Portions depend on your body size, activity level and blood sugar control. A practical approach is to keep cooked rice to roughly a quarter of the plate, often about half to one cup per meal, as advised by your doctor or dietitian. Monitoring your sugar helps you personalise this.
 
-#### How Can You Reduce Blood Sugar Spikes?
+#### How can you reduce blood sugar spikes?
 
 - Eat vegetables and protein first, then rice
 
@@ -70,15 +70,15 @@ Portions depend on your body size, activity level and blood sugar control. A pra
 
 - Take a 10 to 15 minute walk after meals
 
-#### Should You Have Rice at Dinner?
+#### Should you have rice at dinner?
 
 Many people find a lighter dinner helps sugar control. If you eat rice at dinner, keep the portion small and pair it well. Avoid eating late at night.
 
-#### What About Rice-Based Foods?
+#### What about rice-based foods?
 
 Idli, dosa, poha, upma and pulao can fit in moderation. Add vegetables and protein, such as sambar, chutney with peanuts or sprouts, and watch portions.
 
-#### Key Takeaways
+#### In short
 
 - Rice can fit into a diabetes diet with portion control.
 
@@ -89,8 +89,6 @@ Idli, dosa, poha, upma and pulao can fit in moderation. Add vegetables and prote
 - Eat vegetables and protein first.
 
 - Check sugar after meals to personalise portions.
-
-#### Final Thoughts
 
 You do not have to give up rice to manage diabetes. Smart portions and pairings can keep blood sugar steady while you enjoy familiar meals. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur helps patients build practical Indian meal plans.
 

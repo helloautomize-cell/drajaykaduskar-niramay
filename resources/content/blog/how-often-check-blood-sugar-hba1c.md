@@ -28,7 +28,7 @@ status: draft
 
 Testing shows how well your plan is working. The right frequency depends on your treatment, your control and your doctor's advice.
 
-#### HbA1c Testing
+#### HbA1c testing
 
 - Every three months if treatment has changed or sugar is not at target
 
@@ -36,7 +36,7 @@ Testing shows how well your plan is working. The right frequency depends on your
 
 - No fasting needed
 
-#### Home Blood Sugar Testing
+#### Home blood sugar testing
 
 ##### On insulin
 
@@ -50,7 +50,7 @@ Often fasting and after meals a few days a week, as advised.
 
 More frequent testing for a period.
 
-#### Useful Times to Test
+#### Useful times to test
 
 - Fasting, before breakfast
 
@@ -60,11 +60,11 @@ More frequent testing for a period.
 
 - When you feel unwell or have symptoms of low or high sugar
 
-#### Keep a Record
+#### Keep a record
 
 Write readings in a notebook or app with notes on meals and activity. Bring it to your visits.
 
-#### Other Regular Checks
+#### Other regular checks
 
 - Blood pressure and cholesterol
 
@@ -72,7 +72,7 @@ Write readings in a notebook or app with notes on meals and activity. Bring it t
 
 - Eye and foot examinations
 
-#### Key Takeaways
+#### In short
 
 - HbA1c is checked every three to six months.
 
@@ -83,8 +83,6 @@ Write readings in a notebook or app with notes on meals and activity. Bring it t
 - Keep a record.
 
 - Follow your doctor's plan.
-
-#### Final Thoughts
 
 Testing is only useful when the results guide action. For a monitoring plan, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

@@ -1,0 +1,3450 @@
+{
+ "res": [
+  {
+   "url": "/blooming-buds/adolescent-health/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 5,
+   "words": 655,
+   "sentences": 42,
+   "meanLen": 11.8,
+   "sdLen": 8.2,
+   "fkgl": 9.1,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/blooming-buds/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 738,
+   "sentences": 44,
+   "meanLen": 13.7,
+   "sdLen": 6.6,
+   "fkgl": 9.8,
+   "titleCaseHeadings": [
+    "Blooming Buds Child and Adolescent Care Centre"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/blooming-buds/career-counselling/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 549,
+   "sentences": 40,
+   "meanLen": 11.7,
+   "sdLen": 5.5,
+   "fkgl": 9.8,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/blooming-buds/psychological-testing/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 646,
+   "sentences": 48,
+   "meanLen": 11.5,
+   "sdLen": 5.7,
+   "fkgl": 8.9,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/blooming-buds/teen-mental-health/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 821,
+   "sentences": 56,
+   "meanLen": 11.9,
+   "sdLen": 6.9,
+   "fkgl": 9.4,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/vaccination/",
+   "emDash": 2,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "pediatric": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 740,
+   "sentences": 47,
+   "meanLen": 12.5,
+   "sdLen": 6.8,
+   "fkgl": 9.2,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "It works best when given before any exposure, so it is advised in early adolescence."
+   ]
+  },
+  {
+   "url": "/blooming-buds/well-baby-clinic/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "pediatric": 1,
+    "check-up": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 566,
+   "sentences": 35,
+   "meanLen": 12.3,
+   "sdLen": 8.2,
+   "fkgl": 7.7,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/blooming-buds/workshops/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 671,
+   "sentences": 44,
+   "meanLen": 10.5,
+   "sdLen": 4.7,
+   "fkgl": 8.1,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Some health topics are best discussed in groups: with a class of students, a parents' meeting or a teachers' staff room."
+   ]
+  },
+  {
+   "url": "/about/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 682,
+   "sentences": 46,
+   "meanLen": 14.6,
+   "sdLen": 6.1,
+   "fkgl": 10.9,
+   "titleCaseHeadings": [
+    "About Niramay Clinics"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/contact/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 276,
+   "sentences": 17,
+   "meanLen": 12.3,
+   "sdLen": 10.3,
+   "fkgl": 8.4,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/doctors/dr-ajay-kaduskar/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 6,
+   "words": 1148,
+   "sentences": 90,
+   "meanLen": 10.1,
+   "sdLen": 5.4,
+   "fkgl": 9.6,
+   "titleCaseHeadings": [
+    "Articles by Dr. Ajay Kaduskar"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/doctors/dr-prajakta-kaduskar/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "pediatric": 1,
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 5,
+   "words": 397,
+   "sentences": 25,
+   "meanLen": 12.4,
+   "sdLen": 6.6,
+   "fkgl": 10.6,
+   "titleCaseHeadings": [
+    "Articles by Dr. Prajakta Kaduskar"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1273,
+   "sentences": 59,
+   "meanLen": 9.5,
+   "sdLen": 4.1,
+   "fkgl": 7.6,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/services/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 519,
+   "sentences": 16,
+   "meanLen": 11.1,
+   "sdLen": 4.7,
+   "fkgl": 10.6,
+   "titleCaseHeadings": [
+    "Blooming Buds: Child and Teen"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/heart-care/2d-echo/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 683,
+   "sentences": 47,
+   "meanLen": 11.2,
+   "sdLen": 5.8,
+   "fkgl": 7.5,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/obesity/body-composition-sarcopenia/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 3,
+   "words": 834,
+   "sentences": 48,
+   "meanLen": 13.5,
+   "sdLen": 6.7,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Best readings come on an empty bladder, a few hours after a meal, without heavy exercise just before."
+   ]
+  },
+  {
+   "url": "/diabetes/complications-screening/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 903,
+   "sentences": 47,
+   "meanLen": 13.4,
+   "sdLen": 7.8,
+   "fkgl": 7.4,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "If a clearer view is needed, we use drops to widen the pupil, and your vision may be blurry for a few hours, so it is best not to drive yourself home that day."
+   ]
+  },
+  {
+   "url": "/diabetes/diabetes-care-programme/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 1,
+   "words": 565,
+   "sentences": 36,
+   "meanLen": 11.6,
+   "sdLen": 5.5,
+   "fkgl": 8.8,
+   "titleCaseHeadings": [
+    "Complete Diabetes Care Programme",
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/diabetes/diabetes-in-pregnancy/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 1,
+   "words": 738,
+   "sentences": 47,
+   "meanLen": 12.8,
+   "sdLen": 7.4,
+   "fkgl": 9.9,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/diabetes/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 3,
+    "cured": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 5,
+   "words": 1001,
+   "sentences": 62,
+   "meanLen": 13.1,
+   "sdLen": 6.8,
+   "fkgl": 10.3,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Doctors call this remission, not cure, because sugar can rise again, so regular checks continue for life."
+   ]
+  },
+  {
+   "url": "/heart-care/ecg/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 611,
+   "sentences": 37,
+   "meanLen": 12.8,
+   "sdLen": 7.2,
+   "fkgl": 8,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/heart-care/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 665,
+   "sentences": 47,
+   "meanLen": 11.7,
+   "sdLen": 6,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/hypertension-clinic/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 705,
+   "sentences": 42,
+   "meanLen": 13.2,
+   "sdLen": 5.9,
+   "fkgl": 9.2,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/nutrition-lifestyle-counselling/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 667,
+   "sentences": 42,
+   "meanLen": 12.2,
+   "sdLen": 5.3,
+   "fkgl": 8,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Food changes work best when they are planned around your reports, not only around generic diet charts.",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/obesity/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 2,
+   "words": 793,
+   "sentences": 52,
+   "meanLen": 12.8,
+   "sdLen": 6.8,
+   "fkgl": 10.1,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/diabetes/prediabetes-risk-assessment/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 882,
+   "sentences": 53,
+   "meanLen": 12.9,
+   "sdLen": 8.2,
+   "fkgl": 9.1,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/preventive-health-check-ups/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 13
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 616,
+   "sentences": 39,
+   "meanLen": 12.9,
+   "sdLen": 7.6,
+   "fkgl": 9,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/thyroid-clinic/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 609,
+   "sentences": 36,
+   "meanLen": 13.4,
+   "sdLen": 7.4,
+   "fkgl": 10,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Thyroid hormone tablets are best taken on an empty stomach with water, usually 30 to 60 minutes before breakfast."
+   ]
+  },
+  {
+   "url": "/heart-care/tmt-stress-test/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 828,
+   "sentences": 54,
+   "meanLen": 12.7,
+   "sdLen": 6,
+   "fkgl": 8.1,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/diabetes/type-1-diabetes/",
+   "emDash": 2,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 5,
+   "words": 778,
+   "sentences": 48,
+   "meanLen": 12.9,
+   "sdLen": 6.2,
+   "fkgl": 9.5,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Routine concerns like frequent lows, growth worries or device problems are best raised at your regular review."
+   ]
+  },
+  {
+   "url": "/diabetes/type-2-diabetes/",
+   "emDash": 2,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1124,
+   "sentences": 69,
+   "meanLen": 13.6,
+   "sdLen": 7.8,
+   "fkgl": 8.6,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/obesity/weight-management-medicines/",
+   "emDash": 1,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 1,
+   "words": 813,
+   "sentences": 49,
+   "meanLen": 12.8,
+   "sdLen": 7.6,
+   "fkgl": 10.2,
+   "titleCaseHeadings": [
+    "From our Health Library"
+   ],
+   "riskSentences": [
+    "They are also prescription medicines with side effects, costs and limits, and they work best as part of a full plan."
+   ]
+  },
+  {
+   "url": "/lab/home-sample-collection/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 589,
+   "sentences": 38,
+   "meanLen": 13.6,
+   "sdLen": 6.8,
+   "fkgl": 8.2,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/lab/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 8,
+   "words": 684,
+   "sentences": 39,
+   "meanLen": 12,
+   "sdLen": 5.7,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "For urgent needs on a Sunday, call the clinic and we will guide you on the best option."
+   ]
+  },
+  {
+   "url": "/pharmacy/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 1,
+   "words": 538,
+   "sentences": 36,
+   "meanLen": 12.1,
+   "sdLen": 5.2,
+   "fkgl": 11.3,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/accessibility/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 187,
+   "sentences": 10,
+   "meanLen": 14,
+   "sdLen": 5.3,
+   "fkgl": 7.9,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/cancellation-refund-policy/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 219,
+   "sentences": 14,
+   "meanLen": 12.2,
+   "sdLen": 7.3,
+   "fkgl": 8.6,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/editorial-policy/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 1
+   },
+   "us": {
+    "pediatric": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 353,
+   "sentences": 18,
+   "meanLen": 15.7,
+   "sdLen": 9.7,
+   "fkgl": 10.1,
+   "titleCaseHeadings": [
+    "Editorial and Medical Review Policy"
+   ],
+   "riskSentences": [
+    "We do not describe any treatment as a cure for long-term conditions where that would be misleading."
+   ]
+  },
+  {
+   "url": "/medical-disclaimer/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "guarantee": 1,
+    "guaranteed": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 173,
+   "sentences": 12,
+   "meanLen": 13.6,
+   "sdLen": 5.8,
+   "fkgl": 10.1,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/patient-rights/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 444,
+   "sentences": 30,
+   "meanLen": 12.9,
+   "sdLen": 6.2,
+   "fkgl": 9.5,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/privacy-policy/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 2,
+   "words": 1194,
+   "sentences": 61,
+   "meanLen": 16.1,
+   "sdLen": 10.3,
+   "fkgl": 10.7,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/terms-of-use/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "guarantee": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 397,
+   "sentences": 31,
+   "meanLen": 11.3,
+   "sdLen": 4.6,
+   "fkgl": 8.4,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "Submitting a request does not guarantee an appointment."
+   ]
+  },
+  {
+   "url": "/plan-your-visit/coming-from-outside-nagpur/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 569,
+   "sentences": 33,
+   "meanLen": 14.7,
+   "sdLen": 6.8,
+   "fkgl": 9.6,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/faqs/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "pediatric": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 687,
+   "sentences": 44,
+   "meanLen": 10.8,
+   "sdLen": 5.3,
+   "fkgl": 6.8,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "First consultations are best done in person."
+   ]
+  },
+  {
+   "url": "/health-library/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 1,
+    "permanent": 1,
+    "reverse": 3
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 3199,
+   "sentences": 140,
+   "meanLen": 12.4,
+   "sdLen": 5.2,
+   "fkgl": 7.5,
+   "titleCaseHeadings": [
+    "Type 2 Diabetes: Symptoms, Diagnosis, Blood Sugar Control & Long-Term Management",
+    "Can Type 2 Diabetes Be Reversed or Put Into Remission?",
+    "How to Control Blood Sugar Naturally: What Works and What Does Not",
+    "First Signs of Type 2 Diabetes You Should Not Ignore",
+    "How Often Should You Check Blood Sugar and HbA1c?",
+    "When Should You See a Diabetologist?",
+    "Prediabetes: HbA1c, Blood Sugar Levels, Symptoms & How to Prevent Type 2 Diabetes",
+    "Can Prediabetes Go Away? How to Lower Your Risk",
+    "How Often to Test for Diabetes With Prediabetes",
+    "Prediabetes Diet: What to Eat in an Indian Diet",
+    "Prediabetes HbA1c: What the Number Means",
+    "Prediabetes and Weight Loss: How Much Helps?",
+    "Diabetes Diet for Indians",
+    "Diabetes Diet for Indians: What to Eat, What to Limit & How to Build a Practical Meal Plan",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Can People With Diabetes Eat Rice? Practical Tips",
+    "Diabetes and Sweets: Handling Mithai Without Spikes",
+    "Diabetes Diet for Weight Loss: An Indian Plate Guide",
+    "Fruits for Diabetes: Which, How Much and When",
+    "GLP-1 for Diabetes & Weight Loss in India: Affordability, Real Results & Side Effects",
+    "GLP-1 Injections in India: Why Prices Are Falling",
+    "GLP-1 Side Effects: Nausea, Constipation and Fixes",
+    "How Much Weight Can You Lose on GLP-1 Medicines?",
+    "Is a GLP-1 Medicine Worth the Cost? A Decision Guide",
+    "What Happens When You Stop a GLP-1 Medicine?",
+    "Technology and Evolution of GLP-1",
+    "The Technology & Evolution of GLP-1 Drugs: From Diabetes Injection to Global Weight-Loss Breakthrough",
+    "Dual and Triple Agonists: What Comes After Semaglutide?",
+    "The Surprising History of GLP-1 Drugs",
+    "How GLP-1 Injection Pens Work: The Technology",
+    "Oral GLP-1 Tablets: Are Pills Replacing Injections?",
+    "Why Did GLP-1 Medicines Become a Global Trend?",
+    "Belly Fat, Diabetes and Metabolic Health: Why Waist Matters",
+    "How Much Weight Loss Can Improve Type 2 Diabetes?",
+    "What Is Diabesity? Understanding Diabetes and Obesity Together",
+    "What Is Insulin Resistance? Symptoms and Causes",
+    "Why Is Weight Loss So Hard With Type 2 Diabetes?",
+    "GLP-1 Medicines for Diabetes & Weight Loss: How They Work, Key Differences & Who May Need Them",
+    "Do GLP-1 Medicines Replace Metformin or Insulin?",
+    "How Are GLP-1 Medicines Given? Technique and Storage",
+    "How Is GLP-1 Treatment Started? Dose and First Weeks",
+    "Semaglutide vs Tirzepatide: Which One Might Suit You?",
+    "Who Should Not Take GLP-1 Medicines?",
+    "Continuous Glucose Monitoring",
+    "CGM in Pregnancy: When It Helps and What to Know",
+    "CGM vs Glucometer: Which Is Better for Type 2 Diabetes?",
+    "Does Everyone With Type 2 Diabetes Need a CGM?",
+    "How to Read a CGM Report: AGP and Glucose Patterns",
+    "After Gestational Diabetes: When to Test for Type 2",
+    "Does Gestational Diabetes Go Away After Delivery?",
+    "Gestational Diabetes Diet: Indian Foods and Meal Timing",
+    "Gestational Diabetes Test: When and What Results Mean",
+    "When Is Insulin Needed in Gestational Diabetes?",
+    "Metabolic Syndrome and Cardiometabolic Health",
+    "Metabolic Syndrome, Fatty Liver & Cardiometabolic Health: The Diabetes-Heart-Kidney Connection",
+    "Diabetes and Heart Disease: The Metabolic Risk Link",
+    "Diabetes and Kidney Disease: Which Tests You Need",
+    "Fatty Liver and Diabetes: Why They Occur Together",
+    "High Triglycerides, Diabetes and Obesity: What Is the Link?",
+    "What Is Metabolic Syndrome? 5 Risk Factors Explained",
+    "10 Common Myths About Diabetes, and the Facts",
+    "Menstrual Hygiene for Teenage Girls: A Practical Guide",
+    "Preparing Your Child, and Yourself, for Adolescence"
+   ],
+   "riskSentences": [
+    "Remission is possible for some people, but it is not the same as a permanent cure.",
+    "Healthy habits are powerful, but they work best with medical guidance.",
+    "Weight loss is one of the most effective ways to reverse prediabetes and prevent type 2 diabetes.",
+    "Learn which fruits are better choices, portion sizes, the best time to eat them and why whole fruit beats juice.",
+    "Semaglutide and tirzepatide are the two best-known GLP-1 based medicines."
+   ]
+  },
+  {
+   "url": "/plan-your-visit/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 6,
+   "words": 552,
+   "sentences": 48,
+   "meanLen": 10.8,
+   "sdLen": 5.1,
+   "fkgl": 7.1,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/after-gestational-diabetes-when-to-test-for-type-2-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 1095,
+   "sentences": 86,
+   "meanLen": 11.3,
+   "sdLen": 4.8,
+   "fkgl": 8.2,
+   "titleCaseHeadings": [
+    "After Gestational Diabetes: When to Test for Type 2"
+   ],
+   "riskSentences": [
+    "Your doctor will choose the best test for you."
+   ]
+  },
+  {
+   "url": "/health-library/belly-fat-diabetes-metabolic-health-waist-size/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 2,
+   "words": 1103,
+   "sentences": 92,
+   "meanLen": 10.9,
+   "sdLen": 5.1,
+   "fkgl": 8,
+   "titleCaseHeadings": [
+    "Belly Fat, Diabetes and Metabolic Health: Why Waist Matters"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/best-indian-breakfast-for-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 942,
+   "sentences": 69,
+   "meanLen": 11,
+   "sdLen": 6.2,
+   "fkgl": 8.3,
+   "titleCaseHeadings": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Checking blood sugar about two hours after breakfast, as advised by your doctor, helps you see which options suit you best."
+   ]
+  },
+  {
+   "url": "/health-library/can-people-with-diabetes-eat-rice/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 960,
+   "sentences": 66,
+   "meanLen": 12.1,
+   "sdLen": 6.1,
+   "fkgl": 7.6,
+   "titleCaseHeadings": [
+    "Can People With Diabetes Eat Rice? Practical Tips"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/can-prediabetes-go-away/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 3
+   },
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 908,
+   "sentences": 64,
+   "meanLen": 11.3,
+   "sdLen": 5.8,
+   "fkgl": 9.1,
+   "titleCaseHeadings": [
+    "Can Prediabetes Go Away? How to Lower Your Risk"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/can-type-2-diabetes-be-reversed-remission/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 2,
+    "cured": 1,
+    "permanent": 2,
+    "reverse": 3
+   },
+   "us": {
+    "check-up": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1015,
+   "sentences": 72,
+   "meanLen": 12.1,
+   "sdLen": 5.9,
+   "fkgl": 10.1,
+   "titleCaseHeadings": [
+    "Can Type 2 Diabetes Be Reversed or Put Into Remission?"
+   ],
+   "riskSentences": [
+    "Remission is possible for some people, but it is not the same as a permanent cure.",
+    "Greater weight loss increases the chance of remission, and losing a meaningful percentage of body weight early after diagnosis gives the best chance."
+   ]
+  },
+  {
+   "url": "/health-library/cgm-in-pregnancy-when-useful-what-to-know/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1148,
+   "sentences": 93,
+   "meanLen": 11.8,
+   "sdLen": 5.5,
+   "fkgl": 8.1,
+   "titleCaseHeadings": [
+    "CGM in Pregnancy: When It Helps and What to Know"
+   ],
+   "riskSentences": [
+    "A steady sugar level gives your baby the best start."
+   ]
+  },
+  {
+   "url": "/health-library/cgm-vs-glucometer-type-2-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "meter ": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1094,
+   "sentences": 80,
+   "meanLen": 11.7,
+   "sdLen": 5.3,
+   "fkgl": 8.1,
+   "titleCaseHeadings": [
+    "CGM vs Glucometer: Which Is Better for Type 2 Diabetes?"
+   ],
+   "riskSentences": [
+    "The best tool is the one that helps you control your sugar safely and fits your life and budget."
+   ]
+  },
+  {
+   "url": "/health-library/continuous-glucose-monitoring-cgm-guide/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "permanent": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 4609,
+   "sentences": 286,
+   "meanLen": 14.8,
+   "sdLen": 6.9,
+   "fkgl": 7.9,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "Brands and prices in India change often enough that it's best to ask your doctor or a verified supplier what's currently available."
+   ]
+  },
+  {
+   "url": "/health-library/control-blood-sugar-naturally/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 3,
+    "reverse": 2,
+    "miracle": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 672,
+   "sentences": 47,
+   "meanLen": 9.9,
+   "sdLen": 4.9,
+   "fkgl": 8.4,
+   "titleCaseHeadings": [
+    "How to Control Blood Sugar Naturally: What Works and What Does Not"
+   ],
+   "riskSentences": [
+    "Healthy habits are powerful, but they work best with medical guidance.",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/diabetes-and-heart-disease-blood-sugar-metabolic-risk/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 12,
+   "words": 1157,
+   "sentences": 100,
+   "meanLen": 11,
+   "sdLen": 5.2,
+   "fkgl": 8.5,
+   "titleCaseHeadings": [
+    "Diabetes and Heart Disease: The Metabolic Risk Link"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/diabetes-and-kidney-disease-tests-you-should-have/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1091,
+   "sentences": 87,
+   "meanLen": 10.9,
+   "sdLen": 6,
+   "fkgl": 9.3,
+   "titleCaseHeadings": [
+    "Diabetes and Kidney Disease: Which Tests You Need"
+   ],
+   "riskSentences": [
+    "Advanced damage is harder to reverse."
+   ]
+  },
+  {
+   "url": "/health-library/diabetes-and-obesity-diabesity-guide/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {
+    "genuinely": 1
+   },
+   "risk": {
+    "cure": 2,
+    "guarantee": 1,
+    "guaranteed": 1,
+    "permanent": 1,
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 4,
+   "words": 3989,
+   "sentences": 269,
+   "meanLen": 14,
+   "sdLen": 6.3,
+   "fkgl": 8.8,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "Remission isn't a cure.",
+    "\"The injection will do the work.\" GLP-1 medicines do best with changes in diet and activity, and weight often returns when they're stopped without a plan.",
+    "It isn't a permanent cure.",
+    "They work best alongside dietary changes and regular exercise, with ongoing medical follow-up."
+   ]
+  },
+  {
+   "url": "/health-library/diabetes-and-sweets-handling-mithai/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1187,
+   "sentences": 102,
+   "meanLen": 11.8,
+   "sdLen": 4.7,
+   "fkgl": 6.6,
+   "titleCaseHeadings": [
+    "Diabetes and Sweets: Handling Mithai Without Spikes"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/diabetes-diet-for-indians/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {
+    "genuinely": 1,
+    "the bottom line": 1,
+    "bottom line": 1
+   },
+   "risk": {
+    "guarantee": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 4148,
+   "sentences": 261,
+   "meanLen": 12.9,
+   "sdLen": 6,
+   "fkgl": 9.8,
+   "titleCaseHeadings": [
+    "Diabetes Diet for Indians: What to Eat, What to Limit & How to Build a Practical Meal Plan"
+   ],
+   "riskSentences": [
+    "Rather than creating an enormous \"foods to avoid\" list, it is usually more useful to identify foods that are best kept occasional.",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/diabetes-diet-for-weight-loss/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 683,
+   "sentences": 50,
+   "meanLen": 10.6,
+   "sdLen": 5.2,
+   "fkgl": 7.4,
+   "titleCaseHeadings": [
+    "Diabetes Diet for Weight Loss: An Indian Plate Guide"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/diabetes-myths-and-facts/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 923,
+   "sentences": 51,
+   "meanLen": 13.8,
+   "sdLen": 6.3,
+   "fkgl": 8.8,
+   "titleCaseHeadings": [
+    "10 Common Myths About Diabetes, and the Facts"
+   ],
+   "riskSentences": [
+    "Doctors call this remission, not cure, because sugar can rise again, so regular checks continue."
+   ]
+  },
+  {
+   "url": "/health-library/do-glp-1-medicines-replace-metformin-or-insulin/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 677,
+   "sentences": 49,
+   "meanLen": 10.8,
+   "sdLen": 5.8,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [
+    "Do GLP-1 Medicines Replace Metformin or Insulin?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/does-everyone-with-type-2-diabetes-need-cgm/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "meter ": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 698,
+   "sentences": 50,
+   "meanLen": 10.7,
+   "sdLen": 5.2,
+   "fkgl": 7.4,
+   "titleCaseHeadings": [
+    "Does Everyone With Type 2 Diabetes Need a CGM?"
+   ],
+   "riskSentences": [
+    "The best monitoring method is one that fits your treatment and lifestyle."
+   ]
+  },
+  {
+   "url": "/health-library/does-gestational-diabetes-go-away-after-delivery/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "elevate": 1
+   },
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 3,
+   "words": 1077,
+   "sentences": 88,
+   "meanLen": 12.2,
+   "sdLen": 5.3,
+   "fkgl": 9.4,
+   "titleCaseHeadings": [
+    "Does Gestational Diabetes Go Away After Delivery?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/dual-triple-agonists-after-semaglutide-tirzepatide/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1021,
+   "sentences": 84,
+   "meanLen": 10.7,
+   "sdLen": 4.5,
+   "fkgl": 10.3,
+   "titleCaseHeadings": [
+    "Dual and Triple Agonists: What Comes After Semaglutide?"
+   ],
+   "riskSentences": [
+    "But the best treatment for you is the one that is approved, safe and suited to your health."
+   ]
+  },
+  {
+   "url": "/health-library/fatty-liver-and-diabetes-why-they-occur-together/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 3
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 6,
+   "words": 1101,
+   "sentences": 103,
+   "meanLen": 10.2,
+   "sdLen": 4.8,
+   "fkgl": 8.4,
+   "titleCaseHeadings": [
+    "Fatty Liver and Diabetes: Why They Occur Together"
+   ],
+   "riskSentences": [
+    "Scarring is harder to reverse, so early action is important.",
+    "It is best to avoid alcohol or keep it minimal."
+   ]
+  },
+  {
+   "url": "/health-library/first-signs-of-type-2-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1008,
+   "sentences": 66,
+   "meanLen": 12.8,
+   "sdLen": 5.8,
+   "fkgl": 9.1,
+   "titleCaseHeadings": [
+    "First Signs of Type 2 Diabetes You Should Not Ignore"
+   ],
+   "riskSentences": [
+    "Early detection gives you the best chance to control diabetes and prevent complications."
+   ]
+  },
+  {
+   "url": "/health-library/fruits-for-diabetes-which-how-much-when/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "cure": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 936,
+   "sentences": 61,
+   "meanLen": 12.2,
+   "sdLen": 6,
+   "fkgl": 7.5,
+   "titleCaseHeadings": [
+    "Fruits for Diabetes: Which, How Much and When"
+   ],
+   "riskSentences": [
+    "Even fresh juice without added sugar is best avoided or limited.",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes",
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/gestational-diabetes-diet-indian-foods-meal-timing/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 3,
+   "words": 1132,
+   "sentences": 90,
+   "meanLen": 11.9,
+   "sdLen": 4.9,
+   "fkgl": 7.6,
+   "titleCaseHeadings": [
+    "Gestational Diabetes Diet: Indian Foods and Meal Timing"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/gestational-diabetes-gdm-testing-blood-sugar-targets-diet-insulin-postpartum-care/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "elevate": 1,
+    "not just": 1
+   },
+   "claude": {},
+   "risk": {
+    "guarantee": 1,
+    "reverse": 1
+   },
+   "us": {
+    "recognize": 2,
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 3954,
+   "sentences": 253,
+   "meanLen": 13.9,
+   "sdLen": 5.5,
+   "fkgl": 11.5,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "The hormonal changes of pregnancy begin to reverse after the placenta is delivered.",
+    "Because the fact that blood sugar improves after pregnancy does not guarantee that glucose metabolism has completely returned to normal."
+   ]
+  },
+  {
+   "url": "/health-library/gestational-diabetes-test-when-done-results-meaning/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 3,
+   "words": 1137,
+   "sentences": 96,
+   "meanLen": 10.5,
+   "sdLen": 4.3,
+   "fkgl": 7.8,
+   "titleCaseHeadings": [
+    "Gestational Diabetes Test: When and What Results Mean"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/glp-1-diabetes-weight-loss-india-price-results-side-effects/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "when it comes to": 1,
+    "not just": 1
+   },
+   "claude": {},
+   "risk": {
+    "cure": 1,
+    "cured": 1,
+    "guarantee": 3,
+    "guaranteed": 1,
+    "no side effects": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 4223,
+   "sentences": 262,
+   "meanLen": 12.8,
+   "sdLen": 5.9,
+   "fkgl": 10.7,
+   "titleCaseHeadings": [
+    "GLP-1 for Diabetes & Weight Loss in India: Affordability, Real Results & Side Effects"
+   ],
+   "riskSentences": [
+    "Reality: Medication works best as part of an overall diabetes and weight-management plan."
+   ]
+  },
+  {
+   "url": "/health-library/glp-1-injections-india-why-more-affordable/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "whether you are": 1
+   },
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 6,
+   "words": 1109,
+   "sentences": 91,
+   "meanLen": 11.2,
+   "sdLen": 4.5,
+   "fkgl": 9,
+   "titleCaseHeadings": [
+    "GLP-1 Injections in India: Why Prices Are Falling"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/glp-1-medicines-diabetes-weight-loss/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "elevate": 2
+   },
+   "claude": {},
+   "risk": {
+    "cure": 1,
+    "permanent": 1
+   },
+   "us": {
+    "meter ": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 3876,
+   "sentences": 264,
+   "meanLen": 13.1,
+   "sdLen": 6.1,
+   "fkgl": 11.7,
+   "titleCaseHeadings": [
+    "GLP-1 Medicines for Diabetes & Weight Loss: How They Work, Key Differences & Who May Need Them"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/glp-1-side-effects-nausea-constipation-management/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 7,
+   "words": 1160,
+   "sentences": 110,
+   "meanLen": 10.7,
+   "sdLen": 4.5,
+   "fkgl": 7.6,
+   "titleCaseHeadings": [
+    "GLP-1 Side Effects: Nausea, Constipation and Fixes"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/high-triglycerides-diabetes-obesity/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 632,
+   "sentences": 54,
+   "meanLen": 8.9,
+   "sdLen": 3.9,
+   "fkgl": 9.8,
+   "titleCaseHeadings": [
+    "High Triglycerides, Diabetes and Obesity: What Is the Link?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/history-of-glp-1-drugs-natural-discovery-to-medicines/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1111,
+   "sentences": 79,
+   "meanLen": 12.7,
+   "sdLen": 5,
+   "fkgl": 9.1,
+   "titleCaseHeadings": [
+    "The Surprising History of GLP-1 Drugs"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/how-glp-1-injection-pens-work-technology/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1105,
+   "sentences": 89,
+   "meanLen": 11.1,
+   "sdLen": 5.9,
+   "fkgl": 7,
+   "titleCaseHeadings": [
+    "How GLP-1 Injection Pens Work: The Technology"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/how-glp-1-medicines-are-given-injection-technique-storage/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 11,
+   "words": 1192,
+   "sentences": 120,
+   "meanLen": 10.5,
+   "sdLen": 5.6,
+   "fkgl": 6.2,
+   "titleCaseHeadings": [
+    "How Are GLP-1 Medicines Given? Technique and Storage"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/how-glp-1-treatment-is-started-dose-titration-first-weeks/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1170,
+   "sentences": 96,
+   "meanLen": 10.5,
+   "sdLen": 4.8,
+   "fkgl": 7,
+   "titleCaseHeadings": [
+    "How Is GLP-1 Treatment Started? Dose and First Weeks"
+   ],
+   "riskSentences": [
+    "Small, protein-rich meals with vegetables and whole grains are best."
+   ]
+  },
+  {
+   "url": "/health-library/how-much-weight-can-you-lose-on-glp-1-medicines/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "not just": 1
+   },
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 12,
+   "words": 1159,
+   "sentences": 104,
+   "meanLen": 12.2,
+   "sdLen": 5.5,
+   "fkgl": 8,
+   "titleCaseHeadings": [
+    "How Much Weight Can You Lose on GLP-1 Medicines?"
+   ],
+   "riskSentences": [
+    "GLP-1 medicines are a powerful tool, but they work best together with food, movement and follow-up."
+   ]
+  },
+  {
+   "url": "/health-library/how-often-check-blood-sugar-hba1c/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 691,
+   "sentences": 43,
+   "meanLen": 10.8,
+   "sdLen": 5.3,
+   "fkgl": 6.9,
+   "titleCaseHeadings": [
+    "How Often Should You Check Blood Sugar and HbA1c?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/how-often-test-diabetes-prediabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 926,
+   "sentences": 74,
+   "meanLen": 11.6,
+   "sdLen": 5.1,
+   "fkgl": 8.5,
+   "titleCaseHeadings": [
+    "How Often to Test for Diabetes With Prediabetes"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/how-to-read-cgm-report-agp-time-in-range-patterns/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 10,
+   "words": 1199,
+   "sentences": 114,
+   "meanLen": 10.5,
+   "sdLen": 4.4,
+   "fkgl": 6.6,
+   "titleCaseHeadings": [
+    "How to Read a CGM Report: AGP and Glucose Patterns"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/is-glp-1-medicine-worth-the-cost/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1137,
+   "sentences": 92,
+   "meanLen": 11.7,
+   "sdLen": 5.4,
+   "fkgl": 8.3,
+   "titleCaseHeadings": [
+    "Is a GLP-1 Medicine Worth the Cost? A Decision Guide"
+   ],
+   "riskSentences": [
+    "A personalised discussion with your doctor leads to the best decision.",
+    "A personalised discussion with your doctor leads to the best decision."
+   ]
+  },
+  {
+   "url": "/health-library/menstrual-hygiene-teenage-girls/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 7,
+   "words": 997,
+   "sentences": 65,
+   "meanLen": 13.6,
+   "sdLen": 6.6,
+   "fkgl": 7.3,
+   "titleCaseHeadings": [
+    "Menstrual Hygiene for Teenage Girls: A Practical Guide"
+   ],
+   "riskSentences": [
+    "Today, a daily bath or shower is one of the best things you can do."
+   ]
+  },
+  {
+   "url": "/health-library/metabolic-syndrome-fatty-liver-diabetes-heart-kidney-connection/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "not just": 1
+   },
+   "claude": {
+    "that said": 1
+   },
+   "risk": {
+    "reverse": 1
+   },
+   "us": {
+    "check-up": 2
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 4829,
+   "sentences": 283,
+   "meanLen": 15.6,
+   "sdLen": 8.2,
+   "fkgl": 9.3,
+   "titleCaseHeadings": [
+    "Metabolic Syndrome, Fatty Liver & Cardiometabolic Health: The Diabetes-Heart-Kidney Connection"
+   ],
+   "riskSentences": [
+    "Deep-fried food and bakery items made with trans fats are best kept occasional.",
+    "\"I'm on tablets now, so diet and exercise matter less.\" Medicines work best on top of lifestyle changes, not instead of them."
+   ]
+  },
+  {
+   "url": "/health-library/oral-glp-1-tablets-replacing-weight-loss-injections/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {
+    "nuanced": 1
+   },
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1058,
+   "sentences": 79,
+   "meanLen": 11.8,
+   "sdLen": 4.9,
+   "fkgl": 9,
+   "titleCaseHeadings": [
+    "Oral GLP-1 Tablets: Are Pills Replacing Injections?"
+   ],
+   "riskSentences": [
+    "The best option is the one you can take correctly and consistently.",
+    "The best choice depends on your goals and routine."
+   ]
+  },
+  {
+   "url": "/health-library/prediabetes-diet-indian-what-to-eat/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 982,
+   "sentences": 83,
+   "meanLen": 10.5,
+   "sdLen": 4.9,
+   "fkgl": 7.5,
+   "titleCaseHeadings": [
+    "Prediabetes Diet: What to Eat in an Indian Diet"
+   ],
+   "riskSentences": [
+    "Best Indian Breakfast for Diabetes: Options and Mistakes"
+   ]
+  },
+  {
+   "url": "/health-library/prediabetes-hba1c-blood-sugar-symptoms-prevention/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "elevate": 5
+   },
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 3,
+   "words": 3227,
+   "sentences": 205,
+   "meanLen": 13.6,
+   "sdLen": 6.9,
+   "fkgl": 11.6,
+   "titleCaseHeadings": [
+    "Prediabetes: HbA1c, Blood Sugar Levels, Symptoms & How to Prevent Type 2 Diabetes"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/prediabetes-hba1c-what-the-number-means/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 886,
+   "sentences": 62,
+   "meanLen": 11.7,
+   "sdLen": 5.8,
+   "fkgl": 9.2,
+   "titleCaseHeadings": [
+    "Prediabetes HbA1c: What the Number Means"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/prediabetes-weight-loss-how-much-helps/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 3
+   },
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 955,
+   "sentences": 70,
+   "meanLen": 11.5,
+   "sdLen": 5.3,
+   "fkgl": 8.9,
+   "titleCaseHeadings": [
+    "Prediabetes and Weight Loss: How Much Helps?"
+   ],
+   "riskSentences": [
+    "Weight loss is one of the most effective ways to reverse prediabetes and prevent type 2 diabetes."
+   ]
+  },
+  {
+   "url": "/health-library/preparing-child-for-adolescence/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 2,
+   "words": 907,
+   "sentences": 70,
+   "meanLen": 11.6,
+   "sdLen": 4.7,
+   "fkgl": 7.5,
+   "titleCaseHeadings": [
+    "Preparing Your Child, and Yourself, for Adolescence"
+   ],
+   "riskSentences": [
+    "Childhood is the best time to build habits that carry a child through adolescence.",
+    "Parents who persevere, with courage, patience and practice, give their children the best start to adolescence."
+   ]
+  },
+  {
+   "url": "/health-library/self-esteem-teenagers-with-disabilities/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 3,
+   "words": 936,
+   "sentences": 65,
+   "meanLen": 11.8,
+   "sdLen": 7.5,
+   "fkgl": 8.5,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "Discipline works best when it is fair, firm and friendly.",
+    "The best choice solves the problem and leaves them feeling good about themselves."
+   ]
+  },
+  {
+   "url": "/health-library/semaglutide-vs-tirzepatide-difference-which-suits-you/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1025,
+   "sentences": 86,
+   "meanLen": 10,
+   "sdLen": 5.3,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [
+    "Semaglutide vs Tirzepatide: Which One Might Suit You?"
+   ],
+   "riskSentences": [
+    "The best medicine is the one that is safe for you, effective and sustainable.",
+    "To find your best option, consult Dr."
+   ]
+  },
+  {
+   "url": "/health-library/smart-love-parenting-teenagers/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1047,
+   "sentences": 75,
+   "meanLen": 12.3,
+   "sdLen": 6,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [],
+   "riskSentences": [
+    "Discipline works best when rules are agreed in advance and enforced calmly."
+   ]
+  },
+  {
+   "url": "/health-library/technology-evolution-glp-1-drugs/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "elevate": 1
+   },
+   "claude": {
+    "straightforward": 2
+   },
+   "risk": {},
+   "us": {
+    "personalized": 1,
+    "recognize": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 3786,
+   "sentences": 240,
+   "meanLen": 13,
+   "sdLen": 5.8,
+   "fkgl": 12,
+   "titleCaseHeadings": [
+    "The Technology & Evolution of GLP-1 Drugs: From Diabetes Injection to Global Weight-Loss Breakthrough"
+   ],
+   "riskSentences": [
+    "Which metabolic pathway and treatment format best fits this particular patient?"
+   ]
+  },
+  {
+   "url": "/health-library/type-2-diabetes-symptoms-diagnosis-management/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "elevate": 5
+   },
+   "claude": {
+    "the bottom line": 1,
+    "bottom line": 1
+   },
+   "risk": {
+    "cure": 2,
+    "cured": 1,
+    "permanent": 3,
+    "reverse": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 3102,
+   "sentences": 194,
+   "meanLen": 13.3,
+   "sdLen": 6.4,
+   "fkgl": 11.3,
+   "titleCaseHeadings": [
+    "Type 2 Diabetes: Symptoms, Diagnosis, Blood Sugar Control & Long-Term Management"
+   ],
+   "riskSentences": [
+    "Some people can achieve remission, but remission is not considered a permanent cure."
+   ]
+  },
+  {
+   "url": "/health-library/weight-loss-improve-type-2-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 3
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 641,
+   "sentences": 49,
+   "meanLen": 9.6,
+   "sdLen": 4.3,
+   "fkgl": 8.8,
+   "titleCaseHeadings": [
+    "How Much Weight Loss Can Improve Type 2 Diabetes?"
+   ],
+   "riskSentences": [
+    "Losing weight can reverse part of that problem."
+   ]
+  },
+  {
+   "url": "/health-library/what-happens-when-you-stop-glp-1-weight-loss-medicine/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "permanent": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 5,
+   "words": 1074,
+   "sentences": 85,
+   "meanLen": 11.1,
+   "sdLen": 5.5,
+   "fkgl": 7.9,
+   "titleCaseHeadings": [
+    "What Happens When You Stop a GLP-1 Medicine?"
+   ],
+   "riskSentences": [
+    "In some cases, doctors lower the dose in steps, rather than stopping at once, though evidence for the best approach is still developing.",
+    "GLP-1 medicines work best as part of a long-term plan, not a short course.",
+    "Some doctors use lower doses to maintain results, but the best approach depends on the person and the medicine."
+   ]
+  },
+  {
+   "url": "/health-library/what-is-diabesity/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 629,
+   "sentences": 43,
+   "meanLen": 10.4,
+   "sdLen": 4.4,
+   "fkgl": 9.3,
+   "titleCaseHeadings": [
+    "What Is Diabesity? Understanding Diabetes and Obesity Together"
+   ],
+   "riskSentences": [
+    "The two conditions feed each other, so treating them together works best."
+   ]
+  },
+  {
+   "url": "/health-library/what-is-insulin-resistance-symptoms-causes-weight/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {
+    "unlock": 1
+   },
+   "claude": {},
+   "risk": {
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1060,
+   "sentences": 87,
+   "meanLen": 11.3,
+   "sdLen": 5.6,
+   "fkgl": 7.8,
+   "titleCaseHeadings": [
+    "What Is Insulin Resistance? Symptoms and Causes"
+   ],
+   "riskSentences": [
+    "Spotting it early gives you the best chance to prevent diabetes and other health problems.",
+    "Early action gives the best results."
+   ]
+  },
+  {
+   "url": "/health-library/what-is-metabolic-syndrome-5-risk-factors/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 675,
+   "sentences": 53,
+   "meanLen": 9.5,
+   "sdLen": 5.2,
+   "fkgl": 8.2,
+   "titleCaseHeadings": [
+    "What Is Metabolic Syndrome? 5 Risk Factors Explained"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/what-is-time-in-range-tir-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1104,
+   "sentences": 73,
+   "meanLen": 12.1,
+   "sdLen": 7.1,
+   "fkgl": 7.1,
+   "titleCaseHeadings": [],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/when-is-insulin-needed-in-gestational-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {
+    "check-up": 1
+   },
+   "emoji": 0,
+   "boldLabelLis": 7,
+   "words": 1147,
+   "sentences": 89,
+   "meanLen": 11.9,
+   "sdLen": 5.8,
+   "fkgl": 8.7,
+   "titleCaseHeadings": [
+    "When Is Insulin Needed in Gestational Diabetes?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/when-to-see-a-diabetologist/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "reverse": 2
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 664,
+   "sentences": 49,
+   "meanLen": 10.1,
+   "sdLen": 5.7,
+   "fkgl": 9.9,
+   "titleCaseHeadings": [
+    "When Should You See a Diabetologist?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/who-should-not-take-glp-1-medicines/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1154,
+   "sentences": 80,
+   "meanLen": 12.2,
+   "sdLen": 6.3,
+   "fkgl": 9.7,
+   "titleCaseHeadings": [
+    "Who Should Not Take GLP-1 Medicines?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/why-glp-1-medicines-became-global-trend/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {
+    "permanent": 1
+   },
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1054,
+   "sentences": 89,
+   "meanLen": 11,
+   "sdLen": 6,
+   "fkgl": 9.8,
+   "titleCaseHeadings": [
+    "Why Did GLP-1 Medicines Become a Global Trend?"
+   ],
+   "riskSentences": []
+  },
+  {
+   "url": "/health-library/why-hard-to-lose-weight-with-type-2-diabetes/",
+   "emDash": 0,
+   "enDash": 0,
+   "gpt": {},
+   "claude": {},
+   "risk": {},
+   "us": {},
+   "emoji": 0,
+   "boldLabelLis": 0,
+   "words": 1099,
+   "sentences": 85,
+   "meanLen": 11.4,
+   "sdLen": 5.7,
+   "fkgl": 8.9,
+   "titleCaseHeadings": [
+    "Why Is Weight Loss So Hard With Type 2 Diabetes?"
+   ],
+   "riskSentences": []
+  }
+ ],
+ "src": [
+  {
+   "file": "resources\\content\\blog\\after-gestational-diabetes-when-to-test-for-type-2-diabetes.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\belly-fat-diabetes-metabolic-health-waist-size.md",
+   "boldLabelBullets": 2,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\best-indian-breakfast-for-diabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\can-people-with-diabetes-eat-rice.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\can-prediabetes-go-away.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\can-type-2-diabetes-be-reversed-remission.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\cgm-in-pregnancy-when-useful-what-to-know.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\cgm-vs-glucometer-type-2-diabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\continuous-glucose-monitoring-cgm-guide.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\control-blood-sugar-naturally.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-and-heart-disease-blood-sugar-metabolic-risk.md",
+   "boldLabelBullets": 12,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-and-kidney-disease-tests-you-should-have.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-and-obesity-diabesity-guide.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-and-sweets-handling-mithai.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-diet-for-indians.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending",
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-diet-for-weight-loss.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\diabetes-myths-and-facts.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\do-glp-1-medicines-replace-metformin-or-insulin.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\does-everyone-with-type-2-diabetes-need-cgm.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\does-gestational-diabetes-go-away-after-delivery.md",
+   "boldLabelBullets": 3,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\dual-triple-agonists-after-semaglutide-tirzepatide.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\fatty-liver-and-diabetes-why-they-occur-together.md",
+   "boldLabelBullets": 6,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\first-signs-of-type-2-diabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\fruits-for-diabetes-which-how-much-when.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\gestational-diabetes-diet-indian-foods-meal-timing.md",
+   "boldLabelBullets": 3,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\gestational-diabetes-gdm-testing-blood-sugar-targets-diet-insulin-postpartum-care.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\gestational-diabetes-test-when-done-results-meaning.md",
+   "boldLabelBullets": 3,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\glp-1-diabetes-weight-loss-india-price-results-side-effects.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending",
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\glp-1-injections-india-why-more-affordable.md",
+   "boldLabelBullets": 6,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\glp-1-medicines-diabetes-weight-loss.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\glp-1-side-effects-nausea-constipation-management.md",
+   "boldLabelBullets": 7,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\high-triglycerides-diabetes-obesity.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\history-of-glp-1-drugs-natural-discovery-to-medicines.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-glp-1-injection-pens-work-technology.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-glp-1-medicines-are-given-injection-technique-storage.md",
+   "boldLabelBullets": 11,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-glp-1-treatment-is-started-dose-titration-first-weeks.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-much-weight-can-you-lose-on-glp-1-medicines.md",
+   "boldLabelBullets": 12,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-often-check-blood-sugar-hba1c.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-often-test-diabetes-prediabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\how-to-read-cgm-report-agp-time-in-range-patterns.md",
+   "boldLabelBullets": 10,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\is-glp-1-medicine-worth-the-cost.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\menstrual-hygiene-teenage-girls.md",
+   "boldLabelBullets": 7,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\metabolic-syndrome-fatty-liver-diabetes-heart-kidney-connection.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\oral-glp-1-tablets-replacing-weight-loss-injections.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\prediabetes-diet-indian-what-to-eat.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\prediabetes-hba1c-blood-sugar-symptoms-prevention.md",
+   "boldLabelBullets": 3,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\prediabetes-hba1c-what-the-number-means.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\prediabetes-weight-loss-how-much-helps.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\preparing-child-for-adolescence.md",
+   "boldLabelBullets": 2,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\self-esteem-teenagers-with-disabilities.md",
+   "boldLabelBullets": 3,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\semaglutide-vs-tirzepatide-difference-which-suits-you.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\smart-love-parenting-teenagers.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\technology-evolution-glp-1-drugs.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\type-2-diabetes-symptoms-diagnosis-management.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\weight-loss-improve-type-2-diabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\what-happens-when-you-stop-glp-1-weight-loss-medicine.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\what-is-diabesity.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\what-is-insulin-resistance-symptoms-causes-weight.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\what-is-metabolic-syndrome-5-risk-factors.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\what-is-time-in-range-tir-diabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\when-is-insulin-needed-in-gestational-diabetes.md",
+   "boldLabelBullets": 7,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\when-to-see-a-diabetologist.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\who-should-not-take-glp-1-medicines.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\why-glp-1-medicines-became-global-trend.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\why-hard-to-lose-weight-with-type-2-diabetes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blog\\_migration-notes.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\adolescent-health.md",
+   "boldLabelBullets": 9,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\blooming-buds.md",
+   "boldLabelBullets": 8,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\career-counselling.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\psychological-testing.md",
+   "boldLabelBullets": 8,
+   "confirm": 0,
+   "pending": [
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\teen-mental-health.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\vaccination.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 2
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\well-baby-clinic.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\blooming-buds\\workshops.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\core\\about.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\core\\contact.md",
+   "boldLabelBullets": 14,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\core\\dr-ajay-kaduskar.md",
+   "boldLabelBullets": 11,
+   "confirm": 1,
+   "pending": [
+    "PENDING"
+   ],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\core\\dr-prajakta-kaduskar.md",
+   "boldLabelBullets": 10,
+   "confirm": 1,
+   "pending": [
+    "PENDING"
+   ],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\core\\home.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\core\\services.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\2d-echo.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\body-composition-sarcopenia.md",
+   "boldLabelBullets": 6,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\complications-screening.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\diabetes-care-programme.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\diabetes-in-pregnancy.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\diabetes.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\ecg.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\heart-care.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\hypertension-clinic.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\nutrition-lifestyle-counselling.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\obesity.md",
+   "boldLabelBullets": 7,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\prediabetes-risk-assessment.md",
+   "boldLabelBullets": 8,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\preventive-health-check-ups.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\thyroid-clinic.md",
+   "boldLabelBullets": 8,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\tmt-stress-test.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\type-1-diabetes.md",
+   "boldLabelBullets": 9,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 2
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\type-2-diabetes.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 2
+  },
+  {
+   "file": "resources\\content\\diabetes-heart\\weight-management-medicines.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 1
+  },
+  {
+   "file": "resources\\content\\lab-pharmacy\\home-sample-collection.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\lab-pharmacy\\lab.md",
+   "boldLabelBullets": 14,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\lab-pharmacy\\pharmacy.md",
+   "boldLabelBullets": 6,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\accessibility.md",
+   "boldLabelBullets": 1,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\cancellation-refund-policy.md",
+   "boldLabelBullets": 1,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\editorial-policy.md",
+   "boldLabelBullets": 1,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\medical-disclaimer.md",
+   "boldLabelBullets": 1,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\patient-rights.md",
+   "boldLabelBullets": 1,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\privacy-policy.md",
+   "boldLabelBullets": 5,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\legal\\terms-of-use.md",
+   "boldLabelBullets": 2,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\patient-info\\404.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\patient-info\\coming-from-outside-nagpur.md",
+   "boldLabelBullets": 0,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\patient-info\\faqs.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\patient-info\\health-library.md",
+   "boldLabelBullets": 4,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\patient-info\\plan-your-visit.md",
+   "boldLabelBullets": 11,
+   "confirm": 0,
+   "pending": [],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\_confirm-tracker.md",
+   "boldLabelBullets": 0,
+   "confirm": 26,
+   "pending": [
+    "pending"
+   ],
+   "emDash": 0
+  },
+  {
+   "file": "resources\\content\\_index.md",
+   "boldLabelBullets": 0,
+   "confirm": 1,
+   "pending": [],
+   "emDash": 0
+  }
+ ]
+}

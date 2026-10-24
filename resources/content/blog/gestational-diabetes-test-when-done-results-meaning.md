@@ -28,7 +28,7 @@ status: draft
 
 Gestational diabetes is high blood sugar that first appears during pregnancy. It often has no symptoms, so testing is the only way to find it. Early detection protects both mother and baby. Here is what to expect.
 
-#### Who Should Be Tested?
+#### Who should be tested?
 
 In India, many guidelines advise testing all pregnant women, because the risk of diabetes is high. Early testing in the first trimester is advised for women who:
 
@@ -46,7 +46,7 @@ In India, many guidelines advise testing all pregnant women, because the risk of
 
 - Are older than 30 to 35 years
 
-#### When Is the Test Done?
+#### When is the test done?
 
 - **First visit or early pregnancy:** Often for high-risk women, to detect pre-existing diabetes.
 
@@ -54,7 +54,7 @@ In India, many guidelines advise testing all pregnant women, because the risk of
 
 - **Later in pregnancy:** If symptoms or concerns arise, such as a large baby on scan.
 
-#### What Are the Test Options?
+#### What are the test options?
 
 ##### One-step OGTT
 
@@ -66,7 +66,7 @@ First, a 50 g glucose challenge is done without fasting, with one blood test at 
 
 Your doctor will advise which one is used for you.
 
-#### What Are the Diagnostic Values?
+#### What are the diagnostic values?
 
 For the common 75 g OGTT (IADPSG/WHO criteria), gestational diabetes is diagnosed if any one value is:
 
@@ -78,7 +78,7 @@ For the common 75 g OGTT (IADPSG/WHO criteria), gestational diabetes is diagnose
 
 Some Indian guidelines use a single 2-hour value of 140 mg/dL or higher after a 75 g glucose load. Your doctor will explain which criteria they follow.
 
-#### How Do You Prepare?
+#### How do you prepare?
 
 - Eat normally for the three days before, including adequate carbohydrates.
 
@@ -92,11 +92,11 @@ Some Indian guidelines use a single 2-hour value of 140 mg/dL or higher after a 
 
 - Bring a snack for afterwards.
 
-#### What If the Drink Makes You Feel Sick?
+#### What if the drink makes you feel sick?
 
 Some women feel nauseated after the sweet drink. Sip it slowly over five minutes. If you vomit, inform the staff. The test may need to be repeated.
 
-#### What Happens After an Abnormal Result?
+#### What happens after an abnormal result?
 
 You will be referred to a diabetologist and dietitian, and taught:
 
@@ -110,15 +110,15 @@ You will be referred to a diabetologist and dietitian, and taught:
 
 Regular scans and checks track the baby's growth.
 
-#### What If the Result Is Normal?
+#### What if the result is normal?
 
 You may still be at risk if you had symptoms or risk factors. Repeat testing at 24 to 28 weeks if the early test was normal, or if gestational diabetes is suspected later. Continue healthy habits.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Seek advice if you have excessive thirst, frequent urination, blurred vision, recurrent infections, a large baby on scan or excess amniotic fluid.
 
-#### Key Takeaways
+#### What to remember
 
 - Testing is done in early pregnancy for high-risk women and at 24 to 28 weeks for all.
 
@@ -129,8 +129,6 @@ Seek advice if you have excessive thirst, frequent urination, blurred vision, re
 - Prepare by fasting and eating normally in the days before.
 
 - Early diagnosis protects mother and baby.
-
-#### Final Thoughts
 
 A positive test is not a failure. It is an opportunity to protect your pregnancy with simple steps. For guidance, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

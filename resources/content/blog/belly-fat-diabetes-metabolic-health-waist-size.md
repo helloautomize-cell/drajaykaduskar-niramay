@@ -28,7 +28,7 @@ status: draft
 
 Two people can weigh the same and have very different health risks. The difference is often where the fat sits. Fat around the belly is more dangerous than fat on the hips or thighs, and it is especially common in Indians.
 
-#### What Is Visceral Fat?
+#### What is visceral fat?
 
 There are two main types of body fat:
 
@@ -38,7 +38,7 @@ There are two main types of body fat:
 
 Many Indians have more visceral fat at a lower BMI, a pattern sometimes called "thin-fat" or "normal weight obesity".
 
-#### Why Is Belly Fat Harmful?
+#### Why is belly fat harmful?
 
 - It releases inflammatory chemicals.
 
@@ -52,7 +52,7 @@ Many Indians have more visceral fat at a lower BMI, a pattern sometimes called "
 
 - It is linked to sleep apnoea and some cancers.
 
-#### How Do You Measure It?
+#### How do you measure it?
 
 ##### Waist circumference
 
@@ -66,11 +66,11 @@ Divide waist by height. A ratio above about 0.5 suggests increased risk.
 
 Ultrasound, DEXA or CT scans can estimate visceral fat, but they are rarely needed for routine care.
 
-#### Why Is BMI Not Enough?
+#### Why is BMI not enough?
 
 BMI does not tell you where fat is stored. A person with a normal BMI but a large waist may have a high risk. Using both BMI and waist gives a better picture.
 
-#### How Can You Reduce Belly Fat?
+#### How can you reduce belly fat?
 
 ##### Eat for metabolic health
 
@@ -102,15 +102,15 @@ Alcohol adds calories and encourages fat storage in the abdomen and liver.
 
 In people with obesity or diabetes, medicines such as GLP-1 medicines or metabolic surgery may help reduce visceral fat when lifestyle is not enough.
 
-#### Does Spot Reduction Work?
+#### Does spot reduction work?
 
 No. Sit-ups alone do not remove belly fat. Fat is lost from the whole body, and visceral fat often reduces early when you lose weight.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Get checked if your waist is above the targets, you have a family history of diabetes, or you have high blood pressure, cholesterol or fatty liver. A blood sugar, HbA1c and lipid test are good starting points.
 
-#### Key Takeaways
+#### Points to keep
 
 - Visceral belly fat is more harmful than fat elsewhere.
 
@@ -121,8 +121,6 @@ Get checked if your waist is above the targets, you have a family history of dia
 - Diet, exercise, sleep and weight loss reduce belly fat.
 
 - Early testing can prevent diabetes and heart disease.
-
-#### Final Thoughts
 
 Your tape measure tells you more than your weighing scale. Small, regular steps can shrink your waist and lower your risk. For a personalised assessment and plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

@@ -11,7 +11,7 @@ category: "Continuous Glucose Monitoring"
 reading_time: "4 min read"
 excerpt: "Continuous glucose monitors are popular, but are they needed by everyone with type 2 diabetes? Learn who benefits most and who can manage without one."
 image: "blog/does-everyone-with-type-2-diabetes-need-cgm.webp"
-image_alt: "Small continuous glucose sensor on the upper arm of an Indian adult with a phone showing"
+image_alt: "Small continuous glucose sensor on the upper arm of an Indian adult, with a phone showing the glucose app beside it"
 sources:
   - name: "NIDDK: Continuous glucose monitoring"
     url: "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes/continuous-glucose-monitoring"
@@ -28,7 +28,7 @@ status: draft
 
 A continuous glucose monitor (CGM) tracks sugar levels through the day and night using a small sensor worn on the body. It is a powerful tool, but not every person needs one.
 
-#### Who Benefits Most
+#### Who benefits most
 
 - People on multiple daily insulin injections
 
@@ -40,7 +40,7 @@ A continuous glucose monitor (CGM) tracks sugar levels through the day and night
 
 - People who want to understand how food and activity affect sugar, with medical guidance
 
-#### Who May Manage Without
+#### Who may manage without
 
 - Stable type 2 diabetes on tablets with good HbA1c
 
@@ -48,7 +48,7 @@ A continuous glucose monitor (CGM) tracks sugar levels through the day and night
 
 - People for whom cost is a barrier
 
-#### What a CGM Shows
+#### What a CGM shows
 
 - Trends through the day and night
 
@@ -56,7 +56,7 @@ A continuous glucose monitor (CGM) tracks sugar levels through the day and night
 
 - Alerts for high and low sugar
 
-#### Limits to Know
+#### Limits to know
 
 - Readings may lag slightly behind blood glucose
 
@@ -66,7 +66,7 @@ A continuous glucose monitor (CGM) tracks sugar levels through the day and night
 
 - Fingerstick checks may still be needed
 
-#### Getting Value From a CGM
+#### Getting value from a CGM
 
 - Review reports with your doctor
 
@@ -74,7 +74,7 @@ A continuous glucose monitor (CGM) tracks sugar levels through the day and night
 
 - Use it to guide meals, activity and medicines
 
-#### Key Takeaways
+#### A quick recap
 
 - CGM is helpful but not essential for everyone.
 
@@ -85,8 +85,6 @@ A continuous glucose monitor (CGM) tracks sugar levels through the day and night
 - Data needs interpretation.
 
 - Discuss with your doctor.
-
-#### Final Thoughts
 
 The best monitoring method is one that fits your treatment and lifestyle. For advice, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

@@ -1,0 +1,53 @@
+url,type,cluster,primary_keyword,word_count,has_author,has_reviewer,has_dates,has_faq,schema_valid,schema_types,inbound_links,contextual_inbound,ai_likeness,rewrite_priority
+/,Home,core,diabetes heart child care clinic nagpur,833,-,,partial,4,Y,"AdministrativeArea,Answer,City,ContactPoint,FAQPage,GeoCircl",152,50,12,Low
+/,Home,core,diabetes heart child care clinic nagpur,833,-,,partial,4,Y,"AdministrativeArea,Answer,City,ContactPoint,FAQPage,GeoCircl",152,50,12,Low
+/about/,Utility,core,about niramay clinics nagpur,641,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",2,2,12,Low
+/accessibility/,Legal/Trust,core,accessibility statement,183,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",51,0,12,Low
+/blooming-buds/,Pillar/Hub,blooming-buds,child specialist nagpur,290,team,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",62,10,12,Medium
+/blooming-buds/adolescent-health/,Service/Condition,blooming-buds,adolescent health clinic nagpur,383,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",62,6,12,Low
+/blooming-buds/career-counselling/,Service/Condition,blooming-buds,career counselling nagpur,338,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",61,6,12,Low
+/blooming-buds/psychological-testing/,Service/Condition,blooming-buds,iq eq testing children nagpur,282,team,Y,partial,2,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",57,6,12,Medium
+/blooming-buds/teen-mental-health/,Service/Condition,blooming-buds,teen counselling nagpur,551,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",64,9,12,Low
+/blooming-buds/well-baby-clinic/,Service/Condition,blooming-buds,well baby clinic nagpur,323,team,Y,partial,3,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",60,5,12,Low
+/blooming-buds/workshops/,Service/Condition,blooming-buds,school health workshops nagpur,211,team,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",59,8,12,High
+/cancellation-refund-policy/,Legal/Trust,core,cancellation refund policy,196,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",51,0,12,Low
+/contact/,Utility,core,book appointment niramay clinics,372,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",178,73,12,Low
+/diabetes/,Pillar/Hub,diabetes,diabetes care nagpur,705,team,Y,partial,6,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",68,15,12,Low
+/diabetes/complications-screening/,Service/Condition,diabetes,diabetes complications screening nagpur,525,team,Y,partial,3,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",55,3,12,Low
+/diabetes/diabetes-care-programme/,Service/Condition,diabetes,diabetes care programme nagpur,235,team,Y,partial,2,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",54,2,12,Medium
+/diabetes/diabetes-in-pregnancy/,Service/Condition,diabetes,gestational diabetes care nagpur,439,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",60,4,12,Low
+/diabetes/prediabetes-risk-assessment/,Service/Condition,diabetes,prediabetes test nagpur,423,team,Y,partial,3,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",59,3,12,Low
+/diabetes/type-1-diabetes/,Service/Condition,diabetes,type 1 diabetes care nagpur,446,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",63,7,12,Low
+/diabetes/type-2-diabetes/,Service/Condition,diabetes,type 2 diabetes treatment nagpur,843,team,Y,partial,6,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",64,8,12,Low
+/doctors/dr-ajay-kaduskar/,Doctor,core,dr ajay kaduskar diabetologist nagpur,632,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",28,27,12,Low
+/doctors/dr-prajakta-kaduskar/,Doctor,core,dr prajakta kaduskar child specialist nagpur,370,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",26,20,12,Low
+/editorial-policy/,Legal/Trust,core,editorial policy,323,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",86,35,12,Low
+/faqs/,Utility,core,clinic faqs,629,-,,partial,24,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",52,0,12,Low
+/health-library/,Utility,blog,health articles nagpur,722,-,,Y,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",108,5,12,Low
+/health-library/diabetes-myths-and-facts/,Blog article,blog,diabetes myths facts,761,named,Y,Y,3,Y,"AdministrativeArea,Answer,BlogPosting,BreadcrumbList,City,Co",3,2,12,Low
+/health-library/menstrual-hygiene-teenage-girls/,Blog article,blog,menstrual hygiene teenage girls,843,named,Y,Y,0,Y,"AdministrativeArea,BlogPosting,BreadcrumbList,City,ContactPo",6,4,12,Low
+/health-library/preparing-child-for-adolescence/,Blog article,blog,preparing child for adolescence,749,named,Y,Y,0,Y,"AdministrativeArea,BlogPosting,BreadcrumbList,City,ContactPo",6,4,12,Low
+/health-library/self-esteem-teenagers-with-disabilities/,Blog article,blog,self esteem teenagers disabilities,794,named,Y,Y,0,Y,"AdministrativeArea,BlogPosting,BreadcrumbList,City,ContactPo",4,3,12,Low
+/health-library/smart-love-parenting-teenagers/,Blog article,blog,parenting teenagers,889,named,Y,Y,0,Y,"AdministrativeArea,BlogPosting,BreadcrumbList,City,ContactPo",2,1,12,Low
+/heart-care/,Pillar/Hub,heart,heart checkup nagpur,378,team,Y,partial,2,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",63,7,12,Low
+/heart-care/2d-echo/,Service/Condition,heart,2d echo test nagpur,299,team,Y,partial,2,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",55,4,12,Medium
+/heart-care/ecg/,Service/Condition,heart,ecg test nagpur,163,team,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",55,4,12,High
+/heart-care/tmt-stress-test/,Service/Condition,heart,tmt test nagpur,372,team,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",55,4,12,Medium
+/hypertension-clinic/,Service/Condition,metabolic,blood pressure treatment nagpur,409,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",59,4,12,Low
+/lab/,Service (lab/pharmacy),lab-pharmacy,pathology lab dhantoli nagpur,334,team,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",4,4,12,Low
+/lab/home-sample-collection/,Service (lab/pharmacy),lab-pharmacy,home blood sample collection nagpur,179,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",3,3,12,Low
+/medical-disclaimer/,Legal/Trust,core,medical disclaimer,168,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",51,0,12,Low
+/nutrition-lifestyle-counselling/,Service/Condition,metabolic,diet counselling nagpur,360,team,Y,partial,3,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",55,4,12,Low
+/obesity/,Pillar/Hub,obesity,weight loss doctor nagpur,494,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",62,5,12,Low
+/obesity/body-composition-sarcopenia/,Service/Condition,obesity,body composition analysis nagpur,377,team,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",55,3,12,Medium
+/obesity/weight-management-medicines/,Service/Condition,obesity,weight loss medicines nagpur,538,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",55,3,12,Low
+/patient-rights/,Legal/Trust,core,patient rights,442,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",51,0,12,Low
+/pharmacy/,Service (lab/pharmacy),lab-pharmacy,pharmacy dhantoli nagpur,199,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",3,3,12,Low
+/plan-your-visit/,Utility,core,plan clinic visit nagpur,476,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",105,1,12,Low
+/plan-your-visit/coming-from-outside-nagpur/,Utility,core,visiting nagpur clinic,260,-,Y,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,CollegeOrUniversity,C",52,1,12,Low
+/preventive-health-check-ups/,Service/Condition,metabolic,preventive health checkup nagpur,265,team,Y,partial,2,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",55,4,12,Medium
+/privacy-policy/,Legal/Trust,core,privacy policy,1196,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",52,1,12,Low
+/services/,Utility,core,clinic services nagpur,250,-,,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",1,0,12,Low
+/terms-of-use/,Legal/Trust,core,terms of use,399,-,LAW,partial,0,Y,"AdministrativeArea,BreadcrumbList,City,ContactPoint,GeoCircl",51,0,12,Low
+/thyroid-clinic/,Service/Condition,metabolic,thyroid clinic nagpur,321,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,CollegeOrUnive",60,4,12,Low
+/vaccination/,Service/Condition,blooming-buds,vaccination clinic nagpur,475,team,Y,partial,4,Y,"AdministrativeArea,Answer,BreadcrumbList,City,ContactPoint,F",54,3,12,Low

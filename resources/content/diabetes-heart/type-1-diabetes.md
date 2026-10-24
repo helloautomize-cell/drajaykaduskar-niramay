@@ -14,8 +14,8 @@ has_confirm_items: false
 
 ### Page 9. Type 1 Diabetes
 
-- **URL:** `/diabetes/type-1-diabetes/`
-- **SEO title:** Type 1 Diabetes Care in Nagpur | Insulin, CGM and Family Support
+- **URL:** `/[diabetes](/diabetes/)/type-1-diabetes/`
+- **SEO title:** Type 1 Diabetes Care in Nagpur | Insulin, [CGM](/diabetes/type-2-diabetes/) and Family Support
 - **Meta description:** Type 1 diabetes care for teenagers and adults in Nagpur: insulin planning, sugar monitoring, sick-day rules, diet and emotional support for the whole family.
 - **Schema:** MedicalWebPage, MedicalCondition
 
@@ -38,6 +38,8 @@ Living well with type 1 diabetes is entirely possible. It takes a good insulin p
 #### Warning signs of diabetic ketoacidosis (DKA)
 Nausea, vomiting, stomach pain, deep or fast breathing, fruity-smelling breath, extreme tiredness or confusion, and high sugar readings. DKA is an emergency. **Go to a hospital emergency department immediately, or call 108 or 112.** Never stop insulin during illness, even if not eating.
 
+#### When to see a doctor
+Excessive thirst, frequent urination, weight loss despite eating, vomiting, stomach pain or rapid breathing can mean very high sugar or ketoacidosis and need urgent care - call 108 or go to the nearest emergency department. Routine concerns like frequent lows, growth worries or device problems are best raised at your regular review.
 #### Frequently asked questions
 **Can type 1 diabetes be managed with tablets or diet alone?**
 No. People with type 1 diabetes always need insulin. Diet and activity help, but cannot replace insulin.
@@ -49,4 +51,8 @@ Yes. With planning around insulin, snacks and testing, children and teenagers wi
 If an insulin pump or a continuous glucose monitor (CGM) may suit you, Dr. Ajay explains the options and guides your care.
 
 **Will my child be able to marry and have a career?**
-Yes. People with well-managed type 1 diabetes study, work in almost every profession, marry and have healthy children. Women with type 1 diabetes should plan pregnancy with their doctor in advance.
+Yes. People with well-managed type 1 diabetes study, work in almost every profession, marry and have healthy children. Women with type 1 diabetes should plan [pregnan](/diabetes/diabetes-in-pregnancy/)cy with their doctor in advance.
+
+#### Sources and further reading
+- [Type 1 diabetes — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)
+- [Standards of Care in Diabetes — American Diabetes Association](https://professional.diabetes.org/standards-of-care)

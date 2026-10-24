@@ -16,7 +16,7 @@ has_confirm_items: false
 
 - **URL:** `/thyroid-clinic/`
 - **SEO title:** Thyroid Clinic in Nagpur | Hypothyroidism and Hyperthyroidism Care
-- **Meta description:** Diagnosis and treatment of thyroid disorders in Nagpur: underactive and overactive thyroid, thyroid in pregnancy, and thyroid problems with diabetes. In-house thyroid tests.
+- **Meta description:** Diagnosis and treatment of thyroid disorders in Nagpur: underactive and overactive thyroid, thyroid in pregnancy, and thyroid problems with [diabetes](/diabetes/). In-house thyroid tests.
 - **Schema:** MedicalWebPage, MedicalCondition
 
 **H1:** Thyroid clinic
@@ -24,14 +24,17 @@ has_confirm_items: false
 The thyroid is a small gland in the neck that controls how fast the body uses energy. Thyroid disorders are common in India, especially in women, and are more common in people with diabetes. Most are easily diagnosed with a blood test and well controlled with treatment.
 
 #### Common thyroid conditions we treat
-- **Hypothyroidism (underactive thyroid):** tiredness, weight gain, feeling cold, constipation, dry skin, hair fall, slow thinking, heavy or irregular periods, low mood
+- **Hypothyroidism (underactive thyroid):** tiredness, [weight](/obesity/) gain, feeling cold, constipation, dry skin, hair fall, slow thinking, heavy or irregular periods, low mood
 - **Hyperthyroidism (overactive thyroid):** weight loss despite good appetite, palpitations, tremor, sweating, anxiety, poor sleep, loose stools
 - **Subclinical thyroid disease:** abnormal TSH with normal thyroid hormone levels, which may or may not need treatment
-- **Thyroid in pregnancy and planning pregnancy**, where targets are stricter
+- **Thyroid in [pregnan](/diabetes/diabetes-in-pregnancy/)cy and planning pregnancy**, where targets are stricter
 - **Goitre and thyroid nodules**: initial evaluation and referral for scans or specialist surgery where needed
 
 #### Tests
 TSH, free T4 and, when needed, free T3 and thyroid antibodies, all available at Niramay Laboratory. Thyroid ultrasound is arranged through a referral when required.
+
+#### When to see a doctor
+See a doctor if you notice a swelling in the neck, unexplained weight gain or loss with tiredness, a racing or unusually slow heartbeat, feeling too cold or too hot most of the time, or if you have thyroid disease and are pregnant or planning a pregnancy.
 
 #### Frequently asked questions
 **Do I need to fast for a thyroid test?**
@@ -45,3 +48,6 @@ Thyroid hormone tablets are best taken on an empty stomach with water, usually 3
 
 **Can a thyroid problem cause weight gain?**
 An underactive thyroid can add a few kilograms, mostly from fluid, and can make weight loss harder. Treating it helps, but it is rarely the only cause of significant weight gain.
+
+#### Sources and further reading
+- [Thyroid diseases — MedlinePlus (US National Library of Medicine)](https://medlineplus.gov/thyroiddiseases.html)

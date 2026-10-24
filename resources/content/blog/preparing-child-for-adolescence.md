@@ -22,7 +22,7 @@ has_confirm_items: false
 **Summary box:**
 
 - Behaviour is learned, which means it can be changed.
-- Childhood is the best time to build habits that carry a child through adolescence.
+- Childhood is the best time to build habits that carry a child through [adolescen](/blooming-buds/adolescent-health/)ce.
 - Parents need courage, patience and practice, and consistency matters more than perfection.
 
 #### Today's preparation shapes tomorrow

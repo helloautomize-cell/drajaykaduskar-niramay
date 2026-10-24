@@ -23,7 +23,7 @@ has_confirm_items: false
 
 **H1:** Obesity and weight management
 
-Obesity is a long-term medical condition, not a lack of willpower. Genes, hormones, sleep, stress, medicines, work patterns and the food around us all play a part. Excess body fat, especially around the abdomen, raises the risk of type 2 diabetes, high blood pressure, fatty liver, sleep apnoea, joint pain, PCOS, heart disease and some cancers.
+Obesity is a long-term medical condition, not a lack of willpower. Genes, hormones, sleep, stress, medicines, work patterns and the food around us all play a part. Excess body fat, especially around the abdomen, raises the risk of type 2 diabetes, high blood pressure, fatty liver, [sleep apn](/thyroid-clinic/)oea, joint pain, PCOS, heart disease and some cancers.
 
 At Niramay Clinics, weight management is led by Dr. Ajay V. Kaduskar, who holds SCOPE certification in obesity management from the World Obesity Federation. The focus is on health, not a number on the scale: lowering harmful fat, protecting muscle, and improving sugar, blood pressure, liver health and energy.
 
@@ -43,8 +43,13 @@ Indians tend to carry more fat, especially abdominal fat, at a lower body weight
 7. **Referral for bariatric (weight-loss) surgery** when it is the right option, and care before and after surgery.
 8. **Regular follow-up** with body composition tracking, so we know whether weight lost is fat or muscle.
 
+**A note on surgery and teenagers.** Weight-loss (bariatric) surgery is not done at our clinic; when it is the right option we refer and coordinate care. Teenagers with weight concerns are usually seen together with Dr. Prajakta so that growth, hormones and emotional health are covered.
+
 #### Explore
-Medicines for weight management · Body composition and sarcopenia assessment · Nutrition and lifestyle counselling · Prediabetes and risk assessment
+[Medicines for weight management](/obesity/weight-management-medicines/) · [Body composition and sarcopenia assessment](/obesity/body-composition-sarcopenia/) · [Nutrition and lifestyle counselling](/nutrition-lifestyle-counselling/) · [Prediabetes and risk assessment](/diabetes/prediabetes-risk-assessment/)
+
+#### When to see a doctor
+See a doctor soon if your weight is rising steadily without a clear reason, you feel unusually tired or thirsty, you snore loudly or stop breathing during sleep, your periods have become irregular, or a child is gaining weight faster than expected. These can point to a medical cause that needs checking.
 
 #### Frequently asked questions
 **I eat very little but still cannot lose weight. Why?**
@@ -56,5 +61,8 @@ For most people, about 0.5 to 1 kg per week is a safe pace. Faster loss often in
 **Can obesity in teenagers be treated here?**
 Yes. Teenagers are seen at Blooming Buds by Dr. Prajakta Kaduskar, together with Dr. Ajay Kaduskar when medical treatment is needed.
 
-**Is my weight the reason for my fatty liver?**
+**Is my weight the reason for my [fatty liver](/diabetes/)?**
 Excess weight and insulin resistance are the most common causes of fatty liver in India. Losing weight, especially abdominal fat, improves it.
+
+#### Sources and further reading
+- [Obesity and overweight — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight)

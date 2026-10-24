@@ -11,7 +11,7 @@ category: "GLP-1 Medicines"
 reading_time: "4 min read"
 excerpt: "GLP-1 medicines have changed diabetes care, but they do not simply swap out every older treatment. Never stop metformin or insulin on your own."
 image: "blog/do-glp-1-medicines-replace-metformin-or-insulin.webp"
-image_alt: "Injection pen, tablets and a glucometer neatly arranged on a clinic table. clinical calm mood, shallow"
+image_alt: "Injection pen, tablets and a glucometer neatly arranged on a clinic table"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,11 +28,11 @@ status: draft
 
 GLP-1 medicines have changed diabetes care, but they do not simply swap out every older treatment.
 
-#### How They Fit With Metformin
+#### How they fit with metformin
 
 Metformin lowers sugar by reducing liver glucose output and improving insulin response. GLP-1 medicines work differently, so together they often give better control and may help weight.
 
-#### How They Fit With Insulin
+#### How they fit with insulin
 
 - Some people on insulin add a GLP-1 medicine to improve control and reduce insulin needs
 
@@ -40,7 +40,7 @@ Metformin lowers sugar by reducing liver glucose output and improving insulin re
 
 - People who need insulin because their own production is very low, such as type 1 diabetes, still need it
 
-#### When Changes Might Be Made
+#### When changes might be made
 
 - Weight loss and improved sugar may lower medicine needs
 
@@ -48,11 +48,11 @@ Metformin lowers sugar by reducing liver glucose output and improving insulin re
 
 - Kidney or stomach issues may affect choices
 
-#### Why Doctors Do Not Stop Medicines Casually
+#### Why doctors do not stop medicines casually
 
 Stopping metformin or insulin too quickly can cause high sugar or ketones. Adjustments are made step by step with monitoring.
 
-#### What You Should Do
+#### What you should do
 
 - Take medicines exactly as prescribed
 
@@ -62,7 +62,7 @@ Stopping metformin or insulin too quickly can cause high sugar or ketones. Adjus
 
 - Monitor sugar as advised
 
-#### Key Takeaways
+#### The quick version
 
 - GLP-1 medicines are usually added, not swapped.
 
@@ -73,8 +73,6 @@ Stopping metformin or insulin too quickly can cause high sugar or ketones. Adjus
 - Monitoring guides changes.
 
 - Treatment is individual.
-
-#### Final Thoughts
 
 Newer medicines add options, but they work alongside good habits and monitoring. For guidance, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

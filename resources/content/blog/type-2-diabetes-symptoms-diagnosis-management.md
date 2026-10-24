@@ -1,6 +1,6 @@
 ---
 title: "Type 2 Diabetes: Symptoms, Diagnosis, Blood Sugar Control & Long-Term Management"
-seo_title: "Type 2 Diabetes | Niramay"
+seo_title: "Type 2 Diabetes: Symptoms and Management | Niramay"
 url: "/health-library/type-2-diabetes-symptoms-diagnosis-management/"
 author: "Dr. Ajay V. Kaduskar"
 author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
@@ -368,7 +368,7 @@ Blood glucose can rise again, particularly if weight is regained or the underlyi
 
 For that reason, even someone whose glucose levels have returned to the non-diabetes range should continue appropriate follow-up.
 
-#### Why is my blood sugar still high even though I take medicine?
+#### Why is my blood sugar still high even though i take medicine?
 
 This is a common situation and does not necessarily mean the medication is ineffective.
 

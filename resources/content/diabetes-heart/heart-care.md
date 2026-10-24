@@ -17,15 +17,15 @@ has_confirm_items: false
 
 - **URL:** `/heart-care/`
 - **SEO title:** Heart Check-up and Preventive Cardiology in Nagpur | Niramay Clinics
-- **Meta description:** Find heart risk early: blood pressure, cholesterol, sugar, ECG, 2D Echo and treadmill test (TMT) at Niramay Clinics, Dhantoli, Nagpur, with a clear prevention plan.
+- **Meta description:** Find heart risk early: [blood pressure](/hypertension-clinic/), cholesterol, sugar, ECG, 2D Echo and treadmill test (TMT) at Niramay Clinics, Dhantoli, Nagpur, with a clear prevention plan.
 - **Schema:** MedicalWebPage
 - **Images:** `NirmayClinics_Diabetes_Complication_Screening2.jpg` (cardiac room)
 
 **H1:** Heart care and preventive cardiology
 
-Heart attacks and strokes are among the leading causes of death in India, and they are striking people at younger ages. Most are linked to risk factors that can be found and treated years earlier: high blood pressure, diabetes, high cholesterol, smoking, abdominal obesity, inactivity and family history.
+Heart attacks and strokes are among the leading causes of death in India, and they are striking people at younger ages. Most are linked to risk factors that can be found and treated years earlier: high blood pressure, [diabetes](/diabetes/), high cholesterol, smoking, abdominal obesity, inactivity and family history.
 
-Preventive cardiology means finding those risks early and lowering them before they cause harm. It is one of Dr. Ajay Kaduskar's special interests, and the clinic has 2D Echo, ECG and treadmill testing (TMT) on site.
+Preventive cardiology means finding those risks early and lowering them before they cause harm. It is one of Dr. Ajay Kaduskar's special interests, and the clinic has 2D [Echo](/heart-care/ecg/), ECG and treadmill testing (TMT) on site.
 
 > **Important:** Niramay Clinics provides heart risk assessment and non-invasive heart tests. We are not an emergency or cardiac catheterisation facility. When a test shows significant heart disease, we refer you to a cardiologist or hospital promptly.
 
@@ -37,7 +37,7 @@ Preventive cardiology means finding those risks early and lowering them before t
 - A calculation of your overall cardiovascular risk and a written plan to lower it
 
 #### Who should get a heart check
-- Adults with diabetes, high blood pressure or high cholesterol
+- Adults with diabetes, high blood pressure or high [cholesterol](/preventive-health-check-ups/)
 - Smokers or former smokers
 - A parent or sibling who had a heart attack or stroke at a young age (men under 55, women under 65)
 - Breathlessness, chest discomfort on exertion, palpitations, or unexplained tiredness (see a doctor promptly)
@@ -47,7 +47,7 @@ Preventive cardiology means finding those risks early and lowering them before t
 Chest pain, pressure or tightness lasting more than a few minutes, pain spreading to the arm, jaw, neck or back, breathlessness, sweating, nausea, or sudden fainting. People with diabetes, women and older adults may have milder or unusual symptoms. **Do not drive yourself. Do not wait for a clinic appointment.**
 
 #### Explore
-2D Echo · ECG · TMT (treadmill stress test) · Hypertension clinic · Preventive health check-ups
+[2D Echo](/heart-care/2d-echo/) · [ECG](/heart-care/ecg/) · [TMT (treadmill stress test)](/heart-care/tmt-stress-test/) · [Hypertension clinic](/hypertension-clinic/) · [Preventive health check-ups](/preventive-health-check-ups/)
 
 #### Frequently asked questions
 **My cholesterol is "slightly high". Do I need treatment?**
@@ -55,3 +55,9 @@ It depends on your overall heart risk, not on one number. Diabetes, blood pressu
 
 **Is a heart check-up needed if I feel fit?**
 If you have risk factors, yes. Many heart conditions develop without symptoms.
+
+**I feel fine. Do I still need a heart check?**
+Many heart risks, such as high blood pressure, cholesterol and early sugar problems, cause no symptoms for years. A check finds them while they are still easy to treat, especially with diabetes or family history.
+
+**Which test will the doctor choose for me?**
+It depends on your symptoms and risk. Many patients start with an ECG; a 2D Echo looks at structure and pumping, and a treadmill test shows how the heart behaves under load. Dr. Ajay explains which is useful for you.

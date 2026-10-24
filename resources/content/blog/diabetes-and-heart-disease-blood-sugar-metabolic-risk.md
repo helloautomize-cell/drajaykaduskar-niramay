@@ -28,7 +28,7 @@ status: draft
 
 Most people with diabetes know about the risk to eyes and kidneys. Fewer realise that heart disease is the biggest threat. Understanding how diabetes and the heart are linked puts you in a stronger position to protect both.
 
-#### How Does Diabetes Harm the Heart?
+#### How does diabetes harm the heart?
 
 - **Damaged blood vessels:** High sugar injures the inner lining of arteries, making fatty plaques form faster.
 
@@ -44,7 +44,7 @@ Most people with diabetes know about the risk to eyes and kidneys. Fewer realise
 
 - **Nerve damage:** Diabetes can affect the nerves of the heart, so a heart attack may cause little or no chest pain.
 
-#### What Heart Conditions Are More Common?
+#### What heart conditions are more common?
 
 - Coronary artery disease and heart attack
 
@@ -56,7 +56,7 @@ Most people with diabetes know about the risk to eyes and kidneys. Fewer realise
 
 - Abnormal heart rhythms such as atrial fibrillation
 
-#### What Are the Warning Signs?
+#### What are the warning signs?
 
 - Chest pain, pressure or tightness, especially with effort
 
@@ -72,7 +72,7 @@ Most people with diabetes know about the risk to eyes and kidneys. Fewer realise
 
 Call emergency services for sudden chest pain, severe breathlessness, weakness of one side of the body or trouble speaking.
 
-#### Which Numbers Matter?
+#### Which numbers matter?
 
 Besides HbA1c, discuss targets for:
 
@@ -88,7 +88,7 @@ Besides HbA1c, discuss targets for:
 
 - **Weight and BMI.**
 
-#### How Can You Protect Your Heart?
+#### How can you protect your heart?
 
 ##### Control sugar, but safely
 
@@ -122,15 +122,15 @@ Treat sleep apnoea and manage stress.
 
 Have an annual review of blood pressure, cholesterol, kidney tests, eyes and feet. Your doctor may advise an ECG or other heart tests.
 
-#### Should You Take Aspirin?
+#### Should you take aspirin?
 
 Not automatically. Aspirin is advised for those with established heart disease. In others, the bleeding risk may outweigh the benefit. Ask your doctor.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if you have chest discomfort, breathlessness, swollen legs, calf pain on walking or if your blood pressure or cholesterol is above target.
 
-#### Key Takeaways
+#### Points to keep
 
 - Diabetes doubles the risk of heart disease and stroke.
 
@@ -141,8 +141,6 @@ See your doctor if you have chest discomfort, breathlessness, swollen legs, calf
 - Statins, blood pressure control, healthy habits and heart-protective diabetes medicines help.
 
 - Regular check-ups catch problems early.
-
-#### Final Thoughts
 
 Protecting your heart is part of managing diabetes. Small improvements across several numbers add up to a big reduction in risk. To review your heart risk, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

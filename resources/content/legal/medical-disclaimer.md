@@ -3,7 +3,7 @@ page_number: 42
 title: "Medical Disclaimer"
 url: "/medical-disclaimer/"
 seo_title: ""
-meta_description: ""
+meta_description: "The Niramay Clinics website gives general health information only. It is not a diagnosis or a substitute for a consultation."
 schema: ""
 images: []
 reviewed_by: "Lawyer (required by Part 6 note)"

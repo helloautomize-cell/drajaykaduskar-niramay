@@ -28,11 +28,11 @@ status: draft
 
 Not long ago, GLP-1 medicines were out of reach for most Indian families. Today, more people are asking whether they can afford them. The picture has changed quickly, and understanding why helps you make a wiser decision.
 
-#### What Are GLP-1 Medicines?
+#### What are GLP-1 medicines?
 
 GLP-1 medicines mimic a natural gut hormone called glucagon-like peptide-1. They help the body release insulin when blood sugar is high, reduce appetite and slow stomach emptying. They are used for type 2 diabetes and, in selected people, for weight management.
 
-#### Why Were They So Expensive Before?
+#### Why were they so expensive before?
 
 - They were new, patented medicines.
 
@@ -44,7 +44,7 @@ GLP-1 medicines mimic a natural gut hormone called glucagon-like peptide-1. They
 
 - Demand was concentrated among a small group of patients.
 
-#### What Has Changed?
+#### What has changed?
 
 ##### More brands and companies
 
@@ -64,7 +64,7 @@ Greater demand encourages companies to expand supply and offer different strengt
 
 Because the market is changing fast, specific prices change often. Check the current price for your prescribed medicine.
 
-#### What Affects the Price You Pay?
+#### What affects the price you pay?
 
 - **The medicine:** Different molecules cost differently.
 
@@ -78,15 +78,15 @@ Because the market is changing fast, specific prices change often. Check the cur
 
 - **Location and pharmacy:** Taxes and margins differ.
 
-#### Is a Cheaper Medicine Always Better?
+#### Is a cheaper medicine always better?
 
 No. Quality, approval status and proper storage matter. Buy only from licensed pharmacies, avoid products sold online without prescription, and never accept "repackaged" injections. A lower price is helpful only if the medicine is genuine and suitable for you.
 
-#### Why Does Medical Supervision Still Matter?
+#### Why does medical supervision still matter?
 
 GLP-1 medicines are not for everyone. A doctor checks whether you are a good candidate, chooses the right medicine and dose, plans the slow increase, and monitors side effects and your other medicines. Self-medication can lead to serious problems.
 
-#### How Can You Plan for the Cost?
+#### How can you plan for the cost?
 
 - Ask your doctor for the expected total monthly cost, including follow-up.
 
@@ -96,11 +96,11 @@ GLP-1 medicines are not for everyone. A doctor checks whether you are a good can
 
 - Check whether any health insurance or employer plan covers part of the cost.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See a diabetologist before starting any GLP-1 medicine, particularly if you have a history of pancreatitis, gallstones, thyroid problems, kidney disease or pregnancy plans.
 
-#### Key Takeaways
+#### A quick recap
 
 - GLP-1 medicines have become more affordable in India due to more brands, local manufacturing and competition.
 
@@ -111,8 +111,6 @@ See a diabetologist before starting any GLP-1 medicine, particularly if you have
 - A doctor's supervision is essential.
 
 - Verify current prices before you decide.
-
-#### Final Thoughts
 
 Lower prices are good news, but they are only one part of the decision. The right medicine, the right dose and the right follow-up matter just as much. To find out whether a GLP-1 medicine suits you, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

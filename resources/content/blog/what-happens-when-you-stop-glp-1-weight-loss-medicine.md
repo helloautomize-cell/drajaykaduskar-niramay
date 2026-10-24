@@ -11,7 +11,7 @@ category: "GLP-1 in India"
 reading_time: "4 min read"
 excerpt: "Stopping a GLP-1 medicine often brings back appetite and weight. Learn what to expect, why it happens and how to plan a safe stop or maintenance strategy."
 image: "blog/what-happens-when-you-stop-glp-1-weight-loss-medicine.webp"
-image_alt: "Indian diabetologist talking with a patient about a maintenance plan while a healthy meal and walking"
+image_alt: "Indian diabetologist talking with a patient about a maintenance plan, with a healthy meal and walking shoes nearby"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,11 +28,11 @@ status: draft
 
 Many people start a GLP-1 medicine and lose weight, then wonder what happens when they stop. The honest answer is that for most people, appetite and weight tend to return. Understanding why helps you plan, instead of being surprised.
 
-#### Why Does Weight Come Back?
+#### Why does weight come back?
 
 Obesity is a chronic condition. The body defends its higher weight with hormones that increase hunger and reduce fullness. GLP-1 medicines lower these signals. Once the medicine leaves the body, hunger signals return to their previous levels. Studies that followed people after stopping have shown that, on average, most of the weight lost was regained within about a year.
 
-#### What Else Changes After Stopping?
+#### What else changes after stopping?
 
 - **Appetite and cravings:** Often return within weeks.
 
@@ -44,11 +44,11 @@ Obesity is a chronic condition. The body defends its higher weight with hormones
 
 - **Side effects:** Nausea and stomach symptoms stop.
 
-#### Does Everyone Regain?
+#### Does everyone regain?
 
 Not everyone. People who build strong habits during treatment, such as regular exercise, protein-rich meals, good sleep and mindful eating, tend to keep more of the benefit. Some people maintain with a lower dose. Others may restart later.
 
-#### How Can You Plan to Stop Safely?
+#### How can you plan to stop safely?
 
 ##### Talk to your doctor first
 
@@ -80,7 +80,7 @@ Weigh yourself weekly and check your waist. For diabetes, monitor sugar levels a
 
 Some people stay on a lower maintenance dose. Others use different medicines, or consider metabolic surgery if severe obesity returns. Your doctor can discuss these.
 
-#### When Might You Stop?
+#### When might you stop?
 
 - You have reached your goal and have a maintenance plan
 
@@ -94,11 +94,11 @@ Some people stay on a lower maintenance dose. Others use different medicines, or
 
 Always plan this with your doctor.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if you notice rapid weight regain, high sugar readings, increased thirst or urination, or return of symptoms such as snoring or knee pain after you stop.
 
-#### Key Takeaways
+#### In short
 
 - Appetite and weight usually return after stopping a GLP-1 medicine.
 
@@ -109,8 +109,6 @@ See your doctor if you notice rapid weight regain, high sugar readings, increase
 - Do not stop suddenly without medical advice.
 
 - Plan maintenance, monitoring and next steps with your doctor.
-
-#### Final Thoughts
 
 GLP-1 medicines work best as part of a long-term plan, not a short course. If you are thinking of stopping, plan early so that your hard-won progress is protected. For guidance, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

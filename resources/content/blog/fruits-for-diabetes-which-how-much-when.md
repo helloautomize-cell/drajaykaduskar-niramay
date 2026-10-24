@@ -28,11 +28,11 @@ status: draft
 
 A common myth is that people with diabetes must avoid fruit. In reality, whole fruits provide fibre, vitamins and antioxidants and can be part of a healthy diabetes diet. The key is choosing suitable fruits, controlling portions and timing them sensibly.
 
-#### Why Is Whole Fruit Better Than Juice?
+#### Why is whole fruit better than juice?
 
 Whole fruit contains fibre that slows sugar absorption and keeps you full. Juice removes fibre and concentrates sugar, raising blood sugar quickly. Even fresh juice without added sugar is best avoided or limited.
 
-#### Which Fruits Are Good Choices?
+#### Which fruits are good choices?
 
 ##### Lower to moderate impact fruits
 
@@ -72,11 +72,11 @@ These are not forbidden but contain more sugar per portion.
 
 Raisins, dates and figs are concentrated sources of sugar. Small amounts may fit occasionally, but portions should be very small.
 
-#### How Much Fruit Is Right?
+#### How much fruit is right?
 
 Most people do well with one portion at a time and two to three portions a day, depending on their overall diet and sugar control. A portion is roughly one small apple, one orange, one guava or about a cup of papaya. Your doctor or dietitian can personalise this.
 
-#### When Is the Best Time to Eat Fruit?
+#### When is the best time to eat fruit?
 
 - As a mid-morning or evening snack
 
@@ -86,15 +86,15 @@ Most people do well with one portion at a time and two to three portions a day, 
 
 - Avoid eating several fruits at once
 
-#### Do Fruit Myths Matter?
+#### Do fruit myths matter?
 
 Fruit does not need to be eaten only on an empty stomach, and no single fruit cures diabetes. Balance and portion size matter most.
 
-#### How Can You Check Your Response?
+#### How can you check your response?
 
 Checking blood sugar about two hours after eating fruit helps you understand how your body responds to different fruits.
 
-#### Key Takeaways
+#### A quick recap
 
 - People with diabetes can eat fruit.
 
@@ -105,8 +105,6 @@ Checking blood sugar about two hours after eating fruit helps you understand how
 - Limit very sweet fruits and dried fruits.
 
 - Pair fruit with protein or nuts and control portions.
-
-#### Final Thoughts
 
 Fruit can be a healthy, enjoyable part of a diabetes diet when chosen and portioned wisely. Personal monitoring helps you find what works for you. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur guides patients on practical diabetes nutrition.
 

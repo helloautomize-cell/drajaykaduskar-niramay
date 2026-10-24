@@ -15,8 +15,8 @@ has_confirm_items: false
 ### Page 32. Workshops for Schools, Parents and Teachers
 
 - **URL:** `/blooming-buds/workshops/`
-- **SEO title:** Adolescent Health Workshops for Schools and Parents | Nagpur
-- **Meta description:** Workshops by Dr. Prajakta Kaduskar for schools, parents and teachers in Nagpur: puberty, mental wellness, screen use, cyber safety, bullying, life skills and exam stress.
+- **SEO title:** [Adolescent](/blooming-buds/adolescent-health/) Health Workshops for Schools and Parents | Nagpur
+- **Meta description:** Workshops by Dr. Prajakta Kaduskar for schools, parents and teachers in Nagpur: puberty, [mental wellness](/blooming-buds/teen-mental-health/), screen use, cyber safety, bullying, life skills and exam stress.
 - **Schema:** MedicalWebPage, Service
 
 **H1:** Workshops for schools, parents and teachers
@@ -50,3 +50,17 @@ Some health topics are best discussed in groups: with a class of students, a par
 Sessions can be held at your school or organisation in Nagpur. Workshops can be held in English, Hindi or Marathi. Call or use the form to plan one for your school or group. We will contact you within 2 working days.
 
 **CTA:** Request a workshop (form: school or organisation name, audience, approximate number, preferred dates, topics, contact person)
+
+#### Frequently asked questions
+
+**Who conducts the workshops?**
+Dr. Prajakta Kaduskar conducts them herself, sometimes with the clinic team. Sessions are planned with the school beforehand so the content fits the age group and the time available.
+
+**What topics can a school choose?**
+Common choices are puberty and growing up, mental wellness, screen and social media use, cyber safety, exam stress, study habits, bullying and life skills. A school can also request a custom topic.
+
+**How far in advance should we book?**
+Two to three weeks is usually comfortable so dates and content can be planned properly. Send the workshop request form or call the clinic and we will get back within two working days.
+
+**Is there a charge for workshops?**
+Charges depend on the session, the group size and the format. Schools can share their requirement through the request form or by phone and we will quote before confirming.

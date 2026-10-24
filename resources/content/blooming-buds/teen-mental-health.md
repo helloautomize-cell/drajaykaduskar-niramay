@@ -24,9 +24,9 @@ has_confirm_items: false
 
 **H1:** Teen mental health and counselling
 
-Most teenagers go through periods of stress, moodiness or conflict. That is part of growing up. Sometimes it goes further: a teenager who has stopped enjoying things, cannot sleep, avoids school, has angry outbursts, cannot put the phone down, or talks about feeling worthless needs support, and the earlier the better.
+Most teenagers go through periods of stress, moodiness or conflict. That is part of growing up. Sometimes it goes further: a teenager who has stopped enjoying things, cannot sleep, avoids [school](/blooming-buds/workshops/), has angry outbursts, cannot put the phone down, or talks about feeling worthless needs support, and the earlier the better.
 
-Dr. Prajakta Kaduskar combines medical training in child and adolescent health with a postgraduate qualification in clinical psychology. She assesses whether a physical cause, such as thyroid problems, anaemia or poor sleep, is contributing, and offers counselling for the teenager and guidance for parents.
+Dr. Prajakta Kaduskar combines medical training in child and [adolescent](/blooming-buds/adolescent-health/) health with a postgraduate qualification in clinical psychology. She assesses whether a physical cause, such as thyroid problems, anaemia or poor sleep, is contributing, and offers counselling for the teenager and guidance for parents.
 
 #### Concerns we help with
 - Stress management, and academic stress and exam anxiety
@@ -60,6 +60,8 @@ Dr. Prajakta Kaduskar combines medical training in child and adolescent health w
 4. **Parent sessions** on communication, boundaries and support at home.
 5. **Referral to a psychiatrist** when medicines or specialised care may be needed, with continued support from us.
 
+#### When to see a doctor
+Seek help early for low mood, anxiety, sleep problems, falling grades or social withdrawal lasting more than two weeks. If your teenager talks about self-harm, feels hopeless, or you are worried about their safety, treat it as urgent and contact a doctor or helpline the same day.
 #### Frequently asked questions
 **Will what my teenager says be kept private?**
 We keep sessions confidential so teenagers can talk openly. We explain at the start that information about safety, such as risk of self-harm or abuse, will always be shared with parents and, where the law requires, with authorities.

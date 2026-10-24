@@ -28,7 +28,7 @@ status: draft
 
 Many women feel anxious when told they may need insulin in pregnancy. It can feel like a setback. In reality, insulin is a safe and effective way to protect you and your baby when diet and activity are not enough.
 
-#### What Are the Blood Sugar Targets?
+#### What are the blood sugar targets?
 
 Targets are usually:
 
@@ -40,7 +40,7 @@ Targets are usually:
 
 Your doctor may adjust them. If more than a few readings in a week are above target despite good diet and activity, treatment is stepped up.
 
-#### When Do Doctors Start Insulin?
+#### When do doctors start insulin?
 
 - **Persistently high readings:** Fasting or post-meal sugars remain above target after one to two weeks of lifestyle changes.
 
@@ -52,7 +52,7 @@ Your doctor may adjust them. If more than a few readings in a week are above tar
 
 - **Pre-existing diabetes:** Diagnosed in early pregnancy.
 
-#### Why Is Insulin Preferred?
+#### Why is insulin preferred?
 
 - It does not cross the placenta in meaningful amounts.
 
@@ -62,11 +62,11 @@ Your doctor may adjust them. If more than a few readings in a week are above tar
 
 - It has a long safety record.
 
-#### What About Tablets?
+#### What about tablets?
 
 Metformin is used in some centres, and sometimes glibenclamide. These cross the placenta to some extent, and long-term effects on children are still being studied. Guidelines differ by country, and the decision is individual. Your doctor will explain the pros and cons.
 
-#### How Is Insulin Given?
+#### How is insulin given?
 
 - Small injections with a pen and a very fine needle, usually into the abdomen or thigh.
 
@@ -76,19 +76,19 @@ Metformin is used in some centres, and sometimes glibenclamide. These cross the 
 
 - Doses start low and are adjusted every few days based on your sugar diary.
 
-#### What Are the Risks?
+#### What are the risks?
 
 The main risk is low blood sugar (hypoglycaemia). Symptoms include shakiness, sweating, hunger, headache and palpitations. Treat with fast sugar such as glucose or fruit juice, then a snack, and inform your doctor. Weight gain can also occur, but it is usually modest.
 
-#### Is Insulin Safe for the Baby?
+#### Is insulin safe for the baby?
 
 Yes. Good sugar control reduces the risks of a very large baby, birth injury, early delivery, newborn low sugar and breathing problems. Not using insulin when it is needed carries greater risk than using it.
 
-#### Will You Need Insulin After Delivery?
+#### Will you need insulin after delivery?
 
 In most women with gestational diabetes, insulin is stopped right after delivery, as the placental hormones that cause insulin resistance disappear. Your sugar is checked after birth and again at six to twelve weeks to find out whether diabetes persists.
 
-#### How Can You Reduce the Chance of Needing Insulin?
+#### How can you reduce the chance of needing insulin?
 
 - Follow the meal plan and do not skip meals.
 
@@ -102,11 +102,11 @@ In most women with gestational diabetes, insulin is stopped right after delivery
 
 Even with perfect habits, some women need insulin because of their hormones. It is not a failure.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Contact your doctor if readings are above target, you feel faint or sweaty, you have repeated lows, you vomit often or you notice decreased baby movements.
 
-#### Key Takeaways
+#### Points to keep
 
 - Insulin is added when diet and activity do not keep sugars in range.
 
@@ -117,8 +117,6 @@ Contact your doctor if readings are above target, you feel faint or sweaty, you 
 - Watch for low blood sugar and know how to treat it.
 
 - Insulin is usually stopped after delivery.
-
-#### Final Thoughts
 
 Needing insulin does not mean you did something wrong. It means your body needs extra help during pregnancy. For caring, personalised guidance, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

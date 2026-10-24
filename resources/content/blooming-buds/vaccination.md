@@ -15,7 +15,7 @@ has_confirm_items: false
 ### Page 27. Vaccinations for Children, Teenagers and Adults
 
 - **URL:** `/vaccination/`
-- **SEO title:** Vaccination Clinic in Nagpur | Child, Teen and Adult Vaccines
+- **SEO title:** Vaccination Clinic in Nagpur | [Child](/blooming-buds/), Teen and Adult Vaccines
 - **Meta description:** Vaccinations at Niramay Clinics, Nagpur, following the IAP schedule for children and current guidance for teenagers and adults, including HPV, flu and catch-up doses.
 - **Schema:** MedicalWebPage
 - **Reviewed by:** Dr. Prajakta A. Kaduskar (children and teenagers) and Dr. Ajay V. Kaduskar (adults)
@@ -34,7 +34,7 @@ All vaccines in the IAP schedule, from birth through childhood, including the va
 - Typhoid, hepatitis A, chickenpox and others as recommended
 
 #### For adults
-- **Influenza (flu)** every year, especially for people with diabetes, heart or lung disease, pregnant women and adults over 60
+- **Influenza (flu)** every year, especially for people with [diabetes](/diabetes/), heart or lung disease, pregnant women and adults over 60
 - **Pneumococcal** vaccines for older adults and for younger adults with diabetes or certain other long-term conditions, as advised
 - **Tetanus-diphtheria (Td)** booster every 10 years, and during pregnancy as advised by your obstetrician
 - **Hepatitis B** if not immune
@@ -48,6 +48,9 @@ All vaccines in the IAP schedule, from birth through childhood, including the va
 - Mild fever, soreness or swelling at the injection site for a day or two is common. Ask us about fever and pain relief at the visit.
 - Seek help urgently for difficulty breathing, swelling of the face, a widespread rash, persistent high fever, or unusual drowsiness.
 
+#### Which vaccines are available
+The IAP schedule covers BCG, hepatitis B, polio (OPV and IPV), DPT/DTaP, Hib, rotavirus, pneumococcal, MMR, typhoid, hepatitis A and chickenpox for children, HPV for teenagers, and flu and Tdap boosters for teens and adults. We will tell you which ones apply to you or your child and plan any catch-up doses.
+
 #### Frequently asked questions
 **My child missed some vaccines. Is it too late?**
 Usually not. Most vaccines can be given later as catch-up doses. Bring the record and we will plan a schedule.
@@ -60,3 +63,7 @@ HPV infects both sexes. The national programme currently covers 14-year-old girl
 
 **Why do adults with diabetes need vaccines?**
 Diabetes makes some infections, such as flu and pneumonia, more serious. Vaccination lowers that risk.
+
+#### Sources and further reading
+- [Essential Programme on Immunization — WHO](https://www.who.int/teams/immunization-vaccines-and-biologicals/essential-programme-on-immunization)
+- [Indian Academy of Pediatrics](https://iapindia.org/) — the IAP schedule our doctors follow

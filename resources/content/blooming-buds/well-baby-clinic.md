@@ -16,7 +16,7 @@ has_confirm_items: false
 
 - **URL:** `/blooming-buds/well-baby-clinic/`
 - **SEO title:** Well Baby Clinic in Nagpur | Baby Growth and Development Check-ups
-- **Meta description:** Regular baby check-ups in Nagpur: weight and growth charts, milestones, feeding, sleep, and vaccination reminders with Dr. Prajakta Kaduskar.
+- **Meta description:** Regular baby check-ups in Nagpur: weight and growth charts, milestones, feeding, sleep, and [vaccin](/vaccination/)ation reminders with Dr. Prajakta Kaduskar.
 - **Schema:** MedicalWebPage
 
 **H1:** Well baby clinic
@@ -47,3 +47,6 @@ Around six months, while continuing breastfeeding. Start with soft, mashed home 
 
 **How much screen time is safe for a baby or toddler?**
 The Indian Academy of Pediatrics advises no screen time under 2 years, except video calls with family, and no more than 1 hour a day of good-quality content for ages 2 to 5, with a parent watching alongside.
+
+**What should I bring to the well-baby visit?**
+Bring your child's health record or vaccination book, any previous reports, and a short list of questions. It also helps to note feeding, sleep and anything new you have noticed since the last visit.

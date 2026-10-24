@@ -1,0 +1,2776 @@
+[
+ {
+  "url": "/health-library/diabetes-diet-for-weight-loss/",
+  "score": 56,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 14,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 464,
+  "sd": 5.6,
+  "tc": "7/15",
+  "oneLiners": "6/13",
+  "numsPer100": 0.2,
+  "worst": [
+   "Weight loss can improve blood sugar, blood pressure and cholesterol.",
+   "A diet you can keep up is the one that works.",
+   "With diabetes, the way you lose weight matters as much as how much.",
+   "A steady loss over weeks to months is easier to sustain than rapid loss.",
+   "Brisk walking, strength exercise and an active day support weight loss and sugar control."
+  ]
+ },
+ {
+  "url": "/health-library/glp-1-diabetes-weight-loss-india-price-results-side-effects/",
+  "score": 55,
+  "parts": {
+   "vocab": 3,
+   "titleCase": 8,
+   "oneLiners": 20,
+   "template": 3,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 6
+  },
+  "words": 3238,
+  "sd": 6,
+  "tc": "29/56",
+  "oneLiners": "148/214",
+  "numsPer100": 1.6,
+  "worst": [
+   "But there is a catch.",
+   "The important question is therefore not simply \"Which GLP-1 injection is cheapest?\" It is: > Which treatment is medically appropriate, tolerable and financially sustainable for me?",
+   "They won't.",
+   "Price matters.",
+   "Tell your doctor."
+  ]
+ },
+ {
+  "url": "/health-library/control-blood-sugar-naturally/",
+  "score": 54,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 4,
+   "oneLiners": 15,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 387,
+  "sd": 5.1,
+  "tc": "5/17",
+  "oneLiners": "7/14",
+  "numsPer100": 0.8,
+  "worst": [
+   "Small, steady habits make the biggest difference.",
+   "Even modest weight loss improves insulin response.",
+   "Poor sleep and chronic stress can raise blood sugar.",
+   "Never stop prescribed medicines without your doctor's advice.",
+   "Healthy habits are powerful, but they work best with medical guidance."
+  ]
+ },
+ {
+  "url": "/health-library/what-is-metabolic-syndrome-5-risk-factors/",
+  "score": 54,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 3,
+   "oneLiners": 16,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 432,
+  "sd": 5.4,
+  "tc": "3/18",
+  "oneLiners": "9/17",
+  "numsPer100": 0.7,
+  "worst": [
+   "Excess fat around the abdomen.",
+   "Your doctor interprets them together.",
+   "It is a group of related problems that often appear together and increase the risk of type 2 diabetes, heart disease and stroke.",
+   "Lifestyle changes, such as weight loss, activity and a healthier diet, can improve all of them.",
+   "Raised levels of this blood fat."
+  ]
+ },
+ {
+  "url": "/health-library/gestational-diabetes-gdm-testing-blood-sugar-targets-diet-insulin-postpartum-care/",
+  "score": 50,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 10,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 3434,
+  "sd": 5.5,
+  "tc": "28/43",
+  "oneLiners": "66/148",
+  "numsPer100": 1.6,
+  "worst": [
+   "It does not.",
+   "Not necessarily.",
+   "This is a common misunderstanding.",
+   "Why is this test necessary?",
+   "That is why glucose testing during pregnancy is so important."
+  ]
+ },
+ {
+  "url": "/health-library/how-often-check-blood-sugar-hba1c/",
+  "score": 50,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 15,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 385,
+  "sd": 5.7,
+  "tc": "6/17",
+  "oneLiners": "7/14",
+  "numsPer100": 1,
+  "worst": [
+   "Bring it to your visits.",
+   "The right frequency depends on your treatment, your control and your doctor's advice.",
+   "More frequent testing for a period.",
+   "Your doctor will set a schedule for you.",
+   "Testing shows how well your plan is working."
+  ]
+ },
+ {
+  "url": "/health-library/high-triglycerides-diabetes-obesity/",
+  "score": 49,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 3,
+   "oneLiners": 11,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 406,
+  "sd": 3.8,
+  "tc": "3/16",
+  "oneLiners": "4/11",
+  "numsPer100": 0.7,
+  "worst": [
+   "Triglycerides are a type of fat in the blood.",
+   "Your doctor will advise how often to repeat it.",
+   "Triglycerides respond well to lifestyle change.",
+   "High levels often go hand in hand with diabetes and excess weight.",
+   "A fasting blood test measures triglycerides along with cholesterol."
+  ]
+ },
+ {
+  "url": "/health-library/is-glp-1-medicine-worth-the-cost/",
+  "score": 49,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 4
+  },
+  "words": 1002,
+  "sd": 5.6,
+  "tc": "8/18",
+  "oneLiners": "5/12",
+  "numsPer100": 1.5,
+  "worst": [
+   "This guide helps you weigh the benefits against the cost in a clear, practical way.",
+   "It is less clear if the expected benefit is small, if you cannot afford long-term use, or if lifestyle changes alone could meet your goals.",
+   "GLP-1 medicines can improve blood sugar, weight and overall health.",
+   "They can also be a long-term expense.",
+   "Discuss your own numbers with your doctor."
+  ]
+ },
+ {
+  "url": "/health-library/when-is-insulin-needed-in-gestational-diabetes/",
+  "score": 49,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 9,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 989,
+  "sd": 5.9,
+  "tc": "11/19",
+  "oneLiners": "4/16",
+  "numsPer100": 0.6,
+  "worst": [
+   "It is not a failure.",
+   "Your doctor may adjust them.",
+   "It means your body needs extra help during pregnancy.",
+   "Insulin does not cross the placenta in significant amounts and is considered safe for the baby.",
+   "It can feel like a setback."
+  ]
+ },
+ {
+  "url": "/health-library/diabetes-diet-for-indians/",
+  "score": 48,
+  "parts": {
+   "vocab": 3,
+   "titleCase": 7,
+   "oneLiners": 17,
+   "template": 3,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 3
+  },
+  "words": 3303,
+  "sd": 6.1,
+  "tc": "24/50",
+  "oneLiners": "101/176",
+  "numsPer100": 0.1,
+  "worst": [
+   "The important point is this: a diabetes diet is not simply a list of foods that are allowed and forbidden.",
+   "Not necessarily.",
+   "There is no universal portion that works for everyone.",
+   "However, more protein is not automatically better for everyone.",
+   "There is no single meal plan that suits every person with diabetes."
+  ]
+ },
+ {
+  "url": "/health-library/does-everyone-with-type-2-diabetes-need-cgm/",
+  "score": 48,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 12,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 458,
+  "sd": 5.5,
+  "tc": "6/14",
+  "oneLiners": "4/10",
+  "numsPer100": 1.3,
+  "worst": [
+   "It is a powerful tool, but not every person needs one.",
+   "Your doctor can advise whether a CGM would help you.",
+   "The best monitoring method is one that fits your treatment and lifestyle.",
+   "For advice, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.",
+   "Many people with stable type 2 diabetes on tablets do well with regular fingerstick checks and HbA1c."
+  ]
+ },
+ {
+  "url": "/health-library/how-often-test-diabetes-prediabetes/",
+  "score": 48,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 12,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 784,
+  "sd": 5.2,
+  "tc": "7/17",
+  "oneLiners": "6/15",
+  "numsPer100": 0.8,
+  "worst": [
+   "Testing frequency depends on your results and risk factors.",
+   "If you have been told you have prediabetes, regular testing is important.",
+   "Testing every three to six months can be useful while making lifestyle changes or if results are close to the diabetes range.",
+   "Measures blood sugar after an overnight fast.",
+   "Your doctor can set the right schedule for you."
+  ]
+ },
+ {
+  "url": "/health-library/prediabetes-diet-indian-what-to-eat/",
+  "score": 48,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 801,
+  "sd": 5.1,
+  "tc": "7/20",
+  "oneLiners": "8/18",
+  "numsPer100": 0.2,
+  "worst": [
+   "It does not require special foods or giving up home-cooked Indian meals.",
+   "A short walk after meals can help lower post-meal sugar.",
+   "Avoid long gaps followed by heavy meals.",
+   "A personalised plan works better than strict diets.",
+   "It focuses on balance, portions and smarter choices."
+  ]
+ },
+ {
+  "url": "/health-library/how-glp-1-treatment-is-started-dose-titration-first-weeks/",
+  "score": 47,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 12,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 930,
+  "sd": 4.8,
+  "tc": "10/18",
+  "oneLiners": "7/18",
+  "numsPer100": 1.3,
+  "worst": [
+   "This guide explains how treatment usually begins, why the dose goes up slowly and what to expect.",
+   "It is not meant to give the full effect.",
+   "The exact schedule depends on the product.",
+   "When Should You See a Doctor Urgently?",
+   "Never adjust them on your own."
+  ]
+ },
+ {
+  "url": "/health-library/technology-evolution-glp-1-drugs/",
+  "score": 46,
+  "parts": {
+   "vocab": 6,
+   "titleCase": 1,
+   "oneLiners": 20,
+   "template": 7,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 3059,
+  "sd": 5.9,
+  "tc": "2/41",
+  "oneLiners": "136/199",
+  "numsPer100": 3,
+  "worst": [
+   "That is an important distinction.",
+   "This is an important step in the evolution of the technology because it shows that researchers are not simply modifying the original class of injectable medicines.",
+   "That is a clinical question.",
+   "And that distinction matters.",
+   "That matters for long-term treatment."
+  ]
+ },
+ {
+  "url": "/health-library/glp-1-side-effects-nausea-constipation-management/",
+  "score": 45,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 12,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1099,
+  "sd": 4.6,
+  "tc": "8/16",
+  "oneLiners": "5/13",
+  "numsPer100": 1.5,
+  "worst": [
+   "This is common, usually mild and often settles with time and small changes in eating habits.",
+   "This is part of how they work, but it can cause nausea, bloating and reflux, especially with large or fatty meals.",
+   "When Should You See a Doctor Urgently?",
+   "If side effects are strong, the dose may be held or reduced for a while.",
+   "Eating smaller meals, avoiding fatty food, drinking fluids and increasing the dose slowly can help."
+  ]
+ },
+ {
+  "url": "/health-library/weight-loss-improve-type-2-diabetes/",
+  "score": 45,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 399,
+  "sd": 4.6,
+  "tc": "6/14",
+  "oneLiners": "3/10",
+  "numsPer100": 1.5,
+  "worst": [
+   "Every kilogram counts.",
+   "Do not change them yourself.",
+   "Even a modest loss of around 5 percent of body weight can improve blood sugar, blood pressure and cholesterol.",
+   "As weight falls, sugar may drop.",
+   "Losing weight can reverse part of that problem."
+  ]
+ },
+ {
+  "url": "/health-library/when-to-see-a-diabetologist/",
+  "score": 45,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 15,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 418,
+  "sd": 6.1,
+  "tc": "4/12",
+  "oneLiners": "6/12",
+  "numsPer100": 1.2,
+  "worst": [
+   "Good diabetes care is often a team effort.",
+   "Specialist and family doctor care can work together for continuity.",
+   "Regular specialist review is also useful once a year even when control is good.",
+   "A diabetologist is a doctor who specialises in diabetes and related conditions.",
+   "Not everyone needs one at first, but certain situations make specialist care valuable."
+  ]
+ },
+ {
+  "url": "/health-library/can-people-with-diabetes-eat-rice/",
+  "score": 44,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 728,
+  "sd": 6.4,
+  "tc": "7/18",
+  "oneLiners": "8/19",
+  "numsPer100": 0.1,
+  "worst": [
+   "Avoid eating late at night.",
+   "Portion still matters for every type.",
+   "Retains more of the outer layers and fibre.",
+   "Monitoring your sugar helps you personalise this.",
+   "You do not have to give up rice to manage diabetes."
+  ]
+ },
+ {
+  "url": "/health-library/gestational-diabetes-diet-indian-foods-meal-timing/",
+  "score": 44,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1000,
+  "sd": 4.9,
+  "tc": "8/24",
+  "oneLiners": "6/19",
+  "numsPer100": 0.7,
+  "worst": [
+   "This prevents long overnight fasting.",
+   "Fruit is allowed in measured portions.",
+   "Your doctor may set different targets.",
+   "Ask your dietitian for a personal plan.",
+   "Do not skip meals or follow extreme diets."
+  ]
+ },
+ {
+  "url": "/health-library/best-indian-breakfast-for-diabetes/",
+  "score": 43,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 695,
+  "sd": 6.4,
+  "tc": "6/20",
+  "oneLiners": "8/19",
+  "numsPer100": 0.1,
+  "worst": [
+   "Avoid fruit juice.",
+   "Many traditional Indian breakfasts can be adapted to suit diabetes.",
+   "Whole fruit can be part of breakfast in a moderate portion alongside protein, such as an apple with eggs or curd.",
+   "Ragi or oats idli adds fibre.",
+   "Serve with mint chutney or curd."
+  ]
+ },
+ {
+  "url": "/health-library/diabetes-and-heart-disease-blood-sugar-metabolic-risk/",
+  "score": 43,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 11,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 1031,
+  "sd": 5.3,
+  "tc": "7/23",
+  "oneLiners": "8/21",
+  "numsPer100": 1.7,
+  "worst": [
+   "Not automatically.",
+   "What Are the Warning Signs?",
+   "Ask your doctor.",
+   "Treat sleep apnoea and manage stress.",
+   "Your doctor will choose based on your risk."
+  ]
+ },
+ {
+  "url": "/health-library/diabetes-and-sweets-handling-mithai/",
+  "score": 43,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1132,
+  "sd": 5,
+  "tc": "7/21",
+  "oneLiners": "4/15",
+  "numsPer100": 0.3,
+  "worst": [
+   "The truth is more kind.",
+   "Read the labels, and watch the portion.",
+   "Diabetes care is about balance, not punishment.",
+   "The fibre and protein slow the rise in blood sugar.",
+   "Festivals, weddings and family visits all come with mithai."
+  ]
+ },
+ {
+  "url": "/health-library/how-glp-1-medicines-are-given-injection-technique-storage/",
+  "score": 43,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 10,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1241,
+  "sd": 5.9,
+  "tc": "8/16",
+  "oneLiners": "4/12",
+  "numsPer100": 1.7,
+  "worst": [
+   "When unsure, call your doctor.",
+   "Do not take two doses close together.",
+   "For weekly injections, follow the label.",
+   "Good technique makes treatment easier and safer.",
+   "Your doctor will tell you which schedule applies."
+  ]
+ },
+ {
+  "url": "/health-library/what-is-diabesity/",
+  "score": 43,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 374,
+  "sd": 4.7,
+  "tc": "5/14",
+  "oneLiners": "3/11",
+  "numsPer100": 1.1,
+  "worst": [
+   "You can improve both conditions together.",
+   "Managing both through food, activity, sleep, suitable medicines and sometimes surgery can improve sugar, weight and overall health.",
+   "Diabetes and some of its medicines can in turn make weight gain easier.",
+   "The two conditions feed each other, so treating them together works best.",
+   "\"Diabesity\" is an informal term for diabetes that occurs alongside obesity."
+  ]
+ },
+ {
+  "url": "/health-library/cgm-vs-glucometer-type-2-diabetes/",
+  "score": 42,
+  "parts": {
+   "vocab": 3,
+   "titleCase": 7,
+   "oneLiners": 7,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 856,
+  "sd": 5.5,
+  "tc": "8/18",
+  "oneLiners": "3/13",
+  "numsPer100": 1.2,
+  "worst": [
+   "Both have a place.",
+   "It gives a precise reading for that moment.",
+   "Understanding the difference helps you choose well.",
+   "Sensors usually last 10 to 15 days and then need replacing.",
+   "A tiny sensor filament sits just under the skin, held by a patch."
+  ]
+ },
+ {
+  "url": "/health-library/first-signs-of-type-2-diabetes/",
+  "score": 42,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 3
+  },
+  "words": 762,
+  "sd": 6,
+  "tc": "6/20",
+  "oneLiners": "6/19",
+  "numsPer100": 1.4,
+  "worst": [
+   "This is why screening matters.",
+   "Blood sugar often rises gradually, and the body adjusts.",
+   "Knowing the early signs helps you get tested and treated sooner.",
+   "Some people lose weight without trying or feel hungrier than usual.",
+   "Your doctor interprets results and often repeats a test to confirm."
+  ]
+ },
+ {
+  "url": "/health-library/oral-glp-1-tablets-replacing-weight-loss-injections/",
+  "score": 42,
+  "parts": {
+   "vocab": 3,
+   "titleCase": 8,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 863,
+  "sd": 4.9,
+  "tc": "10/18",
+  "oneLiners": "4/14",
+  "numsPer100": 2.7,
+  "worst": [
+   "The truth is more nuanced.",
+   "Many people dislike injections.",
+   "Pills are an important step forward, but they work a little differently from injections.",
+   "Some of these are in advanced trials.",
+   "GLP-1 medicines are peptides, which are small proteins."
+  ]
+ },
+ {
+  "url": "/health-library/prediabetes-hba1c-blood-sugar-symptoms-prevention/",
+  "score": 42,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 2719,
+  "sd": 7,
+  "tc": "20/44",
+  "oneLiners": "46/106",
+  "numsPer100": 1.5,
+  "worst": [
+   "The important point is consistency.",
+   "Not necessarily.",
+   "There is no single food plan that works for every person with prediabetes.",
+   "It is a collection of manageable changes that can be maintained over time.",
+   "It is also important to understand that one abnormal result does not always tell the complete story."
+  ]
+ },
+ {
+  "url": "/health-library/dual-triple-agonists-after-semaglutide-tirzepatide/",
+  "score": 40,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 834,
+  "sd": 4.6,
+  "tc": "9/20",
+  "oneLiners": "4/16",
+  "numsPer100": 1.4,
+  "worst": [
+   "Tirzepatide then raised the bar.",
+   "Tirzepatide activates GLP-1 and GIP.",
+   "But the best treatment for you is the one that is approved, safe and suited to your health.",
+   "However, more targets can also mean more side effects, and careful long-term studies are needed.",
+   "However, these are trial results, and the drug is not yet approved for general use at the time of writing in most places."
+  ]
+ },
+ {
+  "url": "/health-library/fruits-for-diabetes-which-how-much-when/",
+  "score": 40,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 677,
+  "sd": 6.2,
+  "tc": "7/17",
+  "oneLiners": "5/16",
+  "numsPer100": 0.1,
+  "worst": [
+   "Fruit does not need to be eaten only on an empty stomach, and no single fruit cures diabetes.",
+   "Fruit can be a healthy, enjoyable part of a diabetes diet when chosen and portioned wisely.",
+   "In reality, whole fruits provide fibre, vitamins and antioxidants and can be part of a healthy diabetes diet.",
+   "Balance and portion size matter most.",
+   "Your doctor or dietitian can personalise this."
+  ]
+ },
+ {
+  "url": "/services/",
+  "score": 39,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 9,
+   "oneLiners": 15,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 148,
+  "sd": 4.8,
+  "tc": "4/7",
+  "oneLiners": "4/8",
+  "numsPer100": 1.4,
+  "worst": [
+   "Choose a service to learn what it involves, how to prepare, and how to book.",
+   "In an emergency, call 108 or 112, or go to the nearest hospital emergency department.",
+   "Niramay Clinics has two specialist centres, a laboratory and a pharmacy at one address.",
+   "Note at the bottom: Niramay Clinics is an outpatient clinic and does not provide emergency or inpatient care.",
+   "Diabetes, obesity, thyroid, blood pressure and heart tests for adults; vaccination, adolescent health and counselling for children; lab and pharmacy."
+  ]
+ },
+ {
+  "url": "/health-library/glp-1-injections-india-why-more-affordable/",
+  "score": 38,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 7,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 951,
+  "sd": 4.8,
+  "tc": "9/21",
+  "oneLiners": "4/17",
+  "numsPer100": 1.9,
+  "worst": [
+   "See a diabetologist before starting any GLP-1 medicine, particularly if you have a history of pancreatitis, gallstones, thyroid problems, kidney disease or pregnancy plans.",
+   "GLP-1 medicines are not for everyone.",
+   "Local production can also improve supply.",
+   "Self-medication can lead to serious problems.",
+   "When medicines are made in India, import costs fall."
+  ]
+ },
+ {
+  "url": "/health-library/prediabetes-weight-loss-how-much-helps/",
+  "score": 38,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 12,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 733,
+  "sd": 5.4,
+  "tc": "7/19",
+  "oneLiners": "7/18",
+  "numsPer100": 4.1,
+  "worst": [
+   "Small, steady changes add up.",
+   "Discuss options with your doctor.",
+   "Losing about 5 to 7 percent of your body weight, combined with regular physical activity, can significantly lower the risk of prediabetes progressing to type 2 diabetes.",
+   "Reducing waist size improves metabolic health.",
+   "Abdominal fat is more harmful than fat elsewhere."
+  ]
+ },
+ {
+  "url": "/health-library/fatty-liver-and-diabetes-why-they-occur-together/",
+  "score": 37,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 4,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 982,
+  "sd": 5,
+  "tc": "5/21",
+  "oneLiners": "5/18",
+  "numsPer100": 1.8,
+  "worst": [
+   "Most people have no symptoms.",
+   "It is easy to dismiss because it causes no symptoms.",
+   "It is very common in type 2 diabetes because both are driven by insulin resistance and excess belly fat.",
+   "But fatty liver and diabetes feed each other, and ignoring it can lead to serious liver and heart problems.",
+   "A fatty liver is a warning that can be reversed in its early stages."
+  ]
+ },
+ {
+  "url": "/health-library/gestational-diabetes-test-when-done-results-meaning/",
+  "score": 37,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 937,
+  "sd": 4.4,
+  "tc": "10/20",
+  "oneLiners": "6/19",
+  "numsPer100": 3.7,
+  "worst": [
+   "Here is what to expect.",
+   "Continue healthy habits.",
+   "It is an opportunity to protect your pregnancy with simple steps.",
+   "If you vomit, inform the staff.",
+   "A fasting blood sample is taken."
+  ]
+ },
+ {
+  "url": "/health-library/glp-1-medicines-diabetes-weight-loss/",
+  "score": 37,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 13,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 3394,
+  "sd": 6.2,
+  "tc": "20/44",
+  "oneLiners": "61/136",
+  "numsPer100": 2.5,
+  "worst": [
+   "Not necessarily.",
+   "There is no universal answer to this question.",
+   "But persistent symptoms should not simply be ignored.",
+   "There is no single group of patients who automatically \"needs\" a GLP-1 medicine.",
+   "In practical terms, food may leave the stomach more slowly, which can affect how quickly glucose enters the bloodstream after a meal."
+  ]
+ },
+ {
+  "url": "/health-library/how-much-weight-can-you-lose-on-glp-1-medicines/",
+  "score": 37,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1196,
+  "sd": 5.7,
+  "tc": "9/17",
+  "oneLiners": "4/13",
+  "numsPer100": 4.8,
+  "worst": [
+   "These are averages.",
+   "Some of the weight lost can be muscle.",
+   "Realistic goals keep you motivated and safe.",
+   "A dietitian can help with a personalised plan.",
+   "Knowing what is realistic helps you set goals and avoid disappointment."
+  ]
+ },
+ {
+  "url": "/health-library/what-is-insulin-resistance-symptoms-causes-weight/",
+  "score": 37,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 4,
+   "oneLiners": 6,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 907,
+  "sd": 5.8,
+  "tc": "5/20",
+  "oneLiners": "3/16",
+  "numsPer100": 1.8,
+  "worst": [
+   "There is no single routine test.",
+   "It is closely linked to excess belly fat, inactivity, poor sleep and family history, and it can improve with weight loss, exercise and healthy eating.",
+   "Many people have no symptoms.",
+   "Treat sleep apnoea if present.",
+   "Early testing can prevent progression."
+  ]
+ },
+ {
+  "url": "/health-library/after-gestational-diabetes-when-to-test-for-type-2-diabetes/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 901,
+  "sd": 4.9,
+  "tc": "8/18",
+  "oneLiners": "4/14",
+  "numsPer100": 3.2,
+  "worst": [
+   "Do not wait for symptoms.",
+   "Visit your doctor before conceiving.",
+   "But having had gestational diabetes means your body has shown a tendency to struggle with sugar.",
+   "Women with a history of gestational diabetes have a significantly higher lifetime risk of type 2 diabetes.",
+   "Type 2 diabetes can be silent for years, and early detection prevents complications of the eyes, kidneys, nerves and heart."
+  ]
+ },
+ {
+  "url": "/health-library/belly-fat-diabetes-metabolic-health-waist-size/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 4,
+   "oneLiners": 7,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 928,
+  "sd": 5.3,
+  "tc": "6/24",
+  "oneLiners": "4/18",
+  "numsPer100": 1.6,
+  "worst": [
+   "Divide waist by height.",
+   "In people with obesity or diabetes, medicines such as GLP-1 medicines or metabolic surgery may help reduce visceral fat when lifestyle is not enough.",
+   "BMI does not tell you where fat is stored.",
+   "No. Sit-ups alone do not remove belly fat.",
+   "The difference is often where the fat sits."
+  ]
+ },
+ {
+  "url": "/health-library/can-type-2-diabetes-be-reversed-remission/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 795,
+  "sd": 6.2,
+  "tc": "7/19",
+  "oneLiners": "5/20",
+  "numsPer100": 1.3,
+  "worst": [
+   "This is not a failure.",
+   "It is most likely with significant weight loss, especially soon after diagnosis, through structured diet changes, physical activity, medicines that aid weight loss or metabolic surgery.",
+   "Losing excess weight, particularly fat around the liver and pancreas, can improve insulin function.",
+   "Many people with type 2 diabetes ask whether their diabetes can be reversed.",
+   "Remission is a realistic goal for some people with type 2 diabetes and a strong motivator for healthy change."
+  ]
+ },
+ {
+  "url": "/health-library/cgm-in-pregnancy-when-useful-what-to-know/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 7,
+   "oneLiners": 9,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1012,
+  "sd": 5.6,
+  "tc": "8/17",
+  "oneLiners": "4/13",
+  "numsPer100": 3.3,
+  "worst": [
+   "A CGM may be useful for a short period to understand patterns, particularly when sugars are hard to control.",
+   "Targets in type 2 and gestational diabetes may be similar, but your team will individualise them.",
+   "CGM can help pregnant women with type 1 or type 2 diabetes, and may be useful in some with gestational diabetes, by showing glucose patterns day and night.",
+   "A steady sugar level gives your baby the best start.",
+   "Blood sugar control matters a great deal in pregnancy."
+  ]
+ },
+ {
+  "url": "/health-library/do-glp-1-medicines-replace-metformin-or-insulin/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 10,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 458,
+  "sd": 6,
+  "tc": "6/14",
+  "oneLiners": "4/12",
+  "numsPer100": 3.1,
+  "worst": [
+   "They may allow some people to reduce insulin doses, and a few may be able to stop insulin, but this depends on the person and must be decided by the doctor.",
+   "GLP-1 medicines have changed diabetes care, but they do not simply swap out every older treatment.",
+   "GLP-1 medicines work differently, so together they often give better control and may help weight.",
+   "Never stop metformin or insulin on your own.",
+   "Adjustments are made step by step with monitoring."
+  ]
+ },
+ {
+  "url": "/health-library/how-glp-1-injection-pens-work-technology/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 11,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 925,
+  "sd": 6,
+  "tc": "8/22",
+  "oneLiners": "6/16",
+  "numsPer100": 1.1,
+  "worst": [
+   "Pressing it delivers the dose.",
+   "It is usually 4 to 6 mm long and very thin, which makes most injections feel like a light prick.",
+   "It protects the pen and the needle.",
+   "It shows the dose you have selected.",
+   "Others have preset doses for weekly use."
+  ]
+ },
+ {
+  "url": "/health-library/prediabetes-hba1c-what-the-number-means/",
+  "score": 36,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 11,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 650,
+  "sd": 5.8,
+  "tc": "6/18",
+  "oneLiners": "7/19",
+  "numsPer100": 3.5,
+  "worst": [
+   "Your doctor will guide timing.",
+   "It is one of the main tests used to detect prediabetes and diabetes.",
+   "Within the prediabetes range, a higher number such as 6.2 to 6.4 percent suggests a greater risk of progressing to diabetes, so prompt action is especially important.",
+   "Add vegetables, pulses, protein and whole grains.",
+   "Acting now can bring your numbers back toward normal."
+  ]
+ },
+ {
+  "url": "/",
+  "score": 35,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 2,
+   "oneLiners": 20,
+   "template": 3,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 545,
+  "sd": 4.6,
+  "tc": "4/36",
+  "oneLiners": "24/35",
+  "numsPer100": 2.8,
+  "worst": [
+   "We confirm your time.",
+   "Bring old reports and your medicines.",
+   "Targets, medicines and diet in writing.",
+   "Consultant in child and adolescent health.",
+   "More than 35 years of practice between them."
+  ]
+ },
+ {
+  "url": "/health-library/does-gestational-diabetes-go-away-after-delivery/",
+  "score": 35,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 7,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1004,
+  "sd": 5.6,
+  "tc": "9/17",
+  "oneLiners": "3/13",
+  "numsPer100": 3.3,
+  "worst": [
+   "But the story does not end there.",
+   "However, some women continue to have high sugar, and all women who had it have a higher lifetime risk of type 2 diabetes.",
+   "In India, where the baseline risk is already high, this is especially important.",
+   "Plan early testing and monitor sugars.",
+   "Your pregnancy gave you an early warning."
+  ]
+ },
+ {
+  "url": "/health-library/why-glp-1-medicines-became-global-trend/",
+  "score": 35,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 7,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 916,
+  "sd": 6.2,
+  "tc": "9/17",
+  "oneLiners": "3/13",
+  "numsPer100": 1.6,
+  "worst": [
+   "It is good that obesity and diabetes are finally being taken seriously.",
+   "What changed so fast, and what should you take from it?",
+   "Suitability should be decided by a doctor.",
+   "A doctor can assess your health and risks.",
+   "A trend is not a reason to start a medicine."
+  ]
+ },
+ {
+  "url": "/health-library/diabetes-and-obesity-diabesity-guide/",
+  "score": 34,
+  "parts": {
+   "vocab": 3,
+   "titleCase": 7,
+   "oneLiners": 3,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 1
+  },
+  "words": 3704,
+  "sd": 6.5,
+  "tc": "18/38",
+  "oneLiners": "7/74",
+  "numsPer100": 1.1,
+  "worst": [
+   "No single diet suits everybody.",
+   "If you've been genuinely trying and nothing is changing, that's a reason to review the treatment.",
+   "One caution.",
+   "It shouldn't be.",
+   "Start with insulin."
+  ]
+ },
+ {
+  "url": "/health-library/semaglutide-vs-tirzepatide-difference-which-suits-you/",
+  "score": 34,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 6,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 787,
+  "sd": 5.4,
+  "tc": "8/20",
+  "oneLiners": "3/15",
+  "numsPer100": 2,
+  "worst": [
+   "There is no single winner for everyone.",
+   "Individual results differ.",
+   "Semaglutide activates the GLP-1 receptor.",
+   "They are not the same, and the right choice depends on your health, goals, tolerance and cost.",
+   "Which one suits you depends on your condition, side effects, cost and availability, so a doctor should decide."
+  ]
+ },
+ {
+  "url": "/health-library/can-prediabetes-go-away/",
+  "score": 33,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 7,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 646,
+  "sd": 6,
+  "tc": "7/19",
+  "oneLiners": "4/18",
+  "numsPer100": 2.8,
+  "worst": [
+   "It is common and often silent.",
+   "Regular testing tracks progress.",
+   "Studies show that losing about 5 to 7 percent of body weight can significantly reduce the chance of developing diabetes.",
+   "Medicines do not replace healthy habits.",
+   "Both affect blood sugar and overall health."
+  ]
+ },
+ {
+  "url": "/health-library/how-to-read-cgm-report-agp-time-in-range-patterns/",
+  "score": 33,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1130,
+  "sd": 4.6,
+  "tc": "8/23",
+  "oneLiners": "5/19",
+  "numsPer100": 3.7,
+  "worst": [
+   "Lower is better.",
+   "It can look overwhelming.",
+   "The mean of all readings.",
+   "Review them with your doctor.",
+   "It is similar to HbA1c but covers only the wearing period."
+  ]
+ },
+ {
+  "url": "/health-library/metabolic-syndrome-fatty-liver-diabetes-heart-kidney-connection/",
+  "score": 33,
+  "parts": {
+   "vocab": 3,
+   "titleCase": 7,
+   "oneLiners": 2,
+   "template": 10,
+   "uniform": 0,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 1
+  },
+  "words": 4339,
+  "sd": 8.4,
+  "tc": "19/43",
+  "oneLiners": "6/88",
+  "numsPer100": 0.9,
+  "worst": [
+   "There's no single test.",
+   "That said, a few things can hint at insulin resistance.",
+   "And albumin in the urine turns out to be a warning sign for the heart, not just the kidneys.",
+   "And keep your follow-up appointments, particularly when you're feeling well, because that's exactly when these conditions progress unnoticed.",
+   "It can."
+  ]
+ },
+ {
+  "url": "/health-library/what-happens-when-you-stop-glp-1-weight-loss-medicine/",
+  "score": 33,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 870,
+  "sd": 5.6,
+  "tc": "7/20",
+  "oneLiners": "4/16",
+  "numsPer100": 2.1,
+  "worst": [
+   "Not everyone.",
+   "Others may restart later.",
+   "Your doctor can discuss these.",
+   "Obesity is a chronic condition.",
+   "GLP-1 medicines lower these signals."
+  ]
+ },
+ {
+  "url": "/health-library/who-should-not-take-glp-1-medicines/",
+  "score": 33,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 3,
+   "oneLiners": 8,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 898,
+  "sd": 6.6,
+  "tc": "5/26",
+  "oneLiners": "6/23",
+  "numsPer100": 1.7,
+  "worst": [
+   "This guide explains who and why, so you can have an informed talk with your doctor.",
+   "Ask your doctor how long.",
+   "Tell your surgeon and anaesthetist.",
+   "But they are not right for everyone.",
+   "Dose adjustments or close monitoring may be needed."
+  ]
+ },
+ {
+  "url": "/health-library/why-hard-to-lose-weight-with-type-2-diabetes/",
+  "score": 33,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 3,
+   "oneLiners": 10,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 895,
+  "sd": 6,
+  "tc": "6/27",
+  "oneLiners": "7/20",
+  "numsPer100": 2,
+  "worst": [
+   "Ask your doctor about alternatives.",
+   "Even 5 percent can improve blood sugar, blood pressure and cholesterol.",
+   "Ten percent or more can improve blood sugar dramatically, and in some cases lead to remission of diabetes.",
+   "GLP-1 medicines, other weight-loss medicines and metabolic surgery can be considered in suitable patients with obesity.",
+   "Ask your doctor whether your diabetes medicines can be changed to ones that help weight, such as metformin, SGLT2 inhibitors or GLP-1 medicines."
+  ]
+ },
+ {
+  "url": "/health-library/type-2-diabetes-symptoms-diagnosis-management/",
+  "score": 32,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 15,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 2
+  },
+  "words": 2506,
+  "sd": 6.5,
+  "tc": "0/35",
+  "oneLiners": "62/125",
+  "numsPer100": 0.7,
+  "worst": [
+   "It does not require fasting.",
+   "There is no single HbA1c target that is appropriate for every person.",
+   "There is no single monitoring schedule for every person with Type 2 diabetes.",
+   "But there is no universal “diabetes food list” that works equally well for everyone.",
+   "This is a common situation and does not necessarily mean the medication is ineffective."
+  ]
+ },
+ {
+  "url": "/nutrition-lifestyle-counselling/",
+  "score": 32,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 12
+  },
+  "words": 307,
+  "sd": 5,
+  "tc": "0/7",
+  "oneLiners": "0/4",
+  "numsPer100": 0,
+  "worst": [
+   "There is no single diet that suits everyone.",
+   "A plan that works is one you can follow on a busy weekday, at a family function and during festivals.",
+   "Food is the first and most neglected part of treatment for diabetes, weight, blood pressure and cholesterol.",
+   "Diet plans for diabetes, weight, thyroid, blood pressure and pregnancy in Nagpur, built around Indian home food and your routine.",
+   "Our trained nutrition team works with Dr. Ajay Kaduskar's patients to build eating plans around their own food, culture and routine."
+  ]
+ },
+ {
+  "url": "/health-library/diabetes-and-kidney-disease-tests-you-should-have/",
+  "score": 31,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 5,
+   "oneLiners": 11,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 878,
+  "sd": 6.2,
+  "tc": "6/17",
+  "oneLiners": "6/17",
+  "numsPer100": 3,
+  "worst": [
+   "What Are the Warning Signs?",
+   "This is called diabetic kidney disease.",
+   "The danger is that damage starts quietly, with no pain or swelling, and by the time symptoms appear, a lot of kidney function may be lost.",
+   "Two simple tests can catch it early.",
+   "Do not wait for symptoms to be tested."
+  ]
+ },
+ {
+  "url": "/health-library/history-of-glp-1-drugs-natural-discovery-to-medicines/",
+  "score": 31,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 6,
+   "oneLiners": 5,
+   "template": 10,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 933,
+  "sd": 5.3,
+  "tc": "9/21",
+  "oneLiners": "3/18",
+  "numsPer100": 3.8,
+  "worst": [
+   "But they did not appear overnight.",
+   "It is available as a weekly injection and as a daily tablet.",
+   "It also reduces glucagon, slows stomach emptying and lowers appetite.",
+   "It also explains why they are used under medical supervision and why newer versions keep appearing.",
+   "Higher doses were studied specifically for weight management and showed significant results."
+  ]
+ },
+ {
+  "url": "/health-library/",
+  "score": 29,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 14,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 1745,
+  "sd": 5.3,
+  "tc": "71/76",
+  "oneLiners": "0/3",
+  "numsPer100": 1.8,
+  "worst": [
+   "Clear, reliable information written or reviewed by our doctors.",
+   "Articles are for general education and do not replace a consultation.",
+   "Each article shows its author, reviewer and the date it was last checked.",
+   "Listing card fields: featured image, category, title, 2-line summary, author photo and name, reading time, last reviewed date."
+  ]
+ },
+ {
+  "url": "/blooming-buds/workshops/",
+  "score": 28,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 13,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 224,
+  "sd": 4.3,
+  "tc": "0/4",
+  "oneLiners": "4/9",
+  "numsPer100": 1.3,
+  "worst": [
+   "Workshops can be held in English, Hindi or Marathi.",
+   "Sessions can be held at your school or organisation in Nagpur.",
+   "We will contact you within 2 working days.",
+   "Tell us about your school or group and we will contact you within 2 working days.",
+   "Some health topics are best discussed in groups: with a class of students, a parents' meeting or a teachers' staff room."
+  ]
+ },
+ {
+  "url": "/health-library/continuous-glucose-monitoring-cgm-guide/",
+  "score": 28,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 8,
+   "oneLiners": 4,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 1
+  },
+  "words": 4159,
+  "sd": 7.1,
+  "tc": "19/36",
+  "oneLiners": "13/96",
+  "numsPer100": 2.2,
+  "worst": [
+   "But averages hide things.",
+   "This guide covers how CGM works, who tends to get real value from it, how to read the report your doctor hands you, and where the technology falls short.",
+   "Type 1 diabetes.",
+   "More on this below.",
+   "Some rise is normal."
+  ]
+ },
+ {
+  "url": "/health-library/preparing-child-for-adolescence/",
+  "score": 28,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 8,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 726,
+  "sd": 5.1,
+  "tc": "0/6",
+  "oneLiners": "3/11",
+  "numsPer100": 0,
+  "worst": [
+   "Childhood often passes smoothly.",
+   "And if children learn behaviour, they can also learn to change it.",
+   "This is why it helps to prepare, both ourselves and our children, well before adolescence begins.",
+   "Parents ask: why don't the old methods work any more?",
+   "The goals are shared by almost every parent."
+  ]
+ },
+ {
+  "url": "/blooming-buds/psychological-testing/",
+  "score": 26,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 6,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 346,
+  "sd": 4.7,
+  "tc": "0/9",
+  "oneLiners": "1/5",
+  "numsPer100": 0,
+  "worst": [
+   "What are a teenager's strengths?",
+   "Why is a bright child struggling at school?",
+   "How does a young person handle emotions and relationships?",
+   "Psychological tests help answer specific questions.",
+   "Results are most useful when they are explained carefully and turned into a practical plan."
+  ]
+ },
+ {
+  "url": "/diabetes/diabetes-care-programme/",
+  "score": 25,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 10,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 5,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 207,
+  "sd": 6.4,
+  "tc": "0/6",
+  "oneLiners": "2/6",
+  "numsPer100": 1.9,
+  "worst": [
+   "The fee is shared when you book.",
+   "A structured yearly diabetes care programme in Nagpur: planned consultations, tests, complication screening and nutrition sessions.",
+   "The Complete Diabetes Care Programme organises a full year of that care in advance, so nothing is missed and costs are clear from the start.",
+   "Diabetes is a lifelong condition, and good care follows a rhythm: regular reviews, tests at the right intervals, and yearly screening for complications.",
+   "Medicines, insulin, glucometer strips and CGM sensors, specialist referrals (for example to an eye surgeon or nephrologist), and any tests beyond the list above are charged separately."
+  ]
+ },
+ {
+  "url": "/health-library/what-is-time-in-range-tir-diabetes/",
+  "score": 25,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 4,
+   "oneLiners": 6,
+   "template": 10,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 805,
+  "sd": 7.4,
+  "tc": "6/21",
+  "oneLiners": "4/19",
+  "numsPer100": 5.3,
+  "worst": [
+   "You need a CGM.",
+   "HbA1c is an average.",
+   "TIR needs continuous data.",
+   "Take medicines as prescribed.",
+   "But HbA1c and TIR are not interchangeable."
+  ]
+ },
+ {
+  "url": "/health-library/smart-love-parenting-teenagers/",
+  "score": 22,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 7,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 854,
+  "sd": 7,
+  "tc": "0/7",
+  "oneLiners": "4/17",
+  "numsPer100": 0.8,
+  "worst": [
+   "Psychological autonomy.",
+   "It pushes teenagers into their shell.",
+   "Adolescence is the move from childhood to adulthood.",
+   "We often try to teach teenagers to obey without question.",
+   "Listen to their feelings and show love without conditions."
+  ]
+ },
+ {
+  "url": "/blooming-buds/teen-mental-health/",
+  "score": 21,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 11,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 493,
+  "sd": 7.1,
+  "tc": "0/12",
+  "oneLiners": "3/8",
+  "numsPer100": 1.4,
+  "worst": [
+   "That is part of growing up.",
+   "Our clinic is not an emergency service.",
+   "Most teenagers go through periods of stress, moodiness or conflict.",
+   "You can also call Tele-MANAS, the Government of India's free 24-hour mental health helpline, on 14416 or 1-800-891-4416.",
+   "Confidential counselling for teenagers in Nagpur: exam stress, anxiety, low mood, anger, screen overuse, bullying and self-esteem."
+  ]
+ },
+ {
+  "url": "/health-library/self-esteem-teenagers-with-disabilities/",
+  "score": 21,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 11,
+   "template": 0,
+   "uniform": 0,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 691,
+  "sd": 8,
+  "tc": "0/7",
+  "oneLiners": "6/17",
+  "numsPer100": 0.1,
+  "worst": [
+   "It is one of the foundations of happiness and success.",
+   "Families, schools and health professionals can help them build the confidence to live full lives.",
+   "If you are concerned about your teenager's confidence, mood or social life, Blooming Buds can help with assessment, counselling and guidance for the family.",
+   "For most young people, when their needs are met, it can be a fairly smooth path to adulthood: further study or work, new relationships and a clearer sense of who they are.",
+   "Like everyone, they want to be happy."
+  ]
+ },
+ {
+  "url": "/obesity/body-composition-sarcopenia/",
+  "score": 20,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 350,
+  "sd": 5.4,
+  "tc": "0/6",
+  "oneLiners": "0/9",
+  "numsPer100": 0.9,
+  "worst": [
+   "Your plan will be based on your results.",
+   "Weight alone does not tell the full story.",
+   "If you have a pacemaker, please tell us first.",
+   "Sarcopenia is the loss of muscle mass and strength.",
+   "It leads to weakness, falls, slower recovery and worse sugar control."
+  ]
+ },
+ {
+  "url": "/thyroid-clinic/",
+  "score": 20,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 299,
+  "sd": 4.7,
+  "tc": "0/7",
+  "oneLiners": "0/4",
+  "numsPer100": 0.7,
+  "worst": [
+   "Thyroid ultrasound is arranged through a referral when required.",
+   "Most are easily diagnosed with a blood test and well controlled with treatment.",
+   "The thyroid is a small gland in the neck that controls how fast the body uses energy.",
+   "TSH, free T4 and, when needed, free T3 and thyroid antibodies, all available at Niramay Laboratory.",
+   "Thyroid disorders are common in India, especially in women, and are more common in people with diabetes."
+  ]
+ },
+ {
+  "url": "/about/",
+  "score": 18,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 8,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 668,
+  "sd": 6.4,
+  "tc": "0/14",
+  "oneLiners": "3/11",
+  "numsPer100": 1.2,
+  "worst": [
+   "That is the work this practice was built for.",
+   "We can help people find problems early, manage long-term conditions well, and raise children who grow up healthy and confident.",
+   "We cannot promise anyone a life without illness.",
+   "The practice has been caring for Nagpur since 2006.",
+   "Our trained nutrition team works with patients on diet plans."
+  ]
+ },
+ {
+  "url": "/doctors/dr-prajakta-kaduskar/",
+  "score": 18,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 3,
+   "oneLiners": 5,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 284,
+  "sd": 6.9,
+  "tc": "1/5",
+  "oneLiners": "1/6",
+  "numsPer100": 1.4,
+  "worst": [
+   "Teenagers need privacy and parents need to be informed.",
+   "Anything that affects the young person's safety is always shared.",
+   "She has more than 15 years of experience caring for babies, children, teenagers and young adults.",
+   "She conducts workshops for students, parents and teachers on mental wellness, healthy lifestyle, puberty, digital safety, bullying and life skills.",
+   "This combination lets her look at a young person's physical health, emotional health and behaviour together, which is often where the real answer lies."
+  ]
+ },
+ {
+  "url": "/doctors/dr-ajay-kaduskar/",
+  "score": 17,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 1,
+   "oneLiners": 6,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 898,
+  "sd": 5.7,
+  "tc": "1/11",
+  "oneLiners": "1/5",
+  "numsPer100": 3.7,
+  "worst": [
+   "This is why the clinic has its own retinal camera, Echo, ECG and treadmill testing, and laboratory: so that screening is part of routine care, not an extra errand.",
+   "keep things simpleThe note framed in Dr. Kaduskar's consulting room, and how care is planned here.",
+   "He has more than 20 years of experience caring for people with type 2 diabetes, type 1 diabetes, diabetes in pregnancy, obesity, high blood pressure, abnormal cholesterol (dyslipidaemia) and heart disease.",
+   "His particular interests are preventing the long-term complications of diabetes (eye, kidney, nerve, foot and heart damage) and preventive cardiology, which means finding and treating heart risk before a heart attack or stroke happens."
+  ]
+ },
+ {
+  "url": "/blooming-buds/career-counselling/",
+  "score": 16,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 6,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 362,
+  "sd": 5.7,
+  "tc": "0/11",
+  "oneLiners": "1/5",
+  "numsPer100": 2.8,
+  "worst": [
+   "That matters because career confusion often comes with anxiety, low confidence or family conflict, and those are addressed too.",
+   "It helps them understand their abilities, interests and personality, and match them with realistic options.",
+   "Good career counselling does not tell a student what to become.",
+   "Career counselling at Blooming Buds is led by Dr. Prajakta Kaduskar, who brings training in adolescent health and clinical psychology.",
+   "Career guidance for students in classes 8 to 12 and graduates in Nagpur: aptitude and interest assessment, stream and course selection."
+  ]
+ },
+ {
+  "url": "/health-library/menstrual-hygiene-teenage-girls/",
+  "score": 16,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 11,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 789,
+  "sd": 7,
+  "tc": "0/9",
+  "oneLiners": "6/16",
+  "numsPer100": 2.2,
+  "worst": [
+   "Times have changed.",
+   "It is fine to try different products.",
+   "Change often and keep the area dry.",
+   "Choose what keeps you comfortable and dry.",
+   "See a doctor if it does not improve in a few days."
+  ]
+ },
+ {
+  "url": "/blooming-buds/",
+  "score": 15,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 287,
+  "sd": 6.5,
+  "tc": "0/5",
+  "oneLiners": "0/5",
+  "numsPer100": 0.7,
+  "worst": [
+   "It is also when many lifelong habits around food, sleep, screens and relationships are formed.",
+   "Children grow fast, and every stage brings new questions.",
+   "We care for the body and the mind together, with parents as partners.",
+   "Adolescence, roughly 10 to 19 years, is a period of rapid physical, emotional and social change.",
+   "Blooming Buds at Niramay Clinics: baby check-ups, vaccination, teen health, counselling and career guidance with Dr. Prajakta Kaduskar."
+  ]
+ },
+ {
+  "url": "/diabetes/complications-screening/",
+  "score": 15,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 350,
+  "sd": 7.1,
+  "tc": "0/7",
+  "oneLiners": "0/5",
+  "numsPer100": 0,
+  "worst": [
+   "Found early, much of it can be slowed or treated.",
+   "Screening is a central part of diabetes care at Niramay Clinics, and most of it can be completed in one visit at the clinic.",
+   "If a clearer view is needed, we use drops to widen the pupil, and your vision may be blurry for a few hours, so it is best not to drive yourself home that day.",
+   "Early damage usually causes no symptoms.",
+   "Most of the time no eye drops are needed."
+  ]
+ },
+ {
+  "url": "/diabetes/type-1-diabetes/",
+  "score": 15,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 5,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 417,
+  "sd": 5.7,
+  "tc": "0/6",
+  "oneLiners": "1/6",
+  "numsPer100": 2.4,
+  "worst": [
+   "DKA is an emergency.",
+   "It is not caused by eating sugar or by anything the person or parents did.",
+   "Insulin is needed every day, for life.",
+   "Living well with type 1 diabetes is entirely possible.",
+   "Never stop insulin during illness, even if not eating."
+  ]
+ },
+ {
+  "url": "/health-library/diabetes-myths-and-facts/",
+  "score": 14,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 612,
+  "sd": 6.6,
+  "tc": "0/15",
+  "oneLiners": "2/14",
+  "numsPer100": 1.5,
+  "worst": [
+   "But type 2 diabetes involves both insulin resistance and a gradual fall in the body's own insulin, so many people also need medicines to reach their targets.",
+   "Fact: Diabetes is a long-term condition that can be managed well.",
+   "With good control of sugar, blood pressure and cholesterol, the risk of complications falls considerably.",
+   "Medicines are chosen with your kidney function in mind, several of them protect the kidneys and the heart, and your kidney tests are checked regularly so treatment can be adjusted.",
+   "Needing them is not a failure."
+  ]
+ },
+ {
+  "url": "/heart-care/2d-echo/",
+  "score": 14,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 282,
+  "sd": 5.3,
+  "tc": "0/6",
+  "oneLiners": "1/8",
+  "numsPer100": 2.1,
+  "worst": [
+   "No fasting is needed.",
+   "Wear a two-piece outfit.",
+   "Take your usual medicines.",
+   "You lie on your left side.",
+   "The test usually takes 20 to 30 minutes."
+  ]
+ },
+ {
+  "url": "/heart-care/ecg/",
+  "score": 14,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 170,
+  "sd": 4,
+  "tc": "0/4",
+  "oneLiners": "1/7",
+  "numsPer100": 2.4,
+  "worst": [
+   "Your doctor may then advise a treadmill test or Echo.",
+   "If you have chest pain right now, do not book an ECG.",
+   "What it records, when it is needed, and what to expect.",
+   "A quick, painless ECG at Niramay Clinics, Dhantoli, Nagpur.",
+   "It takes about 5 to 10 minutes, is painless and needs no preparation."
+  ]
+ },
+ {
+  "url": "/heart-care/tmt-stress-test/",
+  "score": 14,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 376,
+  "sd": 6.3,
+  "tc": "0/5",
+  "oneLiners": "1/8",
+  "numsPer100": 1.1,
+  "worst": [
+   "Some heart problems, particularly reduced blood flow from narrowed arteries, show up only when the heart is working harder.",
+   "Your doctor will check this before the test.",
+   "The speed and slope increase every few minutes.",
+   "Treadmill stress test (TMT) in Dhantoli, Nagpur.",
+   "Your doctor will explain your result in context."
+  ]
+ },
+ {
+  "url": "/lab/",
+  "score": 14,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 213,
+  "sd": 6.3,
+  "tc": "0/4",
+  "oneLiners": "1/7",
+  "numsPer100": 1.9,
+  "worst": [
+   "Sundays closed.",
+   "Niramay Laboratory is on the premises of Niramay Clinics, so most tests can be done on the day of your consultation and reviewed by your doctor without another trip.",
+   "Timings: 7 am to 7 pm, Monday to Saturday.",
+   "Most routine reports are ready the same day.",
+   "Collect them at the clinic or ask us to send them to you."
+  ]
+ },
+ {
+  "url": "/preventive-health-check-ups/",
+  "score": 14,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 266,
+  "sd": 7,
+  "tc": "0/4",
+  "oneLiners": "1/7",
+  "numsPer100": 1.9,
+  "worst": [
+   "Bring previous reports.",
+   "Fees are shared when you book.",
+   "You never leave with only a printed report.",
+   "Fast for 10 to 12 hours before the visit (water is allowed).",
+   "Every check-up at Niramay Clinics ends with a doctor's consultation."
+  ]
+ },
+ {
+  "url": "/plan-your-visit/",
+  "score": 13,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 3,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 498,
+  "sd": 5.4,
+  "tc": "0/14",
+  "oneLiners": "1/10",
+  "numsPer100": 3.4,
+  "worst": [
+   "Fees are shared when you book.",
+   "We accept cash, UPI and cards.",
+   "Look for the Niramay Clinics boards at the gate.",
+   "The clinic has lift access and a wheelchair-friendly entrance.",
+   "Where you are admitted depends on where you live and the care you need."
+  ]
+ },
+ {
+  "url": "/lab/home-sample-collection/",
+  "score": 11,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 6,
+   "template": 0,
+   "uniform": 0,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 279,
+  "sd": 7.6,
+  "tc": "0/8",
+  "oneLiners": "1/5",
+  "numsPer100": 1.8,
+  "worst": [
+   "Samples are tested in our own lab.",
+   "Home blood sample collection in Nagpur with Niramay Laboratory.",
+   "Prior booking, trained phlebotomists, reports shared with your doctor.",
+   "We collect samples at home anywhere in Nagpur city (within about 15 km of Dhantoli), from 7 am, Monday to Saturday, at no extra charge.",
+   "For elderly patients, people with limited mobility, busy families, or anyone who prefers not to travel, our laboratory team can collect blood and urine samples at home."
+  ]
+ },
+ {
+  "url": "/blooming-buds/adolescent-health/",
+  "score": 10,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 339,
+  "sd": 7.4,
+  "tc": "0/7",
+  "oneLiners": "0/4",
+  "numsPer100": 1.2,
+  "worst": [
+   "Many teenagers find these topics awkward to raise.",
+   "The teenage years bring the fastest growth since infancy.",
+   "Our clinic gives them a private, respectful place to ask.",
+   "Bodies change, appetites change, sleep shifts later, and new health concerns appear.",
+   "Teen health care in Nagpur: growth and puberty, periods and PCOS, anaemia, weight, acne and nutrition, with Dr. Prajakta Kaduskar."
+  ]
+ },
+ {
+  "url": "/diabetes/",
+  "score": 10,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 5,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 613,
+  "sd": 7.2,
+  "tc": "0/12",
+  "oneLiners": "1/6",
+  "numsPer100": 3.1,
+  "worst": [
+   "Diabetes is now one of the most common long-term conditions in India.",
+   "Type 1, type 2 and pregnancy diabetes, prediabetes, thyroid and blood pressure care with Dr. Ajay Kaduskar in Dhantoli, Nagpur.",
+   "At the Niramay Diabetes and Heart Care Centre, Dr. Ajay V. Kaduskar and the clinic team look after people with diabetes for the long term.",
+   "Many people with type 2 diabetes have no symptoms for years, which is why diagnosis is often late and complications are sometimes the first sign.",
+   "The national ICMR-INDIAB study estimated that about 101 million Indians were living with diabetes in 2021, and another 136 million had prediabetes."
+  ]
+ },
+ {
+  "url": "/faqs/",
+  "score": 10,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 422,
+  "sd": 5,
+  "tc": "1/33",
+  "oneLiners": "0/2",
+  "numsPer100": 4.3,
+  "worst": [
+   "Answers about appointments, timings, lab tests, home sample collection, pharmacy, reports, fees and privacy at Niramay Clinics, Nagpur."
+  ]
+ },
+ {
+  "url": "/hypertension-clinic/",
+  "score": 10,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 379,
+  "sd": 5.7,
+  "tc": "0/8",
+  "oneLiners": "0/4",
+  "numsPer100": 3.2,
+  "worst": [
+   "At home, the threshold is lower: an average of 135/85 mmHg or higher.",
+   "Readings between 120/80 and 139/89 are above the ideal range and deserve attention, especially with diabetes.",
+   "High blood pressure is often called a silent condition because most people feel nothing until it causes damage.",
+   "The ICMR-INDIAB study estimated that more than a third of Indian adults have high blood pressure, and many do not know it.",
+   "Over years, uncontrolled blood pressure strains the heart, kidneys, eyes and brain and raises the risk of heart attack and stroke."
+  ]
+ },
+ {
+  "url": "/obesity/weight-management-medicines/",
+  "score": 10,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 0,
+   "noSpecifics": 10,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 495,
+  "sd": 8.2,
+  "tc": "0/10",
+  "oneLiners": "0/7",
+  "numsPer100": 0.4,
+  "worst": [
+   "They can be ineffective or dangerous.",
+   "Thinking about weight-loss injections or tablets?",
+   "They can help some people lose a meaningful amount of weight and improve sugar, blood pressure and other health markers.",
+   "Less commonly, gallbladder problems or pancreatitis.",
+   "Who they may suit, why medical supervision matters, and how we assess you."
+  ]
+ },
+ {
+  "url": "/pharmacy/",
+  "score": 10,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 10,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 210,
+  "sd": 5.1,
+  "tc": "0/3",
+  "oneLiners": "0/4",
+  "numsPer100": 2.9,
+  "worst": [
+   "Sundays closed.",
+   "Our pharmacy is a licensed retail pharmacy.",
+   "Phone: +91 90213 51693 Timings: Monday to Saturday, 8:30 am to 8 pm.",
+   "Licences are displayed at the pharmacy, and medicines are dispensed by a registered pharmacist.",
+   "Niramay Pharmacy at Niramay Clinics, Dhantoli: prescribed medicines dispensed by a registered pharmacist, with home delivery in Nagpur."
+  ]
+ },
+ {
+  "url": "/heart-care/",
+  "score": 9,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 4,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 346,
+  "sd": 6.3,
+  "tc": "0/7",
+  "oneLiners": "1/8",
+  "numsPer100": 2.3,
+  "worst": [
+   "Do not drive yourself.",
+   "It is one of Dr. Ajay Kaduskar's special interests, and the clinic has 2D Echo, ECG and treadmill testing (TMT) on site.",
+   "Important: Niramay Clinics provides heart risk assessment and non-invasive heart tests.",
+   "When a test shows significant heart disease, we refer you to a cardiologist or hospital promptly.",
+   "Most are linked to risk factors that can be found and treated years earlier: high blood pressure, diabetes, high cholesterol, smoking, abdominal obesity, inactivity and family history."
+  ]
+ },
+ {
+  "url": "/diabetes/type-2-diabetes/",
+  "score": 7,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 2,
+   "template": 0,
+   "uniform": 0,
+   "noSpecifics": 5,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 798,
+  "sd": 8.3,
+  "tc": "0/10",
+  "oneLiners": "1/13",
+  "numsPer100": 1.9,
+  "worst": [
+   "Home monitoring.",
+   "Setting your targets.",
+   "Medicines when needed.",
+   "Then eat a small snack.",
+   "Food and activity first."
+  ]
+ },
+ {
+  "url": "/blooming-buds/well-baby-clinic/",
+  "score": 5,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 5,
+   "template": 0,
+   "uniform": 0,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 292,
+  "sd": 9.6,
+  "tc": "0/6",
+  "oneLiners": "1/6",
+  "numsPer100": 5.1,
+  "worst": [
+   "After 2 years, once or twice a year.",
+   "In a baby under 3 months: any fever.",
+   "Healthy babies need regular check-ups too.",
+   "Go to the nearest children's emergency department.",
+   "Regular baby check-ups in Nagpur: growth charts, milestones, feeding, sleep and vaccination reminders with Dr. Prajakta Kaduskar."
+  ]
+ },
+ {
+  "url": "/diabetes/diabetes-in-pregnancy/",
+  "score": 5,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 419,
+  "sd": 7.1,
+  "tc": "0/7",
+  "oneLiners": "0/6",
+  "numsPer100": 2.4,
+  "worst": [
+   "Planning before conception is ideal.",
+   "Your gynaecologist remains in charge of your pregnancy; we take care of the sugar.",
+   "Gestational diabetes (GDM): high blood sugar that is first found during pregnancy.",
+   "When a woman has diabetes during pregnancy, two people are being cared for at once.",
+   "Pre-existing diabetes: a woman with type 1 or type 2 diabetes who becomes pregnant, or plans to."
+  ]
+ },
+ {
+  "url": "/diabetes/prediabetes-risk-assessment/",
+  "score": 5,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 375,
+  "sd": 6.7,
+  "tc": "0/8",
+  "oneLiners": "0/5",
+  "numsPer100": 2.7,
+  "worst": [
+   "It is the stage where action pays off most: lifestyle changes started now can delay or prevent type 2 diabetes for many people.",
+   "In India, more people have prediabetes than diabetes.",
+   "Prediabetes means your blood sugar is higher than normal but not yet in the diabetes range.",
+   "A prediabetes check in Nagpur for people with family history, weight gain or past borderline sugars: HbA1c, glucose tests and a prevention plan."
+  ]
+ },
+ {
+  "url": "/obesity/",
+  "score": 5,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 449,
+  "sd": 6.6,
+  "tc": "0/9",
+  "oneLiners": "0/6",
+  "numsPer100": 2.2,
+  "worst": [
+   "Obesity is a long-term medical condition, not a lack of willpower.",
+   "Indians tend to carry more fat, especially abdominal fat, at a lower body weight.",
+   "Genes, hormones, sleep, stress, medicines, work patterns and the food around us all play a part.",
+   "Doctor-led obesity care in Nagpur with a SCOPE-certified consultant: diet and activity plans, medicines when appropriate, and tracking.",
+   "The focus is on health, not a number on the scale: lowering harmful fat, protecting muscle, and improving sugar, blood pressure, liver health and energy."
+  ]
+ },
+ {
+  "url": "/plan-your-visit/coming-from-outside-nagpur/",
+  "score": 5,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 258,
+  "sd": 7.5,
+  "tc": "0/5",
+  "oneLiners": "0/6",
+  "numsPer100": 3.5,
+  "worst": [
+   "Travelling from Wardha, Bhandara, Umred, Katol or nearby towns?",
+   "Two-wheeler parking is available at the building.",
+   "Half our patients travel to us from towns and villages around Nagpur.",
+   "Plan your visit so consultation, tests and medicines are done in one trip.",
+   "This page helps you plan the trip so your consultation, tests and medicines are finished in one visit."
+  ]
+ },
+ {
+  "url": "/vaccination/",
+  "score": 5,
+  "parts": {
+   "vocab": 0,
+   "titleCase": 0,
+   "oneLiners": 0,
+   "template": 0,
+   "uniform": 5,
+   "noSpecifics": 0,
+   "thinFaq": 0,
+   "emDash": 0,
+   "rhetoric": 0
+  },
+  "words": 431,
+  "sd": 6.3,
+  "tc": "0/9",
+  "oneLiners": "0/4",
+  "numsPer100": 2.3,
+  "worst": [
+   "We note the next due date on your child's vaccination record at every visit.",
+   "Vaccines are one of the safest and most effective ways to protect against serious infections.",
+   "Vaccinations at Niramay Clinics, Nagpur, following the IAP schedule for children and current guidance for teens and adults, including HPV and flu.",
+   "All vaccines in the IAP schedule, from birth through childhood, including the vaccines given in the national programme and the optional vaccines recommended by IAP.",
+   "We give vaccines for babies, children, teenagers and adults, following the Indian Academy of Pediatrics (IAP) immunisation schedule for children and current national and professional guidance for adults."
+  ]
+ }
+]

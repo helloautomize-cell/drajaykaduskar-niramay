@@ -2,8 +2,8 @@
 page_number: 44
 title: "Patient rights and responsibilities"
 url: "/patient-rights/"
-seo_title: ""
-meta_description: ""
+seo_title: "Patient Rights | Niramay Clinics, Nagpur"
+meta_description: "Your rights and responsibilities as a patient at Niramay Clinics, Nagpur, and how to raise a concern or complaint."
 schema: ""
 images: []
 reviewed_by: "Lawyer (required by Part 6 note)"

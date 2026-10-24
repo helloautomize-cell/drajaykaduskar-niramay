@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { BookButton } from "@/components/ui/BookButton";
 import { MenuIcon, ChevronIcon } from "@/components/icons";
+import { allNavLinks } from "@/lib/nav";
 
 // Menu code stays out of the first-load bundle: the desktop mega menu mounts
 // on the first hover/focus of the nav, and the mobile sheet mounts on the
@@ -20,21 +21,27 @@ const MobileMenu = dynamic(
   { ssr: false }
 );
 
-const NAV_LABELS: [string, string][] = [
-  ["Diabetes and Heart", "diabetes-heart"],
-  ["Child and Teen", "child-teen"],
-  ["Lab and Pharmacy", "lab-pharmacy"],
-  ["Doctors", "doctors"],
-  ["Patient Info", "patient-info"],
+// label -> [menu key, no-JS landing page]
+const NAV_ENTRIES: [string, string, string][] = [
+  ["Diabetes and Heart", "diabetes-heart", "/diabetes/"],
+  ["Child and Teen", "child-teen", "/blooming-buds/"],
+  ["Lab and Pharmacy", "lab-pharmacy", "/lab/"],
+  ["Doctors", "doctors", "/about/"],
+  ["Patient Info", "patient-info", "/services/"],
 ];
 
+/**
+ * Server-rendered stand-in for the JS mega menu: real <a> links so crawlers
+ * and no-JS browsers can navigate. The complete menu link inventory sits in
+ * a screen-reader list; each top-level item links to its section's hub.
+ */
 function StaticNavButtons({ onIntent }: { onIntent: (value: string) => void }) {
   return (
     <div className="flex items-center gap-0.5">
-      {NAV_LABELS.map(([label, value]) => (
-        <button
+      {NAV_ENTRIES.map(([label, value, href]) => (
+        <Link
           key={value}
-          type="button"
+          href={href}
           tabIndex={-1}
           onPointerEnter={() => onIntent(value)}
           onFocus={() => onIntent(value)}
@@ -42,8 +49,17 @@ function StaticNavButtons({ onIntent }: { onIntent: (value: string) => void }) {
         >
           {label}
           <ChevronIcon size={15} className="text-plum-500" />
-        </button>
+        </Link>
       ))}
+      <ul className="sr-only" aria-hidden="true">
+        {allNavLinks.map((l) => (
+          <li key={l.href}>
+            <Link href={l.href} tabIndex={-1}>
+              {l.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

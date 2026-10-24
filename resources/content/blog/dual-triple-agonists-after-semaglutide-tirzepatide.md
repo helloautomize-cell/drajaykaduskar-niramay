@@ -11,7 +11,7 @@ category: "Technology and Evolution of GLP-1"
 reading_time: "4 min read"
 excerpt: "New medicines act on more than one gut hormone. Learn what dual and triple agonists are, how they differ from semaglutide, and what the research shows so far."
 image: "blog/dual-triple-agonists-after-semaglutide-tirzepatide.webp"
-image_alt: "Diabetologist pointing to a simple diagram of three hormone pathways on a whiteboard, with a patient"
+image_alt: "Diabetologist pointing to a simple diagram of three hormone pathways on a whiteboard while a patient watches"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,7 +28,7 @@ status: draft
 
 Semaglutide changed how doctors treat diabetes and obesity. Tirzepatide then raised the bar. Now researchers are exploring medicines that act on even more hormones. Understanding the terms helps you follow the news without confusion.
 
-#### What Are the Gut Hormones Involved?
+#### What are the gut hormones involved?
 
 ##### GLP-1
 
@@ -42,15 +42,15 @@ Another gut hormone that boosts insulin release after meals and may help with fa
 
 Raises blood sugar in the fasting state but also increases energy use and fat burning in the liver. In combination with GLP-1, it may increase weight loss.
 
-#### What Is a Dual Agonist?
+#### What is a dual agonist?
 
 A dual agonist activates two receptors. Tirzepatide activates GLP-1 and GIP. In trials, it lowered blood sugar and weight more than semaglutide in several comparisons. Other dual agonists, such as GLP-1 and glucagon combinations, are being tested.
 
-#### What Is a Triple Agonist?
+#### What is a triple agonist?
 
 A triple agonist activates GLP-1, GIP and glucagon receptors. Retatrutide is one example in clinical trials. Early studies reported large average weight loss, along with improvements in fatty liver and other markers. However, these are trial results, and the drug is not yet approved for general use at the time of writing in most places. Check current status before making decisions.
 
-#### What Other Approaches Are Being Studied?
+#### What other approaches are being studied?
 
 - Amylin combinations, which add to the feeling of fullness
 
@@ -62,11 +62,11 @@ A triple agonist activates GLP-1, GIP and glucagon receptors. Retatrutide is one
 
 - Combination treatments with other weight-loss medicines
 
-#### Why Does Targeting More Hormones Help?
+#### Why does targeting more hormones help?
 
 Obesity and diabetes involve many signals from the gut, fat tissue, liver and brain. Medicines that act on several pathways can have broader effects on appetite, insulin release and energy use. However, more targets can also mean more side effects, and careful long-term studies are needed.
 
-#### What Are the Possible Concerns?
+#### What are the possible concerns?
 
 - Stomach side effects such as nausea, vomiting and diarrhoea
 
@@ -82,7 +82,7 @@ Obesity and diabetes involve many signals from the gut, fat tissue, liver and br
 
 Do not buy unapproved products from the internet. They may be fake, unsafe or wrongly dosed.
 
-#### What Should Patients Do Now?
+#### What should patients do now?
 
 - Rely on approved medicines prescribed by your doctor.
 
@@ -92,11 +92,11 @@ Do not buy unapproved products from the internet. They may be fake, unsafe or wr
 
 - Remember that diet, exercise and sleep stay important whatever the medicine.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Talk to a diabetologist if you are interested in the latest treatments, have not reached your targets with current medicines, or have side effects.
 
-#### Key Takeaways
+#### A quick recap
 
 - Semaglutide is a single agonist, tirzepatide a dual agonist, and triple agonists are in development.
 
@@ -107,8 +107,6 @@ Talk to a diabetologist if you are interested in the latest treatments, have not
 - Never buy unapproved injectables online.
 
 - Medical guidance is essential.
-
-#### Final Thoughts
 
 The science is moving quickly, which is exciting. But the best treatment for you is the one that is approved, safe and suited to your health. To discuss current options, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

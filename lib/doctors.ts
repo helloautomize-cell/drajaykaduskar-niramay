@@ -5,6 +5,8 @@ export interface Doctor {
   name: string;
   shortName: string;
   role: string;
+  /** one-line professional label for article bylines */
+  bylineRole: string;
   qualifications: string;
   profileHref: string;
   /** square avatar for bylines and reviewer boxes */
@@ -18,6 +20,7 @@ export const doctors: Record<Doctor["id"], Doctor> = {
     name: "Dr. Ajay V. Kaduskar",
     shortName: "Dr. Ajay Kaduskar",
     role: "Physician: diabetes, obesity, thyroid, blood pressure and heart care",
+    bylineRole: "Diabetologist",
     qualifications:
       "MD (Medicine), PGDHSc (Diabetology), Fellow, Euro Asian Academy of Clinical Diabetology (The Netherlands)",
     profileHref: "/doctors/dr-ajay-kaduskar/",
@@ -29,6 +32,7 @@ export const doctors: Record<Doctor["id"], Doctor> = {
     name: "Dr. Prajakta A. Kaduskar",
     shortName: "Dr. Prajakta Kaduskar",
     role: "Child and adolescent health, counselling and vaccination",
+    bylineRole: "Child and adolescent specialist",
     qualifications: "MBBS, DCH, PGDAP, MA (Clinical Psychology)",
     profileHref: "/doctors/dr-prajakta-kaduskar/",
     avatar: "/images/doctors/dr-prajakta-kaduskar-face.jpg",

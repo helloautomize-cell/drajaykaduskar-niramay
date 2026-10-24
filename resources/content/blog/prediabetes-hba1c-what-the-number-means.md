@@ -28,11 +28,11 @@ status: draft
 
 HbA1c, also called glycated haemoglobin or A1C, is a blood test that shows your average blood sugar over the past two to three months. It is one of the main tests used to detect prediabetes and diabetes. Understanding your HbA1c helps you act early to prevent type 2 diabetes.
 
-#### What Does HbA1c Measure?
+#### What does HbA1c measure?
 
 Glucose in the blood attaches to haemoglobin in red blood cells. Because red cells live about three months, the percentage of haemoglobin with glucose attached reflects average sugar levels over that time. Unlike a single sugar reading, HbA1c is not affected by what you ate that morning.
 
-#### How Do You Read Your Result?
+#### How do you read your result?
 
 - Below 5.7 percent: normal range
 
@@ -42,7 +42,7 @@ Glucose in the blood attaches to haemoglobin in red blood cells. Because red cel
 
 Within the prediabetes range, a higher number such as 6.2 to 6.4 percent suggests a greater risk of progressing to diabetes, so prompt action is especially important.
 
-#### What Can Affect HbA1c Accuracy?
+#### What can affect HbA1c accuracy?
 
 HbA1c may be less reliable in people with:
 
@@ -58,7 +58,7 @@ HbA1c may be less reliable in people with:
 
 In these situations, doctors may use fasting glucose or a glucose tolerance test instead.
 
-#### What Should You Do If HbA1c Shows Prediabetes?
+#### What should you do if HbA1c shows prediabetes?
 
 ##### Lose excess weight
 
@@ -80,11 +80,11 @@ Good sleep and stress management support better sugar control.
 
 In some high-risk people, doctors may consider metformin.
 
-#### How Often Should You Retest?
+#### How often should you retest?
 
 People with prediabetes are usually retested at least once a year, and sometimes every three to six months while making changes. Your doctor will guide timing.
 
-#### Key Takeaways
+#### The quick version
 
 - HbA1c shows average sugar over about three months.
 
@@ -95,8 +95,6 @@ People with prediabetes are usually retested at least once a year, and sometimes
 - Weight loss, activity and diet changes lower risk.
 
 - Retest regularly to track progress.
-
-#### Final Thoughts
 
 A prediabetes HbA1c is a valuable early warning, not a diagnosis of diabetes. Acting now can bring your numbers back toward normal. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur helps patients interpret results and plan prevention.
 

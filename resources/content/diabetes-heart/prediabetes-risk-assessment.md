@@ -14,7 +14,7 @@ has_confirm_items: false
 
 ### Page 13. Prediabetes and Diabetes Risk Assessment
 
-- **URL:** `/diabetes/prediabetes-risk-assessment/`
+- **URL:** `/[diabetes](/diabetes/)/prediabetes-risk-assessment/`
 - **SEO title:** Prediabetes and Diabetes Risk Check in Nagpur | Niramay Clinics
 - **Meta description:** Find out your diabetes risk and act early. Prediabetes testing, Indian Diabetes Risk Score, waist and body composition check, and a practical prevention plan in Nagpur.
 - **Schema:** MedicalWebPage, MedicalCondition (Prediabetes)
@@ -22,7 +22,7 @@ has_confirm_items: false
 
 **H1:** Prediabetes and diabetes risk assessment
 
-Prediabetes means your blood sugar is higher than normal but not yet in the diabetes range. In India, more people have prediabetes than diabetes. It is the stage where action pays off most: lifestyle changes started now can delay or prevent type 2 diabetes for many people.
+Prediabetes means your blood sugar is higher than normal but not yet in the diabetes range. In India, more people have prediabetes than diabetes. It is the stage where action pays off most: lifestyle changes started now can delay or prevent [type 2](/diabetes/type-2-diabetes/) diabetes for many people.
 
 #### How prediabetes is identified
 - **Fasting blood sugar:** 100 to 125 mg/dL
@@ -43,15 +43,20 @@ If you answered yes to two or more, a blood sugar test is worthwhile, even if yo
 - Fasting sugar, HbA1c, and a glucose tolerance test when needed
 - Waist measurement and body composition analysis (fat, muscle and visceral fat)
 - Blood pressure, cholesterol and liver tests if indicated
-- A practical prevention plan with our nutritionist
+- A practical prevention plan with our [nutrition](/nutrition-lifestyle-counselling/)ist
 
 #### What helps
-- Losing 5% to 7% of body weight, if overweight, lowers the risk of progressing to diabetes
+- Losing 5% to 7% of body [weight](/obesity/), if overweight, lowers the risk of progressing to diabetes
 - At least 150 minutes of brisk walking or similar activity per week, plus some strength exercise
 - Fewer refined carbohydrates and sugary drinks; more vegetables, pulses and protein
 - Regular sleep, and attention to stress
 - Re-testing every year
 
+#### When to get tested sooner
+Do not wait if your fasting sugar has ever come back borderline or high, you have a parent or sibling with diabetes, you had diabetes in a previous pregnancy, or you notice symptoms such as unusual thirst, frequent urination or unexplained tiredness.
+
+#### When to see a doctor
+Book a check if you have a parent or sibling with diabetes, a waist size above 90 cm (men) or 80 cm (women), had diabetes in pregnancy, or routinely feel very thirsty, very tired or hungry soon after meals. One abnormal reading deserves a repeat test and a plan, not panic.
 #### Frequently asked questions
 **I am thin. Can I still get diabetes?**
 Yes. Many Indians develop diabetes at a normal body weight because of fat stored around the abdomen and liver, and lower muscle mass. Waist size and family history matter.
@@ -61,3 +66,13 @@ No. Many people return to normal sugar levels with lifestyle changes. Without ch
 
 **Do I need medicines for prediabetes?**
 Lifestyle change is the first step. In some higher-risk situations, your doctor may discuss medicines. This is decided individually.
+
+**How often should I repeat the blood sugar test?**
+If your result is normal and your risk is low, testing every one to three years is usually enough. With prediabetes or ongoing risk factors, your doctor will usually repeat HbA1c or fasting sugar every 6 to 12 months.
+
+**Can prediabetes become diabetes even with a good lifestyle?**
+Lifestyle change lowers the risk considerably and many people return to the normal range, but it does not fall to zero. That is why periodic testing continues even when things look good.
+
+#### Sources and further reading
+- [ICMR–INDIAB study](https://doi.org/10.1016/S2213-8587(23)00119-5) (The Lancet Diabetes & Endocrinology, 2023)
+- [Diabetes — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)

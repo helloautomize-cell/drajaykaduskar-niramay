@@ -28,7 +28,7 @@ status: draft
 
 Semaglutide and tirzepatide are often mentioned together. Both are weekly injections that lower blood sugar and body weight. They are not the same, and the right choice depends on your health, goals, tolerance and cost.
 
-#### How Do They Work?
+#### How do they work?
 
 ##### Semaglutide
 
@@ -38,7 +38,7 @@ It copies the gut hormone GLP-1. It helps the pancreas release insulin when bloo
 
 It copies both GLP-1 and GIP, another gut hormone. The added GIP action may improve insulin response and fat metabolism, and may contribute to its stronger effects on weight and blood sugar in studies.
 
-#### How Are They Given?
+#### How are they given?
 
 - Both are given once a week as an injection under the skin.
 
@@ -46,7 +46,7 @@ It copies both GLP-1 and GIP, another gut hormone. The added GIP action may impr
 
 - Semaglutide also comes as a daily tablet.
 
-#### What Do Studies Show?
+#### What do studies show?
 
 | Feature | Semaglutide | Tirzepatide |
 |---|---|---|
@@ -79,23 +79,23 @@ These are averages from clinical trials. Individual results differ.
 
 - Your doctor judges it suitable for your condition
 
-#### Do They Have Different Side Effects?
+#### Do they have different side effects?
 
 Both commonly cause nausea, vomiting, diarrhoea, constipation and reduced appetite, especially when the dose is increased. Rare risks include pancreatitis, gallbladder problems and dehydration. Neither is advised in people with a personal or family history of certain thyroid cancers (medullary thyroid carcinoma) or MEN2 syndrome, in pregnancy, or in those with a history of pancreatitis without specialist advice.
 
-#### What About Cost and Availability?
+#### What about cost and availability?
 
 Prices and brands in India are changing. Ask your doctor and pharmacy for current details. Do not switch brands or medicines without medical advice.
 
-#### Can You Switch From One to the Other?
+#### Can you switch from one to the other?
 
 Yes, a doctor may switch you based on response and tolerance. The new medicine is started at a suitable dose, not the same dose number.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See a diabetologist before starting either medicine. Report severe abdominal pain, repeated vomiting, signs of dehydration or allergic reactions right away.
 
-#### Key Takeaways
+#### Points to keep
 
 - Semaglutide acts on GLP-1. Tirzepatide acts on GLP-1 and GIP.
 
@@ -106,8 +106,6 @@ See a diabetologist before starting either medicine. Report severe abdominal pai
 - Side effects are similar and mostly stomach-related.
 
 - The choice should be individual and doctor-guided.
-
-#### Final Thoughts
 
 There is no single winner for everyone. The best medicine is the one that is safe for you, effective and sustainable. To find your best option, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

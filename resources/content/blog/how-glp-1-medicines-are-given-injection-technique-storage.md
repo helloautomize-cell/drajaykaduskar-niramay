@@ -1,6 +1,6 @@
 ---
 title: "How Are GLP-1 Medicines Given? Technique and Storage"
-seo_title: "How Are GLP-1 Medicines Given? Technique and | Niramay"
+seo_title: "GLP-1 Injections: Technique and Storage | Niramay"
 url: "/health-library/how-glp-1-medicines-are-given-injection-technique-storage/"
 author: "Dr. Ajay V. Kaduskar"
 author_credentials: "MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)"
@@ -11,7 +11,7 @@ category: "GLP-1 Medicines"
 reading_time: "4 min read"
 excerpt: "A step-by-step guide to giving a GLP-1 injection: where to inject, how often, how to rotate sites, how to store pens and what to do with missed doses."
 image: "blog/how-glp-1-medicines-are-given-injection-technique-storage.webp"
-image_alt: "Nurse guiding an Indian patient to inject an injection pen into the abdomen skin fold, shown"
+image_alt: "Nurse guiding an Indian patient to inject an injection pen into the abdomen skin fold"
 sources:
   - name: "NIDDK: Prescription medicines for overweight and obesity"
     url: "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
@@ -28,7 +28,7 @@ status: draft
 
 Most GLP-1 medicines for diabetes and weight management are given as an injection under the skin. The needle is tiny, and the technique is easy to learn. Doing it correctly helps the medicine work well and keeps you comfortable.
 
-#### How Often Are They Given?
+#### How often are they given?
 
 - **Weekly injections:** Semaglutide and tirzepatide for diabetes and weight are given once a week, on the same day.
 
@@ -38,7 +38,7 @@ Most GLP-1 medicines for diabetes and weight management are given as an injectio
 
 Your doctor will tell you which schedule applies.
 
-#### Where Can You Inject?
+#### Where can you inject?
 
 - **Abdomen:** At least 5 cm away from the navel. It is a common, easy site.
 
@@ -48,7 +48,7 @@ Your doctor will tell you which schedule applies.
 
 Rotate within the same area, moving at least 2 to 3 cm from the previous spot. Avoid scars, bruises, moles, lumpy areas or places where the skin is hard.
 
-#### What Are the Steps?
+#### What are the steps?
 
 1. **Wash your hands.** Gather the pen, a new needle and an alcohol swab.
 
@@ -70,7 +70,7 @@ Rotate within the same area, moving at least 2 to 3 cm from the previous spot. A
 
 10. **Dispose of the needle safely.** Use a sharps container or a hard plastic bottle. Replace the pen cap.
 
-#### How Should You Store GLP-1 Pens?
+#### How should you store GLP-1 pens?
 
 - Store unopened pens in the refrigerator, away from the freezer section.
 
@@ -84,11 +84,11 @@ Rotate within the same area, moving at least 2 to 3 cm from the previous spot. A
 
 - Do not share pens.
 
-#### What If You Miss a Dose?
+#### What if you miss a dose?
 
 For weekly injections, follow the label. Many instructions say to take a missed dose if it is within a few days of the due date, otherwise skip it and take the next dose on the usual day. Do not take two doses close together. When unsure, call your doctor.
 
-#### What Common Problems Occur?
+#### What common problems occur?
 
 - **Bruising or small bleed:** Normal, press lightly with cotton.
 
@@ -100,11 +100,11 @@ For weekly injections, follow the label. Many instructions say to take a missed 
 
 - **Pain:** Use a new needle, let the pen reach room temperature before injecting, if the label allowsd and relax the muscles.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See a doctor if you have swelling, spreading redness, pus, fever, a hard painful lump, a pen that is not working or if you are unsure about your dose. Seek urgent care for allergic reactions like swelling of the face or trouble breathing.
 
-#### Key Takeaways
+#### The quick version
 
 - Most GLP-1 medicines are injected under the skin once a week.
 
@@ -115,8 +115,6 @@ See a doctor if you have swelling, spreading redness, pus, fever, a hard painful
 - Follow the label if you miss a dose.
 
 - Ask for a demonstration at the start.
-
-#### Final Thoughts
 
 With a little practice, injecting becomes routine. Good technique makes treatment easier and safer. For hands-on guidance, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

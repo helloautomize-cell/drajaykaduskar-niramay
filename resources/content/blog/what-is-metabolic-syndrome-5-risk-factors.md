@@ -11,7 +11,7 @@ category: "Metabolic Syndrome and Cardiometabolic Health"
 reading_time: "4 min read"
 excerpt: "Metabolic syndrome is a cluster of conditions that raise the risk of diabetes and heart disease. Learn the five risk factors and how to reduce them."
 image: "blog/what-is-metabolic-syndrome-5-risk-factors.webp"
-image_alt: "Doctor measuring an Indian patient's waist and blood pressure in a clinic. professional caring mood, shallow"
+image_alt: "Doctor measuring an Indian patient's waist and blood pressure in a clinic"
 sources:
   - name: "NHLBI: Metabolic syndrome"
     url: "https://www.nhlbi.nih.gov/health/metabolic-syndrome"
@@ -28,37 +28,37 @@ status: draft
 
 Metabolic syndrome is not a single disease. It is a group of related problems that often appear together and increase the risk of type 2 diabetes, heart disease and stroke.
 
-#### The Five Risk Factors
+#### The five risk factors
 
-##### 1. Large waist
+##### 1. large waist
 
 Excess fat around the abdomen. Cut-offs are lower for South Asians than for many other groups.
 
-##### 2. High blood pressure
+##### 2. high blood pressure
 
 Blood pressure above the target range, or treatment for it.
 
-##### 3. High blood sugar
+##### 3. high blood sugar
 
 Raised fasting sugar or treatment for diabetes.
 
-##### 4. High triglycerides
+##### 4. high triglycerides
 
 Raised levels of this blood fat.
 
-##### 5. Low HDL cholesterol
+##### 5. low HDL cholesterol
 
 Low levels of the "good" cholesterol.
 
-#### Why It Matters
+#### Why it matters
 
 Together these factors raise the risk of diabetes, heart attack, stroke and fatty liver.
 
-#### How It Is Diagnosed
+#### How it is diagnosed
 
 Measurements of waist, blood pressure and blood tests for sugar and lipids. Your doctor interprets them together.
 
-#### How to Reduce the Risk
+#### How to reduce the risk
 
 - Lose excess weight, especially abdominal fat
 
@@ -72,7 +72,7 @@ Measurements of waist, blood pressure and blood tests for sugar and lipids. Your
 
 - Treat blood pressure, sugar and cholesterol as advised
 
-#### Key Takeaways
+#### Points to keep
 
 - Metabolic syndrome is a cluster of risk factors.
 
@@ -83,8 +83,6 @@ Measurements of waist, blood pressure and blood tests for sugar and lipids. Your
 - Lifestyle change helps all components.
 
 - Early action matters.
-
-#### Final Thoughts
 
 Catching it early gives you time to act. For an assessment, you can consult Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur.
 

@@ -28,7 +28,7 @@ status: draft
 
 GLP-1 medicines help many people with diabetes and obesity. But they are not right for everyone. Some people should avoid them completely, and others need extra care. This guide explains who and why, so you can have an informed talk with your doctor.
 
-#### Medullary thyroid cancer or MEN2
+#### Medullary thyroid cancer or mEN2
 
 These medicines carry a warning about thyroid C-cell tumours seen in animal studies. They are not advised for people with a personal or family history of medullary thyroid carcinoma or the genetic condition MEN2.
 
@@ -40,7 +40,7 @@ Anyone who has had a severe allergic reaction to a GLP-1 medicine or its ingredi
 
 They are not recommended during pregnancy or while breastfeeding. Women planning pregnancy are usually advised to stop the medicine well before trying to conceive. Ask your doctor how long.
 
-#### Who Needs Extra Caution?
+#### Who needs extra caution?
 
 #### History of pancreatitis
 
@@ -82,11 +82,11 @@ People on insulin or sulfonylureas have a higher risk of low blood sugar, and do
 
 Because of slowed stomach emptying, anaesthetists may ask you to pause the medicine before surgery or sedation. Tell your surgeon and anaesthetist.
 
-#### Is Weight Loss Without Obesity Safe?
+#### Is weight loss without obesity safe?
 
 These medicines are meant for people with diabetes, obesity (or overweight with weight-related disease). Using them for small cosmetic weight loss is not recommended, and risks may outweigh benefits.
 
-#### What Checks Should You Expect Before Starting?
+#### What checks should you expect before starting?
 
 - Your medical and family history
 
@@ -102,11 +102,11 @@ These medicines are meant for people with diabetes, obesity (or overweight with 
 
 - A discussion about expectations, cost and follow-up
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Always consult a diabetologist before starting. Contact your doctor at once if, during treatment, you have severe abdominal pain, persistent vomiting, a neck lump, hoarseness, trouble swallowing, vision changes or signs of an allergy.
 
-#### Key Takeaways
+#### The quick version
 
 - Avoid GLP-1 medicines if you have a personal or family history of medullary thyroid cancer or MEN2, or a serious allergy.
 
@@ -117,8 +117,6 @@ Always consult a diabetologist before starting. Contact your doctor at once if, 
 - Always have a medical assessment first.
 
 - Tell all doctors you are using one, especially before surgery.
-
-#### Final Thoughts
 
 Knowing who should not take these medicines keeps treatment safe. A careful check before starting protects you from avoidable harm. To find out if you are a suitable candidate, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

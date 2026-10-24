@@ -33,7 +33,7 @@ That difference matters more than it sounds. A fasting sugar of 118 mg/dL tells 
 
 This guide covers how CGM works, who tends to get real value from it, how to read the report your doctor hands you, and where the technology falls short.
 
-#### What Is Continuous Glucose Monitoring?
+#### What is continuous glucose monitoring?
 
 A CGM system has a sensor, something that sends the data, and a screen to see it on.
 
@@ -43,7 +43,7 @@ Depending on the device, a new reading comes in every one to fifteen minutes. Ac
 
 Sensors are generally worn for 10 to 15 days and then replaced.
 
-#### How Does a CGM Work?
+#### How does a CGM work?
 
 Here is the part that surprises many patients: a CGM does not measure the glucose in your blood. It measures glucose in the **interstitial fluid**, the thin layer of fluid that bathes the cells just beneath your skin.
 
@@ -61,7 +61,7 @@ Most apps show an arrow beside the current reading. A flat arrow means glucose i
 
 In practice, the arrow can matter as much as the number. A reading of 110 heading sharply downward before bedtime calls for a different response than 110 sitting flat. If you take insulin, ask your doctor to walk you through how to respond to each arrow.
 
-#### What Types of CGM Are There?
+#### What types of CGM are there?
 
 There are three broad kinds, and they suit different people.
 
@@ -73,7 +73,7 @@ There are three broad kinds, and they suit different people.
 
 Which devices are available, and at what price, changes fairly often in India. Your doctor can tell you what is practical right now.
 
-#### CGM or Glucometer: Which Do You Need?
+#### CGM or glucometer: which do you need?
 
 Think of a glucometer as a photograph and a CGM as a video.
 
@@ -91,7 +91,7 @@ A CGM fills those gaps. It records through the night, shows whether glucose is r
 
 Even with a CGM, keep your glucometer. It is your backup when the sensor fails, when a reading looks wrong, or when your symptoms don't match the screen.
 
-#### What Does a CGM Show That HbA1c Misses?
+#### What does a CGM show that HbA1c misses?
 
 **HbA1c** reflects your average blood sugar over roughly the last two to three months. It's a reliable long-term marker, and it isn't going anywhere. But averages hide things.
 
@@ -101,7 +101,7 @@ A CGM separates these two people. It can show night lows you never felt, which f
 
 There are situations where HbA1c itself becomes less trustworthy, such as anaemia, some inherited haemoglobin variants, pregnancy, kidney disease or recent blood loss. In those cases, CGM data can help explain why the lab number and daily readings don't agree.
 
-#### Who May Benefit From a CGM?
+#### Who may benefit from a CGM?
 
 The guidance here has shifted a lot. In its 2026 Standards of Care, the American Diabetes Association moved to recommending CGM from the time of diagnosis onward for anyone with diabetes who could benefit from it. It is no longer something reserved for insulin users or people with frequent lows.
 
@@ -121,7 +121,7 @@ That doesn't mean everyone needs to wear one permanently. It means the decision 
 
 **When HbA1c and home readings don't line up.** A CGM period can settle the question.
 
-#### Does Every Person With Diabetes Need a CGM?
+#### Does every person with diabetes need a CGM?
 
 No. Someone with stable Type 2 diabetes on simple treatment may do perfectly well with regular HbA1c tests and the occasional glucometer check. A two-week CGM once or twice a year can be enough to confirm nothing is slipping.
 
@@ -129,7 +129,7 @@ The decision usually comes down to your type of diabetes and treatment, how like
 
 There's also a simpler question. Will anyone actually look at the data? The ADA's own technology section points out that checking glucose, by itself, does nothing to lower it. The readings only help once they shape treatment and daily habits. A CGM that nobody reviews is an expensive sticker.
 
-#### How to Read CGM Data
+#### How to read CGM data
 
 Most CGM reports summarise 14 days. For that summary to be trustworthy, the sensor needs to have been recording for most of the period, generally at least 70% of the time. If yours fell off on day five, the report may not tell the full story.
 
@@ -161,7 +161,7 @@ For older adults and anyone at higher risk of lows, doctors often loosen these. 
 
 Treat these as starting points. Your own targets may be different, and that's a conversation for your doctor.
 
-##### GMI: the CGM's estimate of HbA1c
+##### GMI: the cGM's estimate of HbA1c
 
 The **glucose management indicator (GMI)** takes your average CGM glucose and converts it into a figure that looks like an HbA1c percentage.
 
@@ -171,7 +171,7 @@ GMI and your lab HbA1c are often close. Sometimes they aren't, and that doesn't 
 
 **Coefficient of variation (CV)** measures how much your glucose swings around its average. A CV of **36% or lower** is generally considered stable. Higher numbers tend to go with more frequent lows, even when the average looks fine.
 
-#### How to Read an AGP Report
+#### How to read an AGP report
 
 The **Ambulatory Glucose Profile**, or AGP, is the one-page summary most CGM software produces. Its trick is to take all 14 days and lay them on top of each other, as if they all happened on a single day. Anything that repeats at the same time of day jumps out.
 
@@ -193,7 +193,7 @@ When you look at your own AGP, a few things are worth noticing:
 
 Most reports also include a strip of individual daily graphs underneath. These are useful for matching a bad day to what happened: a wedding dinner, a missed dose, a long drive, a night of poor sleep.
 
-#### Patterns Doctors Commonly Look For
+#### Patterns doctors commonly look for
 
 Some patterns come up again and again in CGM reports.
 
@@ -207,7 +207,7 @@ One odd day doesn't make a pattern. Doctors generally want to see something repe
 
 And please don't adjust insulin or diabetes tablets on your own because of what you see on your CGM. Bring the report to your doctor first.
 
-#### How Accurate Is a CGM?
+#### How accurate is a CGM?
 
 Accurate enough to manage diabetes day to day. Many current systems are approved for treatment decisions without routine finger-prick confirmation. They are not flawless, though.
 
@@ -217,7 +217,7 @@ Check with a glucometer whenever you feel low but the screen says you're fine, w
 
 If in doubt, trust how you feel and check.
 
-#### What's It Like to Wear One?
+#### What's it like to wear one?
 
 Easier than most people expect.
 
@@ -227,7 +227,7 @@ Some people get mild itching or redness from the adhesive. Rotating the site and
 
 Sensors generally need to come off before an MRI, CT scan or certain X-rays, so tell the radiology staff you're wearing one. If you're travelling, pack a spare sensor and your glucometer.
 
-#### Is CGM Useful During Pregnancy?
+#### Is CGM useful during pregnancy?
 
 Pregnancy with diabetes needs tighter glucose control, because higher sugar levels can affect both mother and baby. Levels can also shift quickly as the weeks go on.
 
@@ -235,7 +235,7 @@ For women with Type 1 diabetes, CGM is widely used in pregnancy, and the consens
 
 Targets in pregnancy should always come from your treating team, and CGM data should be reviewed regularly by both your diabetologist and your obstetrician.
 
-#### Should People Without Diabetes Use a CGM?
+#### Should people without diabetes use a CGM?
 
 CGMs are now sold as wellness gadgets, and plenty of people without diabetes are curious. For someone with prediabetes or obesity, a short trial can be eye-opening about how food, sleep and activity move their numbers.
 
@@ -243,7 +243,7 @@ A few words of caution, though. Glucose naturally rises after eating in everyone
 
 If you're worried about prediabetes or insulin resistance, start with a proper medical assessment rather than a sensor.
 
-#### What Does a CGM Cost in India?
+#### What does a CGM cost in India?
 
 Cost depends on the system, how long each sensor lasts, and whether you wear one continuously or just now and then. The sensors are the main ongoing expense, since each is replaced every 10 to 15 days.
 
@@ -251,7 +251,7 @@ Brands and prices in India change often enough that it's best to ask your doctor
 
 For many people with Type 2 diabetes, a two-week CGM every few months, reviewed properly with the doctor, gives much of the benefit at a far lower cost than wearing one all year.
 
-#### How Niramay Clinics Uses CGM Data
+#### How Niramay Clinics uses CGM data
 
 The report itself is only half the value. The other half is the conversation you have about it.
 
@@ -259,7 +259,7 @@ At Niramay Clinics in Dhantoli, Nagpur, diabetes care looks beyond blood sugar t
 
 Dr. Ajay V. Kaduskar has more than 20 years of experience treating Type 1 and Type 2 diabetes, diabetes in pregnancy, obesity and related metabolic conditions. At the clinic, CGM is used alongside HbA1c, clinical examination, complication screening and a lifestyle plan that fits how the patient actually lives.
 
-#### When to Get Urgent Medical Help
+#### When to get urgent medical help
 
 A CGM alert is useful, but some situations need medical attention whatever the screen says.
 
@@ -269,7 +269,7 @@ Very high glucose together with vomiting, stomach pain, fast or deep breathing, 
 
 If your CGM and your body disagree, go with your body and check with a glucometer.
 
-#### Common Misconceptions About CGM
+#### Common misconceptions about CGM
 
 Some people assume a CGM means fewer doctor visits. It gives you more information, but deciding what to do with it still needs a clinician.
 
@@ -283,7 +283,7 @@ A good HbA1c doesn't make CGM pointless either. It can still hide frequent lows 
 
 And the insertion is not the ordeal people imagine. Most feel a brief pinch, if anything.
 
-#### Key Takeaways
+#### A quick recap
 
 - A CGM measures glucose every few minutes through a small sensor usually worn for 10 to 15 days.
 
@@ -298,8 +298,6 @@ And the insertion is not the ordeal people imagine. Most feel a brief pinch, if 
 - Sensor readings trail blood glucose slightly, so keep a glucometer as backup.
 
 - Any change to medicine or insulin should be made with your doctor.
-
-#### Final Thoughts
 
 For years, diabetes care relied on a handful of readings and a lab test every few months, with a lot of guesswork in between. CGM fills in those gaps. Patients and doctors can finally see what glucose does through ordinary days of work, meals, sleep and exercise.
 

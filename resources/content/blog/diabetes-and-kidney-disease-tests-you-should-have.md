@@ -11,7 +11,7 @@ category: "Metabolic Syndrome and Cardiometabolic Health"
 reading_time: "4 min read"
 excerpt: "Diabetes can silently damage the kidneys. Learn the two key tests, uACR and eGFR, how often to do them, what the results mean and how to protect your kidneys."
 image: "blog/diabetes-and-kidney-disease-tests-you-should-have.webp"
-image_alt: "Lab technician handing a small urine sample container to an Indian patient while a diabetologist explains"
+image_alt: "Lab technician handing a small urine sample container to an Indian patient while a diabetologist explains the report"
 sources:
   - name: "NHLBI: Metabolic syndrome"
     url: "https://www.nhlbi.nih.gov/health/metabolic-syndrome"
@@ -28,11 +28,11 @@ status: draft
 
 Diabetes is one of the leading causes of kidney disease worldwide. The danger is that damage starts quietly, with no pain or swelling, and by the time symptoms appear, a lot of kidney function may be lost. Two simple tests can catch it early.
 
-#### How Does Diabetes Damage the Kidneys?
+#### How does diabetes damage the kidneys?
 
 High blood sugar and high blood pressure harm the tiny filters in the kidneys (glomeruli). Over years, the filters leak protein into the urine and gradually lose their ability to clean the blood. This is called diabetic kidney disease. It often develops after 5 to 10 years of diabetes, but in type 2 diabetes it may already be present at diagnosis.
 
-#### What Are the Warning Signs?
+#### What are the warning signs?
 
 Early kidney disease usually has no symptoms. Later signs include:
 
@@ -52,9 +52,9 @@ Early kidney disease usually has no symptoms. Later signs include:
 
 Do not wait for symptoms to be tested.
 
-#### Which Tests Should You Have?
+#### Which tests should you have?
 
-##### 1. Urine albumin-to-creatinine ratio (uACR)
+##### 1. urine albumin-to-creatinine ratio (uACR)
 
 A spot urine sample (ideally the first morning sample) measures the amount of albumin, a protein, relative to creatinine.
 
@@ -84,7 +84,7 @@ Calculated from serum creatinine, age and sex. It estimates how well the kidneys
 
 Some guidelines also use cystatin C for more precise estimates in selected people.
 
-##### 3. Other tests
+##### 3. other tests
 
 - Blood pressure at every visit
 
@@ -94,7 +94,7 @@ Some guidelines also use cystatin C for more precise estimates in selected peopl
 
 - Blood tests for potassium, haemoglobin and electrolytes
 
-#### How Often Should You Test?
+#### How often should you test?
 
 - At diagnosis of type 2 diabetes
 
@@ -102,7 +102,7 @@ Some guidelines also use cystatin C for more precise estimates in selected peopl
 
 - More often, every 3 to 6 months, if kidney disease is present or progressing
 
-#### How Can You Protect Your Kidneys?
+#### How can you protect your kidneys?
 
 - Keep HbA1c in your target range.
 
@@ -120,11 +120,11 @@ Some guidelines also use cystatin C for more precise estimates in selected peopl
 
 - Ask your doctor before using contrast dye, herbal products or new medicines.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor promptly if you notice swelling, foamy urine, reduced urine output, new high blood pressure or if your reports show a falling eGFR or rising uACR. You may need a kidney specialist (nephrologist) if eGFR is low or falling fast, or if protein loss is high.
 
-#### Key Takeaways
+#### What to remember
 
 - Diabetic kidney disease is silent in its early stages.
 
@@ -135,8 +135,6 @@ See your doctor promptly if you notice swelling, foamy urine, reduced urine outp
 - Some medicines offer extra kidney protection.
 
 - Avoid NSAID painkillers and check with your doctor before new medicines.
-
-#### Final Thoughts
 
 Two simple yearly tests can save your kidneys. Early action slows damage, and often keeps you away from dialysis. To get your kidney checks done, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

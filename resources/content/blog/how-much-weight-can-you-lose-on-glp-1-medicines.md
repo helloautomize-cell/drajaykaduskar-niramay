@@ -28,7 +28,7 @@ status: draft
 
 Social media is full of dramatic before-and-after photos. Real results are meaningful but more gradual, and they differ from person to person. Knowing what is realistic helps you set goals and avoid disappointment.
 
-#### What Do Studies Show?
+#### What do studies show?
 
 Large trials have shown that:
 
@@ -42,7 +42,7 @@ Large trials have shown that:
 
 These are averages. Some people lose less, and a few lose more.
 
-#### How Long Does It Take?
+#### How long does it take?
 
 - **First 4 to 8 weeks:** The dose is gradually increased. Weight loss is often slow at first.
 
@@ -52,7 +52,7 @@ These are averages. Some people lose less, and a few lose more.
 
 - **After a year:** Weight usually stabilises while treatment continues.
 
-#### What Else Improves Besides Weight?
+#### What else improves besides weight?
 
 - Blood sugar and HbA1c
 
@@ -68,7 +68,7 @@ These are averages. Some people lose less, and a few lose more.
 
 - For some medicines, heart and kidney benefits in selected patients
 
-#### What Affects Your Results?
+#### What affects your results?
 
 - **The medicine and dose:** Different molecules and strengths produce different results.
 
@@ -86,15 +86,15 @@ These are averages. Some people lose less, and a few lose more.
 
 - **Other medicines:** Some medicines for diabetes, mood or epilepsy can cause weight gain.
 
-#### Do You Lose Only Fat?
+#### Do you lose only fat?
 
 Some of the weight lost can be muscle. To protect it, eat enough protein, do strength exercises two to three times a week and avoid crash diets. A dietitian can help with a personalised plan.
 
-#### What If You Do Not Lose Weight?
+#### What if you do not lose weight?
 
 A small number of people respond poorly. Your doctor will check your dose, adherence, diet, sleep, other medicines and conditions such as thyroid disease or Cushing's syndrome. Sometimes a different medicine or approach is better.
 
-#### How Should You Set Goals?
+#### How should you set goals?
 
 - Aim for gradual loss of around 0.5 to 1 kg a week at most, after the initial phase.
 
@@ -104,11 +104,11 @@ A small number of people respond poorly. Your doctor will check your dose, adher
 
 - Review progress with your doctor every few weeks to months.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 See your doctor if you lose weight very fast, feel weak or dizzy, have severe stomach pain, cannot eat or drink, or notice signs of dehydration.
 
-#### Key Takeaways
+#### Points to keep
 
 - Average weight loss with GLP-1 medicines ranges from about 5 to 15 percent or more, depending on the medicine and dose.
 
@@ -119,8 +119,6 @@ See your doctor if you lose weight very fast, feel weak or dizzy, have severe st
 - Protein, strength training and sleep protect results and muscle.
 
 - Treatment is a long-term plan, not a quick fix.
-
-#### Final Thoughts
 
 GLP-1 medicines are a powerful tool, but they work best together with food, movement and follow-up. Realistic goals keep you motivated and safe. For a personalised plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 

@@ -3,7 +3,7 @@ page_number: 45
 title: "Appointment, cancellation and refund policy"
 url: "/cancellation-refund-policy/"
 seo_title: "Cancellation and Refund Policy | Niramay Clinics"
-meta_description: ""
+meta_description: "How appointment booking, cancellation, rescheduling and refunds work at Niramay Clinics, Dhantoli, Nagpur."
 schema: ""
 images: []
 reviewed_by: "Lawyer (required by Part 6 note)"

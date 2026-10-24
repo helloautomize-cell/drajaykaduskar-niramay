@@ -29,7 +29,7 @@ The teenage years bring the fastest growth since infancy. Bodies change, appetit
 - **PCOS (polycystic ovary syndrome):** irregular periods, acne, excess hair, weight gain; evaluation and long-term support
 - **Nutrition and healthy eating**, including fussy eating, skipping breakfast and junk-food habits
 - **Weight concerns:** obesity, and also underweight or unhealthy dieting
-- **Fitness and lifestyle counselling**
+- **Fitness and lifestyle [counsell](/blooming-buds/teen-mental-health/)ing**
 - **Anaemia**, which is very common in Indian adolescents, especially girls: screening and treatment
 - **Vitamin deficiencies**, such as vitamin D and B12
 - **Acne and skin health guidance**
@@ -40,6 +40,9 @@ The teenage years bring the fastest growth since infancy. Bodies change, appetit
 
 #### What a visit looks like
 A head-to-toe check including growth charts, blood pressure and pubertal development, a conversation with the teenager and parents, and blood tests only when needed (for example haemoglobin, thyroid, vitamin D or hormone tests).
+
+#### When to see a doctor
+Bring your teenager in if periods are very painful, very heavy or irregular for more than a year after they begin, if weight is changing quickly, acne is worsening despite basic care, or there is ongoing tiredness, dizziness or any breast or genital concern.
 
 #### Frequently asked questions
 **At what age should periods start, and when should we worry?**
@@ -53,3 +56,6 @@ Growing bodies need enough energy and nutrients. Crash diets and unregulated sup
 
 **Is vaping less harmful than smoking for teens?**
 No. Vapes contain nicotine, which is addictive and affects the developing brain, and other harmful chemicals. Sale of e-cigarettes is banned in India. We support teenagers who want to stop.
+
+#### Sources and further reading
+- [Adolescent health — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions)

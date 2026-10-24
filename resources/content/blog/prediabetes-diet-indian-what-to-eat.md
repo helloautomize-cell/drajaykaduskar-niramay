@@ -28,11 +28,11 @@ status: draft
 
 A prediabetes diet is an eating pattern that helps bring blood sugar back toward normal and lowers the risk of type 2 diabetes. It does not require special foods or giving up home-cooked Indian meals. It focuses on balance, portions and smarter choices.
 
-#### Why Does Diet Matter in Prediabetes?
+#### Why does diet matter in prediabetes?
 
 Carbohydrates have the biggest impact on blood sugar. Refined carbohydrates and sugar raise blood sugar quickly, while fibre, protein and healthy fats slow absorption. Better food choices also support weight loss, which improves insulin sensitivity.
 
-#### What Should You Eat More Of?
+#### What should you eat more of?
 
 ##### Vegetables
 
@@ -58,7 +58,7 @@ Nuts, seeds and small amounts of cooking oil such as mustard or groundnut oil.
 
 Choose whole fruits like guava, apple, papaya or orange in moderate portions rather than juices.
 
-#### What Should You Limit?
+#### What should you limit?
 
 - Sugary drinks, packaged juices and sweetened tea or coffee
 
@@ -72,7 +72,7 @@ Choose whole fruits like guava, apple, papaya or orange in moderate portions rat
 
 - Processed and packaged foods high in sugar or salt
 
-#### How Do You Build a Balanced Plate?
+#### How do you build a balanced plate?
 
 Use the plate method:
 
@@ -82,7 +82,7 @@ Use the plate method:
 
 - Quarter: whole grain roti, millet bhakri or a controlled portion of rice
 
-#### What Are Simple Swaps?
+#### What are simple swaps?
 
 - White rice to mixed rice with vegetables or millet
 
@@ -94,11 +94,11 @@ Use the plate method:
 
 - Sweetened tea to unsweetened or less sugar
 
-#### Does Meal Timing Matter?
+#### Does meal timing matter?
 
 Regular meals help prevent overeating and large sugar spikes. Avoid long gaps followed by heavy meals. A short walk after meals can help lower post-meal sugar.
 
-#### Key Takeaways
+#### A quick recap
 
 - You can keep Indian food while managing prediabetes.
 
@@ -109,8 +109,6 @@ Regular meals help prevent overeating and large sugar spikes. Avoid long gaps fo
 - Limit sugar, maida, fried foods and large rice portions.
 
 - Regular meals and walks after meals help.
-
-#### Final Thoughts
 
 Small, sustainable food changes can bring prediabetes back toward normal. A personalised plan works better than strict diets. Dr. Ajay V. Kaduskar at Niramay Clinics in Nagpur helps patients build practical Indian meal plans for prediabetes and diabetes.
 

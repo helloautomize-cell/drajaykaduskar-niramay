@@ -16,19 +16,19 @@ has_confirm_items: false
 
 - **URL:** `/hypertension-clinic/`
 - **SEO title:** High Blood Pressure Treatment in Nagpur | Hypertension Clinic
-- **Meta description:** Diagnosis and long-term care of high blood pressure in Nagpur: accurate measurement, tests for causes and organ damage, lifestyle and medicines, ECG and Echo on site.
+- **Meta description:** Diagnosis and long-term care of high blood pressure in Nagpur: accurate measurement, tests for causes and organ damage, lifestyle and medicines, [ECG](/heart-care/ecg/) and Echo on site.
 - **Schema:** MedicalWebPage, MedicalCondition (Hypertension)
 
 **H1:** Hypertension clinic
 
-High blood pressure is often called a silent condition because most people feel nothing until it causes damage. The ICMR-INDIAB study estimated that more than a third of Indian adults have high blood pressure, and many do not know it. Over years, uncontrolled blood pressure strains the heart, kidneys, eyes and brain and raises the risk of heart attack and stroke.
+High blood pressure is often called a silent condition because most people feel nothing until it causes damage. The ICMR-INDIAB study estimated that more than a third of Indian adults have high blood pressure, and many do not know it. Over years, uncontrolled blood pressure strains the [heart](/heart-care/), kidneys, eyes and brain and raises the risk of heart attack and stroke.
 
 #### When is blood pressure "high"?
-In Indian and international guidelines, a clinic reading of **140/90 mmHg or higher** on repeated occasions is usually diagnosed as hypertension. At home, the threshold is lower: an average of **135/85 mmHg or higher**. Readings between 120/80 and 139/89 are above the ideal range and deserve attention, especially with diabetes.
+In Indian and international guidelines, a clinic reading of **140/90 mmHg or higher** on repeated occasions is usually diagnosed as hypertension. At home, the threshold is lower: an average of **135/85 mmHg or higher**. Readings between 120/80 and 139/89 are above the ideal range and deserve attention, especially with [diabetes](/diabetes/).
 
 #### What the hypertension clinic includes
 - Accurate measurement in the clinic, and guidance on home blood pressure monitoring
-- Tests to look for causes in younger patients or difficult cases: kidney function, electrolytes, thyroid, urine tests, and others as indicated
+- Tests to look for causes in younger patients or difficult cases: [kidney](/preventive-health-check-ups/) function, electrolytes, thyroid, urine tests, and others as indicated
 - Checks for organ effects: ECG, 2D Echo when indicated, kidney tests, retinal photograph
 - Assessment of overall heart risk: cholesterol, sugar, smoking, weight and family history
 - A treatment plan: salt and diet changes with our nutritionist, activity, weight, sleep and stress, and medicines when needed
@@ -39,6 +39,9 @@ In Indian and international guidelines, a clinic reading of **140/90 mmHg or hig
 - Sit quietly for 5 minutes, back supported, feet flat, arm resting at heart level
 - No tea, coffee, smoking or exercise for 30 minutes before
 - Take two readings one minute apart, morning and evening, for 7 days before your visit, and bring the record
+
+#### When to see a doctor
+Very high readings with symptoms such as severe headache, chest pain, breathlessness, blurred vision or weakness on one side need emergency care: call 108 or 112. Otherwise, see a doctor if your home readings stay above 140/90 mmHg, or if you are under 30 with high blood pressure.
 
 #### Frequently asked questions
 **My blood pressure is normal now. Can I stop the tablets?**
@@ -52,3 +55,6 @@ They help many people reduce sodium, but they contain potassium, which can be un
 
 **Is 130/85 high blood pressure?**
 It is above the ideal range. With diabetes, kidney disease or high heart risk, your doctor may aim for lower targets.
+
+#### Sources and further reading
+- [Hypertension — WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/hypertension)

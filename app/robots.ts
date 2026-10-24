@@ -13,10 +13,19 @@ const AGENTS = [
   "ChatGPT-User",
   "ClaudeBot",
   "Claude-SearchBot",
+  "Claude-User",
   "PerplexityBot",
+  "Perplexity-User",
   "Google-Extended",
+  "Applebot",
   "Applebot-Extended",
+  "CCBot",
+  "Meta-ExternalAgent",
 ];
+
+// Request-time generation: the SITE_INDEXABLE flag must be read when the file
+// is served, not baked at build time (TECH-001).
+export const dynamic = "force-dynamic";
 
 export default function robots(): MetadataRoute.Robots {
   // Until launch (SITE_INDEXABLE=true) the whole site is disallowed.

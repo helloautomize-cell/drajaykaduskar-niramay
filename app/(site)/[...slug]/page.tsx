@@ -19,8 +19,13 @@ import {
   breadcrumbNode,
   blogPostingNode,
   postMedicalWebPageNode,
+  topicEntity,
+  webPageNode,
+  serviceNode,
+  serviceIdFor,
   collectionPageNode,
   videoNode,
+  PHYSICIAN_ID,
   SITE_URL,
 } from "@/lib/seo";
 import { clusterFor } from "@/lib/blog-clusters";
@@ -30,6 +35,7 @@ import {
   labPharmacyLinks,
 } from "@/lib/nav";
 import { ServiceHubTemplate } from "@/components/templates/ServiceHub";
+import { formatDate } from "@/components/templates/BlogList";
 import { ServiceDetailTemplate } from "@/components/templates/ServiceDetail";
 import { EditorialTemplate } from "@/components/templates/Editorial";
 import { LegalTemplate } from "@/components/templates/Legal";
@@ -79,7 +85,6 @@ export function generateMetadata({ params }: { params: Promise<{ slug?: string[]
           post.meta.excerpt ||
           `An article by ${post.meta.author} on the Niramay Clinics Health Library.`,
         alternates: { canonical: post.meta.url },
-        robots: { index: true, follow: true },
         openGraph: {
           title: post.meta.seo_title || post.meta.title,
           description: post.meta.excerpt || undefined,
@@ -120,6 +125,43 @@ function siblingLinks(url: string): { label: string; href: string; badge?: strin
   }
   if (labPharmacyLinks.some((l) => l.href === url)) return labPharmacyLinks.filter((l) => l.href !== url);
   return [];
+}
+
+/** Which Health Library clusters a service page belongs to (for article links). */
+const SERVICE_CLUSTERS: Record<string, number[]> = {
+  "/diabetes/": [1, 3],
+  "/diabetes/type-2-diabetes/": [1],
+  "/diabetes/type-1-diabetes/": [1],
+  "/diabetes/diabetes-in-pregnancy/": [9],
+  "/diabetes/complications-screening/": [10],
+  "/diabetes/diabetes-care-programme/": [1, 8],
+  "/diabetes/prediabetes-risk-assessment/": [2],
+  "/obesity/": [6],
+  "/obesity/weight-management-medicines/": [4, 5, 7],
+  "/obesity/body-composition-sarcopenia/": [6, 10],
+  "/heart-care/": [10],
+  "/heart-care/2d-echo/": [10],
+  "/heart-care/ecg/": [10],
+  "/heart-care/tmt-stress-test/": [10],
+  "/thyroid-clinic/": [10],
+  "/hypertension-clinic/": [10],
+  "/nutrition-lifestyle-counselling/": [3],
+  "/preventive-health-check-ups/": [2, 10],
+};
+
+/** Articles for the "From our Health Library" block on a service page:
+ *  posts that name this URL in `related` first, then same-cluster posts. */
+function relatedArticlesFor(url: string) {
+  const direct = allPosts().filter((p) => p.meta.related.includes(url));
+  const clusters = SERVICE_CLUSTERS[url] ?? [];
+  const extra = clusters.length
+    ? allPosts().filter((p) => p.meta.cluster !== undefined && clusters.includes(Number(p.meta.cluster)))
+    : [];
+  const seen = new Set<string>();
+  return [...direct, ...extra]
+    .filter((p) => !seen.has(p.slug) && seen.add(p.slug))
+    .slice(0, 4)
+    .map((p) => ({ title: p.meta.title, href: p.meta.url }));
 }
 
 function relatedFor(url: string): RelatedService[] {
@@ -169,7 +211,7 @@ function hubSubServices(url: string): ServiceSlide[] {
         : url === "/heart-care/"
           ? diabetesHeartGroups[2].links.filter((l) => l.href !== "/heart-care/")
           : url === "/blooming-buds/"
-            ? childTeenGroups.flatMap((g) => g.links).filter((l) => l.href !== "/blooming-buds/" && l.href !== "/vaccination/")
+            ? childTeenGroups.flatMap((g) => g.links).filter((l) => l.href !== "/blooming-buds/")
             : [];
   return links.map((l) => ({
     badge: l.badge ?? "health-checkup",
@@ -213,19 +255,25 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
         : author;
     const doc = renderMarkdown(post.body, { videoId: post.meta.video || undefined });
     const relatedPosts = allPosts()
-      .filter((r) => r.slug !== post.slug && (r.meta.author.includes("Prajakta") === post.meta.author.includes("Prajakta")))
+      .filter((r) => r.slug !== post.slug)
+      .sort(
+        (a, b) =>
+          Number(b.meta.cluster !== undefined && b.meta.cluster === post.meta.cluster) -
+          Number(a.meta.cluster !== undefined && a.meta.cluster === post.meta.cluster)
+      )
       .slice(0, 2);
     const relatedPages = relatedPagesFor(post.meta.related);
     const postImage = post.meta.image ? `/images/${post.meta.image}` : undefined;
     const cluster = clusterFor(post.meta.cluster);
+    const pillarUrl = cluster ? `/health-library/${cluster.pillar}/` : null;
     const wordCount = post.body.split(/\s+/).filter(Boolean).length;
     const crumbs = [
       { label: "Health Library", href: "/health-library/" },
-      ...(cluster
-        ? [{ label: cluster.name, href: `/health-library/#cluster-${cluster.n}` }]
-        : []),
+      ...(cluster && pillarUrl !== post.meta.url ? [{ label: cluster.name, href: pillarUrl! }] : []),
       { label: post.meta.title, href: post.meta.url },
     ];
+    const topic = topicEntity(post.meta.cluster ?? post.meta.category);
+    const reviewed = post.meta.reviewed || post.meta.updated || post.meta.published || undefined;
 
     const graph: (object | null)[] = [
       clinicNode(),
@@ -236,17 +284,17 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
         title: post.meta.title,
         url: post.meta.url,
         description: post.meta.excerpt || undefined,
-        about: cluster?.name || post.meta.category || post.meta.title,
-        lastReviewed: post.meta.updated || post.meta.published || undefined,
+        aboutId: topic?.["@id"],
+        lastReviewed: reviewed,
         reviewedBy: reviewer,
       }),
+      topic,
       blogPostingNode({
         title: post.meta.title,
         url: post.meta.url,
         published: post.meta.published,
         updated: post.meta.updated,
         author,
-        reviewedBy: reviewer,
         image: postImage,
         description: post.meta.excerpt || undefined,
         wordCount,
@@ -292,14 +340,44 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
   const crumbs = crumbsFor(page);
 
   const schemaField = page.meta.schema;
+  const isTestPage = /\bMedicalTest\b/i.test(schemaField);
+  const isMedicalPage =
+    /MedicalWebPage|MedicalCondition/i.test(schemaField) || template === "service-detail" || template === "hub";
+  // Doctor profile pages are about that physician.
+  const pageDoctor =
+    page.meta.url === doctors.ajay.profileHref
+      ? doctors.ajay
+      : page.meta.url === doctors.prajakta.profileHref
+        ? doctors.prajakta
+        : null;
+  // Declared page type from the frontmatter "schema" field, defaulting to
+  // WebPage (legal pages carry an empty schema field).
+  const declaredPageType = /AboutPage/.test(schemaField)
+    ? "AboutPage"
+    : /ContactPage/.test(schemaField)
+      ? "ContactPage"
+      : /ProfilePage/.test(schemaField)
+        ? "ProfilePage"
+        : /CollectionPage|ItemList|Blog\b/.test(schemaField)
+          ? "CollectionPage"
+          : "WebPage";
+  const reviewed = page.meta.reviewed || page.modified || undefined;
   const graph: (object | null)[] = [
     clinicNode(),
     websiteNode(),
-    ...(reviewer ? [physicianNode(reviewer)] : []),
-    /MedicalTest|DiagnosticLab/i.test(schemaField) ? medicalTestNode(page.meta) : null,
-    /MedicalWebPage|MedicalCondition/i.test(schemaField) || template === "service-detail" || template === "hub"
-      ? medicalWebPageNode(page.meta, reviewer, { lastReviewed: page.modified })
-      : null,
+    ...(pageDoctor ? [physicianNode(pageDoctor)] : []),
+    ...(reviewer && isMedicalPage && reviewer.id !== pageDoctor?.id ? [physicianNode(reviewer)] : []),
+    isTestPage ? medicalTestNode(page.meta) : serviceNode(page.meta),
+    isMedicalPage
+      ? medicalWebPageNode(page.meta, reviewer, {
+          lastReviewed: reviewed,
+          aboutId: isTestPage ? `${SITE_URL}${page.meta.url}#test` : serviceIdFor(page.meta.url),
+        })
+      : template === "blog-list"
+        ? null
+        : webPageNode(page.meta, declaredPageType, {
+            aboutId: pageDoctor ? PHYSICIAN_ID[pageDoctor.id] : undefined,
+          }),
     conditionFor(page.meta.url) ? medicalConditionNode(page.meta) : null,
     breadcrumbNode(crumbs, page.meta.url),
     doc.faq.length > 0 ? faqPageNode(doc.faq, page.meta.url) : null,
@@ -321,6 +399,7 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
             midImage={midImageFor(page.meta)}
             reviewer={reviewer}
             subServices={hubSubServices(url)}
+            articles={relatedArticlesFor(url)}
           />
         </>
       );
@@ -336,6 +415,8 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
             heroImage={heroImageFor(page.meta)}
             reviewer={reviewer}
             related={relatedFor(url)}
+            articles={relatedArticlesFor(url)}
+            parent={crumbs.length > 1 ? crumbs[crumbs.length - 2] : undefined}
           />
         </>
       );
@@ -343,7 +424,7 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
       return (
         <>
           {ld}
-          <LegalTemplate page={page} doc={doc} />
+          <LegalTemplate page={page} doc={doc} lastUpdated={formatDate(page.meta.reviewed || page.modified) || site.legalLastUpdated} />
         </>
       );
     case "contact":
@@ -371,9 +452,9 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
       const posts = allPosts();
       return (
         <>
-          {ld}
           <JsonLd
             nodes={[
+              ...graph,
               collectionPageNode({
                 title: page.h1 || page.meta.title,
                 url: page.meta.url,

@@ -9,7 +9,7 @@ published: "2026-10-19"
 updated: "2026-10-19"
 category: "Gestational Diabetes"
 reading_time: "5 min read"
-excerpt: "Food is the most powerful tool for controlling gestational diabetes. The good news is that you do not need to give up Indian food. Guidance from Dr. Ajay V...."
+excerpt: "Food is the most powerful tool for controlling gestational diabetes. You do not need to give up Indian food. Guidance from Dr. Ajay V...."
 image: "blog/gestational-diabetes-diet-indian-foods-meal-timing.webp"
 image_alt: "Balanced Indian thali with dal, vegetables, a small portion of rice, roti and curd"
 sources:
@@ -26,9 +26,9 @@ status: draft
 
 **Quick answer.** A gestational diabetes diet includes three small meals and two to three snacks, with controlled portions of carbohydrates, plenty of vegetables, protein at each meal and healthy fats. Choose whole grains and pulses, limit sweets and refined foods, avoid fruit juices, and walk after meals. Do not skip meals or follow extreme diets. Ask your dietitian for a personal plan.
 
-Food is the most powerful tool for controlling gestational diabetes. The good news is that you do not need to give up Indian food. You need to adjust portions, balance your plate and space meals through the day.
+Food is the most powerful tool for controlling gestational diabetes. You do not need to give up Indian food. You need to adjust portions, balance your plate and space meals through the day.
 
-#### What Are the Goals?
+#### What are the goals?
 
 - Keep sugars within your target range
 
@@ -38,7 +38,7 @@ Food is the most powerful tool for controlling gestational diabetes. The good ne
 
 - Achieve healthy pregnancy weight gain
 
-#### How Should You Build Your Plate?
+#### How should you build your plate?
 
 - **Half the plate:** Non-starchy vegetables such as spinach, gourd, beans, cabbage, cauliflower, tomatoes and salad.
 
@@ -48,7 +48,7 @@ Food is the most powerful tool for controlling gestational diabetes. The good ne
 
 - Add a small amount of healthy fat such as nuts, seeds or a teaspoon of ghee or oil.
 
-#### What Is a Sample Meal Pattern?
+#### What is a sample meal pattern?
 
 ##### Early morning
 
@@ -78,7 +78,7 @@ Similar to lunch but lighter: vegetable soup, roti with sabzi and dal or paneer.
 
 A glass of milk or a small portion of curd with nuts. This prevents long overnight fasting.
 
-#### Which Foods Should You Limit?
+#### Which foods should you limit?
 
 - Sweets, mithai, cakes and biscuits
 
@@ -94,7 +94,7 @@ A glass of milk or a small portion of curd with nuts. This prevents long overnig
 
 Fruit is allowed in measured portions. Eat it with protein or nuts, and not as juice.
 
-#### What About Timing?
+#### What about timing?
 
 - Eat every 2 to 3 hours.
 
@@ -106,19 +106,19 @@ Fruit is allowed in measured portions. Eat it with protein or nuts, and not as j
 
 - Space the last meal at least two hours before sleep.
 
-#### How Do You Monitor?
+#### How do you monitor?
 
 Check your sugar fasting and one or two hours after meals, as your doctor advises. Targets are usually fasting below 95 mg/dL, one hour below 140 mg/dL and two hours below 120 mg/dL. Your doctor may set different targets. Keep a diary of foods and readings to identify which items raise your sugar.
 
-#### Do You Need Supplements?
+#### Do you need supplements?
 
 Continue prenatal vitamins, iron, calcium and folic acid as advised. Ask your doctor before starting any herbal or "sugar-control" products.
 
-#### When Should You See a Doctor?
+#### When should you see a doctor?
 
 Contact your doctor if your readings are repeatedly above target, you feel very hungry or weak, you have ketones in the urine, you vomit often or you have reduced baby movements.
 
-#### Key Takeaways
+#### The quick version
 
 - Eat three meals and two to three snacks with balanced portions.
 
@@ -129,8 +129,6 @@ Contact your doctor if your readings are repeatedly above target, you feel very 
 - Walk after meals and avoid skipping meals.
 
 - Monitor your sugar and review the diary with your doctor.
-
-#### Final Thoughts
 
 You can enjoy home food and still keep sugars steady. Small changes add up to a healthy pregnancy. For a personalised plan, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
 
