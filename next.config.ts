@@ -20,7 +20,7 @@ const csp = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://i.ytimg.com",
   "font-src 'self' data:",
-  "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://*.google-analytics.com https://www.googletagmanager.com https://challenges.cloudflare.com",
+  "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://challenges.cloudflare.com",
   "frame-src https://www.youtube-nocookie.com https://maps.google.com https://www.google.com https://challenges.cloudflare.com",
   "frame-ancestors 'self'",
   "base-uri 'self'",

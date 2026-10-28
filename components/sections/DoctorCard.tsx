@@ -62,7 +62,7 @@ export function DoctorCard({ doctor, className }: { doctor: Doctor; className?: 
           </span>
         </div>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-          <ButtonLink href={doctor.bookHref} className="h-10 px-4 text-[13.5px] sm:h-11 sm:px-5 sm:text-[14px]">
+          <ButtonLink href={doctor.bookHref} data-ga="appointment" className="h-10 px-4 text-[13.5px] sm:h-11 sm:px-5 sm:text-[14px]">
             <span className="sm:hidden">Book</span>
             <span className="hidden sm:inline">Book with {doctor.shortName}</span>
           </ButtonLink>

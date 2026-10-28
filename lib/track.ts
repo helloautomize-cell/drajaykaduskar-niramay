@@ -1,13 +1,14 @@
 // Client-side event tracking. No-ops until GA consent is granted; the
 // analytics module swaps in the real gtag-backed implementation.
 export type TrackEvent =
-  | "book_click"
-  | "call_click"
+  | "phone_click"
   | "whatsapp_click"
+  | "email_click"
   | "directions_click"
+  | "appointment_click"
+  | "appointment_submit"
   | "map_load"
-  | "video_play"
-  | "generate_lead";
+  | "video_play";
 
 type Params = Record<string, string | number | boolean | undefined>;
 

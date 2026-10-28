@@ -31,11 +31,19 @@ const notoDevanagari = Noto_Sans_Devanagari({
 // Noindex is enforced per-request by proxy.ts via the X-Robots-Tag header, so
 // the flag can flip at deploy time without rebuilding. No robots meta here:
 // a build-time baked value would go stale the moment the flag changes.
+const GSC_VERIFICATION = "M6BbZSRldubQX38EfqxJ5-w1omT5dw0e1uONmqeCdjg";
+// Extra verification codes can be added at deploy time via env; the
+// hardcoded code above always renders so Search Console can verify.
 const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.niramayclinics.com"),
-  ...(gscVerification ? { verification: { google: gscVerification } } : {}),
+  verification: {
+    google:
+      gscVerification && gscVerification !== GSC_VERIFICATION
+        ? [GSC_VERIFICATION, gscVerification]
+        : GSC_VERIFICATION,
+  },
   title: {
     default: "Niramay Clinics, Dhantoli, Nagpur",
     template: "%s | Niramay Clinics, Nagpur",

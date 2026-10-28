@@ -62,7 +62,7 @@ export function TocRail({ toc, className }: { toc: TocEntry[]; className?: strin
           </ul>
         </nav>
       )}
-      <div className="mt-4 rounded-[16px] border border-plum/20 bg-plum-50/60 p-5">
+      <div data-ga-location="sticky" className="mt-4 rounded-[16px] border border-plum/20 bg-plum-50/60 p-5">
         <p className="text-[16px] font-bold text-ink">Book an appointment</p>
         <p className="mt-1 text-[14px] leading-relaxed text-ink-600">
           Call or message us to choose a time that suits you.

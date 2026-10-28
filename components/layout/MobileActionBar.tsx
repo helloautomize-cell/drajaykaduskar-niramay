@@ -8,7 +8,6 @@ import { cn } from "@/lib/utils";
 import { site } from "@/lib/site-config";
 import { waLinkFor } from "@/lib/whatsapp";
 import { bookHrefFor } from "@/lib/booking-context";
-import { track } from "@/lib/track";
 import { CalendarIcon, PhoneIcon, WhatsAppIcon, CloseIcon } from "@/components/icons";
 
 const btnCls =
@@ -26,6 +25,7 @@ function CallSheet({ children }: { children: React.ReactNode }) {
         />
         <Dialog.Content
           data-callsheet
+          data-ga-location="sticky"
           aria-label="Call Niramay Clinics"
           className="fixed bottom-0 left-0 right-0 z-[71] mx-auto w-[min(400px,100vw)] rounded-t-[20px] bg-white p-5 pb-[calc(20px+env(safe-area-inset-bottom))] shadow-[0_-16px_50px_-16px_rgba(42,36,64,.35)] lg:bottom-6 lg:rounded-[20px]"
         >
@@ -112,6 +112,7 @@ export function MobileActionBar({
   return (
     <nav
       data-print-hide
+      data-ga-location="sticky"
       aria-label="Quick actions"
       className={cn(
         "overflow-hidden rounded-t-2xl border-t border-white/25 bg-[linear-gradient(90deg,rgba(115,69,105,.92),rgba(69,62,109,.92))] backdrop-blur-[18px] pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_30px_-10px_rgba(42,36,64,.35)] transition-transform duration-300 ease-[var(--ease)]",
@@ -124,8 +125,8 @@ export function MobileActionBar({
         <Link
           href={bookHrefFor(pathname ?? "/")}
           aria-label="Book Now"
+          data-ga="appointment"
           className={btnCls}
-          onClick={() => track("book_click", { location: "mobile_bar" })}
         >
           <CalendarIcon size={20} />
           <span className="text-[13px] font-semibold">Book Now</span>

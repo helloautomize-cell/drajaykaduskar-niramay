@@ -121,7 +121,7 @@ function FormInner() {
 
   useEffect(() => {
     if (state.ok) {
-      track("generate_lead", { form_type: "appointment" });
+      track("appointment_submit", { form_name: "appointment_form" });
       router.push("/thank-you/?type=appointment");
     }
   }, [state.ok, router]);

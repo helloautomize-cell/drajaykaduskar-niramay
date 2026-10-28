@@ -76,7 +76,7 @@ export function WorkshopForm() {
 
   useEffect(() => {
     if (state.ok) {
-      track("generate_lead", { form_type: "workshop" });
+      track("appointment_submit", { form_name: "workshop_form" });
       router.push("/thank-you/?type=workshop");
     }
   }, [state.ok, router]);

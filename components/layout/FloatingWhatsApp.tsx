@@ -13,6 +13,7 @@ export function FloatingWhatsApp() {
   return (
     <a
       data-print-hide
+      data-ga-location="sticky"
       href={waLinkFor(pathname ?? "/")}
       target="_blank"
       rel="noopener noreferrer"

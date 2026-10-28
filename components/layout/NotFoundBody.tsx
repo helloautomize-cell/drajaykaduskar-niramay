@@ -27,7 +27,7 @@ export function NotFoundBody() {
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             {links.map((l, i) =>
               i === 2 ? (
-                <ButtonLink key={l.href} href={l.href}>
+                <ButtonLink key={l.href} href={l.href} data-ga="appointment">
                   {l.label}
                 </ButtonLink>
               ) : (

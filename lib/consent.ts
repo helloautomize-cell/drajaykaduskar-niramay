@@ -1,6 +1,7 @@
 /**
- * Cookie consent (DPDP-friendly): choice stored in localStorage; analytics
- * must not load unless hasAnalyticsConsent() is true (plan section 6).
+ * Cookie consent (DPDP-friendly): choice stored in localStorage; the GA tag
+ * loads with all storage denied and collects analytics data only when
+ * hasAnalyticsConsent() is true (plan section 6).
  *
  * getSnapshot caching: readConsent() returns the SAME object while the raw
  * localStorage value is unchanged, so useSyncExternalStore never sees a new

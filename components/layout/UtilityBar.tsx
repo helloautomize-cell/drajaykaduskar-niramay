@@ -10,7 +10,7 @@ import { ClockIcon, PhoneIcon, EmergencyIcon } from "@/components/icons";
  */
 export function UtilityBar() {
   return (
-    <div data-print-hide className="hidden border-b border-line bg-white md:block">
+    <div data-print-hide data-ga-location="header" className="hidden border-b border-line bg-white md:block">
       <div className="mx-auto flex h-9 max-w-[1240px] items-center gap-5 whitespace-nowrap px-6 text-[12.5px] font-medium text-ink-600">
         <Link
           href="/plan-your-visit/"

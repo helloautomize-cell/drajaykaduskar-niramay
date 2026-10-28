@@ -10,7 +10,7 @@ import {
 } from "@/lib/consent";
 import type { TrackEvent } from "@/lib/track";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-76B5MQMRY9";
 
 declare global {
   interface Window {
@@ -21,17 +21,18 @@ declare global {
 }
 
 /**
- * GA4 + Consent Mode v2.
+ * GA4 + Consent Mode v2 (advanced).
  *
- * - gtag.js is injected ONLY after the visitor clicks Accept. Before that no
- *   request is made to any Google domain.
- * - Default consent is all-denied; only `analytics_storage` is ever granted.
- *   The ad signals stay denied forever.
- * - On withdrawal we re-deny, delete the _ga/_ga_* cookies and stop all events.
+ * - gtag.js loads on every page so the tag is always detectable, but consent
+ *   defaults are all-denied: until the visitor accepts, GA stores nothing and
+ *   no analytics cookies are set.
+ * - Only `analytics_storage` is ever granted. The ad signals stay denied
+ *   forever. On withdrawal we re-deny, delete the _ga/_ga_* cookies and stop
+ *   all events.
  * - page_location is sanitised: every query parameter is stripped except utm_*,
  *   so no form prefill or other data can reach GA.
  * - No personal or health data is ever sent: callers only pass event names and
- *   coarse labels (location, form_type).
+ *   coarse labels (link_location, form_name). page_path is added centrally.
  */
 
 function gtag(...args: unknown[]) {
@@ -50,6 +51,7 @@ function pushDefaults() {
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied",
+    wait_for_update: 500,
   });
 }
 
@@ -117,55 +119,108 @@ function sendPageView() {
   });
 }
 
+// link_location: explicit data-ga-location wins (hero, sticky bar, menus),
+// else the enclosing header/footer/nav landmark, else "body".
+function linkLocation(el: Element): string {
+  const tagged = el.closest("[data-ga-location]")?.getAttribute("data-ga-location");
+  if (tagged) return tagged;
+  const chrome = el.closest("header,footer,nav");
+  if (chrome) return chrome.tagName.toLowerCase();
+  return "body";
+}
+
+// CMS fallback only: booking-CTA link text, whole-word, case-insensitive.
+// Excludes "ebook" and social links; never matches nav/header/footer links
+// (those are handled by data-ga attributes or skipped outright).
+const APPT_WORDS =
+  /\b(book (an )?appointment|book now|book a consultation|consult now|schedule)\b/i;
+const SOCIAL_HOST = /facebook|instagram|twitter|x\.com|linkedin|youtube|tiktok|threads/i;
+
+function clickEvent(e: MouseEvent): { event: TrackEvent; el: Element } | null {
+  const el = e.target as HTMLElement;
+  if (!el.closest) return null;
+  const tagged = el.closest<HTMLElement>('[data-ga="appointment"]');
+  if (tagged) return { event: "appointment_click", el: tagged };
+  const a = el.closest("a");
+  if (!a) return null;
+  const href = a.getAttribute("href") || "";
+  if (href.startsWith("tel:")) return { event: "phone_click", el: a };
+  // wa.me/<number>, api.whatsapp.com, whatsapp:// — but not bare wa.me/?text=
+  // share links, which have no number.
+  if (/wa\.me\/\d|api\.whatsapp\.com|whatsapp:\/\//.test(href))
+    return { event: "whatsapp_click", el: a };
+  if (href.startsWith("mailto:")) return { event: "email_click", el: a };
+  if (/google\.com\/maps|maps\.google|maps\.app\.goo\.gl|goo\.gl\/maps/.test(href))
+    return { event: "directions_click", el: a };
+  // Content links (markdown) only: inside <main>, outside any <nav>.
+  if (
+    a.closest("main") &&
+    !a.closest("nav") &&
+    APPT_WORDS.test(a.textContent || "") &&
+    !/ebook/i.test(a.textContent || "") &&
+    !SOCIAL_HOST.test(href)
+  )
+    return { event: "appointment_click", el: a };
+  return null;
+}
+
 export function Analytics() {
   const consent = useSyncExternalStore(subscribeConsent, readConsent, () => null as ConsentState | null);
   const pathname = usePathname();
   const grantedRef = useRef(false);
   const firstPath = useRef(true);
 
-  // Delegated click tracking for phone / WhatsApp / directions links across
-  // the whole site — no per-component wiring needed.
+  // Delegated click tracking for phone / WhatsApp / email / directions /
+  // appointment links across the whole site — no per-component wiring needed.
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
-      const a = (e.target as HTMLElement).closest?.("a");
-      if (!a) return;
-      const href = a.getAttribute("href") || "";
-      if (href.startsWith("tel:")) window.__niramayTrack?.("call_click");
-      else if (/wa\.me|whatsapp/.test(href)) window.__niramayTrack?.("whatsapp_click");
-      else if (/google\.com\/maps|maps\.app\.goo\.gl|goo\.gl\/maps/.test(href))
-        window.__niramayTrack?.("directions_click");
+      const hit = clickEvent(e);
+      if (!hit) return;
+      window.__niramayTrack?.(hit.event, { link_location: linkLocation(hit.el) });
     };
     document.addEventListener("click", onClick, true);
     return () => document.removeEventListener("click", onClick, true);
   }, []);
 
   // The real implementation behind lib/track.ts's window.__niramayTrack.
+  // Every event carries page_path; callers add only their own params.
   useEffect(() => {
     window.__niramayTrack = (event: TrackEvent, params?: Record<string, string | number | boolean | undefined>) => {
       if (!window.__gaLoaded || !hasAnalyticsConsent() || !window.gtag) return;
-      gtag("event", event, params || {});
+      gtag("event", event, { page_path: window.location.pathname, ...params });
     };
     return () => {
       delete window.__niramayTrack;
     };
   }, []);
 
-  // Consent lifecycle: inject gtag on accept; deny + wipe on withdrawal.
+  // Mount once: denied defaults, then always load gtag.js. On load, run
+  // config and apply the visitor's stored choice (returning visitors).
+  useEffect(() => {
+    if (!GA_ID) return;
+    pushDefaults();
+    injectGtag(() => {
+      if (!window.gtag) return;
+      gtag("js", new Date());
+      if (hasAnalyticsConsent()) {
+        grantedRef.current = true;
+        gtag("consent", "update", { analytics_storage: "granted" });
+      }
+      gtag("config", GA_ID, {
+        send_page_view: false,
+        allow_google_signals: false,
+      });
+      sendPageView();
+    });
+  }, []);
+
+  // Consent changes after mount: grant on accept; deny + wipe on withdrawal.
   useEffect(() => {
     if (!GA_ID) return;
     if (consent?.analytics === true && !grantedRef.current) {
-      pushDefaults();
-      injectGtag(() => {
-        if (!window.gtag) return;
-        gtag("consent", "update", { analytics_storage: "granted" });
-        gtag("js", new Date());
-        gtag("config", GA_ID, {
-          send_page_view: false,
-          allow_google_signals: false,
-        });
-        grantedRef.current = true;
-        sendPageView();
-      });
+      grantedRef.current = true;
+      gtag("consent", "update", { analytics_storage: "granted" });
+      sendPageView();
     } else if (consent?.analytics !== true && grantedRef.current) {
       // declined/withdrawn after being granted
       denyAll();

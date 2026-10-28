@@ -606,7 +606,7 @@ export default function Home() {
             <p className="text-[15.5px] leading-relaxed text-ink-600 sm:hidden">
               Two experienced doctors, an in-house lab and pharmacy, at one address in Dhantoli.
             </p>
-            <div className="mt-5 flex items-center gap-3 sm:mt-8 sm:gap-4">
+            <div data-ga-location="hero" className="mt-5 flex items-center gap-3 sm:mt-8 sm:gap-4">
               <BookButton href="/contact/#book" className="flex-1 sm:flex-none" />
               <a
                 href={site.phone.tel}

@@ -196,9 +196,12 @@ export function MobileMenu({
           </div>
 
           {/* Pinned actions, above the safe-area inset */}
-          <div className="shrink-0 border-t border-line bg-white px-4 pb-[calc(12px+env(safe-area-inset-bottom))] pt-3">
+          <div
+            data-ga-location="nav"
+            className="shrink-0 border-t border-line bg-white px-4 pb-[calc(12px+env(safe-area-inset-bottom))] pt-3"
+          >
             <div className="grid grid-cols-[1fr_auto] gap-3">
-              <ButtonLink href="/contact/#book" onClick={close} className="h-12">
+              <ButtonLink href="/contact/#book" data-ga="appointment" onClick={close} className="h-12">
                 Book Appointment
               </ButtonLink>
               <ButtonLink
