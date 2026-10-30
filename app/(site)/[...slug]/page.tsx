@@ -25,6 +25,7 @@ import {
   serviceIdFor,
   collectionPageNode,
   videoNode,
+  VIDEO_META,
   PHYSICIAN_ID,
   SITE_URL,
 } from "@/lib/seo";
@@ -307,10 +308,11 @@ export default async function CatchAll({ params }: { params: Promise<{ slug?: st
       post.meta.video
         ? videoNode({
             id: post.meta.video,
-            title: `${post.meta.title}: video`,
+            title: VIDEO_META[post.meta.video]?.title ?? post.meta.title,
             pageUrl: post.meta.url,
-            uploadDate: post.meta.published || undefined,
-            thumbnail: postImage,
+            description: VIDEO_META[post.meta.video]?.description ?? (post.meta.excerpt || undefined),
+            uploadDate: VIDEO_META[post.meta.video]?.uploadDate ?? (post.meta.published || undefined),
+            thumbnail: postImage ?? `/og${post.meta.url}`,
           })
         : null,
     ];

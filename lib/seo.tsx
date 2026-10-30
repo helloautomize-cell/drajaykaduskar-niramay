@@ -85,6 +85,16 @@ const hoursSpec = (days: string[], opens: string, closes: string) => ({
 
 const httpOrNull = (v: string) => (v.startsWith("http") ? v : null);
 
+const CLINIC_TEL = "+91-712-2422214";
+const CLINIC_LOGO = `${SITE_URL}/images/brand/niramay-logo.png`;
+const CLINIC_IMAGE = `${SITE_URL}/images/clinic/exterior-entrance.jpg`;
+const LAB_IMAGE = `${SITE_URL}/images/services/lab-analysers.jpg`;
+const PHARMACY_IMAGE = `${SITE_URL}/images/services/pharmacy.jpg`;
+// [CONFIRM] real consultation fee range — neutral price-level placeholder
+// until the client supplies the actual fee.
+const PRICE_RANGE = "₹₹";
+const OPD_HOURS = [hoursSpec(MON_SAT, "08:30", "18:00")];
+
 /** The clinic node — identical on every page so crawlers see one entity. */
 export function clinicNode() {
   const sameAs = [
@@ -97,18 +107,21 @@ export function clinicNode() {
     name: site.name,
     alternateName: [site.centres.adult, site.centres.child],
     url: `${SITE_URL}/`,
-    telephone: "+91-712-2422214",
+    telephone: CLINIC_TEL,
     email: site.email,
+    image: CLINIC_IMAGE,
+    logo: CLINIC_LOGO,
+    priceRange: PRICE_RANGE,
     address: postalAddress,
     geo: clinicGeo,
     foundingDate: site.foundedYear,
     founder: { "@id": PHYSICIAN_ID.ajay },
     medicalSpecialty: ["Endocrine", "Pediatric", "Cardiovascular"],
-    openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "18:00")],
+    openingHoursSpecification: OPD_HOURS,
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+91-712-2422214",
+        telephone: CLINIC_TEL,
         contactType: "appointments",
         hoursAvailable: hoursSpec(ALL_DAYS, "08:00", "21:00"),
       },
@@ -124,21 +137,46 @@ export function clinicNode() {
         "@type": "MedicalClinic",
         name: site.centres.adult,
         medicalSpecialty: ["Endocrine", "Cardiovascular"],
+        url: `${SITE_URL}/`,
+        telephone: CLINIC_TEL,
+        image: CLINIC_IMAGE,
+        priceRange: PRICE_RANGE,
+        address: postalAddress,
+        geo: clinicGeo,
+        openingHoursSpecification: OPD_HOURS,
       },
       {
         "@type": "MedicalClinic",
         name: site.centres.child,
         medicalSpecialty: ["Pediatric"],
+        url: `${SITE_URL}/`,
+        telephone: CLINIC_TEL,
+        image: CLINIC_IMAGE,
+        priceRange: PRICE_RANGE,
+        address: postalAddress,
+        geo: clinicGeo,
+        openingHoursSpecification: OPD_HOURS,
       },
       {
         "@type": "MedicalBusiness",
         name: "Niramay in-house laboratory",
+        url: `${SITE_URL}/lab/`,
+        telephone: CLINIC_TEL,
+        image: LAB_IMAGE,
+        priceRange: PRICE_RANGE,
+        address: postalAddress,
+        geo: clinicGeo,
         openingHoursSpecification: [hoursSpec(MON_SAT, "07:00", "19:00")],
       },
       {
         "@type": "Pharmacy",
         name: site.pharmacy.name,
+        url: `${SITE_URL}/pharmacy/`,
         telephone: site.pharmacy.display,
+        image: PHARMACY_IMAGE,
+        priceRange: PRICE_RANGE,
+        address: postalAddress,
+        geo: clinicGeo,
         openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "20:00")],
       },
     ],
@@ -220,6 +258,13 @@ export function physicianNode(d: Doctor) {
     image: `${SITE_URL}${d.avatar}`,
     description: d.role,
     worksFor: { "@id": CLINIC_ID },
+    // Both doctors consult at the clinic, same OPD hours (site.opdHours) —
+    // Physician is a LocalBusiness subtype, so it carries the same fields.
+    address: postalAddress,
+    telephone: CLINIC_TEL,
+    geo: clinicGeo,
+    priceRange: PRICE_RANGE,
+    openingHoursSpecification: OPD_HOURS,
     knowsLanguage: ["en", "hi", "mr"],
     areaServed,
     ...(sameAs.length ? { sameAs } : {}),
@@ -393,6 +438,10 @@ const SERVICES: Record<string, { type: string; name: string; extra?: Record<stri
     extra: {
       telephone: site.pharmacy.display,
       address: postalAddress,
+      geo: clinicGeo,
+      image: PHARMACY_IMAGE,
+      priceRange: PRICE_RANGE,
+      openingHoursSpecification: [hoursSpec(MON_SAT, "08:30", "20:00")],
       parentOrganization: { "@id": CLINIC_ID },
     },
   },
@@ -477,8 +526,10 @@ export function blogPostingNode(post: {
     datePublished: post.published || undefined,
     dateModified: post.updated || post.published || undefined,
     author: { "@id": PHYSICIAN_ID[post.author.id] },
-    // reviewedBy lives on the MedicalWebPage node (a WebPage property)
-    ...(post.image ? { image: `${SITE_URL}${post.image}` } : {}),
+    // reviewedBy lives on the MedicalWebPage node (a WebPage property).
+    // Articles need an image: posts without a featured image get the same
+    // generated OG card the openGraph metadata points at.
+    image: `${SITE_URL}${post.image ?? `/og${post.url}`}`,
     ...(post.description ? { description: post.description } : {}),
     ...(post.wordCount ? { wordCount: post.wordCount } : {}),
     ...(post.articleSection ? { articleSection: post.articleSection } : {}),
@@ -580,11 +631,27 @@ export function collectionPageNode(index: {
   };
 }
 
+/** Real titles, descriptions and YouTube upload dates for the videos
+ *  embedded on the site (client-answers item 30), keyed by YouTube id. */
+export const VIDEO_META: Record<string, { title: string; description: string; uploadDate: string }> = {
+  G2I1fNgxzkE: {
+    title: "The Pillars of Health, Episode 05: Dr. Ajay Kaduskar",
+    description: "Dr. Ajay on everyday habits that protect long-term health.",
+    uploadDate: "2025-07-08",
+  },
+  YjXtEOQ724Y: {
+    title: "Diabetes and obesity: myth vs fact",
+    description: "Dr. Ajay separates common diabetes myths from the facts.",
+    uploadDate: "2025-09-30",
+  },
+};
+
 /** VideoObject for the click-to-load YouTube facade on a page or post. */
 export function videoNode(video: {
   id: string;
   title: string;
   pageUrl: string;
+  description?: string;
   uploadDate?: string;
   thumbnail?: string;
 }) {
@@ -594,6 +661,7 @@ export function videoNode(video: {
     "@id": `${SITE_URL}${video.pageUrl}#video-${video.id}`,
     name: video.title,
     embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
+    ...(video.description ? { description: video.description } : {}),
     url: `${SITE_URL}${video.pageUrl}`,
     ...(video.uploadDate ? { uploadDate: video.uploadDate } : {}),
     ...(video.thumbnail ? { thumbnailUrl: `${SITE_URL}${video.thumbnail}` } : {}),

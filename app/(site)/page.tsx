@@ -17,6 +17,7 @@ import {
   webPageNode,
   faqPageNode,
   videoNode,
+  VIDEO_META,
   JsonLd,
 } from "@/lib/seo";
 
@@ -335,26 +336,21 @@ function homeFaqs(): { q: string; aText: string }[] {
 
 const quickAnswers = homeFaqs();
 
-/* "Watch Dr. Ajay" videos (client-answers item 30) — real YouTube titles and
-   upload dates, self-hosted posters so nothing touches Google until clicked. */
+/* "Watch Dr. Ajay" videos (client-answers item 30) — titles/descriptions/
+   upload dates live in VIDEO_META; self-hosted posters so nothing touches
+   Google until clicked. */
 const watchVideos = [
   {
     id: "G2I1fNgxzkE",
-    title: "The Pillars of Health, Episode 05: Dr. Ajay Kaduskar",
-    description: "Dr. Ajay on everyday habits that protect long-term health.",
     credit: "Loktantra Mirror",
-    uploadDate: "2025-07-08",
     poster: "/images/video/G2I1fNgxzkE.jpg",
   },
   {
     id: "YjXtEOQ724Y",
-    title: "Diabetes and obesity: myth vs fact",
-    description: "Dr. Ajay separates common diabetes myths from the facts.",
     credit: "Bluetree Healthcare Solutions",
-    uploadDate: "2025-09-30",
     poster: "/images/video/YjXtEOQ724Y.jpg",
   },
-];
+].map((v) => ({ ...VIDEO_META[v.id], ...v }));
 const faqItems: FaqItem[] = quickAnswers.map((f) => ({
   q: f.q,
   aText: f.aText,
@@ -565,7 +561,14 @@ export default function Home() {
           webPageNode(home.meta, "WebPage"),
           faqItems.length ? faqPageNode(faqItems, "/") : null,
           ...watchVideos.map((v) =>
-            videoNode({ id: v.id, title: v.title, pageUrl: "/", uploadDate: v.uploadDate, thumbnail: v.poster })
+            videoNode({
+              id: v.id,
+              title: v.title,
+              pageUrl: "/",
+              description: v.description,
+              uploadDate: v.uploadDate,
+              thumbnail: v.poster,
+            })
           ),
         ]}
       />
