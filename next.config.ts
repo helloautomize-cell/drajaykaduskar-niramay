@@ -6,9 +6,9 @@ import { offerRedirects, pageRedirects } from "./lib/wp-redirects";
 /**
  * Content-Security-Policy: self plus exactly the third parties this site
  * loads, all behind user interaction or consent —
- *   GA (gtag) after consent; YouTube-nocookie + i.ytimg after the video
- *   click; Google Maps embed after the map click; Cloudflare Turnstile on
- *   the forms; Vercel Speed Insights.
+ *   GA (gtag) deferred to post-load idle; YouTube-nocookie + i.ytimg after
+ *   the video click; Google Maps embed after the map click; Cloudflare
+ *   Turnstile on the forms; Vercel Speed Insights.
  * style/script 'unsafe-inline' are required by the framework's inline
  * bootstrap and style attributes; everything else is locked down.
  */

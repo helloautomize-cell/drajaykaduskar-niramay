@@ -194,24 +194,36 @@ export function Analytics() {
     };
   }, []);
 
-  // Mount once: denied defaults, then always load gtag.js. On load, run
-  // config and apply the visitor's stored choice (returning visitors).
+  // Mount once: denied defaults, then always load gtag.js — but not during
+  // the critical window. Consent defaults queue on dataLayer immediately; the
+  // tag itself fetches only after `load` when the browser is idle, so its
+  // download, parse and execution never compete with LCP/hydration.
   useEffect(() => {
     if (!GA_ID) return;
     pushDefaults();
-    injectGtag(() => {
-      if (!window.gtag) return;
-      gtag("js", new Date());
-      if (hasAnalyticsConsent()) {
-        grantedRef.current = true;
-        gtag("consent", "update", { analytics_storage: "granted" });
-      }
-      gtag("config", GA_ID, {
-        send_page_view: false,
-        allow_google_signals: false,
+    const boot = () =>
+      injectGtag(() => {
+        if (!window.gtag) return;
+        gtag("js", new Date());
+        if (hasAnalyticsConsent()) {
+          grantedRef.current = true;
+          gtag("consent", "update", { analytics_storage: "granted" });
+        }
+        gtag("config", GA_ID, {
+          send_page_view: false,
+          allow_google_signals: false,
+        });
+        sendPageView();
       });
-      sendPageView();
-    });
+    const schedule = () => {
+      if ("requestIdleCallback" in window) window.requestIdleCallback(boot, { timeout: 4000 });
+      else setTimeout(boot, 1);
+    };
+    if (document.readyState === "complete") schedule();
+    else {
+      window.addEventListener("load", schedule, { once: true });
+      return () => window.removeEventListener("load", schedule);
+    }
   }, []);
 
   // Consent changes after mount: grant on accept; deny + wipe on withdrawal.
