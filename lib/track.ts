@@ -7,6 +7,7 @@ export type TrackEvent =
   | "directions_click"
   | "appointment_click"
   | "appointment_submit"
+  | "generate_lead"
   | "map_load"
   | "video_play";
 

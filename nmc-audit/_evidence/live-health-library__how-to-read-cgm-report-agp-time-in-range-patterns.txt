@@ -1,0 +1,282 @@
+How to Read a CGM Report: AGP and Glucose Patterns | Niramay
+Plan your visit
+Health Library
+A
+/
+A+
+OPD
+Mon to Sat, 8:30 am to 6 pm
+Lab
+7 am to 7 pm
+Phone 8 am to 9 pm daily
+0712 2422214
+Medical emergency?
+Call
+108 or 112
+Diabetes and Heart
+Child and Teen
+Lab and Pharmacy
+Doctors
+Patient Info
+Diabetes care
+Type 2 diabetes
+Type 1 diabetes
+Diabetes in pregnancy
+Complications screening
+Diabetes care programme
+Prediabetes check
+Obesity care
+Weight-loss medicines
+Body composition
+Heart care
+2D Echo
+ECG
+TMT stress test
+Thyroid clinic
+Hypertension clinic
+Nutrition counselling
+Health check-ups
+Blooming Buds
+Well baby clinic
+Vaccinations
+Teen health
+Teen counselling
+Psychological testing
+Career counselling
+School workshops
+Laboratory
+Home sample collection
+Pharmacy
+Dr. Ajay V. Kaduskar
+Dr. Prajakta A. Kaduskar
+About the clinic
+All services
+Plan your visit
+FAQs
+Health Library
+Contact us
+Book Appointment
+Home
+Health Library
+Continuous Glucose Monitoring
+How to Read a CGM Report: AGP and Glucose Patterns
+Continuous Glucose Monitoring
+How to Read a CGM Report: AGP and Glucose Patterns
+Written by
+Dr. Ajay V. Kaduskar
+,
+Diabetologist
+, Nagpur
+Dr. Ajay V. Kaduskar
+MD (Medicine), PGDHSc (Diabetology), FEACD (The Netherlands)
+Published
+17 October 2026
+·
+5 min read
+Quick answer
+A CGM report usually shows the Ambulatory Glucose Profile (AGP), a graph that combines your readings over 14 days into one typical day. Key numbers are time in range, time above and below range, average glucose, the glucose management indicator (GMI) and variability. Look for patterns: when sugars rise, when they fall, and how steady the line is. Review them with your doctor.
+After wearing a continuous glucose monitor for two weeks, you receive a report full of charts and numbers. It can look overwhelming. In truth, only a few parts matter, and learning them helps you see what is happening with your diabetes.
+What is the AGP?
+The AGP is a standard report format used worldwide. It includes:
+A summary of key metrics
+A bar showing time in each range
+A graph of a typical day, built from 14 days of data
+Daily graphs for each day
+What are the key metrics?
+Time in range (TIR)
+The percentage of time your glucose stays between 70 and 180 mg/dL. The common goal is above 70 percent.
+Time above range (TAR)
+The percentage of time above 180 mg/dL, with a separate figure for above 250 mg/dL. Lower is better.
+Time below range (TBR)
+The percentage of time below 70 mg/dL, and below 54 mg/dL. These should be as low as possible, ideally less than 4 percent and less than 1 percent.
+Average glucose
+The mean of all readings. It is similar to HbA1c but covers only the wearing period.
+Glucose management indicator (GMI)
+An estimated HbA1c calculated from the CGM average. It may differ from your lab HbA1c.
+Glucose variability (CV)
+The coefficient of variation shows how much your glucose swings. A value of 36 percent or lower suggests stable sugars.
+Sensor use
+The report should show that you wore the sensor for at least 70 percent of the 14 days. Otherwise, the data may not represent your usual pattern.
+How do you read the AGP graph?
+The graph has a central line, the median glucose, and shaded bands around it.
+Median line (50th percentile):
+Your typical glucose at each time of day.
+Dark band (25th to 75th percentile):
+Where half of your readings fall.
+Light band (5th to 95th percentile):
+Where most readings fall. A wide band means large swings.
+Target range lines:
+Usually at 70 and 180 mg/dL.
+A flat, narrow band within the target range is the ideal picture.
+What patterns should you look for?
+Post-meal peaks:
+A rise after breakfast, lunch or dinner. This suggests food portions or timing need review.
+Early morning rise:
+Sometimes called the dawn phenomenon. It happens due to morning hormones.
+Night-time lows:
+Dips below 70 mg/dL during sleep need urgent review of medicines.
+Daytime lows before meals:
+May be a sign of medicine timing problems.
+High overnight plateau:
+May be due to a heavy dinner or insufficient medicine.
+Wide swings:
+Suggest inconsistent meals, activity or medicine timing.
+How do you use the report?
+Check sensor wear and time in range first.
+Look at time below range. Fix low readings before high ones.
+Look for patterns that repeat across several days.
+Compare with your food, activity, sleep and medicine diary.
+Pick one or two changes to try, such as a smaller dinner or a post-meal walk.
+Review again after the next sensor.
+What mistakes should you avoid?
+Reacting to a single reading rather than patterns
+Changing medicine doses without your doctor
+Ignoring low readings that occur at night
+Comparing your numbers with someone else's
+When should you see a doctor?
+Contact your doctor if you see frequent lows, long periods above 250 mg/dL, sudden changes from your usual pattern or if the numbers confuse you.
+A quick recap
+The AGP combines 14 days of CGM data into one typical day.
+Focus on time in range, time below range and variability.
+Look for repeated patterns, not single readings.
+Fix lows first, then address highs.
+Review the report with your doctor and plan small changes.
+A CGM report is a map, and your doctor helps you read it. Small, steady changes based on real patterns improve control and safety. To review your report, consult Dr. Ajay V. Kaduskar, a diabetologist at Niramay Clinics in Nagpur.
+Sources and further reading
+NIDDK: Continuous glucose monitoring
+WHO: Diabetes fact sheet
+Frequently asked questions
+What is an AGP report?
+The Ambulatory Glucose Profile is a standard one-page CGM report. It shows time in range, average glucose, variability and a graph of a typical day built from about 14 days of data.
+What is a good GMI?
+The GMI is an estimated HbA1c from CGM data. A GMI near 7 percent corresponds to an average glucose of around 154 mg/dL. Targets vary by person, so ask your doctor.
+What does a wide band on the AGP mean?
+It means your glucose varies a lot at that time of day. A narrower band suggests steadier control. Wide bands often signal inconsistent meals, activity or medicine timing.
+Why does my CGM average differ from my HbA1c?
+CGM reflects only the days you wore the sensor, while HbA1c covers about three months. Individual differences in red blood cell life can also cause gaps. Both are useful.
+How many days of CGM data are needed?
+At least 14 days, with the sensor worn for 70 percent or more of that time, gives a reliable picture of your patterns.
+What is the dawn phenomenon on a CGM?
+It is a natural early-morning rise in glucose caused by hormones such as cortisol and growth hormone. It is common in diabetes. If it is high, your doctor may adjust treatment.
+Related reading
+Full guide:
+continuous glucose monitoring
+What Is Time in Range (TIR) in Diabetes?
+CGM vs Glucometer: Which Is Better for Type 2 Diabetes?
+CGM in Pregnancy: When It Helps and What to Know
+Does Everyone With Type 2 Diabetes Need a CGM?
+If you would like advice suited to your own reports and medicines, you can
+book an appointment
+or
+visit Niramay Clinics in Dhantoli, Nagpur
+.
+Written and medically reviewed by
+Dr. Ajay V. Kaduskar
+,
+MD (Medicine), PGDHSc (Diabetology), Fellow, Euro Asian Academy of Clinical Diabetology (The Netherlands)
+.
+Last reviewed:
+17 October 2026
+·
+Next review due:
+17 October 2027
+This page is for general information and is not a substitute for a consultation.
+Read our Editorial Policy
+.
+Related services
+Type 2 diabetes
+Diagnosis, medicines, food and monitoring.
+Diabetes care programme
+A structured yearly plan for diabetes care.
+Complications screening
+Yearly eye, kidney, foot and heart checks.
+More from the Health Library
+CGM in Pregnancy: When It Helps and What to Know
+CGM vs Glucometer: Which Is Better for Type 2 Diabetes?
+Ready to talk to a specialist?
+Call
+0712 2422214
+or
++91 84591 41584
+, message us on WhatsApp, or use the appointment form. Please bring your previous reports and a list of the medicines you take.
+Book Appointment
+0712 2422214
+WhatsApp
+572, Indu Bhaskar Apartments
+,
+Dr. N. B. Khare Marg
+, Dhantoli,
+Nagpur
+,
+Maharashtra
+440012
+Opposite Dinanath High School
+OPD: Mon to Sat, 8:30 am to 6 pm
+Lab: Mon to Sat, 7 am to 7 pm
+Pharmacy: Mon to Sat, 8:30 am to 8 pm
+Phone: Every day, 8 am to 9 pm
+0712 2422214
++91 84591 41584
+…
+Get directions
+Diabetes and Heart
+Diabetes care
+Type 2 diabetes
+Type 1 diabetes
+Diabetes in pregnancy
+Complications screening
+Diabetes care programme
+Prediabetes check
+Obesity care
+Weight-loss medicines
+Body composition
+Heart care
+2D Echo
+ECG
+TMT stress test
+Thyroid clinic
+Hypertension clinic
+Nutrition counselling
+Health check-ups
+Child and Teen
+Blooming Buds
+Well baby clinic
+Vaccinations
+Teen health
+Teen counselling
+Psychological testing
+Career counselling
+School workshops
+Lab and Pharmacy
+Laboratory
+Home sample collection
+Pharmacy
+Doctors
+Dr. Ajay V. Kaduskar
+Dr. Prajakta A. Kaduskar
+About the clinic
+Patient Info
+All services
+Plan your visit
+FAQs
+Health Library
+Contact us
+Legal
+Privacy Policy
+Terms of Use
+Medical Disclaimer
+Editorial Policy
+Patient Rights
+Cancellation and Refund
+Accessibility
+Coming from outside Nagpur?
+Cookie settings
+Patients come to us from across Nagpur and from towns up to 100 km away, including Wardha, Bhandara, Umred, Katol, Saoner and Ramtek.
+Caring for Nagpur since
+2006
+. © 2026 Niramay Clinics, Nagpur. Information on this website is for general education and does not replace a consultation.
+Built & Marketed by
+Automize Media Labs
+Book Now
+Call Now
+WhatsApp

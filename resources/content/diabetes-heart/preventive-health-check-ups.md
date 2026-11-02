@@ -34,7 +34,7 @@ We do not offer fixed test packages, because a standard list would mean unnecess
 Tests may include blood sugar and HbA1c, cholesterol and lipid profile, kidney and liver function, [thyroid](/thyroid-clinic/) tests, ECG, 2D Echo or a treadmill test, retinal photography and body composition analysis, whichever apply to you. Fees are shared when you book.
 
 #### How to prepare
-Fast for 10 to 12 hours before the visit (water is allowed). Take your usual medicines unless told otherwise, but bring diabetes medicines with you to take after the blood sample. Bring previous reports.
+Fast only if your doctor or the laboratory has confirmed your test needs it. Water is usually allowed. If you take insulin or other diabetes medicines, ask your doctor for an individual plan for fasting, dose timing and meals before the test. Do not skip or delay insulin, especially basal insulin, because of this page. If you feel symptoms of low blood sugar, treat them promptly and contact your care team. Bring your medicine list and previous reports.
 
 #### When to see a doctor
 Screening is for people who feel well. If you already have symptoms - chest discomfort, unusual breathlessness, unexplained weight loss, a breast lump, blood in urine or stool, or persistent pain - do not wait for a routine check-up; book a consultation promptly.

@@ -57,7 +57,7 @@ Do not wait for the yearly check if you notice any change in vision, numbness or
 Do not wait for your yearly screen if you notice new blurring or loss of vision, foot numbness, a non-healing foot wound, burning or tingling in the feet, swelling, or foam in the urine. These can be early signs of nerve, eye or kidney involvement and deserve a prompt review.
 #### Frequently asked questions
 **I see clearly. Do I still need eye screening?**
-Yes. Diabetic eye damage often causes no change in vision until it is advanced. A yearly retinal photograph is the only way to know.
+Yes. Diabetic eye changes can develop before you notice any change in vision. Screening may use retinal photographs or an eye examination, and your doctor or ophthalmologist will advise the method and interval. A photograph does not replace a full eye examination when one is needed, and new symptoms should be checked promptly.
 
 **My urine report says "protein nil". Are my kidneys fine?**
 Routine urine tests miss small amounts of protein. The urine albumin to creatinine ratio (UACR) is a more sensitive test and is part of yearly screening.

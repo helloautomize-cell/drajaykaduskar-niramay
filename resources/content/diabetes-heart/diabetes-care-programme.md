@@ -22,7 +22,7 @@ has_confirm_items: false
 
 **H1:** Complete Diabetes Care Programme
 
-Diabetes is a lifelong condition, and good care follows a rhythm: regular reviews, tests at the right intervals, and yearly screening for complications. The Complete Diabetes Care Programme organises a full year of that care in advance, so nothing is missed and costs are clear from the start.
+Diabetes is a lifelong condition, and good care follows a rhythm: regular reviews, tests at the right intervals, and yearly screening for complications. The Complete Diabetes Care Programme organises planned consultations, tests and nutrition sessions over 12 months. The clinic explains the programme fee and what it includes before you enrol, and your care plan may change according to clinical need.
 
 #### What the programme includes
 The programme runs for 12 months from your first visit and includes:

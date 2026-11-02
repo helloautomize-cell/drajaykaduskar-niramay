@@ -54,7 +54,7 @@ Niramay Laboratory is on the premises of Niramay Clinics, so most tests can be d
 | Glucose tolerance test | Arrive fasting; you will drink a glucose solution and stay at the clinic for about 2 hours |
 | Urine tests | A mid-stream sample in the container we provide; first morning sample if advised |
 
-Take your usual medicines unless your doctor has told you otherwise. If you take diabetes medicines or insulin, bring them and take them after the fasting sample, with your meal.
+Fast only if your doctor or the laboratory has confirmed your test needs it. Water is usually allowed. If you take insulin or other diabetes medicines, ask your doctor for an individual plan for fasting, dose timing and meals before the test. Do not skip or delay insulin, especially basal insulin, because of this page. If you feel symptoms of low blood sugar, treat them promptly and contact your care team. Bring your medicine list and previous reports.
 
 #### Reports
 Most routine reports are ready the same day. Collect them at the clinic or ask us to send them to you. Please discuss abnormal results with your doctor rather than starting or stopping treatment on your own.
