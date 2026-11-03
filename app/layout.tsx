@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Figtree, Instrument_Serif, Noto_Sans_Devanagari } from "next/font/google";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
@@ -70,6 +71,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <SmoothScroll />
         {children}
         <SpeedInsights />
+        {/* Vercel Web Analytics: cookieless, no personal data, counts every
+            visit regardless of the cookie banner. GA4 stays consent-based. */}
+        <Script id="vercel-web-analytics" strategy="afterInteractive">
+          {`window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};`}
+        </Script>
+        <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
       </body>
     </html>
   );
