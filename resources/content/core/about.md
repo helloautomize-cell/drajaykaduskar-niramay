@@ -32,8 +32,8 @@ has_confirm_items: false
 #### Who we are
 Niramay Clinics is a specialist outpatient practice in Dhantoli, Nagpur, run by two doctors.
 
-- **Dr. Ajay V. Kaduskar** leads the **Niramay Diabetes and Heart Care Centre**. He treats adults with type 1 and type 2 diabetes, diabetes in pregnancy, obesity, thyroid disorders, high blood pressure and high cholesterol, with a focus on preventing complications and protecting the heart.
-- **Dr. Prajakta A. Kaduskar** leads the **Blooming Buds Child and Adolescent Care Centre**. She looks after babies, children and teenagers, combining paediatric training with a postgraduate qualification in adolescent paediatrics and a master's degree in clinical psychology.
+- **Dr. Ajay V. Kaduskar** leads the **Niramay Diabetes and Heart Care Centre**. He treats adults with type 1 and type 2 diabetes, diabetes in pregnancy, obesity, thyroid disorders, high blood pressure and high cholesterol, with a focus on preventing complications and protecting the heart. MMC Reg. No. 2000/01/0483.
+- **Dr. Prajakta A. Kaduskar** leads the **Blooming Buds Child and Adolescent Care Centre**. She looks after babies, children and teenagers, combining paediatric training with a postgraduate qualification in adolescent paediatrics and a master's degree in clinical psychology. MMC Reg. No. 2001/02/460.
 
 The practice has been caring for Nagpur since 2006. Between them the doctors have more than 35 years of clinical experience. Dr. Ajay does not tie patients to any one hospital. Where a patient is admitted depends on where they live and the care they need.
 

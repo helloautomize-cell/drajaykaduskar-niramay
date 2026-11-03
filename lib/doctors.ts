@@ -8,6 +8,8 @@ export interface Doctor {
   /** one-line professional label for article bylines */
   bylineRole: string;
   qualifications: string;
+  /** state medical council registration, shown wherever credentials appear */
+  registration: { council: string; number: string };
   profileHref: string;
   /** square avatar for bylines and reviewer boxes */
   avatar: string;
@@ -23,6 +25,7 @@ export const doctors: Record<Doctor["id"], Doctor> = {
     bylineRole: "Diabetologist",
     qualifications:
       "MD (Medicine), PGDHSc (Diabetology), Fellow, Euro Asian Academy of Clinical Diabetology (The Netherlands)",
+    registration: { council: "Maharashtra Medical Council", number: "2000/01/0483" },
     profileHref: "/doctors/dr-ajay-kaduskar/",
     avatar: "/images/doctors/dr-ajay-kaduskar-avatar.jpg",
     avatarAlt: "Dr. Ajay Kaduskar",
@@ -34,6 +37,7 @@ export const doctors: Record<Doctor["id"], Doctor> = {
     role: "Child and adolescent health, counselling and vaccination",
     bylineRole: "Child and adolescent specialist",
     qualifications: "MBBS, DCH, PGDAP, MA (Clinical Psychology)",
+    registration: { council: "Maharashtra Medical Council", number: "2001/02/460" },
     profileHref: "/doctors/dr-prajakta-kaduskar/",
     avatar: "/images/doctors/dr-prajakta-kaduskar-face.jpg",
     avatarAlt: "Dr. Prajakta Kaduskar",

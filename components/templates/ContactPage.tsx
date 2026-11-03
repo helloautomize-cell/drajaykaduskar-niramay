@@ -50,7 +50,10 @@ export function ContactPageTemplate({ page }: { page: ContentPage }) {
                 {site.address.line3}, {site.address.city} {site.address.pin}
               </p>
               <a
-                href={`https://maps.google.com/?q=${encodeURIComponent(site.name + ", " + site.address.short)}`}
+                href={
+                  site.googleProfiles.clinic.mapsUrl ||
+                  `https://maps.google.com/?q=${encodeURIComponent(site.name + ", " + site.address.short)}`
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 inline-flex items-center gap-1.5 font-semibold text-plum transition-colors hover:text-plum-700"

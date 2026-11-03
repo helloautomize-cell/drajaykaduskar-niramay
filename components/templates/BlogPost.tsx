@@ -71,7 +71,7 @@ export function BlogPostTemplate({
         <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-3">
           <AuthorChip
             doctor={author}
-            meta={meta.author_credentials || author.qualifications}
+            meta={`${meta.author_credentials || author.qualifications} · ${author.registration.council} Reg. No. ${author.registration.number}`}
           />
         </div>
         <p className="mt-3 text-[13.5px] text-ink-600">

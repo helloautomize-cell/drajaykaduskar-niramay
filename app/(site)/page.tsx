@@ -273,6 +273,7 @@ const doctorCards: Doctor[] = [
     name: doctors.ajay.name,
     shortName: "Dr. Ajay",
     qualifications: "MD (Medicine), PGDHSc (Diabetology), FEACD (Netherlands)",
+    registration: `MMC Reg. No. ${doctors.ajay.registration.number}`,
     role: "Consultant in diabetes, obesity and metabolic diseases. Director, Niramay Diabetes and Heart Care Centre.",
     experience: `${site.experienceYears.drAjay}+ years`,
     photo: { src: "/images/doctors/dr-ajay-kaduskar-card.jpg", alt: "Dr. Ajay Kaduskar" },
@@ -284,6 +285,7 @@ const doctorCards: Doctor[] = [
     name: doctors.prajakta.name,
     shortName: "Dr. Prajakta",
     qualifications: doctors.prajakta.qualifications,
+    registration: `MMC Reg. No. ${doctors.prajakta.registration.number}`,
     role: "Consultant in child and adolescent health. Blooming Buds Child and Adolescent Care Centre.",
     experience: `${site.experienceYears.drPrajakta}+ years`,
     photo: { src: "/images/doctors/dr-prajakta-kaduskar-card.jpg", alt: "Dr. Prajakta Kaduskar" },
@@ -293,8 +295,8 @@ const doctorCards: Doctor[] = [
   },
 ];
 
-// Google profile links are [CONFIRM] in site-config; until they land, these
-// buttons deep-link a Google search for the public listings.
+// "Get directions" / "Show map" deep-link the clinic's Google Business
+// Profile; a Maps address search is the fallback while it is unset.
 const directionsUrl =
   site.googleProfiles.clinic.mapsUrl ||
   (site.mapUrl.startsWith("http") ? site.mapUrl : "") ||

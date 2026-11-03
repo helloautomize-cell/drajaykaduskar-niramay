@@ -50,7 +50,7 @@ Niramay Clinics
 572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg
 Opposite Dinanath High School, Dhantoli
 Nagpur, Maharashtra 440012
-[Get directions on Google Maps](https://maps.google.com/?q=Niramay+Clinics%2C+572+Indu+Bhaskar+Apartments%2C+Dr.+N.+B.+Khare+Marg%2C+Dhantoli%2C+Nagpur)
+[Get directions on Google Maps](https://share.google/XGh17hkp504YbN9hw)
 
 Patients come to us from across Nagpur and from towns up to 100 km away, including Wardha, Bhandara, Umred, Katol, Saoner and Ramtek.
 

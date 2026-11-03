@@ -7,6 +7,8 @@ export interface Doctor {
   name: string;
   shortName: string; // e.g. "Dr. Ajay"
   qualifications: string;
+  /** registration line shown under the qualifications, e.g. "MMC Reg. No. 2000/01/0483" */
+  registration?: string;
   role: string;
   /** shown as a chip, e.g. "20+ years" */
   experience: string;
@@ -46,6 +48,11 @@ export function DoctorCard({ doctor, className }: { doctor: Doctor; className?: 
         <p className="line-clamp-2 text-[12.5px] font-medium leading-snug text-ink-600 sm:text-[13.5px]">
           {doctor.qualifications}
         </p>
+        {doctor.registration && (
+          <p className="mt-0.5 text-[11.5px] leading-snug text-ink-600/80 sm:text-[12.5px]">
+            {doctor.registration}
+          </p>
+        )}
         <p className="mb-4 mt-1 hidden text-[15px] leading-relaxed text-ink-600 sm:block">
           {doctor.role}
         </p>

@@ -12,6 +12,7 @@ import {
   renderNodesPublic,
   nodesText,
 } from "@/lib/content/render";
+import { site } from "@/lib/site-config";
 import type { ContentPage } from "@/lib/content/pages";
 import type { Doctor } from "@/lib/doctors";
 
@@ -273,6 +274,16 @@ export function DoctorProfileTemplate({
                 <div className="text-[14.5px] [&_ul]:mt-0 [&_li]:text-[14.5px] [&_p]:text-[14.5px]">
                   {renderNodesPublic([keyFactsNode], "keyfacts")}
                 </div>
+                {doctor.id === "ajay" && site.googleProfiles.drAjay.mapsUrl && (
+                  <a
+                    href={site.googleProfiles.drAjay.mapsUrl}
+                    target="_blank"
+                    rel="noopener"
+                    className="mt-3 inline-block text-[14.5px] font-semibold text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum"
+                  >
+                    View Dr. Ajay Kaduskar on Google
+                  </a>
+                )}
               </GlassCard>
             )}
           </div>

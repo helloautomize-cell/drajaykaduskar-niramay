@@ -11,7 +11,7 @@ images:
 reviewed_by: ""
 section: core
 status: draft
-has_confirm_items: true
+has_confirm_items: false
 ---
 
 ### Page 3. Dr. Ajay V. Kaduskar
@@ -28,9 +28,9 @@ has_confirm_items: true
 
 **Key facts box**
 - **Qualifications:** MD (Medicine); PGDHSc (Diabetology); Fellow, Euro Asian Academy of Clinical Diabetology (FEACD), The Netherlands
+- **Registration:** Maharashtra Medical Council Reg. No. 2000/01/0483
 - **Certification:** SCOPE certified obesity management specialist (World Obesity Federation)
 - **Experience:** more than 20 years
-<!-- PENDING: restore when supplied — **Registration:** Maharashtra Medical Council Reg. No. **[CONFIRM]** -->
 - **Languages:** English, Hindi, Marathi
 - **Consults at:** Niramay Clinics, Dhantoli, Nagpur
 - **OPD:** Monday to Saturday, 8:30 am to 6 pm (Sundays closed)

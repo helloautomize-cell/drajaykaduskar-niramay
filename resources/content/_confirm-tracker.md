@@ -16,7 +16,7 @@ One checklist item per `[CONFIRM]` marker in the content files. Tick each item o
 ## content/core/dr-ajay-kaduskar.md (8)
 - [ ] year
 - [ ] exact year of starting practice
-- [ ] Registration: Maharashtra Medical Council Reg. No. [CONFIRM]
+- [x] Registration: Maharashtra Medical Council Reg. No. 2000/01/0483
 - [ ] Languages: English, Hindi, Marathi [CONFIRM]
 - [ ] days and hours
 - [ ] other talks, CME lectures, publications, TV or newspaper features
@@ -25,7 +25,7 @@ One checklist item per `[CONFIRM]` marker in the content files. Tick each item o
 
 ## content/core/dr-prajakta-kaduskar.md (7)
 - [ ] start year
-- [ ] Registration: Maharashtra Medical Council Reg. No. [CONFIRM]
+- [x] Registration: Maharashtra Medical Council Reg. No. 2001/02/460
 - [ ] Languages: English, Hindi, Marathi [CONFIRM]
 - [ ] days and hours
 - [ ] schools or organisations worked with, number of workshops

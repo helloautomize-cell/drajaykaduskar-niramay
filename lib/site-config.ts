@@ -72,11 +72,13 @@ export const site = {
     disclaimer:
       "The clinic is an outpatient facility and does not handle emergencies. Call 108 or 112 or go to the nearest hospital.",
   },
-  // Google Business Profiles: agency pastes the links from GBP
-  // manager. GBP A = clinic, GBP B = Dr. Ajay. Empty until supplied.
+  // Google Business Profiles, supplied by the client 2026-11-03.
+  // clinic = "Niramay Diabetes & Heart Care Centre" listing (GBP 2),
+  // drAjay = the doctor's own listing (GBP 1). share.google short links
+  // kept as supplied (they do not expand to a maps URL server-side).
   googleProfiles: {
-    clinic: { name: "Niramay Clinics", mapsUrl: "", reviewUrl: "" },
-    drAjay: { name: "Dr. Ajay V. Kaduskar", mapsUrl: "", reviewUrl: "" },
+    clinic: { name: "Niramay Clinics", mapsUrl: "https://share.google/XGh17hkp504YbN9hw", reviewUrl: "" },
+    drAjay: { name: "Dr. Ajay V. Kaduskar", mapsUrl: "https://share.google/ip7orgXgB7S7Go6vh", reviewUrl: "" },
   },
   social: {
     // No social media (client-answers §6-10). Icons stay hidden.

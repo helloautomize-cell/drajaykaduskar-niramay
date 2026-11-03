@@ -97,10 +97,13 @@ const OPD_HOURS = [hoursSpec(MON_SAT, "08:30", "18:00")];
 
 /** The clinic node — identical on every page so crawlers see one entity. */
 export function clinicNode() {
-  const sameAs = [
-    httpOrNull(site.googleProfiles.clinic.mapsUrl),
-    httpOrNull(site.googleProfiles.drAjay.mapsUrl),
-  ].filter((v): v is string => !!v);
+  // GBP 2 is specifically the "Niramay Diabetes & Heart Care Centre" listing:
+  // it is hasMap for the clinic and sameAs+hasMap for that department, never
+  // the main clinic's sameAs. GBP 1 (Dr. Ajay's listing) stays in sameAs.
+  const clinicMap = httpOrNull(site.googleProfiles.clinic.mapsUrl);
+  const sameAs = [httpOrNull(site.googleProfiles.drAjay.mapsUrl)].filter(
+    (v): v is string => !!v
+  );
   return {
     "@type": ["MedicalClinic", "LocalBusiness"],
     "@id": CLINIC_ID,
@@ -144,6 +147,7 @@ export function clinicNode() {
         address: postalAddress,
         geo: clinicGeo,
         openingHoursSpecification: OPD_HOURS,
+        ...(clinicMap ? { sameAs: [clinicMap], hasMap: clinicMap } : {}),
       },
       {
         "@type": "MedicalClinic",
@@ -185,6 +189,7 @@ export function clinicNode() {
       { "@type": "MedicalTest", name: "2D Echo, ECG and treadmill stress test" },
     ],
     areaServed,
+    ...(clinicMap ? { hasMap: clinicMap } : {}),
     ...(sameAs.length ? { sameAs } : {}),
   };
 }
@@ -254,6 +259,12 @@ export function physicianNode(d: Doctor) {
     "@type": "Physician",
     "@id": PHYSICIAN_ID[d.id],
     name: d.name,
+    identifier: {
+      "@type": "PropertyValue",
+      propertyID: `${d.registration.council} Registration Number`,
+      name: `${d.registration.council} Reg. No.`,
+      value: d.registration.number,
+    },
     url: `${SITE_URL}${d.profileHref}`,
     image: `${SITE_URL}${d.avatar}`,
     description: d.role,

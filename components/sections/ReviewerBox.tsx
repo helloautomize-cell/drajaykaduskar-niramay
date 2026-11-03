@@ -47,7 +47,8 @@ export function ReviewerBox({
               <Link href={doctor.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
                 {doctor.name}
               </Link>
-              , {doctor.qualifications}.
+              , {doctor.qualifications}. {doctor.registration.council} Reg. No.{" "}
+              {doctor.registration.number}.
             </>
           ) : (
             <>
@@ -57,7 +58,8 @@ export function ReviewerBox({
                   <Link href={author.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
                     {author.name}
                   </Link>
-                  , {author.qualifications}.{" "}
+                  , {author.qualifications}. {author.registration.council} Reg. No.{" "}
+                  {author.registration.number}.{" "}
                 </>
               ) : (
                 <>
@@ -69,7 +71,8 @@ export function ReviewerBox({
               <Link href={doctor.profileHref} className="font-medium text-plum underline decoration-plum/30 underline-offset-2 hover:decoration-plum">
                 {doctor.name}
               </Link>
-              , {doctor.qualifications}.
+              , {doctor.qualifications}. {doctor.registration.council} Reg. No.{" "}
+              {doctor.registration.number}.
             </>
           )}
         </p>
