@@ -50,8 +50,9 @@ function ensureStub() {
 
 function pushDefaults() {
   ensureStub();
+  // Measure every visit; only a visitor who earlier chose Decline stays denied.
   gtag("consent", "default", {
-    analytics_storage: "denied",
+    analytics_storage: readConsent()?.analytics === false ? "denied" : "granted",
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied",

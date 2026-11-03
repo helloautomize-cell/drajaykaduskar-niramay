@@ -11,7 +11,6 @@ import {
   type NavLink,
 } from "@/lib/nav";
 import { ObfuscatedEmail } from "@/components/ui/ObfuscatedEmail";
-import { CookieSettingsLink } from "@/components/layout/CookieSettingsLink";
 import { PhoneIcon, MailIcon, MapPinIcon, ClockIcon, ArrowIcon, ChevronIcon } from "@/components/icons";
 
 /**
@@ -145,7 +144,6 @@ export function Footer() {
             >
               Coming from outside Nagpur?
             </Link>
-            <CookieSettingsLink />
           </div>
           <p className="mt-4 max-w-[720px] text-[13px] leading-relaxed text-ink-600">
             {site.serviceArea.line}

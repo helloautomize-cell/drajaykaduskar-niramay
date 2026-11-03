@@ -3,7 +3,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MobileActionBar } from "@/components/layout/MobileActionBar";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
-import { CookieBanner } from "@/components/layout/CookieBanner";
 import { Analytics } from "@/components/analytics/Analytics";
 
 /**
@@ -24,7 +23,6 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       <Footer />
       <MobileActionBar />
       <FloatingWhatsApp />
-      <CookieBanner />
       <Analytics />
     </>
   );
