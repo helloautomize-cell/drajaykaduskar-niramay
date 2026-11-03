@@ -35,8 +35,12 @@ declare global {
  *   coarse labels (link_location, form_name). page_path is added centrally.
  */
 
-function gtag(...args: unknown[]) {
-  window.dataLayer?.push(args);
+// gtag.js only processes `arguments` objects on dataLayer; plain arrays are
+// ignored, which silently dropped every hit before this fix.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function gtag(..._args: unknown[]) {
+  // eslint-disable-next-line prefer-rest-params
+  window.dataLayer?.push(arguments);
 }
 
 function ensureStub() {
@@ -111,7 +115,8 @@ function sanitizedLocation() {
 }
 
 function sendPageView() {
-  if (!window.__gaLoaded || !hasAnalyticsConsent()) return;
+  // Consent Mode handles storage: without consent the hit is cookieless.
+  if (!window.__gaLoaded) return;
   gtag("event", "page_view", {
     page_location: sanitizedLocation(),
     page_path: window.location.pathname,
@@ -186,7 +191,7 @@ export function Analytics() {
   // Every event carries page_path; callers add only their own params.
   useEffect(() => {
     window.__niramayTrack = (event: TrackEvent, params?: Record<string, string | number | boolean | undefined>) => {
-      if (!window.__gaLoaded || !hasAnalyticsConsent() || !window.gtag) return;
+      if (!window.__gaLoaded || !window.gtag) return;
       gtag("event", event, { page_path: window.location.pathname, ...params });
     };
     return () => {
@@ -232,7 +237,6 @@ export function Analytics() {
     if (consent?.analytics === true && !grantedRef.current) {
       grantedRef.current = true;
       gtag("consent", "update", { analytics_storage: "granted" });
-      sendPageView();
     } else if (consent?.analytics !== true && grantedRef.current) {
       // declined/withdrawn after being granted
       denyAll();
