@@ -53,6 +53,21 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  async rewrites() {
+    // Old WordPress leftovers -> 410 Gone (app/api/gone/route.ts) so Google drops them fast.
+    const gone = [
+      "/wp-content/:path*",
+      "/wp-includes/:path*",
+      "/wp-admin/:path*",
+      "/wp-json",
+      "/wp-json/:path*",
+      "/xmlrpc.php",
+      "/wp-login.php",
+      "/feed",
+      "/:path*/feed",
+    ];
+    return { beforeFiles: gone.map((source) => ({ source, destination: "/api/gone" })) };
+  },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
