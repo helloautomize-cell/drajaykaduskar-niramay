@@ -973,10 +973,6 @@ export default function Home() {
                     <a href={site.phone.tel} className="font-semibold text-ink hover:text-plum">
                       {site.phone.display}
                     </a>
-                    {" · "}
-                    <a href={site.mobile.tel} className="font-semibold text-ink hover:text-plum">
-                      {site.mobile.display}
-                    </a>
                   </span>
                 </li>
                 <li className="flex gap-3">

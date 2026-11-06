@@ -23,7 +23,7 @@ has_confirm_items: false
 
 #### Appointments and timings
 **How do I book an appointment?**
-Call 0712 2422214 or +91 84591 41584 between 8 am and 9 pm, any day, message us on WhatsApp, or use the appointment request form. Online requests are confirmed by phone or message.
+Call 84591 41584 between 8 am and 9 pm, any day, message us on WhatsApp, or use the appointment request form. Online requests are confirmed by phone or message.
 
 **What are the clinic timings?**
 OPD (both doctors): Monday to Saturday, 8:30 am to 6 pm; Sundays closed. Laboratory: Monday to Saturday, 7 am to 7 pm. Pharmacy: Monday to Saturday, 8:30 am to 8 pm. Please call before visiting on public holidays.

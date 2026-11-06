@@ -36,4 +36,4 @@ These terms apply to your use of niramayclinics.com. By using the website you ag
 11. **Privacy.** Our Privacy Policy explains how we handle personal data.
 12. **Changes.** We may update these terms. The latest version will be on this page.
 13. **Governing law.** These terms are governed by the laws of India. Courts at Nagpur, Maharashtra have jurisdiction.
-14. **Contact.** [email](mailto:) · 0712 2422214
+14. **Contact.** [email](mailto:) · 84591 41584

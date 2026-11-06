@@ -137,13 +137,13 @@ export async function sendWorkshopAck(opts: {
     "We will contact you within 2 working days.",
     "",
     `Niramay Clinics, Dhantoli, Nagpur`,
-    `Phone: ${site.phone.display} or ${site.mobile.display}`,
+    `Phone: ${site.phone.display}`,
   ].join("\n");
   const html = `<!doctype html><html><body style="margin:0;background:#f6f4f8;font-family:Arial,Helvetica,sans-serif">
 <div style="max-width:560px;margin:24px auto;background:#fff;border-radius:12px;padding:24px;border:1px solid #e5e0ea;font-size:14px;color:#333">
   <p>Thank you for your workshop request from <strong>${esc(opts.organisation)}</strong>.</p>
   <p>We will contact you within 2 working days.</p>
-  <p style="color:#777">Niramay Clinics, Dhantoli, Nagpur<br>Phone: ${esc(site.phone.display)} or ${esc(site.mobile.display)}</p>
+  <p style="color:#777">Niramay Clinics, Dhantoli, Nagpur<br>Phone: ${esc(site.phone.display)}</p>
 </div></body></html>`;
   const { error } = await resend.emails.send({ from, to: opts.to, subject, html, text });
   if (error) return { ok: false, error: error.message };

@@ -30,7 +30,7 @@ has_confirm_items: false
 
 Niramay Clinics brings two specialist practices under one roof. Dr. Ajay V. Kaduskar looks after adults with diabetes, obesity, thyroid problems, high blood pressure and heart risk. Dr. Prajakta A. Kaduskar looks after children and teenagers, from baby check-ups and vaccinations to emotional health and career guidance. Between them they bring more than 35 years of clinical practice.
 
-**Buttons:** Book an appointment · Call 0712 2422214
+**Buttons:** Book an appointment · Call 84591 41584
 
 **Small line under buttons:** In-house laboratory · Pharmacy · 2D Echo, ECG and TMT · Retinal screening · Body composition analysis
 

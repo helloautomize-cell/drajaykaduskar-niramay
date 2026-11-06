@@ -43,7 +43,7 @@ export default async function ThankYouPage({
       <Callout variant="emergency" title="If your need is urgent" className="mt-8 text-left">
         <p>
           In an emergency, call {site.emergency.numbers}. For anything else, call{" "}
-          {site.phone.display} or {site.mobile.display}.
+          {site.phone.display}.
         </p>
       </Callout>
       <div className="mt-8 flex flex-wrap justify-center gap-3">

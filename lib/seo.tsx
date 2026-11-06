@@ -85,7 +85,7 @@ const hoursSpec = (days: string[], opens: string, closes: string) => ({
 
 const httpOrNull = (v: string) => (v.startsWith("http") ? v : null);
 
-const CLINIC_TEL = "+91-712-2422214";
+const CLINIC_TEL = site.phone.tel.replace(/^tel:/, "");
 const CLINIC_LOGO = `${SITE_URL}/images/brand/niramay-logo.png`;
 const CLINIC_IMAGE = `${SITE_URL}/images/clinic/exterior-entrance.jpg`;
 const LAB_IMAGE = `${SITE_URL}/images/services/lab-analysers.jpg`;
@@ -130,7 +130,7 @@ export function clinicNode() {
       },
       {
         "@type": "ContactPoint",
-        telephone: "+91-84591-41584",
+        telephone: site.mobile.tel.replace(/^tel:/, ""),
         contactType: "customer service",
         hoursAvailable: hoursSpec(ALL_DAYS, "08:00", "21:00"),
       },

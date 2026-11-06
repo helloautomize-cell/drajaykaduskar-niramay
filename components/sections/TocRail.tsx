@@ -72,9 +72,6 @@ export function TocRail({ toc, className }: { toc: TocEntry[]; className?: strin
           <a href={site.phone.tel} className="flex min-h-[44px] items-center gap-2 text-ink transition-colors hover:text-plum">
             <PhoneIcon size={16} aria-hidden className="text-plum" /> {site.phone.display}
           </a>
-          <a href={site.mobile.tel} className="flex min-h-[44px] items-center gap-2 text-ink transition-colors hover:text-plum">
-            <PhoneIcon size={16} aria-hidden className="text-plum" /> {site.mobile.display}
-          </a>
         </div>
       </div>
     </aside>

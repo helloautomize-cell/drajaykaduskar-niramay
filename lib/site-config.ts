@@ -23,8 +23,8 @@ export const site = {
     short: "572, Indu Bhaskar Apartments, Dr. N. B. Khare Marg, Dhantoli, Nagpur",
   },
   phone: {
-    display: "0712 2422214",
-    tel: "tel:+917122422214",
+    display: "84591 41584",
+    tel: "tel:+918459141584",
   },
   mobile: {
     display: "+91 84591 41584",

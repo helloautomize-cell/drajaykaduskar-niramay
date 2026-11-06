@@ -93,10 +93,6 @@ export function Footer() {
                 <PhoneIcon size={15} className="shrink-0 text-plum-500" />
                 {site.phone.display}
               </a>
-              <a href={site.mobile.tel} className="flex items-center gap-2 font-semibold text-ink transition-colors hover:text-plum">
-                <PhoneIcon size={15} className="shrink-0 text-plum-500" />
-                {site.mobile.display}
-              </a>
               <span className="flex items-center gap-2">
                 <MailIcon size={15} className="shrink-0 text-plum-500" />
                 <ObfuscatedEmail className="transition-colors hover:text-plum" />

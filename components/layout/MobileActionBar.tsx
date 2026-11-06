@@ -50,19 +50,7 @@ function CallSheet({ children }: { children: React.ReactNode }) {
                 <span className="block text-[15px] font-semibold text-ink">
                   Clinic {site.phone.display}
                 </span>
-                <span className="block text-[13px] text-ink-600">Reception and appointments</span>
-              </span>
-            </a>
-            <a
-              href={site.mobile.tel}
-              className="flex min-h-14 items-center gap-3 rounded-[14px] border border-line px-4 transition-colors hover:border-plum/40 hover:bg-plum-50"
-            >
-              <PhoneIcon size={20} className="text-plum" />
-              <span>
-                <span className="block text-[15px] font-semibold text-ink">
-                  Mobile {site.mobile.display}
-                </span>
-                <span className="block text-[13px] text-ink-600">Calls and WhatsApp</span>
+                <span className="block text-[13px] text-ink-600">Appointments, calls and WhatsApp</span>
               </span>
             </a>
           </div>

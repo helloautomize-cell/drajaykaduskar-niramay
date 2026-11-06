@@ -31,7 +31,7 @@ Niramay Clinics, comprising the Niramay Diabetes and Heart Care Centre, the Bloo
 
 **Grievance Officer / contact for privacy matters:**
 Dr. Ajay Kaduskar, Niramay Clinics, address as above
-Email: [email](mailto:) · Phone: 0712 2422214
+Email: [email](mailto:) · Phone: 84591 41584
 
 #### 2. What we collect
 **Information you give us**

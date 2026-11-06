@@ -20,7 +20,7 @@ export function CtaBand({ className }: { className?: string }) {
     >
       <h2 className="t-h3 text-ink">Ready to talk to a specialist?</h2>
       <p className="mx-auto mt-3 max-w-[56ch] text-[17px] leading-relaxed text-ink-600">
-        Call {site.phone.display} or {site.mobile.display}, message us on
+        Call {site.phone.display}, message us on
         WhatsApp, or use the appointment form. Please bring your previous
         reports and a list of the medicines you take.
       </p>

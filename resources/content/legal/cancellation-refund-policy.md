@@ -36,4 +36,4 @@ Please call or message us on WhatsApp as early as possible if you need to cancel
 For safety, medicines cannot be returned once they leave the pharmacy, except when the wrong medicine was supplied, the product is damaged, or it is past its expiry date. Insulin and other refrigerated medicines cannot be returned. Please check your medicines before leaving the counter.
 
 #### 5. Contact
-[email](mailto:) · 0712 2422214
+[email](mailto:) · 84591 41584
